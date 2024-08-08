@@ -2,12 +2,8 @@
 
 Regardless of which faction you vouch for, there are times when diplomacy fails and you must fight in armed conflict to defeat your adversaries through force.
 
-> [!info] Using Lethal Force
-> Different factions may have limitations on when using lethal force is warranted. Commonwealth factions **ARC** and **Section 12** are most limited, while the Syndicate and Radical X probably have most freedom on the issue. For the Commonwealth use of Lethal Force comes down to ethical and moral considerations, and **ARC** especially is limited in this aspect, and must always seek permission before using lethal force. Thankfully the process is quick and amounts to simply contacting the local Regulator AI working under Themis, with the request, which will then process it using all available data.
-> 
-> For the **Order of the Void** and the **Syndicate**, it's mostly down to optics, as in how would the act of violence look in the public eye. Same goes for the **Radical X**, who while known for acts of immense violence, may not always wish to be seen as mindless violent brutes.
-> 
-> For the mercenaries such as **Cyberweavers**, it mostly comes down to their clients' preference on the matter.
+!!! info Using Lethal Force
+	Different factions may have limitations on when using lethal force is warranted. Commonwealth factions **ARC** and **Section 12** are most limited, while the Syndicate and Radical X probably have most freedom on the issue. For the Commonwealth use of Lethal Force comes down to ethical and moral considerations, and **ARC** especially is limited in this aspect, and must always seek permission before using lethal force. Thankfully the process is quick and amounts to simply contacting the local Regulator AI working under Themis, with the request, which will then process it using all available data. For the **Order of the Void** and the **Syndicate**, it's mostly down to optics, as in how would the act of violence look in the public eye. Same goes for the **Radical X**, who while known for acts of immense violence, may not always wish to be seen as mindless violent brutes. Mercenaries such as **Cyberweavers** handle it according to clients' preference on the matter.
 
 ## Turn order
 
@@ -190,13 +186,13 @@ The damage system can be utilized with various vehicles, drones etc. in addition
 
 Personal weapons are at Damage Scale 1, and for each level of difference in scale, you modify Damage Class by 2.
 
->[!example]
->Firing a pistol with Damage Class 2 against a car with Damage Scale 2, the pistol will effectively have Damage Scale 0 against the vehicle. The vehicle can have a Body Attribute as well to determine its wound slots, reflecting how sturdy it is.
+!!! example
+	Firing a pistol with Damage Class 2 against a car with Damage Scale 2, the pistol will effectively have Damage Scale 0 against the vehicle. The vehicle can have a Body Attribute as well to determine its wound slots, reflecting how sturdy it is.
 
 The same mechanic can be applied in reverse when a using large scale weapons to attack personal scale targets.
 
->[!example]
->A tank is a Scale 3 vehicle and they're firing their main cannon with Damage Class 6 against a cyborg on personal scale (Scale 1). The tank's already massive damage is now increased by 4 due to 2 scale level difference, for total DC 10. Even with ultra mitigation the cyborg still takes Overkill damage and has no chance of surviving a direct hit. The same shot against another tank with Ultra Mitigation would only inflict a Minor wound.
+!!! example
+	A tank is a Scale 3 vehicle and they're firing their main cannon with Damage Class 6 against a cyborg on personal scale (Scale 1). The tank's already massive damage is now increased by 4 due to 2 scale level difference, for total DC 10. Even with ultra mitigation the cyborg still takes Overkill damage and has no chance of surviving a direct hit. The same shot against another tank with Ultra Mitigation would only inflict a Minor wound.
 
 ## Death and Rebirth
 

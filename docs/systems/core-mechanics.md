@@ -109,6 +109,7 @@ A Save is a simplified test where you typically roll one or more dice to *avoid*
 When a Save is noted a difficulty rating is usually included, meaning how many dice you need to roll on the save. The more dice, the more difficult it is.
 
 Some types of common saves:
+
 - **Ammo Save**: Roll a D6 to see if you're out of ammo and need to reload.
 - **Knockdown Save**: Roll one or more Body dice to resist being knocked down or knocked back, e.g. thrown out of a window.
 - **Death Save**: Roll **Body** for each Lethal wound at start of combat round to see if you die from your wounds.
