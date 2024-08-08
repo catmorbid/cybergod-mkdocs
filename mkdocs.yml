@@ -1,4 +1,4 @@
-site_name: obsidian-mkdocs template
+site_name: "Cybergod RPG"
 
 theme:
     name: 'material'
@@ -21,6 +21,11 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+    
+    features:
+      - navigation.indexes
+      - navigation.tabs
+      - toc.follow
 
 # Extensions
 markdown_extensions:
