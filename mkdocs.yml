@@ -3,9 +3,8 @@ site_description: Tabletop RPG project page
 site_author: Mikko Lainio
 nav:
   - Introduction:
-    - introduction/introduction.md
-    - Themes:
-      - introduction/themes.md
+    - introduction/index.md
+    - Themes:      
       - Utopia and Dystopia: introduction/utopia-and-dystopia.md
       - Moral Dilemmas: introduction/moral-dilemmas.md
       - Humanity and Artificial Life: introduction/humanity-and-artificial-life.md
@@ -16,27 +15,27 @@ nav:
     - Combat: systems/combat.md
     - Cyber Warfare: systems/cyber-warfare.md
   - Character Creation:
-    - character-creation/character-creation.md
+    - character-creation/index.md
     - Persona: character-creation/persona.md
     - Frame: character-creation/frame.md
     - Gear: character-creation/gear.md
   - Factions:
-    - factions/factions.md
+    - factions/index.md
     - Core:
-      - factions/core/core.md
+      - factions/core/index.md
       - Advanced Regulator Corps (ARC): factions/core/arc.md
       - Section 12: factions/core/section-12.md
       - The Syndicate: factions/core/syndicate.md
     - Ideological:
-      - factions/ideological/ideological.md
+      - factions/ideological/index.md
       - Order of the Void: factions/ideological/order-of-the-void.md
       - Radical X: factions/ideological/radical-x
     - Mercenary:
-      - factions/mercenary/mercenary.md
+      - factions/mercenary/index.md
       - Atlas Global Defense (AGD): factions/mercenary/agd.md
       - The Cyberweavers: factions/mercenary/cyberweavers.md
   - Game Mastering:
-    - gamemastering/gamemastering.md
+    - gamemastering/index.md
     - Story Seeds: gamemastering/story-seeds.md
     - Progression: gamemastering/progression.md
     - Merits: gamemastering/merits.md
