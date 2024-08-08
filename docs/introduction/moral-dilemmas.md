@@ -1,0 +1,15 @@
+### Moral Dilemmas
+
+In **Cybergod: Reborn**, morality can be woven as part of a complex narrative, each faction embodying an ethical facet that mirrors the voices in the society. The protagonists of your stories are driven by personal convictions, forced to grapple with choices that transcend the black-and-white of Right and Wrong.
+
+**The Advanced Regulator Corps** are the elite cyborg combat unit, the enforcers of justice within the Commonwealth. Tasked with upholding the law and quelling criminal elements, their agenda is clear, yet the lines blur in the face of harsh realities. Is stealing to curb hunger a crime, or a desperate plea for survival? When forging a citizenship pass promises a better life for a child, is it a transgression or an act of parental desperation? In the quest for justice, the protagonists must confront the shades of gray that challenge their moral certainties.
+
+**Section 12**, Gaia's clandestine enforcers are commissioned to follow the commands of a super intelligent being. They are ostensibly the "good guys" on the "right side." Yet, the nebulous nature of the plan they are meant to trust raises questions. Is blind obedience to an unseen agenda a righteous path, or does it pave the way for unintended consequences?
+
+**The Syndicate**, rebels against Commonwealth oppression, envisions an anarchocapitalist utopia. In their pursuit of freedom, they challenge established norms, embracing a chaotic existence where anything is possible. Yet, pride and ambition coexist with a reliance on ancient traditions, forging a complex moral landscape. The protagonists face the dilemma of reconciling individual freedom with the preservation of tradition, navigating the thin line between anarchy and order.
+
+**The Radical X** vehemently oppose the dominance of machines, viewing cyborgs and the Tri-Core as malevolent forces. For them, the Commonwealth is a web of lies, their conviction fueled by personal experiences: The Bloody New Year, the Great Pacification, and the New Delhi riots serve as stark reminders of the Commonwealth's rotten core. They want a revolution at any cost. But as the bodycount piles, where does one draw the line?
+
+**The Order of the Void**, self-proclaimed messengers of the otherworldly Sensible, advocate for the purging of machines and the embrace of peace. In their pursuit of a utopian vision of unity, they call for the dissemination of the Gifts of the Sensible. Yet, the question persists—can peace be achieved at any cost? The protagonists confront the moral implications of sacrificing individuality for the collective good, challenging the very essence of their convictions.
+
+**The Cyberweavers** dwell in the Cyberweb's infinite depths, claiming impartiality over the ongoing conflicts. Independent and enigmatic, their true agenda remains elusive, orchestrated by their Inner Circle, known only as veiled avatars and acronyms even among trusted members. Their struggle is to maintain their neutrality and maintain their reputation as reliable mercenaries.
