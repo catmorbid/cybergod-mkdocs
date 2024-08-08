@@ -1,4 +1,4 @@
-# 0x08 >> Cyber Warfare
+# Cyber Warfare
 
 ## Combat Hacks
 

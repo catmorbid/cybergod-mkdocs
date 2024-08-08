@@ -1,4 +1,4 @@
-# 0x02 >> Core Mechanics
+# Core Mechanics
 
 ## Structure of play
 

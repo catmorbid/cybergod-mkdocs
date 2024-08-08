@@ -2,11 +2,45 @@ site_name: "Cybergod RPG"
 site_description: Tabletop RPG project page
 site_author: Mikko Lainio
 nav:
-  - Introduction: introduction/introduction.md
-  - Systems: systems/core-mechanics.md
-  - Character Creation: character-creation/character-creation.md
-  - Factions: factions/factions.md
-  - Game Mastering: gamemastering/gamemastering.md
+  - Introduction:
+    - introduction/introduction.md
+    - Themes:
+      - introduction/themes.md
+      - Utopia and Dystopia: introduction/utopia-and-dystopia.md
+      - Moral Dilemmas: introduction/moral-dilemmas.md
+      - Humanity and Artificial Life: introduction/humanity-and-artificial-life.md
+      - Psionics and Otherworldly Horror: introduction/psionics-and-horror.md
+      - Inspirations: introduction/inspirations.md
+  - Systems:
+    - systems/core-mechanics.md
+    - Combat: systems/combat.md
+    - Cyber Warfare: systems/cyber-warfare.md
+  - Character Creation:
+    - character-creation/character-creation.md
+    - Persona: character-creation/persona.md
+    - Frame: character-creation/frame.md
+    - Gear: character-creation/gear.md
+  - Factions:
+    - factions/factions.md
+    - Core:
+      - factions/core/core.md
+      - Advanced Regulator Corps (ARC): factions/core/arc.md
+      - Section 12: factions/core/section-12.md
+      - The Syndicate: factions/core/syndicate.md
+    - Ideological:
+      - factions/ideological/ideological.md
+      - Order of the Void: factions/ideological/order-of-the-void.md
+      - Radical X: factions/ideological/radical-x
+    - Mercenary:
+      - factions/mercenary/mercenary.md
+      - Atlas Global Defense (AGD): factions/mercenary/agd.md
+      - The Cyberweavers: factions/mercenary/cyberweavers.md
+  - Game Mastering:
+    - gamemastering/gamemastering.md
+    - Story Seeds: gamemastering/story-seeds.md
+    - Progression: gamemastering/progression.md
+    - Merits: gamemastering/merits.md
+    - Enemies and NPC's: gamemastering/npc.md
 
 theme:
     name: 'material'
