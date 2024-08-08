@@ -24,7 +24,7 @@ Origin does not have any defined mechanical effect, it's mostly there to add mor
 12. **War Zone Refugee**: You grew up in a small agricultural community that provided food for the Commonwealth. You enjoyed the simple life. Then one day some soldiers came by, told you war was coming. Then the tanks rolled in, and next you knew it bombs fell. You were forced to escape together with your family and few others, but wherever you went it seemed the War Zone followed. You had to kill to survive, steal to eat and each day, while a step closer to the promised refuge, your group grew more and more desperate. United at first, the hardships took their toll and eventually they argued, and after blood was drawn, they parted and then you were only a few. You met other groups, some seemed friendly at first, but they weren't friends, they just wanted what was yours. A large convoy of refugees offered some protection, but wherever there's large number of people, there's corruption, violence and crime. Somehow you made it, but it felt like a lifetime ago since you left, and the person who finally arrived at the GZ wasn't the person who left their home all those months ago.
 
 ## Faction
-Factions are listed on [[factions]]. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with player group and Game Master.
+Factions are listed on [[docs/factions/index]]. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with player group and Game Master.
 
 ## Engrams
 
@@ -149,5 +149,5 @@ If the above base uses are not enough, Game Masters are encouraged to invent add
 A **burned** resolve is much more difficult to Refresh. This is generally up to the GM how often they allow refreshing burned resolve. E.g. long downtime or going on a vacation or achieving a significant story goal may refresh burned resolve, to give a few examples. If the character has burned all their resolve, the may be forced on a leave of absence until they recover some.
 
 ### Improving the character
-You will be awarded Progression and Merits as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[gamemastering#Progression]] and [[gamemastering#Merits]].
+You will be awarded Progression and Merits as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[docs/gamemastering/index#Progression]] and [[docs/gamemastering/index#Merits]].
 

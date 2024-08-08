@@ -15,13 +15,13 @@ Nuutti Vertanen, Joni Salmela, Niko Ekilä
 
 ## Contents
 
-[[introduction]]
+[[docs/introduction/index]]
 
 [[core-mechanics]]
 
-[[character-creation]]
+[[docs/character-creation/index]]
 
-[[factions]]
+[[docs/factions/index]]
 
 [[persona]]
 
@@ -33,4 +33,4 @@ Nuutti Vertanen, Joni Salmela, Niko Ekilä
 
 [[gear]]
 
-[[gamemastering]]
+[[docs/gamemastering/index]]
