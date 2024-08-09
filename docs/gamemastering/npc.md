@@ -12,12 +12,14 @@ You can always create an enemy or NPC using the normal character creation rules,
 
 !!! info inline start "Alternate Stat Block"
 	```
-	BOD: D6, REF: D6, MND: D6, CYB: D6
-	Expertise: Combat, Physical
-	Pools: 4/2
-	Mitigation: 2/0/0
-	Wounds: 2
-	```
+	BOD REF MND CYB
+	D6  D6  D6  D6
+	 ```
+	**Expertise**: Combat, Physical
+	**Pools**: 4/2
+	**Mitigation**: 2/0/0
+	**Wounds**: 2
+	
 
 
 **Tier** indicates a rough level of opposition. Higher tier characters can take more wounds and should have better equipment. The tiers are **Common**, **Tough** and **Elite**.
