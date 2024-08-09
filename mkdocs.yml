@@ -39,7 +39,50 @@ nav:
     - Story Seeds: gamemastering/story-seeds.md
     - Progression: gamemastering/progression.md
     - Merits: gamemastering/merits.md
-    - Enemies and NPC's: gamemastering/npc.md
+    - Enemies and NPC's:
+      - gamemastering/npc.md
+  - NPC DB:
+    - Baselines:
+      - gamemastering/npc-db/baselines/index.md
+      - Security Forces: gamemastering/npc-db/baselines/security-forces.md
+      - Soldier: gamemastering/npc-db/baselines/soldier.md
+      - Heavy Trooper: gamemastering/npc-db/baselines/heavy-trooper.md
+    - Drones:
+      - gamemastering/npc-db/drones/index.md
+      - Scout: gamemastering/npc-db/drones/scout-drone.md
+      - R-LER: gamemastering/npc-db/drones/drone-rler.md
+    - Faction Encounters:
+      - gamemastering/npc-db/factions/index.md
+      - ARC:
+        - Bulwark: gamemastering/npc-db/factions/arc-bulwark.md
+        - Ghost: gamemastering/npc-db/factions/arc-ghost.md
+        - Hunter: gamemastering/npc-db/factions/arc-hunter.md
+      - Section 12:
+        - Operator: gamemastering/npc-db/factions/section12-operator.md
+        - Protector: gamemastering/npc-db/factions/section12-protector.md
+        - Sentinel: gamemastering/npc-db/factions/section12-sentinel.md
+      - Syndicate:
+        - Puccini Guardian: gamemastering/npc-db/factions/syndicate-guardian.md
+        - Shosuro Ronin: gamemastering/npc-db/factions/syndicate-ronin.md
+        - Wu-Tai Stratagem: gamemastering/npc-db/factions/syndicate-stratagem.md
+        - Radinovich Tzar: gamemastering/npc-db/factions/syndicate-tzar.md
+      - Order of the Void:
+        - Blessed Disciple: gamemastering/npc-db/factions/order-disciple.md
+        - Blessed Harbinger: gamemastering/npc-db/factions/order-harbinger.md
+        - Blessed Paladin: gamemastering/npc-db/factions/order-paladin.md
+        - Zombified Civilian: gamemastering/npc-db/factions/order-zombie.md
+      - Radical X:
+        - Avenger: gamemastering/npc-db/factions/radical-x-avenger.md
+        - Berserker: gamemastering/npc-db/factions/radical-x-berserker.md
+        - Martyr: gamemastering/npc-db/factions/radical-x-martyr.md
+      - AGD:
+        - Colossus: gamemastering/npc-db/factions/agd-colossus.md
+        - Reaper: gamemastering/npc-db/factions/agd-reaper.md
+        - Soldat: gamemastering/npc-db/factions/agd-soldat.md
+      - Cyberweavers:
+        - Adept: gamemastering/npc-db/factions/weaver-adept
+        - Shadow: gamemastering/npc-db/factions/weaver-shadow
+        - Virtual: gamemastering/npc-db/factions/weaver-virtual
 
 extra_css:
   - stylesheets/extra.css
