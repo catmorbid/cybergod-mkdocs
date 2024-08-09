@@ -1,5 +1,5 @@
 .md.typeset {
-    table {
+    table:not([class]) {
         th {
             min-width: 0;
         }
