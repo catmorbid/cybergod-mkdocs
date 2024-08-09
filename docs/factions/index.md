@@ -5,8 +5,8 @@ You pick a side, a Faction in this conflict, which determines who do you work fo
 
 Faction also determines what kind gear and frames you can start with and which augments you can install on them. Choose a **Frame** from one of the given options to determine your **Attributes** and **Augments**. Each Augment starts at Level 1.
 
-> [!info] Players are a Team
-> Player characters start out working together. They are an established team with history and some degree of mutual trust. It's often easiest if everyone starts out in the same Faction. You can choose to mix it up, but you need to figure out together why they are a team, especially if there's conflicting agendas involved.
+!!! info Players are a Team
+	Player characters start out working together. They are an established team with history and some degree of mutual trust. It's often easiest if everyone starts out in the same Faction. You can choose to mix it up, but you need to figure out together why they are a team, especially if there's conflicting agendas involved.
 
 [[docs/factions/core/index]]
 

@@ -3,7 +3,7 @@ tags:
   - Cybertech
   - Faction-ARC
 ---
-## Advanced Regulator Corps (ARC)
+# Advanced Regulator Corps (ARC)
 
 When ordinary Regulators of the *Core Regulator Authority* find themselves in a situation way beyond their league, they call ARC. ARC is the elite military branch of the commonwealth, with a direct line to **Themis**, the first child, a powerful Super Intelligent Entity, and one of the *Tri-Core*. ARC is a special-ops group who wield powerful cybernetic augments and top-grade weaponry. They are promoted from the best and most promising candidates among common Regulators and being offered a spot in the ARC is a matter of great pride. ARC's primary enemy is anyone aiming to harm the Commonwealth, but they especially despise the terrorists faction **Radical X**.
 
