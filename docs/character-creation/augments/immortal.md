@@ -1,7 +1,10 @@
-### Immortal
-
-#Cybertech #Nanotech #Passive 
-
+---
+title: Immortal
+tags:
+  - Cybertech
+  - Nanotech
+  - Passive
+---
 Takes a backup of consciousness in realtime. Provided you have the means to deploy a new frame, you could be back in action within minutes of a Frame Death incident. 
 
 >[!info]

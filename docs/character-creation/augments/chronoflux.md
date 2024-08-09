@@ -1,7 +1,11 @@
-### Chronoflux
-
-#Cybertech #Syndicate #Unsafe 
-
+---
+title: Chronoflux
+tags:
+  - Cybertech
+  - Restricted
+  - Faction-Syndicate
+  - Unsafe
+---
 A dangerous modification to the frame's Energy Core that can create a temporal distortion centered on the frame, which alters the flow of time. It allows the individual to momentarily act faster and take more actions at a significant cost to themselves. Any damage taken by using the augment takes effect next round.
 
 | Level | Effect                                                                                             |

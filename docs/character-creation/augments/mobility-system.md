@@ -1,7 +1,9 @@
-### Mobility System
-
-#Cybertech #Nanotech 
-
+---
+title: Mobility System
+tags:
+  - Cybertech
+  - Nanotech
+---
 Advanced Mobility enhancement system enhances the cyborg's movement capabilities. Requires activation. Once activated, effects last for **Moderate** duration.
 
 | Level | Effect                                                                                                                         |

@@ -1,7 +1,8 @@
-### Interference
-
-#Cybertech
-
+---
+title: Interference
+tags:
+  - Cybertech
+---
 An asymmetric warfare system that allows disruption of communications, electronics and augmentations. Designed for anti-cyborg warfare, Interference can be a powerful tool against powerful cyborgs.
 
 | Level | Effect                                                                                                                                                                     |

@@ -1,7 +1,9 @@
-### Cybernetic Armor
-
-#Cybertech #Passive
-
+---
+title: Coil interface
+tags:
+  - Cybertech
+  - Passive
+---
 Integrated exoskeletal armor that cannot be removed without heavy tools. Cannot equip additional armor. Cybernetic Armor must be repaired once broken down.
 
 | Level | Effect                                      |

@@ -1,7 +1,8 @@
-### Weapon Systems
-
-#Cybertech
-
+---
+title: Weapon Systems
+tags:
+  - Cybertech
+---
 You can integrate a variety of concealable weaponry to the frame. Larger, more complicated systems may require transformation (Short duration) before the weapon can be utilized. Each Weapon System is usually custom built to the user's specifications, and even though many pick from one of the available common blueprints, in truth there are countless variations and modifications of each and plenty of unique systems as well. Each Weapon System is its own augment and you can take multiple Weapon Systems. Weapon Systems can also be switched whenever you are upgrading your Frame.
 
 

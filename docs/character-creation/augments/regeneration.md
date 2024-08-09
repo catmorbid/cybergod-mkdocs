@@ -1,7 +1,10 @@
-### Regeneration
-
-#Cybertech #Nanotech #Biotech
-
+---
+title: Regeneration
+tags:
+  - Cybertech
+  - Nanotech
+  - Biotech
+---
 A system for manufacturing and coordinating an army of nanites programmed to repair physical damage. Regeneration can be activated via subconscious functions to automatically initiate when the you're wounded. The effects will take a Short duration to complete.
 
 | Level | Effect               |

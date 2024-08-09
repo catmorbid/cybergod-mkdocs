@@ -1,7 +1,9 @@
-### Smart Weapons
-
-#Cybertech #Nanotech 
-
+---
+title: Smart Weapons
+tags:
+  - Cybertech
+  - Nanotech
+---
 You can interface with Smart Weapons and ordnance and use guided projectiles and access their combat data. Any Personal Weapons are automatically modified to be compatible, but random weapons picked from dead enemies are probably not compatible. Even if they were, Smart Weapons have high security and need to be hacked before they can be used.
 
 >[!warning]

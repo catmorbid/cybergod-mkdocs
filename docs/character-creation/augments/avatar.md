@@ -1,7 +1,9 @@
-### Avatar
-
-#Cybertech #Unsafe 
-
+---
+title: Avatar
+tags:
+  - Cybertech
+  - Unsafe
+---
 Avatar enables physical remote presence at very distant locations through holographic interface. You can use holoprojection drones and and a location's built-in projection systems by accessing the location through remote connection. Once connected you can project Holographic Avatars to interact on your behalf. The area can be extended by connecting to new Access Points. If you lose access to the location, or all of your holoprojector drones are destroyed, your Avatars will immediately perish.
 
 | Level | Effect                                                                                                                                                                                                                                                                                                                                                                |

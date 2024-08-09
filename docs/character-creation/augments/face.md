@@ -1,7 +1,11 @@
-### FACE
-
-#Cybertech #Nanotech #Biotech #Unsafe 
-
+---
+title: FACE
+tags:
+  - Cybertech
+  - Nanotech
+  - Biotech
+  - Unsafe
+---
 FACE is an active feromone agent manipulation system that acts as a powerful social enhancer.
 
 | Level | Effect                                                   |

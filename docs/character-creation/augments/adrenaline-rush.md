@@ -1,7 +1,10 @@
-### Adrenaline Rush
-
-#Biotech #Cybertech #Nanotech 
-
+---
+tags:
+  - Biotech
+  - Cybertech
+  - Nanotech
+title: Adrenaline Rush
+---
 Enter a state of constant adrenaline frenzy improving overall combat capabilities. Once activated, the effect will be maintained for a **Moderate** duration, or until hostilities are ceased. Even then you might require some time to calm down.
 
 | Level | Effect                                                                                                                                              |     |

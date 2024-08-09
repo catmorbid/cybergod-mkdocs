@@ -1,7 +1,9 @@
-### Biomorph Healing
-
-#Biotech #Unsafe 
-
+---
+tags:
+  - Biotech
+  - Unsafe
+title: Biomorph Healing
+---
 You can use Biomorphs from close proximity to another target, or heal yourself to by spending an Action. Total **Healing Power** is `2x Energy Spent`, but each level requires a minimum energy to be spent to activate. You can spend additional energy to improve the effect, but the maximum wound level is limited by the ability.
 
 Healing Power is a pool of points you can use to heal wounds. A wound requires Healing Power equal to their Damage Class equivalence.

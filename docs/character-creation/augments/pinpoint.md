@@ -1,7 +1,9 @@
-### Pinpoint
-
-#Cybertech #Nanotech`
-
+---
+title: Pinpoint
+tags:
+  - Cybertech
+  - Nanotech
+---
 Specialized marksmanship enhancement. Automatically tracks targets and helps aiming at critical locations.
 
 | Level | Effect                                                                                                                                                                                                                                                                                                                    |
