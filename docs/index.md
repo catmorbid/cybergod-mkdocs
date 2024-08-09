@@ -23,14 +23,14 @@ Systems
 - [[combat|Combat System]]
 - [[cyber-warfare|Cyber Warfare]]
 
-[[docs/character-creation/index|Character Creation]]
+[[character-creation/index|Character Creation]]
 
 - [[persona|Persona]]
 - [[frame|Frame]]
 - [[character-creation/augments/index|Augments]]
 - [[gear|Gear]]
 
-[[docs/factions/index|Factions]]
+[[factions/index|Factions]]
 
 - [[factions/core/index|Core Factions]]
 - [[factions/ideological/index|Ideological Factions]]
