@@ -5,10 +5,8 @@ tags:
   - Frame
   - Faction-Cyberweaver
   - Cybertech
+title: Virtual
 ---
-
-#### Virtual
-`Tough`
 Virtuals are cyber virtuosos that utilize remote presence via holographic interface and remote controlled drones with holographic projectors to interact with environment. The actual Frame is stored in a secure location hardwired to a custom Cyberweb Hub giving them unparalleled processing power which they can use to hack any systems, controlling the environment to support their team.
 
 | MND | CYB | Expertise            | Pools | Mitigation | Energy |

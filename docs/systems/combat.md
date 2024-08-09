@@ -1,4 +1,6 @@
-# Combat
+---
+title: Combat System
+---
 
 Regardless of which faction you vouch for, there are times when diplomacy fails and you must fight in armed conflict to defeat your adversaries through force.
 

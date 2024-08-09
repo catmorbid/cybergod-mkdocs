@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-Syndicate
   - Cybertech
+title: Shosuro Ronin
 ---
-
-#### Ronin
-`Tough`
-
 Close range combatant. Can Dual wield an SMG and a Katana for both ranged and melee combat. 
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |

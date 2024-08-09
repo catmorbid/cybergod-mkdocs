@@ -1,5 +1,8 @@
-# Faction Encounters
-Faction operatives can easily be as tough as player characters, and encountering them during a mission is always dangerous. They use the same augments and same weapons as player characters do, and can be quite deadly.
+---
+title: Faction Encounters
+---
+
+Faction encounters can easily be as tough as player characters, and encountering them during a mission is always dangerous. They use the same augments and same weapons as player characters do, and can be quite deadly.
 
 ### ARC
 

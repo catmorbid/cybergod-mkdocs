@@ -5,10 +5,8 @@ tags:
   - Frame
   - Faction-Order
   - Biotech
+title: Blessed Disciple
 ---
-
-#### Blessed Disciple
-`Tough`
 Disciples are offensive combatants that often blend into crowds wearing plainclothes or light armor and like to surprise their opponents with a sudden close range attack.
 
 | BOD | REF | MND | Expertise        | Pools | Mitigation | Wounds | Energy |

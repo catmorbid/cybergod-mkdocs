@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-Syndicate
   - Cybertech
+title: Puccini Guardian
 ---
-
-#### Guardian
-`Tough`
-
 Defensive combatant who prioritizes protecting VIP's and team members. 
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |

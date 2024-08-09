@@ -6,10 +6,8 @@ tags:
   - Faction-Section12
   - Cybertech
   - Nanotech
+title: Protector
 ---
-
-#### Protector
-`Tough`
 Protectors are heavily armed masked fighters designated to protecting high value VIP's. Their standard gear includes a pitch black Combat Armor without any recognizable insigia, or a similarly styled Hard Shell suit, with an array of powerful energy weapons. While for other Section 12 operatives discretion is key, Protectors disregard this entirely, and apparently that's the crux of it.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |

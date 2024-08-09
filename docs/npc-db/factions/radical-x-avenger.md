@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-RadicalX
   - Cybertech
+title: Avenger
 ---
-
-#### Avenger
-`Tough`
-
 Avengers are flying terrors that can be major nuisance in the battlefield, employing assault weapons and cyber weapons while attacking from elevated position. Avengers often carry explosives to drop above unsuspecting foes.
 
 | BOD | REF | MND | CYB | Expertise                 | Pools | Mitigation     | Wounds | Energy |

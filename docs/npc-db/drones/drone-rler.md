@@ -3,10 +3,8 @@ tags:
   - NPC
   - Tough
   - Drone
+title: R-LER
 ---
-#### R-LER
-`Tough`
-
 Nicknamed "Rollers", the R-LER are heavily armored six-wheeled urban pacification drones that consist of the wheel system chassis and an armored turret section with various sensors placed in several redundant locations. The R-LER typically stands 150cm from the ground and is 125cm wide, weighing at 150kg without weapons load, most of which is the weight of the heavy armor plating. Its adaptive wheel system can be adjusted in any direction enabling it to handle almost any terrain and even climb stairs and it can reach High Velocity on roads. Its turret placement can also adjust in height between 130cm and 180cm from the ground to reach optimal tactical position.
 
 The R-LER were once the backbone of urban pacification, but have since reached infamy after the Bloody New Year, which saw thousands of them participate in the massacre. The "Rollers" are still a solid part of the Regulator arsenal as support units for Regulator squads in high-risk encounters. Other factions utilize them occasionally as well.

@@ -5,10 +5,9 @@ tags:
   - Frame
   - Faction-ARC
   - Cybertech
+title: Hunter
 ---
-
-#### Hunter
-`Tough`
+Hunters are recon specialists that excel at finding their enemies and then taking them out at long range.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |
 | :-- | :-- | :-- | :-- | :--------------- | :---- | :--------- | ------ | ------ |

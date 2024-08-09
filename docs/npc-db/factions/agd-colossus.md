@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-AGD
   - Cybertech
+title: Colossus
 ---
-
-#### Colossus
-`Tough`
-
 The Colossus is a massive and heavily armored frame to provide fire support from fortified positions.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |

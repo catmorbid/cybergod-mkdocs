@@ -5,10 +5,8 @@ tags:
   - Frame
   - Faction-Cyberweaver
   - Cybertech
+title: Shadow
 ---
-
-#### Shadow
-`Tough`
 Shadow is a covert operative specializing in infiltration and espionage. They are not fighters and will attempt to talk their way out of problems, or avoid them all together.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |

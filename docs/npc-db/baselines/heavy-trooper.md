@@ -2,10 +2,8 @@
 tags:
   - NPC
   - Tough
+title: Heavy Trooper
 ---
-#### Heavy Trooper
-`Tough`
-
 Formidable elite soldiers wearing combat exoskeletons and high-grade weaponry. They’re the best humanity’s got without full augmentation.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds |

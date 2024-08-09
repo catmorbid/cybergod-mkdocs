@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-Order
   - Biotech
+title: Blessed Harbinger
 ---
-
-#### Blessed Harbinger
-`Tough`
-
 Harbingers are Cult leaders who gathers civilians to act as their meat shield and can zombify incapacitated characters or NPC's. Elite Harbingers even know how to indoctrinate them to fight as full allies.
 
 | BOD | REF | MND | Expertise         | Pools | Mitigation | Wounds | Energy |

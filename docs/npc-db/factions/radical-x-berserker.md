@@ -5,10 +5,8 @@ tags:
   - Frame
   - Faction-RadicalX
   - Cybertech
+title: Berserker
 ---
-
-#### Berserker
-`Tough`
 Berserkers are aggressive close combat fighters augmented to inflict maximum damage in close quarters. Their regeneration augment makes them difficult to deal with and once up-close they strike hard and fast. Many Berserkers opt for integrated weapon systems.
 
 | BOD | REF | MND | CYB | Expertise              | Pools | Mitigation     | Wounds | Energy |

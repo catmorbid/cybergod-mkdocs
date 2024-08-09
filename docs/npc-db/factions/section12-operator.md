@@ -6,10 +6,8 @@ tags:
   - Faction-Section12
   - Cybertech
   - Nanotech
+title: Operator
 ---
-
-#### Operator
-`Tough`
 Operators are stealthy assassins with some Cyber Weapon capabilities that can infiltrate high security locations and escape without anyone noticing a thing.
 
 | BOD | REF | MND | CYB | Expertise                   | Pools | Mitigation | Wounds | Energy |

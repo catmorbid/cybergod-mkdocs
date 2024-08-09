@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-ARC
   - Cybertech
+title: Bulwark
 ---
-
-#### Bulwark
-`Tough`
-
 Bulwarks are ARC mobile heavy weapons platforms built to withstand immense amount of damage and carrying the heaviest weapons to the field.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |

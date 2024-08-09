@@ -20,8 +20,6 @@ Availability is measured with a **Grade**:
 
 Bulk determines general bulkiness of items, incorporating both mass and size. A character's **Max Bulk** rating is equal to the their Body Die size, i.e. for D6 Body Max Bulk is 6 and for D12 Body it is 12. This limit determines how much stuff you can carry around without being penalized. The stuff includes both Armor and Weapons, plus any extra equipment carried and Reloads.
 
-
-
 ## Weapons
 
 ### Stats

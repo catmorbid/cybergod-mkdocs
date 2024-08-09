@@ -5,10 +5,8 @@ tags:
   - Frame
   - Faction-ARC
   - Cybertech
+title: Ghost
 ---
-
-#### Ghost
-`Tough`
 Cyber weapons support and anti-cyborg combat
 
 | BOD | REF | MND | CYB | Expertise         | Pools | Mitigation | Wounds | Energy |

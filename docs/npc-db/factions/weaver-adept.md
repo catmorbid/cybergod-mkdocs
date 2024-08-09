@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-Cyberweaver
   - Cybertech
+title: Adept
 ---
-
-#### Adept
-`Tough`
-
 Adepts are dangerous foes that specialize in anti-cyborg warfare. They are armed with integrated hidden weapon systems and can utilize combat hacks and their proprietary Coil Interface.
 
 | BOD | REF | MND | CYB | Expertise         | Pools | Mitigation | Wounds | Energy |

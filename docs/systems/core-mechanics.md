@@ -1,5 +1,6 @@
-# Core Mechanics
-
+---
+title: Core Systems
+---
 ## Structure of play
 
 Gameplay is structurally divided into few components, each serving a specific purpose.

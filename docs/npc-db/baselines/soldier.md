@@ -1,9 +1,8 @@
 ---
 tags:
   - NPC
+title: Soldier
 ---
-#### Soldier
-`Common`
 A small team of 4-8 skilled combat veterans with some basic augments donning a standard Security Armor.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds |

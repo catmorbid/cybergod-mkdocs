@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-Syndicate
   - Cybertech
+title: Radinovich Tzar
 ---
-
-#### Tzar
-`Tough`
-
 Tzars are forceful leaders that also specialize in close combat for when the negotiations fail.
 
 | BOD | REF | MND | CYB | Expertise            | Pools | Mitigation | Wounds | Energy |

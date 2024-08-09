@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-AGD
   - Cybertech
+title: Reaper
 ---
-
-#### Reaper
-`Tough`
-
 Reaper is a stealthy sniper, using Camouflage and Pinpoint augmentations to execute extremely accurate attacks from long distance. They can also utilize some Cyber Weapons to cause confusion and help them escape assailants. 
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |

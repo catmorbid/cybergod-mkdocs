@@ -2,10 +2,8 @@
 tags:
   - NPC
   - Drone
+title: Scout Drone
 ---
-#### Scout Drone
-`Common`
-
 Weak flying drones armed with recoilless laser weapons. 
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds |

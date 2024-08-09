@@ -1,5 +1,6 @@
-# Cyber Warfare
-
+---
+title: Cyber Warfare
+---
 ## Combat Hacks
 
 A Combat Hack is a single-use deployable software designed to target a particular device. They are autonomous, smart and extremely effective, utilizing AI-optimized multiple attack vector strategy to overcome target's defenses. After detecting a combat hack, the target system adapts to it and the same hack cannot be used again against the same system. If a system is connected to other systems, it will usually automatically distribute defensive analytics data making the combat hack useless against any connected system. This effectively makes each hack a single use tool. Characters utilizing combat hacks are presumed to be knowledgeable enough to update their combat hacks during downtime, so you can always refresh your Apps between scenes.

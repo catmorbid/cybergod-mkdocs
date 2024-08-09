@@ -5,11 +5,8 @@ tags:
   - Frame
   - Faction-Syndicate
   - Cybertech
+title: Wu-Tai Stratagem
 ---
-
-#### Stratagem
-`Tough`
-
 Leader of the unit. Stays in the back, protected by their Guardian, causing interference on enemy squad. Will try to organize an ambush.
 
 | BOD | REF | MND | CYB | Expertise                     | Pools | Mitigation | Wounds | Energy |
