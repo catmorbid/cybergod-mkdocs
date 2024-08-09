@@ -1,7 +1,7 @@
 ---
 tags:
   - Cybertech
-  - Faction-Radical-X
+  - Faction-RadicalX
 ---
 ## The Radical X
 

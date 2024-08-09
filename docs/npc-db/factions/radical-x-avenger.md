@@ -3,7 +3,7 @@ tags:
   - NPC
   - Tough
   - Frame
-  - Faction-Radical-X
+  - Faction-RadicalX
   - Cybertech
 ---
 

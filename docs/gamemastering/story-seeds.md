@@ -1,5 +1,5 @@
 ### Story seeds
-Listed below are some seeds or ideas for a story. You will find recommended factions #tagged to help pick the the ones suitable for your players. Mercenary factions generally fit in every scenario as they work for the highest bidder.
+Listed below are some seeds or ideas for a story. You will find recommended factions listed to help pick the the ones suitable for your players. Mercenary factions generally fit in every scenario as they work for the highest bidder.
 
 #### Raid
 

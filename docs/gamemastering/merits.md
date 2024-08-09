@@ -39,3 +39,27 @@ Certain assets require some degree of influence as well, represented by Influenc
 Influence is social currency within a Faction. You gain Influence primarily by completing jobs for a Faction. You can purchase Influence with Merits.
 
 Influence can spent to call in favors, obtain information and may be required for certain team assets. You can suggest uses freely, but GM has to approve all influence expenditure.
+
+### Aegis
+
+#Cybertech 
+
+Create energy field to protect yourself and those nearby. The shield lasts for a **Short** duration, but it can be maintained by spending another point of Energy.
+
+| Level | Effect                                                                                                                                                                                                   |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Activate for 1 Energy. Generate a force field that affects anything within **Close** -> **Short** -> **Moderate** radius and adds **2 points** of **Ultra Mitigation**. Melee weapons bypass the shield. |
+| 2     | Activate for 2 Energy. Shield adds **4 points** of **Ultra Mitigation**.                                                                                                                                 |
+| 3     | Activate for 3 Energy. Shield adds **6 points** of **Ultra Mitigation**.                                                                                                                                 |
+
+### Aegis
+
+#Cybertech 
+
+Create energy field to protect yourself and those nearby. The shield lasts for a **Short** duration, but it can be maintained by spending another point of Energy.
+
+| Level | Effect                                                                                                                                                                                                   |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Activate for 1 Energy. Generate a force field that affects anything within **Close** -> **Short** -> **Moderate** radius and adds **2 points** of **Ultra Mitigation**. Melee weapons bypass the shield. |
+| 2     | Activate for 2 Energy. Shield adds **4 points** of **Ultra Mitigation**.                                                                                                                                 |
+| 3     | Activate for 3 Energy. Shield adds **6 points** of **Ultra Mitigation**.                                                                                                                                 |

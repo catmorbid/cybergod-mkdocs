@@ -1,0 +1,9 @@
+title: Introduction
+nav:
+    - index.md
+    - Themes:
+        - Utopia and Dystopia: utopia-and-dystopia.md
+        - Moral Dilemmas: moral-dilemmas.md
+        - Humanity and Artificial Life: humanity-and-artificial-life.md
+        - Psionics and Otherworldly Horror: psionics-and-horror.md
+    - inspirations.md

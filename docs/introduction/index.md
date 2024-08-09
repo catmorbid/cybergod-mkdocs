@@ -1,4 +1,7 @@
-# Intro
+---
+title: Introduction
+---
+# Introduction
 
 Centuries ago, a cataclysmic global conflict, known as the End War, cast the world into chaos, annihilating nearly half of Earth's population. Eventually, from the ashes of the old world, a new society emerged. Adamant in their determination to do better than their predecessors, they chose to create an entity void of human decadence to guide and lead them towards a brighter future.
 
