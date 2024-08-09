@@ -1,6 +1,10 @@
 ## Enemies and NPC's
 During stories characters will likely encounter other characters, many of whom will oppose them in one way or another. You can use the following examples, or create your own.
 
+You can find a variety of pre-made NPC's with stat blocks and other information ready to be used in your stories in the NPC Database:
+- [[docs/npc-db/baselines/index|Baseline encounters]]
+- [[docs/npc-db/drones/index|Drone encounters]]
+- [[docs/npc-db/factions/index|Faction encounters]]
 ### NPC stats
 You can always create an enemy or NPC using the normal character creation rules, but it is fine to simplify the rules a bit. Minor characters presented in this section use the following set of simplified stats.
 
@@ -52,5 +56,3 @@ Use the following table to determine Wounds based on Body attribute and the NPC'
 **Augments** are displayed as separate block if the character has any.
 
 **Attacks** are listed in separate block and shows a typical attacks and weapons used.
-
-You can find a variety of pre-made NPC's with stat blocks and other information ready to be used in your stories at [[docs/gamemastering/npc-db/baselines/index|NPC Database]].
