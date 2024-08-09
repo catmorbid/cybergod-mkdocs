@@ -65,7 +65,8 @@ Roll the dice and count **successes**:
 
 You need to beat the **Difficulty** of the test to actually succeed. If you succeed, you gain **One (1) Effect Point (EP)** plus another for each additional success rolled. Spend Effect Points to determine the actual outcome. Most Tests have a so called *Basic* effect which simply allows you to do what you set out to do in the first place for just 1 Effect Point, but GM may present additional Effects, or simply decide what happens based on how many EP you gained.
 
-> Janey must beat a Hard test of `Investigation x Mind`. She rolls 3D12 gaining 10, 6 and 9. That's total 4 successes, which earns her 2 Effect Points.
+!!! example
+	Janey must beat a Hard test of `Investigation x Mind`. She rolls 3D12 gaining 10, 6 and 9. That's total 4 successes, which earns her 2 Effect Points.
 
 ### Opposed Test
 
@@ -82,7 +83,8 @@ When two characters roll dice against each other, they are making an Opposed Tes
 
 **Difficulty** determines the **Success Threshold** for a test, which is the number of success required to actually succeed. When making Opposed tests, where there is an opponent who tests their own skills, Difficulty indicates the margin by which you need to succeed, in order to actually succeed.
 
-> E.g. a Moderately difficult test means that on an opposed test you need 2 successes more than your opponent to actually succeed.
+!!! example
+	a Moderately difficult test means that on an opposed test you need 2 successes more than your opponent to actually succeed.
 
 ### Complications
 
@@ -92,9 +94,8 @@ Each complication comes with a rating of 1-5 depicting how difficult the complic
 
 It is also possible that multiple complications apply to a single test, but having more than three complications makes tracking them really difficulty, so having more than three complications on a single test is not recommended.
 
-> [!Example] Complications example
->
-> Marko is trying to hack into a Syndicate server to obtain some cargo manifest data he needs for a client. He's testing `Hacking x Cyber` and can roll 4D10. But GM tells him that the while the server itself only has Moderate security, there is a local Sys Op monitoring the situation, which presents a 1-point complication. If Marko fails to overcome the complication, the Sys Op will detect him and will begin countermeasures and a trace, which might eventually see Marko's location compromised...
+!!! Example Complications example
+	Marko is trying to hack into a Syndicate server to obtain some cargo manifest data he needs for a client. He's testing `Hacking x Cyber` and can roll 4D10. But GM tells him that the while the server itself only has Moderate security, there is a local Sys Op monitoring the situation, which presents a 1-point complication. If Marko fails to overcome the complication, the Sys Op will detect him and will begin countermeasures and a trace, which might eventually see Marko's location compromised...
 
 ### Effects
 

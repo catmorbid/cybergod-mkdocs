@@ -56,8 +56,8 @@ Area is used for explosives and such to determine how large area is affected whe
 | Large    | Large areas covering several dozen meters from point of impact. Affects easily up to 20 targets in vicinity. | 6         |
 | Huge     | Covers a massive area of hundred meters or more. Affects every target in the area, as many as needed.        | 8         |
 
->[!example]
->Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of grenades in their general direction.
+!!! example
+	Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of grenades in their general direction.
 
 ### Tags
 
@@ -97,8 +97,8 @@ Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads a
 
 When required, make an Ammo Save. Roll a D6, and on 6, you're out of ammo and need to reload. Mark down every Ammo Save you passed, and future Ammo Saves are rolled with an additional die. On 6th consecutive ammo save, you are forced to reload. Clear the marks after reload.
 
-> [!info] Post-combat Ammo Checks
-> As a rule of thumb, if you used a weapon in combat, make a single Ammo Save for it after the combat is over. You can disregard this if you just reloaded.
+!!! info Post-combat Ammo Checks
+	As a rule of thumb, if you used a weapon in combat, make a single Ammo Save for it after the combat is over. You can disregard this if you just reloaded.
 
 ### Sidearms
 
@@ -229,8 +229,6 @@ Melee weapon can be anything from a blunt object to a master-crafted nano-edge k
 | Large  | D10       | 3    |
 | Huge   | D12       | 4    |
 
-[Melee Weapons List]
-
 | Melee Weapon       | DC | Range | Size   | Grade    | Tags                       |
 |--------------------|----|-------|--------|----------|----------------------------|
 | Knife              | 2  | Close | Small  | Common   | Accurate, Fast             |
@@ -276,8 +274,8 @@ A seamless full-body suit built for heavy encounters. Toughest available in un-p
 ### Powered Armor
 Powered armor are wearable exosuits designed for human soldiers to improve the wearer's strength, stamina and coordination with assisted robotic limbs. The technology was refined in the the pre-collapse era and has seen only minor improvements since then. The technology is expensive and has some practical issues making it effectively obsolete compared to cybernetic frames.
 
-> [!info]
-> Always use the powered armor's attributes over the Frame's normal attribute, even if the armor has worse attributes.
+!!! info Power Armor attributes
+	Always use the powered armor's attributes over the Frame's normal attribute, even if the armor has worse attributes.
 
 
 | Armor              | Soft | Hard | Ultra | Bulk | Grade    | Powered             |
@@ -325,7 +323,7 @@ You can also carry various tools and other useful equipment. Your faction can pr
 
 Many kinds of drugs exists. Some are legal and approved for official use, while others are strictly illegal. The black market however has lots of drugs in circulation.
 
-Legal drugs
+### Legal drugs
 
 | Name                | Description                                                                                                                                                                                                                                                 | Grade    | Safety |
 | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- | :----- |
@@ -339,7 +337,7 @@ Legal drugs
 | Somatic Enhancers   | Gain a free re-roll in any Body Test                                                                                                                                                                                                                        | Advanced | D10    |
 
 
-Black Market Drugs
+### Black Market Drugs
 
 | Equipment      | Description                                                                                                                                                                                                                                                                                                                                          | Grade    | Safety |
 | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- | :----- |
@@ -353,7 +351,7 @@ Black Market Drugs
 
 
 ## Utility Apps
-In addition to [[cyber-warfare#Combat Hacks]], you can install various apps for different utility. The cybernetic brain, and many common communication devices or handheld computing devices already have applications for various mundane tasks, such as communications, 2D photography, audio and video recording and editing etc. But for any non-mundane task you can likely find and install an App. These do take an App Slot in your cybernetic Brain. You can also install them in any external devices.
+In addition to [[cyber-warfare#Combat Hacks|Combat Hacks]], you can install various apps for different utility. The cybernetic brain, and many common communication devices or handheld computing devices already have applications for various mundane tasks, such as communications, 2D photography, audio and video recording and editing etc. But for any non-mundane task you can likely find and install an App. These do take an App Slot in your cybernetic Brain. You can also install them in any external devices.
 
 ### Aptitude Suite
 `Advanced`, `2 slots`,`Decay D6`

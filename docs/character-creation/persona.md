@@ -25,7 +25,7 @@ Origin does not have any defined mechanical effect, it's mostly there to add mor
 12. **War Zone Refugee**: You grew up in a small agricultural community that provided food for the Commonwealth. You enjoyed the simple life. Then one day some soldiers came by, told you war was coming. Then the tanks rolled in, and next you knew it bombs fell. You were forced to escape together with your family and few others, but wherever you went it seemed the War Zone followed. You had to kill to survive, steal to eat and each day, while a step closer to the promised refuge, your group grew more and more desperate. United at first, the hardships took their toll and eventually they argued, and after blood was drawn, they parted and then you were only a few. You met other groups, some seemed friendly at first, but they weren't friends, they just wanted what was yours. A large convoy of refugees offered some protection, but wherever there's large number of people, there's corruption, violence and crime. Somehow you made it, but it felt like a lifetime ago since you left, and the person who finally arrived at the GZ wasn't the person who left their home all those months ago.
 
 ## Faction
-Factions are listed on [[docs/factions/index]]. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with player group and Game Master.
+Factions are listed on [[docs/factions/index|Factions section]]. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with player group and Game Master.
 
 ## Engrams
 
@@ -64,8 +64,8 @@ Corruption can be gained in a few ways, for example:
 Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Save** where you roll a D6 for each point of Corruption you have. If you fail, then one of your **Engrams** is corrupted. You must remove one **Engram** and you also lose the associated Resolve point and a single **Aptitude** point. You can then erase all accumulated Corruption points. This will however also increase the die for your Stress Save by one step.
 
 
-> [!warning] The End
-> If your last Engram is corrupted, you will cease to be a functional human. This is as close to real death as you can get here. Your character might continue to exist as an artificial intelligence inside a husk, a mere shell, or they may end up in a psychosis, culminating in a sudden violent killing spree. Or they can wander off into the unknown, never to be heard of again. You can decide what happens to your character after, but you can't play with them any longer. Write the final paragraph of their story. But that will be the end.
+!!! warning The End
+	If your last Engram is corrupted, you will cease to be a functional human. This is as close to real death as you can get here. Your character might continue to exist as an artificial intelligence inside a husk, a mere shell, or they may end up in a psychosis, culminating in a sudden violent killing spree. Or they can wander off into the unknown, never to be heard of again. You can decide what happens to your character after, but you can't play with them any longer. Write the final paragraph of their story. But that will be the end.
 
 ### Removing Corruption
 
@@ -86,8 +86,8 @@ Aptitude determines talent and basic ability at related skills. Each Aptitude ha
 Aptitudes are rated with a level from 0 to 3 and Skills are measured with a level from 0 to 4. Each Level in a Skill and relevant Aptitude adds one Die when making a **Skill Test**.
 
 
-> [!info]
-> Available Aptitude Points and Skill Points depend on your level of experience. You can allocate them freely on a 1:1 basis.
+!!! info
+	Available Aptitude Points and Skill Points depend on your level of experience. You can allocate them freely on a 1:1 basis.
 
 
 ### Combat
@@ -150,5 +150,5 @@ If the above base uses are not enough, Game Masters are encouraged to invent add
 A **burned** resolve is much more difficult to Refresh. This is generally up to the GM how often they allow refreshing burned resolve. E.g. long downtime or going on a vacation or achieving a significant story goal may refresh burned resolve, to give a few examples. If the character has burned all their resolve, the may be forced on a leave of absence until they recover some.
 
 ### Improving the character
-You will be awarded Progression and Merits as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[docs/gamemastering/index#Progression]] and [[docs/gamemastering/index#Merits]].
+You will be awarded [[docs/gamemastering/index#Progression|Progression]] and [[docs/gamemastering/index#Merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[docs/gamemastering/index|index|Game Mastering]] section.
 

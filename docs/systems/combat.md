@@ -39,11 +39,12 @@ Each character gets to take one **Action** and one **Reaction**. Action is decla
 Activating Augments is an **Instant Action**, unless otherwise stated, and can be repeated for as often as required, unless the augment is already activated.
 
 Each character should describe their actions vaguely. For example:
-- "I stick to cover and shoot the biggest guy"
-- "I close in stealthily to attack their hacker"
-- "I want to use combat hacks on their heavy gunner"
-- "I'll fix the generator while you guys keep them off my back"
-- "I'll wait to see what happens, but ready to shoot if anyone approaches"
+
+- *"I stick to cover and shoot the biggest guy"*
+- *"I close in stealthily to attack their hacker"*
+- *"I want to use combat hacks on their heavy gunner"*
+- *"I'll fix the generator while you guys keep them off my back"*
+- *"I'll wait to see what happens, but ready to shoot if anyone approaches"*
 
 After the actions are declared, you can start by resolving them one at a time. Enemies may want to intercept, so those actions are **Conflicting** and are then resolved simultaneously, and whoever has better Initiative gets to resolve their action first. If initiative is matched, then actions are resolved at the same time. It is possible for both participant to be wounded or even killed if initiative is matched.
 
@@ -139,9 +140,6 @@ You can use the following Damage Table to quickly find out the degree of Wound i
 | 7   | Overkill     | Overkill     | Lethal Wound | Major Wound  |
 | 8   | Overkill     | Overkill     | Overkill     | Lethal Wound |
 | 9   | Overkill     | Overkill     | Overkill     | Overkill     |
-
-
-
 ### Wound Slots
 
 Character's wound slots depend on their Body attribute. Fill in a slot when receiving a wound. If you cannot fill a slot, then you must fill next available higher tier slot.
@@ -210,8 +208,8 @@ If your black box was successfully recovered, you can keep any earned experience
 
 On every Rebirth the character takes a point of Corruption and then must immediately make a **Corruption Test**.
 
-> [!info] Waiting for resurrection
-> It can take some time before your character is reborn and can enter the play again. You should however not just wait around and skip the game while waiting. Instead you can pick up an NPC and play them, or roll another, secondary character to play in between. Maybe the team calls for backup and you enter as one of them, a side character perhaps, but nevertheless part of the game.
+!!! info Waiting for resurrection
+	It can take some time before your character is reborn and can enter the play again. You should however not just wait around and skip the game while waiting. Instead you can pick up an NPC and play them, or roll another, secondary character to play in between. Maybe the team calls for backup and you enter as one of them, a side character perhaps, but nevertheless part of the game.
 
 ## Mental Damage and Stress
 
