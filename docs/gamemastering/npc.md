@@ -11,11 +11,11 @@ You can always create an enemy or NPC using the normal character creation rules,
 **Alternate Stat Block**
 
 !!! info inline start "Alternate Stat Block"
-	```
-	BOD REF MND CYB	
-	D6  D6  D6  D6
-	 ```
-	 
+	- **Body**: D6
+	- **Reflex**: D6
+	- **Mind**: D6
+	- **Cyber**: D6
+
 	**Expertise**: Combat, Physical
 	
 	**Pools**: 4/2
