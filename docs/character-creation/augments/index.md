@@ -1,5 +1,6 @@
-## Augments
-
+---
+title: Augments
+---
 Your initial Augments are determined by your **Frame**. Choose a frame from the ones listed in your chosen Faction.
 
 > [!info]

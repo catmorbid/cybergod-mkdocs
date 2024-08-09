@@ -1,5 +1,6 @@
-### Progression
-
+---
+title: Progression
+---
 As you play stories the characters will progress in their abilities. This progression is reflected by **Progression Points**, which are earned after each session. Mark progression points in the Character Sheet, and once you've gathered enough, you can spend some or all of them to improve your character.
 
 Each game session should end with a short retrospective on how the session went. Have a free discussion, gather feedback and finally award Progression. Progression is freeform, but here are some suggestions

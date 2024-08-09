@@ -1,4 +1,6 @@
-## Themes
+---
+title: Themes
+---
 
 [[utopia-and-dystopia]]
 

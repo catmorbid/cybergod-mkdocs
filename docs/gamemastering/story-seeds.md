@@ -1,7 +1,10 @@
-### Story seeds
+---
+title: Story seeds
+---
+
 Listed below are some seeds or ideas for a story. You will find recommended factions listed to help pick the the ones suitable for your players. Mercenary factions generally fit in every scenario as they work for the highest bidder.
 
-#### Raid
+## Raid
 
 `ARC`, `Section 12` or `Syndicate`, `RadicalX`, `OrderOfTheVoid`
 
@@ -18,7 +21,7 @@ The raid was carefully planned for months, and now it's time to execute, but as 
 
 For a longer story you can start way before the raid takes place and take part in planning the raid.
 
-#### Terrorist attack
+## Terrorist attack
 
 `ARC`, `Section12`, or `RadicalX`, `OrderOfTheVoid` 
 
@@ -35,18 +38,18 @@ Terrorist objectives
 - Denial of Access
 - Obtain critical objectives.
 
-#### Augmented Serial killer
+## Augmented Serial killer
 
 `ARC`, `Section12`
 
-A serial killer is on the loose. This is normally CRA Regulator business, but you have reason to believe the killer is seriously augmented. Who do they work for, and what is their agenda? #Section12 may have interest in the case if targets are high-value VIP's or if they have a reason to believe the Order of the Void is involved, or some other strange things are happening.
+A serial killer is on the loose. This is normally CRA Regulator business, but you have reason to believe the killer is seriously augmented. Who do they work for, and what is their agenda? `Section12` may have interest in the case if targets are high-value VIP's or if they have a reason to believe the Order of the Void is involved, or some other strange things are happening.
 
 Objectives
 - Catch the killer
 - Prevent further killings
 - Find out who bankrolled their augments
 
-#### Evo Sim Ascendance
+## Evo Sim Ascendance
 
 `Cyberweavers`, `Section12`, `Syndicate`
 
@@ -60,7 +63,7 @@ Syndicate or Cyberweavers may have different ideas for the Entity, but everyone 
 
 Maybe you can find a cool angle for another faction? Go for it.
 
-#### Psionic Incident
+## Psionic Incident
 
 `Section12`
 
@@ -73,7 +76,7 @@ Objectives
 
 Other factions may have interest in the incident as well, but it is significantly more difficult for them to locate psionic incidents. Order of the Void is able to detect them to a degree and Syndicate might as well have such means. ARC may provide additional fire support, but Section 12 operatives should be leading the operation.
 
-#### Bio Weapon Threat
+## Bio Weapon Threat
 
 `ARC`, `Section12`, `RadicalX`, `Syndicate`
 

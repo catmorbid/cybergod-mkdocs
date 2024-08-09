@@ -1,5 +1,6 @@
-### Moral Dilemmas
-
+---
+title: Moral Dilemmas
+---
 In **Cybergod: Reborn**, morality can be woven as part of a complex narrative, each faction embodying an ethical facet that mirrors the voices in the society. The protagonists of your stories are driven by personal convictions, forced to grapple with choices that transcend the black-and-white of Right and Wrong.
 
 **The Advanced Regulator Corps** are the elite cyborg combat unit, the enforcers of justice within the Commonwealth. Tasked with upholding the law and quelling criminal elements, their agenda is clear, yet the lines blur in the face of harsh realities. Is stealing to curb hunger a crime, or a desperate plea for survival? When forging a citizenship pass promises a better life for a child, is it a transgression or an act of parental desperation? In the quest for justice, the protagonists must confront the shades of gray that challenge their moral certainties.

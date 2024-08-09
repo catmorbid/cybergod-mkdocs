@@ -1,4 +1,6 @@
-## Enemies and NPC's
+---
+title: Enemies and NPC's
+---
 During stories characters will likely encounter other characters, many of whom will oppose them in one way or another. You can use the following examples, or create your own.
 
 You can find a variety of pre-made NPC's with stat blocks and other information ready to be used in your stories in the NPC Database:

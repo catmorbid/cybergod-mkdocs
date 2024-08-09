@@ -1,5 +1,6 @@
-### Humanity and Artificial Life
-
+---
+title: "### Humanity and Artificial Life"
+---
 Artificial Intelligence was heavily utilized even before the End War, and *Simulated Minds*, lifelike artificial intelligent software is a well-known and trusted tool enabling the use of of various *automatons* such as drones, androids and other robotic beings. The debate of whether artificial life could be classified as humans was resolved centuries ago by determining ways of classifying AI and limiting their evolution potential. Only the recent advent of the **Quantum Digital Consciousness** rebooted this debate, and now the question remains whether a QDC consciousness is actually human or not.
 
 It has been shown that every time a QDC is cloned and injected to a new *Frame*, the QDC data suffers a small small degree of error, and sufficiently high volume of errors results in fragmentation of memories and corruption of data, which may result in loss of some aspects of the individual's personality. So far it has been difficult to draw a line on when would such a corruption be cause enough to classify the QDC as non-human. In the spectrum of opinions on the topic, the pro-humans demand that cyborgs are stripped of their human rights and treated like machines, while the pro-AI demand all synthetic life be treated as equal to human life, and even the stripping of the limitations placed on AI and Simulated Minds.

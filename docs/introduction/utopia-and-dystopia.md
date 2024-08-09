@@ -1,5 +1,6 @@
-### Utopia and Dystopia
-
+---
+title: Utopia and Dystopia
+---
 In **Cybergod: Reborn**, the backdrop is a Technological Utopia undergoing a major crisis, and a sweeping change. The Commonwealth of Earth, governed by two remaining thirds of the Tri-Core, operates as a resource-based economy and commands authority over all facets of life of their citizens. A majority, roughly 60% of the human population, resides in colossal constructs known as Mega Cities, enjoying the abundance in necessities and luxuries alike. Another 10% live under Commonwealth laws, but in smaller rural or micro-urban communities designed for optimized agricultural or industrial production.
 
 The Economy of Commonwealth is completely resource-based and everything is meticulously tracked, but through smart optimizations and incentivization, every citizen can still enjoy abundance in commodities. Humans are resources as well: children are tested annually for their Aptitude, so they could be suggested a vocation best suited for their talents. Adult life is mostly stress free, and in most vocations workweek is minimal and all tasks can be executed perfectly by machines, and humans are left as the designers and overseers of systems - assisted by artificial intelligence of course. Instead social, artistic and other recreational activities are given ample time, and the amount of entertainment and culture available is staggering. Medical care and Mental health are top priorities and provided free of charge to every citizen.
