@@ -52,3 +52,5 @@ Use the following table to determine Wounds based on Body attribute and the NPC'
 **Augments** are displayed as separate block if the character has any.
 
 **Attacks** are listed in separate block and shows a typical attacks and weapons used.
+
+You can find a variety of pre-made NPC's with stat blocks and other information ready to be used in your stories at [[docs/gamemastering/npc-db/baselines/index|NPC Database]].

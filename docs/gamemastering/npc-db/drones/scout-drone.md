@@ -1,3 +1,8 @@
+---
+tags:
+  - NPC
+  - Drone
+---
 #### Scout Drone
 `Common`
 

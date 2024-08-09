@@ -1,6 +1,7 @@
 ---
 tags:
-    - cybertech
+  - Cybertech
+  - Faction-AGD
 ---
 ## Atlas Global Defense (AGD)
 Atlas Global Defense is a private military contractor aligned with the Commonwealth. They manage a large military-industrial complex and are involved in many military R&D projects. In addition, AGD provides a significant force of security and military personnel for a large number of sanctioned clients, most of which are private corporations or individuals. Military contracting is extremely regulated and scrutinized and with perseverance, strict code of conduct and unapologetic ruthlessness, AGD has managed to gain and hold a significant position in the field.

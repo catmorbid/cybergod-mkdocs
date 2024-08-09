@@ -1,6 +1,7 @@
 ---
 tags:
-    - cybertech
+  - Cybertech
+  - Faction-Section12
 ---
 ## The Syndicate
 

@@ -1,3 +1,7 @@
+---
+tags:
+  - NPC
+---
 #### Soldier
 `Common`
 A small team of 4-8 skilled combat veterans with some basic augments donning a standard Security Armor.

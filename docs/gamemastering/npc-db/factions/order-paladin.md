@@ -1,3 +1,12 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Frame
+  - Faction-Order
+  - Biotech
+---
+
 #### Blessed Paladin
 `Tough`
 

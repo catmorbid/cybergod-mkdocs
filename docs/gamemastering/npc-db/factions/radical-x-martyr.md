@@ -1,3 +1,12 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Frame
+  - Faction-Radical-X
+  - Cybertech
+---
+
 #### Martyr
 `Tough`
 Martyrs have the Honor of carrying The Crucible, Radical X's infamous weapon of mass destruction. They are all about terror and dread. Tactics-wise Martyrs do not engage in frontlines, since no one wants them to die ahead of time, so they tend to be in the support role but can adequately utilize all types of weapons.

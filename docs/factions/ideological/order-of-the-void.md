@@ -1,6 +1,7 @@
 ---
 tags:
-    - biotech
+  - Biotech
+  - Faction-Order
 ---
 ## The Order of the Void
 

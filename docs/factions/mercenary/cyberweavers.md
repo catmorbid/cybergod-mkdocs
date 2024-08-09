@@ -1,6 +1,7 @@
 ---
 tags:
-    - cybertech
+  - Cybertech
+  - Faction-Cyberweaver
 ---
 ## The Cyberweavers
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - NPC
+  - Tough
+---
 #### Heavy Trooper
 `Tough`
 

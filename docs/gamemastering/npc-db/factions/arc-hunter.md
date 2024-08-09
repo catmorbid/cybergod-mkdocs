@@ -1,3 +1,12 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Frame
+  - Faction-ARC
+  - Cybertech
+---
+
 #### Hunter
 `Tough`
 

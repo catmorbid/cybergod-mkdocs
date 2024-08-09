@@ -1,6 +1,7 @@
 ---
 tags:
-    - cybertech
+  - Cybertech
+  - Faction-ARC
 ---
 ## Advanced Regulator Corps (ARC)
 

@@ -1,3 +1,13 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Frame
+  - Faction-Section12
+  - Cybertech
+  - Nanotech
+---
+
 #### Sentinel
 `Tough`
 Sentinels are clandestine operators specializing in Psionic Warfare and infiltration. Unlike player characters, NPC Sentinels do not roll Psionics test, instead they succeed at static result, described in the Augment effects.

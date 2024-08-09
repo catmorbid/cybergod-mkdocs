@@ -1,3 +1,12 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Frame
+  - Faction-ARC
+  - Cybertech
+---
+
 #### Ghost
 `Tough`
 Cyber weapons support and anti-cyborg combat

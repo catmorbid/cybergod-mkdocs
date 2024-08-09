@@ -1,3 +1,7 @@
+---
+tags:
+  - NPC
+---
 #### Security Forces
 `Common`
 Generic security forces with some basic training and low grade conventional armaments and light ballistic armor. You can find them guarding secure locations. They can be Commonwealth basic regulators, private military, low level syndicate thugs and so on. Typically encountered in small groups from 4 to 8.

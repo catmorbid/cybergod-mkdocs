@@ -1,3 +1,9 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Drone
+---
 #### R-LER
 `Tough`
 

@@ -1,3 +1,13 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Frame
+  - Faction-Section12
+  - Cybertech
+  - Nanotech
+---
+
 #### Operator
 `Tough`
 Operators are stealthy assassins with some Cyber Weapon capabilities that can infiltrate high security locations and escape without anyone noticing a thing.

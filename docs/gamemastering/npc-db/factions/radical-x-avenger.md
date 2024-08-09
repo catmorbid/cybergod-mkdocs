@@ -1,3 +1,12 @@
+---
+tags:
+  - NPC
+  - Tough
+  - Frame
+  - Faction-Radical-X
+  - Cybertech
+---
+
 #### Avenger
 `Tough`
 
