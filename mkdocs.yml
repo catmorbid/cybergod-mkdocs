@@ -91,9 +91,9 @@ nav:
     #     - Reaper: gamemastering/npc-db/factions/agd-reaper.md
     #     - Soldat: gamemastering/npc-db/factions/agd-soldat.md
     #   - Cyberweavers:
-        - Adept: gamemastering/npc-db/factions/weaver-adept
-        - Shadow: gamemastering/npc-db/factions/weaver-shadow
-        - Virtual: gamemastering/npc-db/factions/weaver-virtual
+        # - Adept: gamemastering/npc-db/factions/weaver-adept
+        # - Shadow: gamemastering/npc-db/factions/weaver-shadow
+        # - Virtual: gamemastering/npc-db/factions/weaver-virtual
 
 extra_css:
   - stylesheets/extra.css
