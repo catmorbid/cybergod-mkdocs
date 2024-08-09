@@ -4,9 +4,25 @@ During stories characters will likely encounter other characters, many of whom w
 ### NPC stats
 You can always create an enemy or NPC using the normal character creation rules, but it is fine to simplify the rules a bit. Minor characters presented in this section use the following set of simplified stats.
 
-| Tier   | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds |
-| :----- | :-- | :-- | :-- | :-- | :--------------- | :---- | :--------- | ------ |
-| Common | D6  | D6  | D6  | D6  | Combat, Physical | 4/2   | 2/0/0      | 2      |
+| BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds |
+| :-- | :-- | :-- | :-- | :--------------- | :---- | :--------- | ------ |
+| D6  | D6  | D6  | D6  | Combat, Physical | 4/2   | 2/0/0      | 2      |
+
+
+!!! info inline end "NPC Stat Block Example"
+	This is an example Stat Block
+	
+| Stat       | Value            |
+| ---------- | ---------------- |
+| BOD        | D6               |
+| REF        | D6               |
+| MND        | D6               |
+| CYB        | D6               |
+| Expertise  | Combat, Physical |
+| Pools      | 4/2              |
+| Mitigation | 2/0/0            |
+| Wounds     | 2                |
+
 
 **Tier** indicates a rough level of opposition. Higher tier characters can take more wounds and should have better equipment. The tiers are **Common**, **Tough** and **Elite**.
 
