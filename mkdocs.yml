@@ -4,12 +4,12 @@ site_author: Mikko Lainio
 
 # Nav with Awesome Pages plugin
 nav:
-  - introduction
-  - systems
-  - character-creation
-  - factions
-  - gamemastering
-  - npc-db
+  - Introduction: introduction
+  - Systems: systems
+  - Character Creation: character-creation
+  - Factions: factions
+  - Game Mastering: gamemastering
+  - NPC DB: npc-db
 
 # OLD nav
 # nav:
