@@ -2,9 +2,9 @@
 title: Psionic Enhancement
 tags:
   - Nanotech
-  - Restricted
   - Section12
   - Unsafe
+  - Exotic
 ---
 Unlock psionic abilities in the human brain. To use Psionics you need to spend Energy to activate an ability. In addition you must make a **Psionics test** using `Current Resolve + Psychology x Mind`.
 
