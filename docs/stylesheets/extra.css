@@ -1,0 +1,7 @@
+.md.typeset {
+    table {
+        th {
+            min-width: 0;
+        }
+    }
+}

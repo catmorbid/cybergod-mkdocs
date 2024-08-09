@@ -41,6 +41,9 @@ nav:
     - Merits: gamemastering/merits.md
     - Enemies and NPC's: gamemastering/npc.md
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
     name: 'material'
     palette:
