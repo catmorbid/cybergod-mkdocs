@@ -8,20 +8,16 @@ You can always create an enemy or NPC using the normal character creation rules,
 | :-- | :-- | :-- | :-- | :--------------- | :---- | :--------- | ------ |
 | D6  | D6  | D6  | D6  | Combat, Physical | 4/2   | 2/0/0      | 2      |
 
+**Alternate Stat Block**
 
-!!! info inline end "NPC Stat Block Example"
-	This is an example Stat Block
-	
-| Stat       | Value            |
-| ---------- | ---------------- |
-| BOD        | D6               |
-| REF        | D6               |
-| MND        | D6               |
-| CYB        | D6               |
-| Expertise  | Combat, Physical |
-| Pools      | 4/2              |
-| Mitigation | 2/0/0            |
-| Wounds     | 2                |
+!!! info inline start "Alternate Stat Block"
+	```
+	BOD: D6, REF: D6, MND: D6, CYB: D6
+	Expertise: Combat, Physical
+	Pools: 4/2
+	Mitigation: 2/0/0
+	Wounds: 2
+	```
 
 
 **Tier** indicates a rough level of opposition. Higher tier characters can take more wounds and should have better equipment. The tiers are **Common**, **Tough** and **Elite**.
@@ -44,6 +40,7 @@ Use the following table to determine Wounds based on Body attribute and the NPC'
 | D8   | 3      | 6     | 9     |
 | D10  | 4      | 8     | 12    |
 | D12  | 5      | 10    | 15    |
+
 **Energy** simply shows how many Energy Points they have for using active Augments. The rules are the same as for Player characters, so the Level of augment indicates the cost in energy.
 
 **Augments** are displayed as separate block if the character has any.
@@ -112,6 +109,7 @@ Weak flying drones armed with recoilless laser weapons.
 | Weapon     | Hit | DC  | Range    | Tags                |
 | :--------- | :-- | :-- | :------- | :------------------ |
 | Laser Beam | 5D8 | 2   | Moderate | Accurate, Full Auto |
+
 #### R-LER
 `Tough`
 
