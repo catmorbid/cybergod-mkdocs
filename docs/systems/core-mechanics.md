@@ -65,13 +65,6 @@ Roll the dice and count **successes**:
 
 You need to beat the **Difficulty** of the test to actually succeed. If you succeed, you gain **One (1) Effect Point (EP)** plus another for each additional success rolled. Spend Effect Points to determine the actual outcome. Most Tests have a so called *Basic* effect which simply allows you to do what you set out to do in the first place for just 1 Effect Point, but GM may present additional Effects, or simply decide what happens based on how many EP you gained.
 
-!!! example
-	Janey must beat a Hard test of `Investigation x Mind`. She rolls 3D12 gaining 10, 6 and 9. That's total 4 successes, which earns her 2 Effect Points.
-
-### Opposed Test
-
-When two characters roll dice against each other, they are making an Opposed Test. The outcome of one test will be highly dependent on the outcome of the other test. Whoever has more successes is the victor, with a margin equal to the difference between the results. So if you beat your opponent by one success, you succeed with a one success.
-
 ### Difficulty
 
 | Difficulty | Success Threshold | % 3D6 | %3D8 | %3D10 | %3D12 |
@@ -82,6 +75,14 @@ When two characters roll dice against each other, they are making an Opposed Tes
 | Very  Hard | 4                 | -     | -    | 11%   | 24%   |
 
 **Difficulty** determines the **Success Threshold** for a test, which is the number of success required to actually succeed. When making Opposed tests, where there is an opponent who tests their own skills, Difficulty indicates the margin by which you need to succeed, in order to actually succeed.
+
+!!! example
+	Janey must beat a Hard test of `Investigation x Mind`. She rolls 3D12 gaining 10, 6 and 9. That's total 4 successes, which earns her 2 Effect Points.
+
+### Opposed Test
+
+When two characters roll dice against each other, they are making an Opposed Test. The outcome of one test will be highly dependent on the outcome of the other test. Whoever has more successes is the victor, with a margin equal to the difference between the results. So if you beat your opponent by one success, you succeed with a one success.
+
 
 !!! example
 	a Moderately difficult test means that on an opposed test you need 2 successes more than your opponent to actually succeed.
