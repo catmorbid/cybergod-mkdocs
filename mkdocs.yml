@@ -3,14 +3,7 @@ site_description: Tabletop RPG project page
 site_author: Mikko Lainio
 
 # Nav with Awesome Pages plugin
-nav:
-  - index.md
-  - Introduction: introduction
-  - Systems: systems
-  - Character Creation: character-creation
-  - Factions: factions
-  - Game Mastering: gamemastering
-  - NPC DB: npc-db
+
 
 # OLD nav
 # nav:
