@@ -15,7 +15,7 @@ Nuutti Vertanen, Joni Salmela, Niko Ekilä
 
 ## Contents
 
-[[docs/introduction/index|Introduction]]
+[[introduction/index|Introduction]]
 
 Systems
 
@@ -27,13 +27,13 @@ Systems
 
 - [[persona|Persona]]
 - [[frame|Frame]]
-- [[docs/character-creation/augments/index|Augments]]
+- [[character-creation/augments/index|Augments]]
 - [[gear|Gear]]
 
 [[docs/factions/index|Factions]]
 
-- [[docs/factions/core/index|Core Factions]]
-- [[docs/factions/ideological/index|Ideological Factions]]
-- [[docs/factions/mercenary/index|Mercenary Factions]]
+- [[factions/core/index|Core Factions]]
+- [[factions/ideological/index|Ideological Factions]]
+- [[factions/mercenary/index|Mercenary Factions]]
 
-[[docs/gamemastering/index|Game Mastering]]
+[[gamemastering/index|Game Mastering]]
