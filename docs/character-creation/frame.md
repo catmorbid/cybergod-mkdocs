@@ -1,7 +1,7 @@
 ---
 title: Frame
 ---
-Frame is the physical body that character uses as host for their consciousness. Consciousness is digital and if you die you can be *reborn* in another frame. You pick one frame from those available to your [[#Faction]], but you can spend **Upgrade Points** to improve it further. Factions provide the resources to you and are also responsible for your Upgrades.
+Frame is the physical body that character uses as host for their consciousness. Consciousness is digital and if you die you can be *reborn* in another frame. You pick one frame from those available to your [[factions/index|Faction]], but you can spend **Upgrade Points** to improve it further. Factions provide the resources to you and are also responsible for your Upgrades.
 
 ## Attributes
 
@@ -16,9 +16,9 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 **Max Power** determines how much damage you can deal in close combat, indicating how many **Attack Power** effects you can take without harming yourself.
 
-**Max Bulk** determines how much gear and armor you can carry without penalties. More info on [[gear]]
+**Max Bulk** determines how much gear and armor you can carry without penalties. The [[gear|Gear section]] details the available gear you can have.
 
-**Wounds Slots** determine how much damage your Frame can take before going down. Higher level Body helps sustain more damage and still remain functional. See [[combat#Damage and Mitigation]] on how wound slots work.
+**Wounds Slots** determine how much damage your Frame can take before going down. Higher level Body helps sustain more damage and still remain functional. See [[combat#Damage and Mitigation|Combat section]] on how wound slots work.
 
 | Body | Description | Max Power | Max Bulk | Wounds Slots                         |
 |------|-------------|-----------|----------|--------------------------------------|
@@ -31,7 +31,7 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 Reflex determines hand-eye coordination and reaction time. Reflex is used to react to sudden situations, evade attacks and make ranged attacks.
 
-Reflex affects **Initiative** which determines how fast you can act when making a Conflicting test in combat. Read more on this in [[combat]]. At D10 or higher Reflex you also become **Ambidextrous** and can handle actions with either hand effectively. Without ambidexterity, you take a -1D penalty to using your off-hand, when relevant.
+Reflex affects **Initiative** which determines how fast you can act when making a Conflicting test in combat. Read more on this in [[combat#Initiative|Combat section]]. At D10 or higher Reflex you also become **Ambidextrous** and can handle actions with either hand effectively. Without ambidexterity, you take a -1D penalty to using your off-hand, when relevant.
 
 | Reflex | Description | Initiative | Ambidextrous |
 | ------ | ----------- | ---------- | ------------ |
@@ -42,7 +42,7 @@ Reflex affects **Initiative** which determines how fast you can act when making 
 
 ### Mind
 
-Mind determines intellect, cunning, awareness and focus. Mind is is probably one of the most utilized attributes, but it does not have any passive effects.
+Mind determines intellect, cunning, awareness and focus. Mind is utilized to resist mental damage and is often used in many skill tests, but does not have any passive effects.
 
 | Mind | Description |
 |------|-------------|
@@ -55,7 +55,7 @@ Mind determines intellect, cunning, awareness and focus. Mind is is probably one
 
 Cyber determines the character's ability to interface with computers, hack devices, engage in electronic and cyber warfare and defend against cyber intrusions.
 
-Cyber determines how many **Apps** you can have installed. Apps are your weapons when using Combat Hacks. Read more about this on [[cyber-warfare]].
+Cyber determines how many **Apps** you can have installed. Apps are your weapons when using Combat Hacks. Read more about this on [[cyber-warfare|Cyber Warfare section]].
 
 | Cyber | Description     | Apps |
 | ----- | --------------- | ---- |

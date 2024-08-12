@@ -1,7 +1,7 @@
 title: Introduction
 nav:
     - index.md
-    - Themes:
+    - Themes: themes.md        
         - Utopia and Dystopia: utopia-and-dystopia.md
         - Moral Dilemmas: moral-dilemmas.md
         - Humanity and Artificial Life: humanity-and-artificial-life.md

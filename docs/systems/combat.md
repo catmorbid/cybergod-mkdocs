@@ -213,7 +213,7 @@ On every Rebirth the character takes a point of Corruption and then must immedia
 
 ## Mental Damage and Stress
 
-Witnessing violence, fear and otherworldly horrors puts a strain on the mind. Only the most hardened veterans become completely immune, and many claim that's the only way to know know if you're still human, machine or not.
+Witnessing violence, fear and otherworldly horrors puts a strain on the mind. Only the most hardened veterans become almost immune, and many claim that's the only way to know know if you're still human, machine or not.
 
 ### Mental Damage
 
@@ -221,11 +221,20 @@ Mental damage is handled different than physical damage, and instead of knives a
 
 Mental Damage is generally measured on a scale of 1 to 5, but it does not have an upper limit.
 
-Whenever you take mental damage, you must make a **Mind Save**, rolling one die for each point of Mental Damage taken. Any dice that fail, inflict a point of **Stress**, which can cause a cascading mental breakdown. If you succeed, you keep control of your nerves
+Whenever you take mental damage, you must make a **Mind Save**, rolling one die for each point of Mental Damage taken. Any dice that fail, inflict a point of **Stress**, which can cause a cascading mental breakdown. If you succeed, you keep control of your nerves.
+
+
+| Mental Damage | Description |
+| ------------- | ----------- |
+| 1             | Minor       |
+| 2             | Moderate    |
+| 3             | Major       |
+| 4             | Severe      |
+| 5             | Extreme     |
 
 ### Stress
 
-Whenever you take point of Stress, roll a **Stress Die** for each point of Stress accumulated so far. The size of the Stress Die depends on how many [[#Engrams]] you have total: less engrams make you less susceptible to stress.
+Whenever you take point of Stress, you need to make a **Stress Save** for each point of Stress accumulated so far. Stress Save is rolled using either of the factors in their [[persona#Mental State|Mental State]], and which factor is used depends on the situation and the source of the stress.
 
 If any of the **Stress Dice** show their maximum value (e.g. 6 on a D6 or 12 on a D12), you suffer immediate **Mental Breakdown**: roll on the table below.
 

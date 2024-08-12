@@ -8,8 +8,8 @@ Faction also determines what kind gear and frames you can start with and which a
 !!! info Players are a Team
 	Player characters start out working together. They are an established team with history and some degree of mutual trust. It's often easiest if everyone starts out in the same Faction. You can choose to mix it up, but you need to figure out together why they are a team, especially if there's conflicting agendas involved.
 
-[[docs/factions/core/index]]
+[[factions/core/index|Core Factions]]
 
-[[docs/factions/ideological/index]]
+[[factions/ideological/index|Ideological Factions]]
 
-[[docs/factions/mercenary/index]]
+[[factions/mercenary/index|Mercenary Factions]]

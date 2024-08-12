@@ -25,7 +25,7 @@ Origin does not have any defined mechanical effect, it's mostly there to add mor
 12. **War Zone Refugee**: You grew up in a small agricultural community that provided food for the Commonwealth. You enjoyed the simple life. Then one day some soldiers came by, told you war was coming. Then the tanks rolled in, and next you knew it bombs fell. You were forced to escape together with your family and few others, but wherever you went it seemed the War Zone followed. You had to kill to survive, steal to eat and each day, while a step closer to the promised refuge, your group grew more and more desperate. United at first, the hardships took their toll and eventually they argued, and after blood was drawn, they parted and then you were only a few. You met other groups, some seemed friendly at first, but they weren't friends, they just wanted what was yours. A large convoy of refugees offered some protection, but wherever there's large number of people, there's corruption, violence and crime. Somehow you made it, but it felt like a lifetime ago since you left, and the person who finally arrived at the GZ wasn't the person who left their home all those months ago.
 
 ## Faction
-Factions are listed on [[docs/factions/index|Factions section]]. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with player group and Game Master.
+Factions are listed on [[factions/index|Factions section]]. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with player group and Game Master.
 
 ## Engrams
 
@@ -35,13 +35,13 @@ Write down 1-5 engrams, filling one of the five available slots. The number of e
 
 Each Engram adds a point of **Resolve** and some **Skill Points**, but will cost you **Upgrade Points**. The total number of Engrams also determines your **Stress Die**; less engrams you have, the less sensitive you become. What is there to fear when you have nothing to lose?
 
-| Experience  | Engrams | Stress Save | Resolve | Aptitudes | Skills | Upgrades |
-| ----------- | ------- | ----------- | ------- | --------- | ------ | -------- |
-| Relic       | 1       | Immune      | 1       | 4         | 12     | 8        |
-| Veteran     | 2       | D12         | 2       | 5         | 10     | 6        |
-| Experienced | 3       | D10         | 3       | 6         | 8      | 4        |
-| Junior      | 4       | D8          | 4       | 7         | 6      | 2        |
-| Fresh       | 5       | D6          | 5       | 8         | 4      | 0        |
+| Experience  | Engrams | Mental State | Resolve | Aptitudes | Skills | Upgrades |
+| ----------- | ------- | ------------ | ------- | --------- | ------ | -------- |
+| Relic       | 1       | +4           | 1       | 4         | 12     | 8        |
+| Veteran     | 2       | +3           | 2       | 5         | 10     | 6        |
+| Experienced | 3       | +2           | 3       | 6         | 8      | 4        |
+| Junior      | 4       | +1           | 4       | 7         | 6      | 2        |
+| Fresh       | 5       | Normal       | 5       | 8         | 4      | 0        |
 
 
 **Engram Slots**
@@ -63,7 +63,7 @@ Corruption can be gained in a few ways, for example:
 - Over-use of powerful combat drugs or other mind-altering substances
 - Powerful and malevolent cyber weapons
 
-Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Save** where you roll a D6 for each point of Corruption you have. If you fail, then one of your **Engrams** is corrupted. You must remove one **Engram** and you also lose the associated Resolve point and a single **Aptitude** point. You can then erase all accumulated Corruption points. This will however also increase the die for your Stress Save by one step.
+Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Save** where you roll a D6 for each point of Corruption you have. If you fail, then one of your **Engrams** is corrupted. You must remove one **Engram** and you also lose the associated Resolve point and a single **Aptitude** point. You can then erase all accumulated Corruption points. This will also increase one of your **Mental State** factors by one step.
 
 
 !!! warning The End
@@ -160,5 +160,36 @@ A **burned** resolve is much more difficult to Refresh. This is generally up to 
 
 ### Improving the character
 
-You will be awarded [[docs/gamemastering/index#Progression|Progression]] and [[docs/gamemastering/index#Merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[docs/gamemastering/index|index|Game Mastering]] section.
+You will be awarded [[gamemastering/index#Progression|Progression]] and [[gamemastering/index#Merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[gamemastering/index|Game Mastering]] section.
+## Mental State
 
+Mental state represents gradual change in the character's psyche, and is represented by two slightly different characteristics, or mental state factors; Dissociation and Habituation. Characters start with level 1 (D6) in both factors, and gain 1 level for every Quality they have lost due to Corruption. Mental State factors are primarily used to resist Mental Breakdown due to stress.
+
+### Dissociation
+Dissociation describes the character's connection to reality, emotions and their self. As the character undergoes stressful and traumatic experiences, such as *Rebirth*, they may dissociate themselves from reality. Dissociation helps them control fears, excitement and strong impulses, but may make social interaction more difficult, but also helps them resist any social manipulation attempts.
+
+**Gameplay Use**
+
+Make a Dissociation Save when subjected to **extrinsic** Stress, such as entering a firefight, or when put under social pressure. Roll one die per total accumulated Stress. If any saves fail, you must roll on the **Mental Breakdown** table.
+
+| Level | Rating                 | Description                                                                                                       |
+| ----- | ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| D6    | Integrated             | Fully aware and connected to reality, emotions and self                                                           |
+| D8    | Mild dissociation      | Occasional feelings of detachment from emotions and surroundings                                                  |
+| D10   | Moderatre dissociation | Frequent disconnection from emotions, feeling detached from oneself or the environment                            |
+| D12   | Detached               | Complete emotional numbness, profound detachment from reality, leading to lack of empathy and concern for others. |
+
+### Habituation
+
+Habituation describes the character's reactions to new strong stimuli, such as violence, suffering, or extremely stressful situations. They become desensitized to immoral acts and may find it easier to perform such actions themselves.
+
+**Gameplay Use**
+
+Make a Habituation Save when subjected to **intrinsic** Stress, such as performing extreme acts of violence, torture or abuse.
+
+| Level | Rating               | Description                                                                                   |
+| ----- | -------------------- | --------------------------------------------------------------------------------------------- |
+| D6    | Sensitive            | You react strongly to new stimuli including violence and distress.                            |
+| D8    | Mild Habituation     | Gradual reduction in sensitivity to repeated stimuli, less reactive to familiar stressors     |
+| D10   | Moderate Habituation | Significantly reduced emotional response to stimuli that once caused distress.                |
+| D12   | Complete Habituation | Indifferent to repeated exposure to violence or suffering, almost immune to emotional impact. |

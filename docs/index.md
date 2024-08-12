@@ -13,6 +13,9 @@ Copyright 2024 Mikko Lainio
 
 Nuutti Vertanen, Joni Salmela, Niko Ekilä
 
+## Resources
+
+- Fillable PDF Character Sheet [Link](https://mega.nz/file/8CInjCRY#nyrAXucZMZXXI7b4rdbJRgturSUOmvuCL2etndbj9zQ)
 ## Contents
 
 [[introduction/index|Introduction]]

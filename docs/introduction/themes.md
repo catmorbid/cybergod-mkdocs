@@ -2,12 +2,13 @@
 title: Themes
 ---
 
-[[utopia-and-dystopia]]
 
-[[moral-dilemmas]]
+[[utopia-and-dystopia|Utopia and Dystopia]]
 
-[[humanity-and-artificial-life]]
+[[moral-dilemmas|Moral Dilemmas]]
 
-[[psionics-and-horror]]
+[[humanity-and-artificial-life|Humanity and Artificial Life]]
 
-[[inspirations]]
+[[psionics-and-horror|Psionics and Otherworldly Horror]]
+
+[[inspirations|Inspirations]]
