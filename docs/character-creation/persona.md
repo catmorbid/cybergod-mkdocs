@@ -45,6 +45,7 @@ Each Engram adds a point of **Resolve** and some **Skill Points**, but will cost
 
 
 **Engram Slots**
+
 - **Aspiration**: A personal goal, something to strive towards. What drove you to this?
 - **Anchor**: Something that grounds you to reality. Family, friends, loved ones, or things covered with emotion and remembrance.
 - **Belief**: A strong belief, such as a philosophy or a spiritual world view. This is your moral compass, how you believe you should act in the world.
@@ -56,6 +57,7 @@ Each Engram adds a point of **Resolve** and some **Skill Points**, but will cost
 Corruption represents permanent damage to the character's consciousness. Bad code, glitches in the OS, accumulation of errors due to constant reconstruction of the Mind after many deaths, or simply experiencing horrifying events that scar the psyche. While the system is designed to work with Cybernetic Brains and digital personalities, corruption does not require a cybernetic brain, and can be implemented even if the character has a fully natural frame. It can be used to represent various ailments of the mind, such as PTSD or alzheimer's disease. One way of gaining corruption is through severe Stress or gradual decay.
 
 Corruption can be gained in a few ways, for example:
+
 - Dying and being Reborn
 - Being exposed to extreme stress or horrors
 - Over-use of powerful combat drugs or other mind-altering substances
@@ -70,6 +72,7 @@ Whenever you take a point of **Corruption**,  you must proceed to make a **Corru
 ### Removing Corruption
 
 Corruption can only be removed by undergoing extensive therapy. This will cost time, likely some Resources, and finally, as a token of the character's dedication to this process, some experience points. If all conditions are met, one point of corruption can be removed.
+
   - Pay experience cost for removing corruption (10 EXP)
   - Requires at least 4 therapy sessions.
 
@@ -93,6 +96,7 @@ Aptitudes are rated with a level from 0 to 3 and Skills are measured with a leve
 ### Combat
 
 Combat is you aptitude for violence and tactical thinking and also measures your general experience in combat.
+
 - **Close Combat**: Fighting in close quarters, hand-to-hand, wrestling, martial arts.
 - **Ranged Combat**: Utilization of firearms and various ranged weapon platforms.
 - **Tactics**: Combat awareness, tactical perception and the ability to react in combat.
@@ -100,6 +104,7 @@ Combat is you aptitude for violence and tactical thinking and also measures your
 ### Education
 
 Education in Commonwealth is free and offered to anyone. Education measures your general level of Education and academic knowledge and mindset. The skills listed under Education merely scratch the surface, and they are the ones considered "useful" in the context of this game, but you are free to invent an obscure academic specialization.
+
 - **Med Tech**: Knowledge on Medicine and Medical Technology, including cybernetics. You can patch wounds and repair cybernetic frames and even work on to improve them.
 - **Investigation**: Apply analytical techniques and technology to investigate scenes of crime or look for information and piece together clues.
 - **Psychology**: Psychology is the knowledge of the human psyche. It can be used to heal mental wounds and resist mental trauma.
@@ -107,6 +112,7 @@ Education in Commonwealth is free and offered to anyone. Education measures your
 ### Physical
 
 Aptitude for physical activity and the need for speed, an adrenaline rush.
+
 - **Force**: Skill at exerting maximum physical force to resist impacts or break down doors.
 - **Mobility**: Move, evade, dodge, jump and tumble. Interest in sports or other athletic activities. Mobility can also be used as the skill to manually operate humanoid-like or animal-like robots via neural connection.
 - **Piloting**: Manual operation of vehicles and drones
@@ -114,6 +120,7 @@ Aptitude for physical activity and the need for speed, an adrenaline rush.
 ### Social
 
 Understanding of the complex psychosocial relationship that is social interaction. How to connect and utilize that connection to your benefit.
+
 - **Manipulation**: Manipulate and deceive with lies, false promises and twisted words.
 - **Networking**: Form connections with people and utilize those connections to find information, allies and help when needed.
 - **Persuasion**: Smooth talking and negotiation. Sway their minds with convincing arguments.
@@ -121,6 +128,7 @@ Understanding of the complex psychosocial relationship that is social interactio
 ### Survival
 
 Survival is your aptitude for functioning outside the confines of Commonwealth, knowing the inner workings of the criminal underground. It takes a certain degree of paranoia and creativity to survive.
+
 - **Alertness**: Alertness is attention to your surroundings. Observe your surroundings, looking for escape routes, detect surveillance and tails.
 - **Stealth**: Remain undetected and perform various shadowy tasks.
 - **Streetwise**: Knowledge of the criminal underground and etiquette among them. Street awareness and knowing how to avoid trouble.
@@ -128,6 +136,7 @@ Survival is your aptitude for functioning outside the confines of Commonwealth, 
 ### Technical
 
 Technical Aptitude defines your understanding of software and hardware and how they create the everyday technology all around you. Majority of the hardware used in modern technology is so complicated and intricate that they can only be manufactured and maintained by specialized assembly systems. The human part of the technology lies in understanding the core principles of the hardware and the software that manages it. You design and the machines create.
+
 - **Design**: Design technology, software, virtual worlds.
 - **Hacking**: Find creative ways to abuse systems to bypass security measures or make them do something they were not intended for. Just don't expect a long-term solution for a problem.
 - **Troubleshooting**: Problem solving and troubleshooting, the ability to fix bugs and glitches between software and hardware. Fix it if it's broken.
@@ -150,5 +159,6 @@ If the above base uses are not enough, Game Masters are encouraged to invent add
 A **burned** resolve is much more difficult to Refresh. This is generally up to the GM how often they allow refreshing burned resolve. E.g. long downtime or going on a vacation or achieving a significant story goal may refresh burned resolve, to give a few examples. If the character has burned all their resolve, the may be forced on a leave of absence until they recover some.
 
 ### Improving the character
+
 You will be awarded [[docs/gamemastering/index#Progression|Progression]] and [[docs/gamemastering/index#Merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[docs/gamemastering/index|index|Game Mastering]] section.
 
