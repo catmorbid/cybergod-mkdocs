@@ -7,8 +7,8 @@ Frame is the physical body that character uses as host for their consciousness. 
 
 Frame determines the character's attributes. Attributes are measured with a **Level** from 1 to 4 and each Level indicates a Die Size from D6 to D12. The average human has Level 1 attributes, i.e. a D6 in everything. If a frame is lacking any attribute, it cannot perform any related tasks.
 
-!!! info
-	You can spend **Upgrade Points** to improve Attributes. Attributes cost **2 Upgrade Points**.
+!!! info Upgrading Frame
+	You can spend **Upgrade Points** to improve Attributes. Attributes cost **2 Upgrade Points**. Upgrade Points can also be used to improve [[character-creation/augments/index|Augments]].
 
 ### Body
 
