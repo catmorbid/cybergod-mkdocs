@@ -63,6 +63,7 @@ markdown_extensions:
 
   - toc:
       permalink: true
+  - mdx-truly-sane-lists
 
 plugins:
   - tags
