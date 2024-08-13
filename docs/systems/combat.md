@@ -22,6 +22,7 @@ Tactics Phase is resolved at the start of the combat, usually before any shots a
 Once the test is resolved, the leader can then decide how to distribute the gained effects. The rest of the team is free to voice their opinions, but the leader should be the one to make the decision.
 
 **Effects**
+
 - **Ambush(2)**: Organize an ambush. Enemies do not get an action during the first round.
 - **Bonus Action (2)**: One player character receives a Bonus Action for the first round
 - **Bonus Reaction (2)**: One player character receives a Bonus Reaction for the first round
@@ -64,6 +65,7 @@ When you split an action, you take a **Disadvantage** equal to **total number of
 Test `Close Combat x Body or Reflex` for both attack and defense. Whoever gets more successes wins and inflicts damage. When fighting unarmed **Damage Class** is 1, otherwise you use the DC from melee weapon.
 
 **Effects**
+
 - **Hit(1)**: Target takes damage at DC 1 or weapon DC. You can assign hits to different targets or accumulate them to one target. **Default Limit: 2 Hits**
 - **Initiative(1)**: Be faster than the other guy. If you have more initiative, your action is resolved first.
 - **Attack Power (1)**: Damage Class +1 for all hits. **Effect Limit** depends on Body: D6=1, D8=2, D10=3, D12=4)
@@ -76,6 +78,7 @@ Test `Close Combat x Body or Reflex` for both attack and defense. Whoever gets m
 Different weapons are handle differently, so to make ranged attacks test `Ranged Combat` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[core-mechanics#Distance|Distance]] between you and the target.
 
 **Effects**
+
 - **Hit(1)**: Target is hit and takes damage at DC equal to Weapon DC. You can assign hits to different targets, or accumulate multiple hits on the same target. **Default Limit: 2 hits**.
 - **Weak Spot Hit(2)**: Hit target at a weak spot. Inflict damage at  **Weapon DC+1**.
 - **Critical Hit(4)**: Hit target at a critical location. Inflict damage at  **Weapon DC+2**.
@@ -97,6 +100,9 @@ Wielding and using two weapons simultaneously is a matter of [[#Splitting action
 ## Mobility and Evasion
 
 Armor and cover are good ways to mitigate damage, but a better way is to not get hit in the first place. This can be achieved by being mobile throughout combat, and that means keeping on the move. You can take a Move action and test `Mobility x Reflexes` to close in some [[core-mechanics#Distance|Distance]] and you can always choose Evasive effects to make yourself a hard target.
+
+**Effects**
+
 - **Sprint(1)**: Close in a moderate distance or reduce Long distance by one step.
 - **Fast Sprint(2)** Close in a long distance or reduce Extreme distance by one step.
 - **Evasive(1, 3, 6)**: Enemies take -1D penalty to attack you during this round. Can repeat up to -3D, but each new level of Evasive is more difficult to achieve.
@@ -108,6 +114,7 @@ Armor and cover are good ways to mitigate damage, but a better way is to not get
 Weapon determines the **Damage Class (DC)** of an attack. Damage Class indicates the level of wound inflicted on a successful **hit**. You can take multiple hits from an attack, but each Hit has the same DC, unless modified by certain **Effects**.
 
 Wound effects do not stack, and you always suffer from the highest possible Effect.
+
 - **Dice Penalty (-1D or -2D)**: Reduce from number of dice you can roll in any tests. You will automatically fail a test if you don't have any dice.
 - **Dying**: You're incapacitated and will bleed out and die unless resuscitated. Roll **Body** for each Lethal Wound received at the start of every round of combat. If you roll the Maximum value, then you die.
 - **Dead**: You die instantly. Your latest backup is activated and you can be redeployed when possible.
@@ -144,11 +151,7 @@ You can use the following Damage Table to quickly find out the degree of Wound i
 
 Character's wound slots depend on their Body attribute. Fill in a slot when receiving a wound. If you cannot fill a slot, then you must fill next available higher tier slot.
 
-Body
-- D6: 2 Bruise, 2 Minor, 1 Major, 1 Lethal (6 slots)
-- D8: 3 Bruise, 3 Minor, 2 Major, 1 Lethal (9 slots)
-- D10: 4 Bruise, 4 Minor, 2 Major, 2 Lethal (12 slots)
-- D12: 5 Bruise, 5 Minor, 3 Major, 2 Lethal (15 slots)
+The number of Wound Slots are determined by your [[frame#Body|Body]] attribute level.
 
 #### Ineffective
 
@@ -238,8 +241,8 @@ Whenever you take point of Stress, you need to make a **Stress Save** for each p
 
 If any of the **Stress Dice** show their maximum value (e.g. 6 on a D6 or 12 on a D12), you suffer immediate **Mental Breakdown**: roll on the table below.
 
->[!info]
->Only major characters and player characters should roll stress dice and track stress. Minor characters should simply roll on the mental breakdown table if they take any points of stress, or GM should decide the outcome.
+!!! info Tracking Stress
+	Only major characters and player characters should roll stress dice and track stress. Minor characters should simply roll on the mental breakdown table if they take any points of stress, or GM should decide the outcome.
 
 | D12 | Outcome        | Details                                                                                                                                                                                                                                                                                           |
 | :-- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

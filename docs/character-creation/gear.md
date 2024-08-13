@@ -39,6 +39,7 @@ Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one ra
 #### Recoil
 
 How much the weapon kicks when fired. You need to match recoil with high enough **Body** attribute to mitigate recoil, otherwise you take a -1D penalty to attack for every step of Recoil missing. Having 2+ steps higher recoil also means you take Bruise or greater wound each time you use the weapon.
+
 - Low: Body D6 to mitigate recoil
 - Moderate: Body D8 to mitigate recoil
 - High: Body D10 to mitigate recoil
@@ -85,10 +86,6 @@ Tags are used for additional rules regarding weapons.
 | Soft Piercing      | Ignores Soft mitigation, but Hard and Ultra mitigation are unaffected                                                                                                                                 |
 | Stun               | Affected target is disoriented and will lose their next action.                                                                                                                                       |
 | Ultra Capacity     | Your Ammo Save is a D12 and its only rolled after combat.                                                                                                                                             |
-
-
-
-
 ### Reloads
 
 Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads are specific to weapons you carry, but you can abstract your personal reloads. When looting ammo from dead enemies, you might not find the correct ammo. Also when an ally is out of ammo, they need to have a matching weapon or your reloads won't be of use to them.
@@ -103,6 +100,7 @@ When required, make an Ammo Save. Roll a D6, and on 6, you're out of ammo and ne
 ### Sidearms
 
 `Range Combat x Reflex`
+
 Sidearms are small **(Bulk 1)** and easily concealed under clothing. They are not suitable for main weapons in serious combat duty, but serve as easily concealable backup weapons. Sidearms can be used effectively one-handed, but a two-handed grip is more common, reducing their effective [[#Recoil]] by one degree.
 
 
@@ -123,6 +121,7 @@ Sidearms are small **(Bulk 1)** and easily concealed under clothing. They are no
 ### Assault Weapons
 
 `Ranged Combat x Reflex`
+
 Assault Weapons are usually Medium sized weapons **(Bulk 2)** that require a *two-handed grip* for effective use. They are designed for moderate to long-ranged encounters. You can wield an assault Weapon in one hand, but this will increase [[#Recoil]] by one step.
 
 
@@ -250,6 +249,7 @@ Melee weapon can be anything from a blunt object to a master-crafted nano-edge k
 Custom Spec weapons allow you to modify standard weapons with attachments or high quality components.
 
 The rules of obtaining Custom Spec weapons are relatively simple: For each modification you increase the Rarity of the weapon by one, and can now apply one of the following modifications:
+
 - Remove a negative Tag (e.g. Inaccurate)
 - Add any custom-spec compliant Tag (e.g. Soft Piercing)
 - Upgrade a basic tag to a more advanced variant (e.g. Soft Piercing -> Hard Piercing)
@@ -294,9 +294,7 @@ Powered armor are wearable exosuits designed for human soldiers to improve the w
 | Cybernetic armor 2 | 4    | 4    | 2     | 2    | -        |                     |
 | Cybernetic armor 3 | 5    | 5    | 3     | 4    | -        |
 
- 
-
-## Equipment
+ ## Equipment
 You can also carry various tools and other useful equipment. Your faction can probably provide you with facilities for anything you need, but sometimes it's handy to have some things with you on the field.
 
 | Equipment                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Bulk | Grade    |
@@ -318,7 +316,6 @@ You can also carry various tools and other useful equipment. Your faction can pr
 | Portable Replicator      | A suitcase model of a Universal Replicator with enough matter blocks to get you started. Can be used to craft almost anything provided you have the designs for it and enough matter blocks.                                                                                                                                                                                                                                                                                  | 4    | Uncommon |
 | Ninja Tools              | A set of professional ninja tools help you access places that are otherwise unaccessible. Tools may include wall scaling equipment, grappling hook launcher, paraglider, rappelling equipment etc. As a rule of thumb, each set of Ninja Tools is usable for only one type of Action, although you do not need to decide which action. Commonly the equipment is also discarded immediately after being used. Receive +1D to +2D advantage on related tests, if applicable.   | 2    | Uncommon |
 
-
 ## Drugs
 
 Many kinds of drugs exists. Some are legal and approved for official use, while others are strictly illegal. The black market however has lots of drugs in circulation.
@@ -335,7 +332,6 @@ Many kinds of drugs exists. Some are legal and approved for official use, while 
 | Purge               | Force body to flush any toxins and foreign chemical and biological agents from within their system, effectively neutralizing their effects. Cancel ANY and ALL drug and poison effects. Causes painful vomiting for 1 round per effect flushed.             | Uncommon | D12    |
 | Sedatives           | Powerful sedatives with rapid rate of effect. Reduce accumulated Stress by one.                                                                                                                                                                             | Common   | D12    |
 | Somatic Enhancers   | Gain a free re-roll in any Body Test                                                                                                                                                                                                                        | Advanced | D10    |
-
 
 ### Black Market Drugs
 
@@ -355,14 +351,17 @@ In addition to [[cyber-warfare#Combat Hacks|Combat Hacks]], you can install vari
 
 ### Aptitude Suite
 `Advanced`, `2 slots`,`Decay D6`
+
 Install for one Aptitude. When activated, Roll D6 for Decay but gain +1D in all tests using the Aptitude for Moderate duration. You need Moderate cooldown between uses, otherwise you take a point of **Corruption**.
 
 ### Skill Suite
 `Advanced`,`Decay D10`
+
 Install for one Skill. When activated, test D10 for decay but gain +1D in all tests using the Skill for Moderate duration. You need Moderate cooldown between uses, otherwise you take a point of **Corruption**.
 
 ### Personal Assistant
 `Advanced`, `2 slots`
+
 An advanced General Intelligence that can help you with anything you need. It can lookup information for you, control a drone or vehicle and many other things. The AI is controlled by the GM and it has a skill of 3D8 in every test, but using it costs 2 Energy for Moderate Duration.
 
 ## Commodities

@@ -11,7 +11,8 @@ A Combat Hack is a single-use deployable software designed to target a particula
 
 Upload a Combat Hack to target device or system. Make a opposing test against the target's **Combat Hack Defense**, or use a flat defense rating. You must have visual on target or some other way of pinpointing their location.
 
-**Effects:**
+**Effects**
+
 - **Basic(1)**: Apply app effects to target device or system.
 - **Pincer Attack (2)**: You can upload another (different) combat hack of your choice.
 - **Man-in-the-middle (2)**: You can intercept any network alerts and defensive analytics transmissions before they're received: The hack can be used again against any other targets, but not against this target.
@@ -21,7 +22,9 @@ Upload a Combat Hack to target device or system. Make a opposing test against th
 `Troubleshooting x Cyber`
 
 If you can detect a combat hack in time, you can attempt to defend against it by slowing down the progress before it is too late.
-**Effects:**
+
+**Effects**
+
 - **Basic(1, repeatable)**: Increase attacker's hack difficulty by 1.
 - **Copy (2)**: You can make a copy of the used cyber weapon usable in your own arsenal. The attacker is unfortunately immune to it, but others may not be.
 - **Trace(1, repeatable)**: Attempt a trace of the attacker's location. If you succeed you can pinpoint their realspace location.
@@ -57,14 +60,19 @@ Anyone with a cybernetic brain has a neural port and is susceptible to attack. T
 
 **Resolve** cyberjacking as an [[core-mechanics#Opposed Test]]. Attacker tests `Hacking x Cyber` while defender tests `Troubleshooting x Cyber`.
 
-**Compare successes:**
+**Compare successes**
+
 - If *defender* wins, they can counter-attack and become the *attacker* next turn
 - If *attacker* wins, they may also attack one of the target's **Cores**, inflicting *1 Core Damage* per Effect
 
 When cyberjacking both attacker and defender are unable to move. The attacker has the upper hand and only if they choose to disengage, the connection can be severed.
 #### Core Damage
+
 Core Damage is added to each Core after the attacker succeeds in a Cyberjacking test.
-Based on how much damage has been inflicted, you have some options:
+Based on how much damage has been inflicted, you have some options.
+
+**Core Damage**
+
 - **Crash(3)**: You can crash the node, ceasing the functions it provides.
 - **Control(5):** You can control the node and thus affect the functions it provides. E.g. controlling the Sensory Core allows you to access sensory data they provide.
 
@@ -74,7 +82,6 @@ It is possible to attempt cyberjacking remotely, provided the subject is connect
 ### The Cybernetic Brain
 
 To get started with cyberjacking, we must first understand the Cybernetic Brain. Cybernetic Brain is comprised of 7 Nodes, each controlling certain aspects of the character. 
-
 
 - **Primary Nexus:** *Primary Access point*, and gateway to external data. Creates Filtered Reality Display for the individual. Primary Nexus is built as a foolproof security layer. Attacking Primary Nexus has added **+2 difficulty**, and it cannot be *crashed*, but controlling Primary Nexus effectively allows tapping into *any* incoming or outgoing data, allowing you to manipulate the data as you see fit.
 - **Sensory Core:** Handles raw sensory data from all five senses. Each sense has a separate function. Crashing Sensory Core will block any sensory data, making them completely blind and deaf and unable to use their senses, effectively disabling most subjects.
@@ -92,7 +99,10 @@ System Breach is often a simple test of `Hacking x Cyber` for as long as the tar
 
 ### Resolution Steps
 
-**Goal:** Determine your objective. Each breach should have a purpose. Examples:
+**Goal:** Determine your objective. Each breach should have a purpose.
+
+**Examples**:
+
 - Look for way to activate a locked vault door
 - Disable defensive turrets
 - Look for critical data
