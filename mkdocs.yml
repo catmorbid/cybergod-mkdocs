@@ -69,7 +69,6 @@ plugins:
   - search
   - roamlinks
   - awesome-pages
-  - mdx-breakless-lists
  # - blog
   # - rss:
   #     match_path: blog/posts/.* 
