@@ -8,8 +8,8 @@ You can use Biomorphs from close proximity to another target, or heal yourself t
 
 Healing Power is a pool of points you can use to heal wounds. A wound requires Healing Power equal to their Damage Class equivalence.
 
->[!example]
->a Major Wound occurs at Damage Class 3, so you need 3 Healing Power to heal a Major Wound.
+!!! example
+	a Major Wound occurs at Damage Class 3, so you need 3 Healing Power to heal a Major Wound.
 
 | Level | Effect              |
 |:----- |:------------------- |

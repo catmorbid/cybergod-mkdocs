@@ -142,8 +142,9 @@ Assault Weapons are usually Medium sized weapons **(Bulk 2)** that require a *tw
 
 ### Heavy Weapons
 
-`Ranged Combat x Body` Machineguns
-`Ranged Combat x Reflex` Launchers and Cannons
+**Machineguns**: `Ranged Combat x Body`
+
+**Launchers and Cannons**: `Ranged Combat x Reflex`
 
 Heavy weapons fit the support role. They are big and clumsy **(Bulk 4)** and most of them are designed to be set up on a fixed position before firing, but can be used while detached. Heavy Weapons have reduced (-1) recoil when using from a fixed position. You need to spend an action to set up a heavy weapon properly.
 
@@ -194,9 +195,9 @@ Precision weapons are ideal for extreme range support and assassinations. They a
 | Extreme      | 8           |
 
 
-Demolitions: `Tactics x Mind`
+**Demolitions**: `Tactics x Mind`
 
-Bomb disposal: `Combat+Troubleshooting x Mind`
+**Bomb disposal**: `Combat+Troubleshooting x Mind`
 
 Explosive ordnance can be deployed as stand-alone explosive or launched using the appropriate platform.
 
@@ -257,6 +258,7 @@ The rules of obtaining Custom Spec weapons are relatively simple: For each modif
 Custom Spec weapons are difficult to replace and you cannot expect your Faction to simply have them lying around, so losing your weapon or dying horribly explosive death means you will also lose your custom spec weapon. In addition your weapon might use unique ammunition and it might be difficult for you to find extra reloads on the field.
 
 GM can veto any custom spec weapons if they do not make any sense, so try to make up a good explanation on how the modifications be made possible.
+
 ## Personal Armor
 
 ### Ballistic Weave
@@ -294,7 +296,9 @@ Powered armor are wearable exosuits designed for human soldiers to improve the w
 | Cybernetic armor 2 | 4    | 4    | 2     | 2    | -        |                     |
 | Cybernetic armor 3 | 5    | 5    | 3     | 4    | -        |
 
- ## Equipment
+ 
+## Equipment
+ 
 You can also carry various tools and other useful equipment. Your faction can probably provide you with facilities for anything you need, but sometimes it's handy to have some things with you on the field.
 
 | Equipment                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Bulk | Grade    |

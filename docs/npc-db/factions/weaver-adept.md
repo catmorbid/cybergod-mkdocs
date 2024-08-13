@@ -18,6 +18,7 @@ Adepts are dangerous foes that specialize in anti-cyborg warfare. They are armed
 | Interface      | Interface with devices at Long distance for for Moderate duration | 2      |
 | Drain          | Drain 1 Energy from all eligible targets within Short radius      | 1      |
 | Minor Feedback | Inflict Minor Wound for 1 Energy                                  | 1      |
+
 Adepts have 6 Slots for Combat Hacks and they specialize in disabling cyborgs
 
 | App              | Effect                                                                                                            |

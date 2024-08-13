@@ -24,4 +24,5 @@ Berserkers are aggressive close combat fighters augmented to inflict maximum dam
 | Power Knuckles         | 7D10* | 3-6 | Close | Forceful                        |
 | Sledge Hammer          | 7D10* | 4-7 | Close | Forceful, Slow                  |
 | Ultra-Blade Battle Axe | 6D10* | 5-8 | Close | Inaccurate, Soft Piercing, Slow |
+
 \* Adrenaline Rush activated

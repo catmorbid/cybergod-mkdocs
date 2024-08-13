@@ -20,8 +20,10 @@ Bulwarks are ARC mobile heavy weapons platforms built to withstand immense amoun
 
 | Weapon                | Hit   | DC  | Range | Tags                                   |
 | :-------------------- | :---- | :-- | :---- | :------------------------------------- |
-| CHAOS Mk.2 Rapid Fire | 7D8*  | 3   | M-L   | Full Auto                              |
+| CHAOS Mk.2 Rapid Fire | 8D8*  | 3   | M-L   | Full Auto                              |
 | Heavy Machinegun      | 7D10* | 5   | L-E   | Full Auto, High Capacity               |
 | Chaingun              | 7D10* | 3   | M-L   | Full Auto, Double Hits, Ultra Capacity |
 | Grenade Launcher      | 7D8*  |     | L-E   | Explosive Ordnance                     |
 | Power Knuckles        | 5D10  | 3-6 | Close | Forceful                               |
+
+\* Modified for Smart Weapons / Full Auto

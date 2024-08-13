@@ -8,7 +8,7 @@ tags:
   - Nanotech
 title: Protector
 ---
-Protectors are heavily armed masked fighters designated to protecting high value VIP's. Their standard gear includes a pitch black Combat Armor without any recognizable insigia, or a similarly styled Hard Shell suit, with an array of powerful energy weapons. While for other Section 12 operatives discretion is key, Protectors disregard this entirely, and apparently that's the crux of it.
+Protectors are heavily armed masked fighters designated to protecting high value VIP's. Their standard gear includes a pitch black Combat Armor without any recognizable insignia, or a similarly styled Hard Shell suit, with an array of powerful energy weapons. While for other Section 12 operatives discretion is key, Protectors disregard this entirely, and apparently that's the crux of it.
 
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds | Energy |
 | :-- | :-- | :-- | :-- | :--------------- | :---- | :--------- | ------ | ------ |

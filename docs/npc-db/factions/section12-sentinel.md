@@ -25,4 +25,5 @@ Sentinels are clandestine operators specializing in Psionic Warfare and infiltra
 | Thermokinesis         | Rapidly change temperature in an area, which can cause fires or snuff them out. You can also boost **Impulse** to **Burn** or **Stun** targets. | 2       |
 | Shield                | Defense against Impulse 5. If you win, inflict Kinetic Force Impulse. Gain 2 Ultra Mitigation for Short Duration.                               | 2       |
 | Inhibitor             | Mitigate 1 point of Mental Damage                                                                                                               | Passive |
+
 Sentinels do not typically carry any concealed weaponry, instead they use their Psionics in combat, but will ultimately attempt to flee the scene instead of dragging out combat for too long, knowing that their psionics will not last for long encounters.

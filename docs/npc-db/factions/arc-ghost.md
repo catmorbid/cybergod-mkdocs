@@ -20,14 +20,15 @@ Cyber weapons support and anti-cyborg combat
 | Interference Detection | Test `Alertness x Cyber` to detect use of Interference.                               |        |
 | Augment Interference   | Disrupt random augment                                                                | 2      |
 | Electronic Disruption  | Block communications at L radius                                                      | 2      |
+
 Ghost has 6 App slots. The following would be most commonly used, but you can take any app. Consider each slot simply a single use of any suitable App.
 
 | App              | Effect                                                                                                  |
 | ---------------- | ------------------------------------------------------------------------------------------------------- |
 | Short Circuit    | Target takes a Bruise and is Stunned.                                                                   |
-| Synapse Burn     | Target takes a Minor wound<br>                                                                          |
-| Hallucinate      | Inject generated sensory data. Makes them see things and hear things. Target takes 2 Mental Damage.<br> |
-| Cripple Movement | Target takes 1D penalty on Move and Fight tests per Success.<br>                                        |
+| Synapse Burn     | Target takes a Minor wound                                                                          |
+| Hallucinate      | Inject generated sensory data. Makes them see things and hear things. Target takes 2 Mental Damage. |
+| Cripple Movement | Target takes 1D penalty on Move and Fight tests per Success.                                      |
 
 | Weapon                | Hit | DC  | Range | Tags             |
 | :-------------------- | :-- | :-- | :---- | :--------------- |

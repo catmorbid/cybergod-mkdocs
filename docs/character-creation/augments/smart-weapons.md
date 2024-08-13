@@ -6,8 +6,8 @@ tags:
 ---
 You can interface with Smart Weapons and ordnance and use guided projectiles and access their combat data. Any Personal Weapons are automatically modified to be compatible, but random weapons picked from dead enemies are probably not compatible. Even if they were, Smart Weapons have high security and need to be hacked before they can be used.
 
->[!warning]
->Smart Weapons are only compatible with conventional firearms and slow projectile launches, such as missile launchers or grenade launchers and cannot be used with Gauss weapons, Laser weapons or Plasma weapons.
+!!! warning Compatibility
+	Smart Weapons are only compatible with conventional firearms and slow projectile launches, such as missile launchers or grenade launchers and cannot be used with Gauss weapons, Laser weapons or Plasma weapons.
 
 | Level | Effect                                                                                                                                                                                                            |
 | :---- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

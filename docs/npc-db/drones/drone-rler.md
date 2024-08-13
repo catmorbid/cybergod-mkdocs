@@ -12,6 +12,7 @@ The R-LER were once the backbone of urban pacification, but have since reached i
 | BOD | REF | MND | CYB | Expertise        | Pools | Mitigation | Wounds |
 |:--- |:--- |:--- |:--- |:---------------- |:----- |:---------- | ------ |
 | D12 | D8  | D6  | D8  | Combat, Physical | 4/2   | 2/4/2      | 10     |
+
 R-LER has two weapon hardpoints, typically for heavy weapons. The following are the most common weapons used, pick any two.
 
 | Weapon           | Hit  | DC     | Range | Tags                                            |

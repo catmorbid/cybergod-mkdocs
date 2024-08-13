@@ -147,6 +147,7 @@ You can use the following Damage Table to quickly find out the degree of Wound i
 | 7   | Overkill     | Overkill     | Lethal Wound | Major Wound  |
 | 8   | Overkill     | Overkill     | Overkill     | Lethal Wound |
 | 9   | Overkill     | Overkill     | Overkill     | Overkill     |
+
 ### Wound Slots
 
 Character's wound slots depend on their Body attribute. Fill in a slot when receiving a wound. If you cannot fill a slot, then you must fill next available higher tier slot.

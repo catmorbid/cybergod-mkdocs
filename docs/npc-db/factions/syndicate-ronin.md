@@ -23,4 +23,5 @@ Close range combatant. Can Dual wield an SMG and a Katana for both ranged and me
 | Micro SMG        | 6D10* | 2   | S-M   | Full Auto     |
 | Nanoblade Katana | 5D10  | 3-5 | Close | Hard Piercing |
 | Hand-to-hand     | 5D8   | 1-3 | Close | Non-Lethal    |
+
 \* Modified for Full Auto

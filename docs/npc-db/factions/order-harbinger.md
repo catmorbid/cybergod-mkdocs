@@ -15,11 +15,11 @@ Harbingers are Cult leaders who gathers civilians to act as their meat shield an
 
 *Biomorph Invasion* requires close range and can be resisted with a `Psychology x Body or Mind` test at Difficulty 3.
 
-| Augment       | Effect                                                                                                                            | Energy |
-| :------------ | :-------------------------------------------------------------------------------------------------------------------------------- | :----- |
-| Regeneration  | Heal Minor / Major wound                                                                                                          | 1/2    |
-| Zombification | Harbinger can render the target into a mindless husk that will follow simple orders. Long Duration. See [[#Zombified Civilian]].  | 1      |
-| Mind Spy      | Gain telepathic link between the Harbinger and a target. You can share thoughts to them and pry on their thoughts. Long Duration. | 2      |
+| Augment       | Effect                                                                                                                            | Energy                 |     |
+| :------------ | :-------------------------------------------------------------------------------------------------------------------------------- | :--------------------- | --- |
+| Regeneration  | Heal Minor / Major wound                                                                                                          | 1/2                    |     |
+| Zombification | Harbinger can render the target into a mindless husk that will follow simple orders. Long Duration. See [[order-zombie]]            | 1   |
+| Mind Spy      | Gain telepathic link between the Harbinger and a target. You can share thoughts to them and pry on their thoughts. Long Duration. | 2                      |     |
 
 | Attack       | Hit | DC  | Range | Tags |
 | :----------- | :-- | :-- | :---- | :--- |
