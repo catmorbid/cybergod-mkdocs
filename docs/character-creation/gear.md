@@ -86,6 +86,7 @@ Tags are used for additional rules regarding weapons.
 | Soft Piercing      | Ignores Soft mitigation, but Hard and Ultra mitigation are unaffected                                                                                                                                 |
 | Stun               | Affected target is disoriented and will lose their next action.                                                                                                                                       |
 | Ultra Capacity     | Your Ammo Save is a D12 and its only rolled after combat.                                                                                                                                             |
+
 ### Reloads
 
 Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads are specific to weapons you carry, but you can abstract your personal reloads. When looting ammo from dead enemies, you might not find the correct ammo. Also when an ally is out of ammo, they need to have a matching weapon or your reloads won't be of use to them.
