@@ -1,5 +1,5 @@
 ---
-title: "### Humanity and Artificial Life"
+title: Humanity and Artificial Life
 ---
 Artificial Intelligence was heavily utilized even before the End War, and *Simulated Minds*, lifelike artificial intelligent software is a well-known and trusted tool enabling the use of of various *automatons* such as drones, androids and other robotic beings. The debate of whether artificial life could be classified as humans was resolved centuries ago by determining ways of classifying AI and limiting their evolution potential. Only the recent advent of the **Quantum Digital Consciousness** rebooted this debate, and now the question remains whether a QDC consciousness is actually human or not.
 
