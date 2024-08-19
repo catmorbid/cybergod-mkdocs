@@ -3,6 +3,16 @@ title: Frame
 ---
 Frame is the physical body that character uses as host for their consciousness. Consciousness is digital and if you die you can be *reborn* in another frame. You pick one frame from those available to your [[factions/index|Faction]], but you can spend **Upgrade Points** to improve it further. Factions provide the resources to you and are also responsible for your Upgrades.
 
+## Frame Template
+
+Each character can choose one Frame Template from those provided by their Faction. This is their baseline and they can then spend **Upgrade Points** to improve their **Attributes** and **Augments**.
+
+!!! info Alternate Frames
+	You can spend one (1) Upgrade Point to obtain an alternate Frame with total Upgrade Point capacity equal to your primary frame. You can choose which frame to deploy with on a mission.
+	
+	 In addition, some factions may provide the character a **Baseline**, an unaugmented bioframe for off-duty use. A Baseline is unremarkable and has D6 in all attributes and no augmentations.
+
+
 ## Attributes
 
 Frame determines the character's attributes. Attributes are measured with a **Level** from 1 to 4 and each Level indicates a Die Size from D6 to D12. The average human has Level 1 attributes, i.e. a D6 in everything. If a frame is lacking any attribute, it cannot perform any related tasks.
@@ -31,7 +41,7 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 Reflex determines hand-eye coordination and reaction time. Reflex is used to react to sudden situations, evade attacks and make ranged attacks.
 
-Reflex affects **Initiative** which determines how fast you can act when making a Conflicting test in combat. Read more on this in [[combat#Initiative|Combat section]]. At D10 or higher Reflex you also become **Ambidextrous** and can handle actions with either hand effectively. Without ambidexterity, you take a -1D penalty to using your off-hand, when relevant.
+Reflex affects [[combat#Initiative|Initiative]] which determines how fast you can act when making a Conflicting test in combat. At D10 or higher Reflex you also become **Ambidextrous** and can handle actions with either hand effectively. Without ambidexterity, you take a -1D penalty to using your off-hand, when relevant.
 
 | Reflex | Description | Initiative | Ambidextrous |
 | ------ | ----------- | ---------- | ------------ |
@@ -53,9 +63,12 @@ Mind determines intellect, cunning, awareness and focus. Mind is utilized to res
 
 ### Cyber
 
-Cyber determines the character's ability to interface with computers, hack devices, engage in electronic and cyber warfare and defend against cyber intrusions.
+Cyber determines the character's ability to interface with computers, hack devices, engage in electronic and cyber warfare and defend against cyber intrusions. It's more a measure of hardware and processing power than anything else, and a Cyber rating can be obtained by using external equipment.
 
-Cyber determines how many **Apps** you can have installed. Apps are your weapons when using Combat Hacks. Read more about this on [[cyber-warfare|Cyber Warfare section]].
+!!! info The Cybernetic Brain
+	A character must have a Cybernetic Brain to obtain a Cyber rating, which enables them to backup their QDC. On the other hand this also makes them vulnerable to [[cyber-warfare#cyberjacking|Cyberjacking]].
+
+Cyber determines how many **Apps** you can have installed. Apps are your weapons when using Combat Hacks, but can also be spent on general purpose [[gear#Utility Apps|Utility Apps]]. Read more about uses on Cyber attribute on [[cyber-warfare|Cyber Warfare section]].
 
 | Cyber | Description     | Apps |
 | ----- | --------------- | ---- |

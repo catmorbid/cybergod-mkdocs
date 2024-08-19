@@ -109,23 +109,20 @@ Armor and cover are good ways to mitigate damage, but a better way is to not get
 
 ## Damage and Mitigation
 
+When a character is hit in combat, they may receive **Wounds**. Wounds are determined by the **Damage Class** of an attack and **Mitigation** used to reduce the damage.
 ### Damage Class
 
-Weapon determines the **Damage Class (DC)** of an attack. Damage Class indicates the level of wound inflicted on a successful **hit**. You can take multiple hits from an attack, but each Hit has the same DC, unless modified by certain **Effects**.
-
-Wound effects do not stack, and you always suffer from the highest possible Effect.
-
-- **Dice Penalty (-1D or -2D)**: Reduce from number of dice you can roll in any tests. You will automatically fail a test if you don't have any dice.
-- **Dying**: You're incapacitated and will bleed out and die unless resuscitated. Roll **Body** for each Lethal Wound received at the start of every round of combat. If you roll the Maximum value, then you die.
-- **Dead**: You die instantly. Your latest backup is activated and you can be redeployed when possible.
+**Damage Class (DC)** of an attack is determined by the Weapon used. For unarmed attacks DC is 1 (Non-Lethal). Damage Class indicates the level of wound inflicted on a successful **hit** when not affected by **Mitigation**. You can take multiple hits from an attack, but each Hit has the same DC, unless modified by certain **Effects**.
 
 ### Mitigation
 
-Damage can be **Mitigated** by spending **Mitigation Points**. Mitigation Points can be gained from armor and cover.
+Damage can be **Mitigated** by spending **Mitigation Points**, which represent some type of protection such as personal armor or cover.
 
-You have to spend one Mitigation Point per Hit. If you can't or don't want to spend a Mitigation Point on a hit, the damage will go through unmodified.
+You have to spend one Mitigation Point per Hit. If you can't or won't spend a Mitigation Point, the damage from that Hit will go through unmodified.
 
-Mitigation Points are a resource that is exhausted until replenished. There are three tiers of Mitigation Points:
+*Mitigation Points* are exhausted until they can be replenished. If provided by armor, the armor takes permanent damage for each point spent and may be replaced or repaired before the points are replenished. Mitigation Points from cover and other non-permanent sources of protection should be used first and tracked separately.
+
+There are three tiers of Mitigation Points:
 
 - **Soft**: Reduce attack DC by 2, will always Bruise.
 - **Hard**: Reduce attack DC by 3.
@@ -148,12 +145,15 @@ You can use the following Damage Table to quickly find out the degree of Wound i
 | 8   | Overkill     | Overkill     | Overkill     | Lethal Wound |
 | 9   | Overkill     | Overkill     | Overkill     | Overkill     |
 
-### Wound Slots
+### Wounds
 
-Character's wound slots depend on their Body attribute. Fill in a slot when receiving a wound. If you cannot fill a slot, then you must fill next available higher tier slot.
+If a Hit inflicts a wounds, you must mark it down on your Frame Sheet. A Character's wound slots are determined by their [[frame#Body|Body]] attribute. If you cannot fill a slot, then you must fill next available **higher** tier slot.
 
-The number of Wound Slots are determined by your [[frame#Body|Body]] attribute level.
+Wounds may inflict **Wound Effects**, which take effect immediately. Wound Effects do not stack, and you always suffer from the highest possible Effect.
 
+- **Dice Penalty (-1D or -2D)**: Reduce from number of dice you can roll in any tests. You will automatically fail a test if you don't have any dice.
+- **Dying**: You're incapacitated and will bleed out and die unless resuscitated. Make a **Body Save** for each Lethal Wound received at the start of every round of combat, or die. To resuscitate a dying character someone must make a **Moderate** `Medtech x Mind` test to stabilize the wound.
+- **Dead**: You die instantly. See [[#Death and Rebirth]] for what happens next.
 #### Ineffective
 
 `Damage Class 0 or less`
@@ -180,7 +180,7 @@ Broken brokens, deep puncture wounds and lacerations. You will feel the pain and
 
 `Damage Class 4, Dying`
 
-Hits to vital organs or major arteries. Damage will cause enough pain for you to fall down and be incapacitated. Unless treated you will die.
+Hits to vital organs or major arteries. Damage will cause enough pain for you to fall down and be incapacitated. Unless treated you will die. A dying character can be saved by performing first aid: Make a **Moderate** `Medtech x Mind` test to stabilize the wound before the character dies.
 
 #### Overkill
 

@@ -25,15 +25,11 @@ Origin does not have any defined mechanical effect, it's mostly there to add mor
 12. **War Zone Refugee**: You grew up in a small agricultural community that provided food for the Commonwealth. You enjoyed the simple life. Then one day some soldiers came by, told you war was coming. Then the tanks rolled in, and next you knew it bombs fell. You were forced to escape together with your family and few others, but wherever you went it seemed the War Zone followed. You had to kill to survive, steal to eat and each day, while a step closer to the promised refuge, your group grew more and more desperate. United at first, the hardships took their toll and eventually they argued, and after blood was drawn, they parted and then you were only a few. You met other groups, some seemed friendly at first, but they weren't friends, they just wanted what was yours. A large convoy of refugees offered some protection, but wherever there's large number of people, there's corruption, violence and crime. Somehow you made it, but it felt like a lifetime ago since you left, and the person who finally arrived at the GZ wasn't the person who left their home all those months ago.
 
 ## Faction
-Factions are listed on [[factions/index|Factions section]]. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with player group and Game Master.
+Factions are listed on [[factions/index|Factions section]] of the core book. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with the group.
 
-## Engrams
+## Experience
 
-Engrams are strong memories deeply embedded in the character's digital psyche. Distant memories of past lives, vivid traumas and deep-rooted habits that make the character who they are, and define their humanity. Death and Rebirth are traumatizing and can result in the corruption of the Digital Psyche, represented by loss of Engrams. 
-
-Write down 1-5 engrams, filling one of the five available slots. The number of engrams determines the character's experience where lower number means more experience. Since each death takes away a little bit, it is presumed that the longer you've been in the game, the more you've died and traumatized. You have a past, and it's not a nice one.
-
-Each Engram adds a point of **Resolve** and some **Skill Points**, but will cost you **Upgrade Points**. The total number of Engrams also determines your **Stress Die**; less engrams you have, the less sensitive you become. What is there to fear when you have nothing to lose?
+You can choose how experienced your character is. More experienced characters have seen a lot and can be mental trainwrecks, but they have more **Upgrade Points** and tend to have higher, but more focused **Skills**, while younger characters have better **Aptitudes** and more **Resolve**, but will not excel at any one thing.
 
 | Experience  | Engrams | Mental State | Resolve | Aptitudes | Skills | Upgrades |
 | ----------- | ------- | ------------ | ------- | --------- | ------ | -------- |
@@ -42,6 +38,14 @@ Each Engram adds a point of **Resolve** and some **Skill Points**, but will cost
 | Experienced | 3       | +2           | 3       | 6         | 8      | 4        |
 | Junior      | 4       | +1           | 4       | 7         | 6      | 2        |
 | Fresh       | 5       | Normal       | 5       | 8         | 4      | 0        |
+
+## Engrams
+
+Engrams are strong memories deeply embedded in the character's digital psyche. Distant memories of past lives, vivid traumas and deep-rooted habits that make the character who they are, and define their humanity. Death and Rebirth are traumatizing and can result in the corruption of the Digital Psyche, represented by loss of Engrams. 
+
+Write down 1-5 engrams, filling one of the five available slots. The number of engrams determines the character's experience where lower number means more experience. Since each death takes away a little bit, it is presumed that the longer you've been in the game, the more you've died and traumatized. You have a past, and it's not a nice one.
+
+Each Engram adds a point of **Resolve** and some **Skill Points**, but will cost you **Upgrade Points**. The total number of Engrams also determines a modifier to your [[#Mental State|Mental State factors]], leading you further away from humanity.
 
 
 **Engram Slots**
@@ -63,7 +67,7 @@ Corruption can be gained in a few ways, for example:
 - Over-use of powerful combat drugs or other mind-altering substances
 - Powerful and malevolent cyber weapons
 
-Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Save** where you roll a D6 for each point of Corruption you have. If you fail, then one of your **Engrams** is corrupted. You must remove one **Engram** and you also lose the associated Resolve point and a single **Aptitude** point. You can then erase all accumulated Corruption points. This will also increase one of your **Mental State** factors by one step.
+Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Save** rolling a D6 for each point of Corruption you have. If you fail, then one of your **Engrams** is permanently corrupted. You must remove one **Engram** and you also lose the associated Resolve point and a single **Aptitude** point. You can then erase all accumulated Corruption points. This will also increase one of your **Mental State** factors by one.
 
 
 !!! warning The End
@@ -73,14 +77,14 @@ Whenever you take a point of **Corruption**,  you must proceed to make a **Corru
 
 Corruption can only be removed by undergoing extensive therapy. This will cost time, likely some Resources, and finally, as a token of the character's dedication to this process, some experience points. If all conditions are met, one point of corruption can be removed.
 
-  - Pay experience cost for removing corruption (10 EXP)
-  - Requires at least 4 therapy sessions.
+  - Spend [[progression|Progression Points]] to remove a point of Corruption.
+  - Requires at least 4 therapy sessions (downtime activity).
 
 ### Decay Saves
 
 Decay measures corruption on a much smaller scale, often as consequence of over-using drugs or powerful augments. Decay is not tracked, but rather whenever you take Decay, you must make a **Decay Save**.
 
-Decay Saves use the die indicated by a **Safety** rating. If you fail the save, you will immediately take a point of corruption
+*Decay Saves* use the die indicated by a **Safety** rating. If you fail the save, you will immediately take a point of corruption
 
 ## Aptitudes and Skills
 
@@ -89,7 +93,7 @@ Aptitude determines talent and basic ability at related skills. Each Aptitude ha
 Aptitudes are rated with a level from 0 to 3 and Skills are measured with a level from 0 to 4. Each Level in a Skill and relevant Aptitude adds one Die when making a **Skill Test**.
 
 
-!!! info
+!!! info Character Creation info
 	Available Aptitude Points and Skill Points depend on your level of experience. You can allocate them freely on a 1:1 basis.
 
 
@@ -145,28 +149,28 @@ Technical Aptitude defines your understanding of software and hardware and how t
 
 [[#Engrams]] determine the character's humanity, or how much is left of it. It also affects their **Resolve**, which is a pool of resources that can be spent to get out of sticky situations and invoke internal reserves of strength at times of desperation. It's a combination of persistence, luck and force of will.
 
-Resolve can be used in the following ways:
+Resolve can be used in the following ways to improve the outcome of [[core-mechanics#Simple Test|Tests]] or [[core-mechanics#Saves|Saves]]:
 
-- **Spend** Resolve to gain a **Re-roll** *after* rolling the dice on *any* test.
-- **Burn** Resolve *before* rolling the dice to gain to automatically succeed at the test. You can still roll for any bonus effects. If a test is impossible, you cannot succeed even with resolve.
+- **Spend** Resolve to gain a [[core-mechanics#Rerolls|Reroll]] *after* rolling the dice on *any* test or save.
+- **Burn** Resolve *before* rolling the dice to automatically succeed at a Test or a Save. A Test succeeds with the bare minimum outcome, usually just a Basic effect. If a Test is impossible, you cannot succeed no matter how much Resolve you're willing to burn.
 
-If the above base uses are not enough, Game Masters are encouraged to invent additional uses for Resolve and player can always *suggest* spending or burning resolve to survive a tricky situation.
+If the listed usage is not enough, Game Masters are encouraged to invent additional uses for Resolve and players can always *suggest* spending or burning resolve to survive a tricky situation.
 
 ### Refreshing Resolve
 
-**Spent** Resolve is **Refreshed** by one point at the start of each game session. Resolve is usually fully refreshed after some [[#Structure of play|Downtime]], once the character has had some time to relax.
+**Spent** Resolve is **Refreshed** by one point at the start of each game session. Resolve is usually fully refreshed after some [[core-mechanics#Structure of play|Downtime]], once the character has had some time to relax.
 
 A **burned** resolve is much more difficult to Refresh. This is generally up to the GM how often they allow refreshing burned resolve. E.g. long downtime or going on a vacation or achieving a significant story goal may refresh burned resolve, to give a few examples. If the character has burned all their resolve, the may be forced on a leave of absence until they recover some.
 
 ### Improving the character
 
-You will be awarded [[gamemastering/index#Progression|Progression]] and [[gamemastering/index#Merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[gamemastering/index|Game Mastering]] section.
+You will be awarded [[progression|Progression]] and [[merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[gamemastering/index|Game Mastering]] section.
 ## Mental State
 
-Mental state represents gradual change in the character's psyche, and is represented by two slightly different characteristics, or mental state factors; Dissociation and Habituation. Characters start with level 1 (D6) in both factors, and gain 1 level for every Quality they have lost due to Corruption. Mental State factors are primarily used to resist Mental Breakdown due to stress.
+Mental state represents gradual shift in the character's psyche and loss of their humanity. It is represented by two **factors**: **Dissociation** and **Habituation**. Characters start with D6 in both factors, and gain 1 level for every Quality they have lost due to Corruption. Mental State factors are primarily used to resist Mental Breakdown due to stress, but can be used like any other attribute, if appropriate.
 
 ### Dissociation
-Dissociation describes the character's connection to reality, emotions and their self. As the character undergoes stressful and traumatic experiences, such as *Rebirth*, they may dissociate themselves from reality. Dissociation helps them control fears, excitement and strong impulses, but may make social interaction more difficult, but also helps them resist any social manipulation attempts.
+Dissociation describes the character's connection to reality, emotions and their self. As the character undergoes stressful and traumatic experiences, such as *Rebirth*, they may dissociate themselves from reality. Dissociation helps with self-control when faced with danger and excitement and social pressure, but may make social interaction more difficult.
 
 **Gameplay Use**
 
@@ -181,7 +185,7 @@ Make a Dissociation Save when subjected to **extrinsic** Stress, such as enterin
 
 ### Habituation
 
-Habituation describes the character's reactions to new strong stimuli, such as violence, suffering, or extremely stressful situations. They become desensitized to immoral acts and may find it easier to perform such actions themselves.
+Habituation describes the character's reactions to new strong stimuli, such as violence, suffering, or extremely stressful situations. They become desensitized to immoral acts and may find it easier to perform such actions themselves and in the extreme end they can become volatile and violent, prone to violent psychotic episodes when put under stress.
 
 **Gameplay Use**
 

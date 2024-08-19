@@ -106,7 +106,15 @@ You gain a number of **Effect Points (EP)** upon beating the difficulty of a tes
 
 Different modifiers may apply to a test, either granting or removing dice. Generally the total number of modifiers should not exceed +/- 3 Dice. Regardless, maximum number of dice to roll is 10, and minimum is zero. If you don't have dice, you fail automatically.
 
+### Rerolls
+
+Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results, but any successes generated from the rerolled dice are counted together with the dice you did not reroll. It makes most sense to only reroll dice that did not generate any successes.
+
+!!! example
+	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard `Persuasion x Mind` test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to Reroll five dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.
+
 ## Saves
+
 A Save is a simplified test where you typically roll one or more dice to *avoid* certain effects. If you roll the *highest* face on the die, the save will fail, otherwise it will succeed. E.g. a 10 on a D10. Saves can be rolled using any *attribute*, but there are also special saves where a fixed die type is used.
 
 When a Save is noted a difficulty rating is usually included, meaning how many dice you need to roll on the save. The more dice, the more difficult it is.

@@ -3,9 +3,9 @@ title: Character Creation
 ---
 Follow these steps to create a character. You can read the details on the appropriate sections of the rulebook.
 
-1. Choose [[persona#Faction|Faction]]
+1. Choose [[factions/index|Faction]]
 2. Roll, pick or invent an [[persona#Origin|Origin]]
-3. Choose **Experience Level** and write down Engrams, Resolve, Stress Die and points for Aptitudes and Skills
+3. Choose [[persona#Experience|Experience Level]] and write down [[persona#Engrams|Engrams]], [[persona#Mental State|Mental State]], [[persona#resolve|Resolve]] and note down the point pools for **Aptitudes**, **Skills** and **Upgrade Points**.
 
 | Experience  | Engrams | Mental State | Resolve | Aptitudes | Skills | Upgrades |
 | ----------- | ------- | ------------ | ------- | --------- | ------ | -------- |
@@ -15,11 +15,10 @@ Follow these steps to create a character. You can read the details on the approp
 | Junior      | 4       | +1           | 4       | 7         | 6      | 2        |
 | Fresh       | 5       | Normal       | 5       | 8         | 4      | 0        |
 
-4. Determine [[persona#Aptitudes and Skills|Aptitudes and Skills]]
-5. Choose **Frame Template** from available Faction frames
-	- Mark down Attributes and augments. Augments start at Level 1.
-6. Spend **Upgrade Points** to improve Attributes or Augments, or take new Augments
-	- If GM permits, you can also swap the default augments to customize your character further.
+4. Spend points on [[persona#Aptitudes and Skills|Aptitudes and Skills]]
+5. Choose a [[frame#Frame Template|Frame Template]] from your Faction
+	- Mark down [[frame#Attributes|Attributes]] and [[character-creation/augments/index|Augments]]. Augments start at Level 1.
+6. Spend **Upgrade Points** to improve Attributes or Augments, or take new Augments.
 7. Write down Frame stats
 	- Max Bulk ([[frame#Body|Body]])
 	- Wound Slots ([[frame#Body|Body]])
@@ -28,9 +27,9 @@ Follow these steps to create a character. You can read the details on the approp
 	- Initiative ([[frame#Reflex|Reflex]])
 	- Energy (modifiers from [[frame#Attributes|Attributes]])
 8. Choose Gear
-	- Faction determines maximum equipment Grade, choose equipment freely up max Grade, but note Bulk.
+	- Faction determines maximum equipment Grade, choose equipment freely up max Grade, but keep your loadout under **Max Bulk**.
 	- Choose Weapons
 	- Choose miscellaneous equipment, armor and Reloads.
-	- Choose Apps, limited by [[frame#Cyber|Cyber]] attribute.
-	- Check Bulk to ensure you're at or below Max Load.
-	- Mark Mitigation Points
+	- Choose Apps, limited by **Max Apps** stat.
+	- Calculate total Bulk to ensure loadout is below or equal to **Max Bulk**.
+	- Mark [[combat#Mitigation|Mitigation Points]] from augments and armor.

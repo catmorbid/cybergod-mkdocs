@@ -68,8 +68,7 @@ Anyone with a cybernetic brain has a neural port and is susceptible to attack. T
 When cyberjacking both attacker and defender are unable to move. The attacker has the upper hand and only if they choose to disengage, the connection can be severed.
 #### Core Damage
 
-Core Damage is added to each Core after the attacker succeeds in a Cyberjacking test.
-Based on how much damage has been inflicted, you have some options.
+Core Damage is added to each Core after the attacker succeeds in a Cyberjacking test. Based on how much damage has been inflicted, you have some options.
 
 **Core Damage**
 
