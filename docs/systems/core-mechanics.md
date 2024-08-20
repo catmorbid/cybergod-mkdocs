@@ -25,29 +25,29 @@ All measurements are treated as abstractions.
 
 Time is measured in abstract intervals, very often to measure the *duration* of something, e.g. how long does an ability take effect.
 
-**Instant** is a fraction of a second, or at most a second. Enough to affect a single Action during a *round*.
-**Short** interval is equivalent to one round of action or combat, equivalent to a few seconds.
-**Moderate** interval lasts an entire *scene*.
-**Long** interval lasts until you play some *downtime*, usually several scenes or an entire game session.
+- **Instant** is a fraction of a second, or at most a second. Enough to affect a single Action during a *round*.
+- **Short** interval is equivalent to one round of action or combat, equivalent to a few seconds.
+- **Moderate** interval lasts an entire *scene*.
+- **Long** interval lasts until you play some *downtime*, usually several scenes or an entire game session.
 
 #### Distance
 
 Distance is a measurement of distance between targets. Can be used in combat to determine how easy or hard it is to hit a target, or to measure distance during a chase.
 
-**Close** distance means you can touch the object or entity referenced to.
-**Short** distance can be traversed easily in one round. No action required.
-**Moderate** distance requires some effort to traverse. An action with **1 Effect** is enough to reach it. 
-**Long** distance means the target is quite a bit of distance away. You can reach Long distance with an action and at least **2 Effects**.
-**Extreme** distance needs more than one action to catch up to.
+- **Close** distance means you can touch the object or entity referenced to.
+- **Short** distance can be traversed easily in one round. No action required.
+- **Moderate** distance requires some effort to traverse. An action with **1 Effect** is enough to reach it. 
+- **Long** distance means the target is quite a bit of distance away. You can reach Long distance with an action and at least **2 Effects**.
+- **Extreme** distance needs more than one action to catch up to.
 
 #### Velocity
 
 Velocity is an abstraction of how fast something is. Acceleration, mass and kinetic energy are all accounted for. The examples below are described relative to a human being on foot. When you compare fighter jets or space crafts, the examples would be very different.
 
-**Low** Velocity means something is moving slowly enough to observe easily with human eye. Human could easily run beside the object.
-**Moderate** Velocity means something is moving at a rate roughly equivalent to a sprinting human. Vehicles tend to go fast but you really need to keep up your pace to catch them on foot.
-**High** Velocity is equivalent to a fast moving vehicle, such as a GravCar speeding away. You can see them, but attempting to reach them on foot would be desperate.
-**Ultra** Velocity is closing to super sonic speeds. You don't have any hope to reach this velocity on foot.
+- **Low** Velocity means something is moving slowly enough to observe easily with human eye. Human could easily run beside the object.
+- **Moderate** Velocity means something is moving at a rate roughly equivalent to a sprinting human. Vehicles tend to go fast but you really need to keep up your pace to catch them on foot.
+- **High** Velocity is equivalent to a fast moving vehicle, such as a GravCar speeding away. You can see them, but attempting to reach them on foot would be desperate.
+- **Ultra** Velocity is closing to super sonic speeds. You don't have any hope to reach this velocity on foot.
 ## Tests
 
 A Test is sometimes called upon when you need to figure out whether a character can do something that is not within basic functions of a human (or a cybernetic) being. Complicated tasks that require years of learning are represented by the characters' **Skills** and **Attributes**, which are the core elements of a Test.

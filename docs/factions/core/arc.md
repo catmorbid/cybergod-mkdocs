@@ -26,7 +26,7 @@ When ordinary Regulators of the *Core Regulator Authority* find themselves in a 
 ARC do not have any unique Augments, but each ARC Regulator is awarded a highly-customizable high-tech sidearm, the *CHAOS Mk. 2 Assault Sidearm*, a select-fire fully automatic handgun with advanced recoil dampening that fires 10mm programmable smart ammo and can transform in realtime to adjust for its user's needs. Each weapon is assembled by hand to their users' specifications, encoded with their quantum marker so they and only they can use the weapon. The technology is closely guarded by Themis itself, and it is not available to anyone else. Many have sought after it, but none have managed to obtain one.
 
 !!! info "Chaos Mk.2"
-    **ARC players** can pick two(2) modifications to their sidearm when starting play and they can spend **Upgrade Points** to further modify their weapon. Note that you can only have one mode activated. Their frames will always come with the latest model of their personalized custom-built firearm.
+    **ARC players** can pick two(2) modifications to their sidearm when starting play and they can spend **Upgrade Points** to further modify their weapon, gaining 1 modification per Upgrade Point. Note that you can only have one mode activated. Their frames will always come with the latest model of their personalized custom-built firearm.
 
     **CHAOS Mk.2 Baseline**:
 
