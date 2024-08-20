@@ -10,5 +10,8 @@ Improving characters
 
 - [[progression|Progression]]
 - [[merits|Merits]]
+- [[team-assets|Team Assets]]
+- [[influence|Influence]]
+- [[upgrade-points|Upgrade Points]]
 
 [[npc|NPC's and Enemies]]
