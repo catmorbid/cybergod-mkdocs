@@ -3,6 +3,9 @@ title: Biomorph Weapons
 tags:
   - Biotech
   - Unsafe
+  - Exotic
+  - Faction-Order
+
 ---
 You can use Biomorphs to transform your flesh into deadly weapons, increasing your mass and density, forming new growth and matter. The process is almost instantaneous and by the time you see the transformation, it's likely too late. 
 

@@ -2,7 +2,7 @@
 title: Psionic Enhancement
 tags:
   - Nanotech
-  - Section12
+  - Faction-Section12
   - Unsafe
   - Exotic
 ---

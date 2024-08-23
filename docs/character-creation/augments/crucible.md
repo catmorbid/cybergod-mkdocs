@@ -1,5 +1,5 @@
 ---
-title: Coil interface
+title: Crucible
 tags:
   - Cybertech
   - Faction-RadicalX

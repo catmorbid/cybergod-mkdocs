@@ -1,5 +1,5 @@
 ---
-title: Coil interface
+title: Cybernetic Armor
 tags:
   - Cybertech
   - Passive
