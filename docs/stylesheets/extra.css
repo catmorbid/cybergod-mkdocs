@@ -1,9 +1,13 @@
 
-.md-typeset table:not([class]) th {
-    min-width: 0;    
+.md-typeset table:not([class]) {
+    --md-typeset-table-color: var(--md_default_fg_color)        
+}
+
+.md-typeset table:not([class]) th {    
+    min-width: 0;
 }
 
 strong,
 em {
-    color: var(--md-accent-fg-color);
+    color: var(--md-accent-fg-color);    
 }
