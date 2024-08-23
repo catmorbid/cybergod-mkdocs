@@ -2,3 +2,8 @@
 .md-typeset table:not([class]) th {
     min-width: 0;    
 }
+
+strong,
+em {
+    color: var(--md-accent-fg-color);
+}
