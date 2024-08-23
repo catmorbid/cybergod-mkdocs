@@ -10,8 +10,8 @@ extra_css:
 
 theme:
     name: 'material'
-    logo: assets/logo.png
-    favicon: assets/favicon.png
+    logo: _assets/logo.png
+    favicon: _assets/favicon.png
     palette:
 
     # Light mode
