@@ -1,6 +1,6 @@
 
-.md-typeset table:not([class]) {
-    --md-typeset-table-color: var(--md_primary_fg_color)        
+[data-md-color-scheme=slate] {
+    --md-typeset-table-color: var(--md-default-fg-color)
 }
 
 .md-typeset table:not([class]) th {    
