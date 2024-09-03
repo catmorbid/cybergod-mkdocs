@@ -8,16 +8,15 @@ date: 06.08.2024
 # Cybergod: Reborn
 **Augmented Science Fiction Roleplaying Game**
 
-Copyright 2024 Mikko Lainio
+**Cybergod: Reborn** is a high sci-fi roleplaying game of action, intrigue, espionage with possible horror elements, set in a future timeline of Earth, ravaged by nuclear cataclysm, then rebuilt into a marvelous technological utopia guided by a Trinity of sentient AI’s. You are augmented soldiers, operatives, agents, zealots or mercenaries working for one of the Factions. Your consciousness is backed up in the Cyberweb, and your Frame is but a temporary shell, but *death*, it always *feels* real.
 
-## Playtesters
-
-Nuutti Vertanen, Joni Salmela, Niko Ekilä
+Copyright © 2024 Mikko Lainio
 
 ## Resources
 
 - Fillable PDF Character Sheet [Link](https://mega.nz/file/8CInjCRY#nyrAXucZMZXXI7b4rdbJRgturSUOmvuCL2etndbj9zQ)
-## Contents
+
+## Core Playtest Rules
 
 [[introduction/index|Introduction]]
 
@@ -41,3 +40,8 @@ Systems
 - [[factions/mercenary/index|Mercenary Factions]]
 
 [[gamemastering/index|Game Mastering]]
+
+## Playtesters
+
+Nuutti Vertanen, Joni Salmela, Niko Ekilä
+
