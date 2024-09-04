@@ -192,15 +192,14 @@ Brains blown out, body blown to pieces, multiple gunshot wounds at point blank r
 
 The damage system can be utilized with various vehicles, drones etc. in addition to simply personal combat. However since vehicles tend to be bigger and can take a lot of punishment, they are represented by Damage Scale.
 
-Personal weapons are at Damage Scale 1, and for each level of difference in scale, you modify Damage Class by 2.
+For each level of difference in scale, you modify Damage Class by 2.
+
+Humans and personal weapons are the baseline at Scale 0.
 
 !!! example
-	Firing a pistol with Damage Class 2 against a car with Damage Scale 2, the pistol will effectively have Damage Scale 0 against the vehicle. The vehicle can have a Body Attribute as well to determine its wound slots, reflecting how sturdy it is.
+	Firing a pistol with DC 2 against a car with Scale +1, the pistol will effectively have DC 0 against the vehicle. The vehicle can have a Body Attribute as well to determine its wound slots, reflecting how sturdy it is.
 
-The same mechanic can be applied in reverse when a using large scale weapons to attack personal scale targets.
-
-!!! example
-	A tank is a Scale 3 vehicle and they're firing their main cannon with Damage Class 6 against a cyborg on personal scale (Scale 1). The tank's already massive damage is now increased by 4 due to 2 scale level difference, for total DC 10. Even with ultra mitigation the cyborg still takes Overkill damage and has no chance of surviving a direct hit. The same shot against another tank with Ultra Mitigation would only inflict a Minor wound.
+Damage Scale is generally noted on the personal scale, even for vehicle weapons, so you should always take into account the target’s scale if it is not 0.
 
 ## Death and Rebirth
 

@@ -150,7 +150,7 @@ Assault Weapons are usually Medium sized weapons **(Bulk 2)** that require a *tw
 Heavy weapons fit the support role. They are big and clumsy **(Bulk 4)** and most of them are designed to be set up on a fixed position before firing, but can be used while detached. Heavy Weapons have reduced (-1) recoil when using from a fixed position. You need to spend an action to set up a heavy weapon properly.
 
 | Weapon                | DC     | Range          | Recoil   | Grade    | Tags                                            |
-|-----------------------|--------|----------------|----------|----------|-------------------------------------------------|
+| --------------------- | ------ | -------------- | -------- | -------- | ----------------------------------------------- |
 | Light Machinegun      | 3      | Long-Extreme   | High     | Uncommon | Full Auto, High Capacity                        |
 | Chaingun              | 3      | Moderate-Long  | High     | Advanced | Full Auto, Double Hits, Ultra Capacity          |
 | Flamethrower          | 4      | Short-Moderate | Moderate | Advanced | Full Auto, Double Hit, Burn                     |
@@ -165,7 +165,7 @@ Heavy weapons fit the support role. They are big and clumsy **(Bulk 4)** and mos
 | Laser Gatling         | 3      | Long           | Low      | Rare     | Accurate, Full Auto, Double Hits, High Capacity |
 | Plasma Cannon         | 8      | Long-Extreme   | High     | Rare     | Inaccurate, Area (Small), Burn, Slow            |
 | Pulse Cannon          | 5      | Long-Extreme   | Low      | Rare     | Area (Moderate), EMP, Hard Piercing, Slow       |
-| Heavy Railgun         | 7      | Long-Extreme   | Extreme  | Rare     | Low Capacity, Slow, Hard Piercing               |
+
 
 ### Precision Weapons
 
@@ -260,7 +260,56 @@ Custom Spec weapons are difficult to replace and you cannot expect your Faction 
 
 GM can veto any custom spec weapons if they do not make any sense, so try to make up a good explanation on how the modifications be made possible.
 
+### Vehicle Weapons
+Vehicle weapons are too big for personal use and usually need to be fitted to a vehicle and must be fitted to a **Hardpoint** of suitable size, reflected by the Size stat of a vehicle weapon.
+
+**Large** weapons have Bulk 4 and they are equivalent to personal heavy weapons.
+
+**Very Large** weapons have Bulk 8. It is possible to pick up and carry one with a high Body, but Recoil is increased by 2 steps.
+
+**Massive** weapons have Bulk 12. They can be removed and carried around with high Body, but are practically impossible to use as personal weapons.
+
+| Weapon                      | DC | Range    | Size     | Recoil   | Grade    | Tags                                                  |
+|-----------------------------|----|----------|----------|----------|----------|-------------------------------------------------------|
+| Auto Cannon                 | 6  | Long     | V. Large | High     | Advanced | Full Auto, High Capacity                              |
+| Minigun                     | 4  | Moderate | V. Large | High     | Advanced | Full Auto, Double Hits, Ultra Capacity                |
+| Standard Missile (x1)       | 8  | Extreme  | Large    | Low      | Advanced | Accurate, Area (Moderate), Forceful                   |
+| Auto Plasma Cannon          | 6  | Moderate | V. Large | Moderate | Rare     | Full Auto, Inaccurate                                 |
+| Beam Laser Cannon           | 6  | Long     | V. Large | Low      | Rare     | Accurate, Full Auto, Soft Piercing                    |
+| Gauss Vulcan                | 6  | Moderate | V. Large | Extreme  | Rare     | Full Auto, Double Hits, Hard Piercing, Ultra Capacity |
+| Heavy Plasma Cannon         | 12 | Long     | Massive  | High     | Rare     | Slow, Inaccurate, Burn, Area (Moderate)               |
+| Heavy Railgun               | 10 | Long     | Massive  | Extreme  | Rare     | Slow, Hard Piercing                                   |
+| Medium Railgun              | 7  | Long     | V. Large | High     | Rare     | Hard Piercing                                         |
+| Plasma Cannon               | 10 | Moderate | V. Large | Moderate | Rare     | Inaccurate, Burn, Area (Small)                        |
+| Plasma Missile (x1)         | 10 | Extreme  | Large    | Low      | Rare     | Accurate, Area (Large), Burn                          |
+| Pulse Laser Cannon          | 8  | Long     | V. Large | Low      | Rare     | Accurate, Soft Piercing                               |
+| Standard Missile Array (x6) | 8  | Extreme  | V. Large | Low      | Rare     | Accurate, Area (Moderate), Forceful                   |
+| Fusion Missile (x1)         | 12 | Extreme  | Large    | Low      | Exotic   | Accurate, Area (Large), Burn, EMP, Forceful           |
+| Fusion Missile Array (x6)   | 12 | Extreme  | V. Large | Low      | Exotic   | Accurate, Area (Large), Burn, EMP, Forceful           |
+| Plasma Missile Array (x6)   | 10 | Extreme  | V. Large | Low      | Exotic   | Accurate, Area (Large), Burn                          |
+
+
 ## Personal Armor
+
+| Armor                   | Soft | Hard | Ultra | Bulk | Grade    | Powered             |
+| ----------------------- | ---- | ---- | ----- | ---- | -------- | ------------------- |
+| Ballistic Weave         | 4    |      |       | 0    | Common   |                     |
+| Ballistic Plates        | 0    | 2    |       | 1    | Common   |                     |
+| Nano Weave              | 2    | 2    |       | 0    | Uncommon |                     |
+| Security Armor          | 4    | 2    |       | 1    | Uncommon |                     |
+| Combat Armor            | 4    | 4    |       | 2    | Advanced |                     |
+| Hard Shell              | 1    | 3    | 3     | 4    | Advanced |                     |
+| Industrial Exosuit      | 3    | 3    |       | 2    | Advanced | Body D12, Reflex D6 |
+| Combat Exosuit          | 5    | 5    | 1     | 1    | Rare     | Body D10, Reflex D8 |
+| Reflex Armor            | 2    | 4    | 1     | 0    | Rare     | Body D8, Reflex D10 |
+| Power Suit              | 6    | 4    | 4     | 2    | Exotic   | Body D12, Reflex D6 |
+| Cybernetic armor 1      | 4    | 2    | 1     | 0    | -        |                     |
+| Cybernetic armor 2      | 4    | 4    | 2     | 2    | -        |                     |
+| Cybernetic armor 3      | 5    | 5    | 3     | 4    | -        |                     |
+| Vehicle Plating, Light  | 2    | 2    |       | 1    | Common   |                     |
+| Vehicle Plating, Medium | 4    | 4    |       | 2    | Uncommon |                     |
+| Vehicle Plating, Heavy  | 6    | 4    | 2     | 4    | Advanced |                     |
+| Vehicle Plating, Ultra  | 6    | 6    | 4     | 8    | Rare     |                     |
 
 ### Ballistic Weave
 Ballistic Weave can be manufactured into common clothing. It protects the user from small arms and knives, but not much more.
@@ -280,22 +329,8 @@ Powered armor are wearable exosuits designed for human soldiers to improve the w
 !!! info Power Armor attributes
 	Always use the powered armor's attributes over the Frame's normal attribute, even if the armor has worse attributes.
 
-
-| Armor              | Soft | Hard | Ultra | Bulk | Grade    | Powered             |
-| ------------------ | ---- | ---- | ----- | ---- | -------- | ------------------- |
-| Ballistic Weave    | 4    |      |       | 0    | Common   |                     |
-| Ballistic Plates   | 0    | 2    |       | 1    | Common   |                     |
-| Nano Weave         | 2    | 2    |       | 0    | Uncommon |                     |
-| Security Armor     | 4    | 2    |       | 1    | Uncommon |                     |
-| Combat Armor       | 5    | 5    |       | 2    | Advanced |                     |
-| Hard Shell         | 1    | 3    | 3     | 6    | Advanced |                     |
-| Industrial Exosuit | 3    | 3    |       | 5    | Advanced | Body D12, Reflex D6 |
-| Combat Exosuit     | 5    | 5    | 1     | 3    | Rare     | Body D10, Reflex D8 |
-| Reflex Armor       | 2    | 4    | 1     | 0    | Rare     | Body D8, Reflex D10 |
-| Power Suit         |      | 4    | 4     | 4    | Exotic   | Body D12, Reflex D6 |
-| Cybernetic armor 1 | 4    | 2    | 1     | 0    | -        |                     |
-| Cybernetic armor 2 | 4    | 4    | 2     | 2    | -        |                     |
-| Cybernetic armor 3 | 5    | 5    | 3     | 4    | -        |                     |
+### Vehicle Plating
+Vehicles and Drones can fitted with armor plating. This kind of plating is not suitable for humanoid Frames though.
 
  
 ## Equipment
@@ -395,28 +430,31 @@ Individual ownership of vehicles is extremely rare, and most civilians used some
 
 **Hardpoints** determine what kind of equipment or weaponry can be fitted on vehicles or drones.
 
-- **Small** hardpoint fits equipment with scale up to Vehicle Scale - 1.
-- **Medium** hardpoint fits equipment with scale up to Vehicle Scale.
-- **Large** hardpoint fits equipment with scale up to Vehicle Scale + 1.
+- **Small** hardpoint fits equipment and weapons with up to 1 Bulk, such as any [[#Sidearms]].
+- **Medium** hardpoint fits equipment and weapons with 2 Bulk, such as any [[#Assault Weapons]].
+- **Large** hardpoint fits equipment and weapons with 3-4 Bulk, such as [[#Heavy Weapons]] and [[#Precision Weapons]]
+- **Very Large** hardpoint fits equipment with 5-8 Bulk and most vehicular weapons
+- **Massive** hardpoint fits the biggest vehicle weapons.
+
+| Name                       | Type    | Description                                                                                                                                                                                                                                                                                                                                                                                                                   | Grade    |
+|----------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| EV-58 Street Strider       | Car     | A common electric vehicle that can carry a pilot + four passengers with a sizable trunk for cargo. Used mainly in the Ground Zone and highways. Operating range is 500km on full charge. High Velocity, Scale +1.                                                                                                                                                                                                             | Common   |
+| EV-77 Roadrunner           | Bike    | A fast electric bike ideal for fast transport in the Ground Zone and highways. 1 Pilot + 1 passenger. Operating range is 400km on full charge. High Velocity, Scale +0.                                                                                                                                                                                                                                                       | Common   |
+| Recreational Drone         | Flyer   | A Small recreational drone with wide-lense optics and neural link for immersive FPV flying experience. Scale -3, Moderate Velocity.                                                                                                                                                                                                                                                                                           | Common   |
+| Mk. 4 General Transport    | APT     | A widely used Antigravity Personal Transport for hauling equipment or people. Fits a pilot and 9 passengers or a hefty load of cargo. High Velocity. Scale +2.                                                                                                                                                                                                                                                                | Uncommon |
+| Mk. 8 Personal Transport   | APT     | The most common civilian Antigravity Personal Transport designed for pilot and 4 passengers. It is used by vehicle sharing companies, taxi companies, and even Regulator Patrol units, although the Regulator models are slightly modified. High Velocity. Scale +1.                                                                                                                                                          | Uncommon |
+| Security Drone             | Flyer   | A tiny unarmed drone built for speed. It has integrated loudspeaker and high lumen lights. Produces a loud alarm with bright flashing lights to alert anyone in vicinity of potential intruders. Moderate Velocity. Scale -2.                                                                                                                                                                                                 | Uncommon |
+| Utility Drone              | Floater | A slowly moving floating platform with two Small Hardpoints for fitting industrial tools and equipment. Scale -1, Low Velocity.                                                                                                                                                                                                                                                                                               | Uncommon |
+| Assault Drone              | Floater | A sturdy floating weapons platform with a single Medium Hardpoint. Low Velocity.                                                                                                                                                                                                                                                                                                                                              | Advanced |
+| DK-27 Donkey               | Walker  | A two-legged infantry support platform, the size of pony, or a donkey, with one Small Hardpoint. It can carry heavy loads and is used by infantry to carry their heavy equipment and wounded soldiers. Moderate Velocity. Scale 0.                                                                                                                                                                                            | Advanced |
+| Mk. 14 Armored Transport   | APT     | An armored Antigravity Personal Transport that fits a pilot, a gunner and up to 8 passengers or cargo. Standard for Regulator Strike teams or ARC teams. The Gunner seat is a single Large Hardpoint. High Velocity. Scale +3.                                                                                                                                                                                                | Advanced |
+| Scout Drone                | Flyer   | A fast and small quadcopter ideal for scouting with one Small Hardpoint. Moderate Velocity. Scale -1.                                                                                                                                                                                                                                                                                                                         | Advanced |
+| M-44 Kabuto                | Walker  | The Kabuto is a heavy combat mech, a two-legged weapons platform with four Large Hardpoints. Used as heavy fire support in demanding military operations. It is relatively compact in size and is suitable for urban use. Kabuto can fit a single human pilot inside, but it is often used as unmanned drone. Low Velocity. Scale +1.                                                                                         | Rare     |
+| R-LER Mk. 3                | Roller  | 3rd generation urban pacification drone. Six-wheeled fully automated drone with two Large Hardpoints. Moderate Velocity. Scale 0.                                                                                                                                                                                                                                                                                             | Rare     |
+| Swallow Combat Hyperjet    | Jet     | A relatively small unmanned hypersonic jet with 2 Large hardpoints, usually fitted with air-to-ground or air-to-air missiles. Ultra Velocity. Scale +1.                                                                                                                                                                                                                                                                       | Rare     |
+| T-27 Beetle                | Crawler | The Beetle is a highly mobile assault tank with six robotic legs with built-in wheels enabling high velocity in roads, but retaining mobility in difficult terrain. It is a completely sealed construct suitable for every terrain, including amphibious use. It can be operated by a single pilot and can fit two additional passenger. Two Large Hardpoints and One Very Large Hardpoint. Moderate/High Velocity, Scale +2. | Rare     |
+| Whisper Stealth Drone      | Floater | An advanced high-tech drone with built-in thermoptic camouflage, advanced optics, anti-gravity engine and silent propulsion system. It is designed to not be seen, to provide high quality intel at long distances. Low Velocity. Scale -2.                                                                                                                                                                                   | Rare     |
+| Overlord Floating Fortress | Floater | A massive aerial vehicle fitted with anti-gravity engine and 8 rotating Plasma Thrusters designed for mobile ultra-heavy weapons platform and secure assault transport. It has 4 Large Hardpoints and 2 Massive Hardpoints and can safely transport 24 passengers plus a pilot. High Velocity. Scale +5.                                                                                                                      | Exotic   |
 
 
-| Name                       | Type    | Description                                                                                                                                                                                                                                                                                                                                                                                       | Grade    |
-|----------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| R-LER Mk. 3                | Roller  | 3rd generation urban pacification drone. Six-wheeled fully automated drone with two Large Hardpoints. Moderate Velocity. Scale 0.                                                                                                                                                                                                                                                                 | Rare     |
-| Scout Drone                | Flyer   | A fast and small quadcopter ideal for scouting with one Small Hardpoint. Moderate Velocity. Scale -1.                                                                                                                                                                                                                                                                                             | Advanced |
-| Assault Drone              | Floater | A sturdy floating weapons platform with a single Medium Hardpoint. Low Velocity.                                                                                                                                                                                                                                                                                                                  | Advanced |
-| Security Drone             | Flyer   | A tiny unarmed drone built for speed. It has integrated loudspeaker and high lumen lights. Produces a loud alarm with bright flashing lights to alert anyone in vicinity of potential intruders. Moderate Velocity. Scale -2.                                                                                                                                                                     | Uncommon |
-| Utility Drone              | Floater | A slowly moving floating platform with two Small Hardpoints for fitting industrial tools and equipment. Scale -1, Low Velocity.                                                                                                                                                                                                                                                                   | Uncommon |
-| Recreational Drone         | Flyer   | A Small recreational drone with wide-lense optics and neural link for immersive FPV flying experience. Scale -3, Moderate Velocity.                                                                                                                                                                                                                                                               | Common   |
-| M-44 Kabuto                | Walker  | The Kabuto is a heavy combat mech, a two-legged weapons platform with four Medium Hardpoints. Used as heavy fire support in demanding military operations. It is relatively compact in size and is suitable for urban use. Kabuto can fit a single human pilot inside, but it is often used as unmanned drone. Low Velocity. Scale +1.                                                            | Rare     |
-| T-27 Beetle                | Crawler | The Beetle is a highly mobile assault tank with six robotic legs with built-in wheels enabling high velocity in roads, but retaining mobility in difficult terrain. It is a completely sealed construct suitable for every terrain, including amphibious use. It can be operated by a single pilot and can fit two additional passenger. Two Medium Hardpoints. Moderate/High Velocity, Scale +2. | Rare     |
-| Swallow Combat Hyperjet    | Jet     | A relatively small unmanned hypersonic jet with 1 Light Hardpoint and 1 Medium Hardpoint, usually fitted with air-to-ground or air-to-air missiles. Ultra Velocity. Scale 0.                                                                                                                                                                                                                      | Rare     |
-| Overlord Floating Fortress | Floater | A massive aerial vehicle fitted with anti-gravity engine and 8 rotating Plasma Thrusters designed for mobile ultra-heavy weapons platform and secure assault transport. It has 4 Small Hardpoints and 2 Large Hardpoints and can safely transport 24 passengers plus a pilot. High Velocity. Scale +5.                                                                                            | Exotic   |
-| Whisper Stealth Drone      | Floater | An advanced high-tech drone with built-in thermoptic camouflage, advanced optics, anti-gravity engine and silent propulsion system. It is designed to not be seen, to provide high quality intel at long distances. Low Velocity. Scale -2.                                                                                                                                                       | Rare     |
-| DK-27 Donkey               | Walker  | A two-legged infantry support platform, the size of pony, or a donkey, with one Small Hardpoint. It can carry heavy loads and is used by infantry to carry their heavy equipment and wounded soldiers. Moderate Velocity. Scale 0.                                                                                                                                                                | Advanced |
-| Mk. 14 Armored Transport   | APT     | An armored Antigravity Personal Transport that fits a pilot, a gunner and up to 8 passengers or cargo. Standard for Regulator Strike teams or ARC teams. High Velocity. Scale +3.                                                                                                                                                                                                                 | Advanced |
-| Mk. 4 General Transport    | APT     | A widely used Antigravity Personal Transport for hauling equipment or people. Fits a pilot and 9 passengers or a hefty load of cargo. High Velocity. Scale +2.                                                                                                                                                                                                                                    | Uncommon |
-| Mk. 8 Personal Transport   | APT     | The most common civilian Antigravity Personal Transport designed for pilot and 4 passengers. It is used by vehicle sharing companies, taxi companies, and even Regulator Patrol units, although the Regulator models are slightly modified. High Velocity. Scale +1.                                                                                                                              | Uncommon |
-| EV-77 Roadrunner           | Bike    | A fast electric bike ideal for fast transport in the Ground Zone and highways. 1 Pilot + 1 passenger. Operating range is 400km on full charge. High Velocity, Scale +0.                                                                                                                                                                                                                           | Common   |
-| EV-58 Street Strider       | Car     | A common electric vehicle that can carry a pilot + four passengers with a sizable trunk for cargo. Used mainly in the Ground Zone and highways. Operating range is 500km on full charge. High Velocity, Scale +1.                                                                                                                                                                                 | Common   |
 
