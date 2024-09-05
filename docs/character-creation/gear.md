@@ -58,7 +58,7 @@ Area is used for explosives and such to determine how large area is affected whe
 | Huge     | Covers a massive area of hundred meters or more. Affects every target in the area, as many as needed.        | 8         |
 
 !!! example
-	Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of grenades in their general direction.
+	Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of Frag grenades in their general direction. The Bulwark scores 3 hits, firing randomly in the area, so no one takes a direct hit, but everyone in the area must now make a Difficulty 4 Reflex Save to avoid DC 4 damage. Morales rolls 4D10, scoring 1,5, 8, 10 → that’s a failure and he takes DC 4 damage, spending Hard mitigation to take only a Bruise.
 
 ### Tags
 
