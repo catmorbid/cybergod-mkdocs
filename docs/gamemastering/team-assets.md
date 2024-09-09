@@ -2,11 +2,13 @@
 title: Team Assets
 ---
 
-Team Assets represent influence in the players' faction(s) and how much resources is the the faction willing to provide to the team. Team Assets are essentially a pool of points available to the team to utilize during tough situations. Everyone shares the team assets and everyone can utilize them, and it's up to the team to resolve usage of their shared assets. If someone wants to be the boss of the assets, everyone else needs to agree and so on. You don't need to know what assets your team exactly has, but you can instead spend a point whenever the situation calls for it.
+Team Assets represent how much resources their Faction is willing to provide for the team. Team Assets are essentially a pool of points available to the team to utilize during tough situations. Everyone shares the team assets and everyone can utilize them, and it's up to the team to resolve usage of their shared assets. If someone wants to be the boss of the assets, everyone else needs to agree and so on. You don't need to know what assets your team exactly has, but you can instead spend a point whenever the situation calls for it.
 
 Team starts with a number of Team Assets equal to `Number of Players + 1`. You can then consult the table below as to what kind of things the assets can be used at.
 
 Certain assets require some degree of influence as well, represented by Influence Points.
+
+In addition, their Faction may provide certain assets with a discount or for free, if they are essential for the mission.
 
 | Team Asset                 | Description                                                                                                                                       | AP  | IP  |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
