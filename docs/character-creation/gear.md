@@ -46,7 +46,9 @@ How much the weapon kicks when fired. You need to match recoil with high enough 
 - **Extreme**: Body D12 to mitigate recoil
 
 Recoil can be reduced by one degree by having a support device for the weapon, such as a bipod. The support device typically adds **2 Bulk**. Properly mounted weapons always mitigate the recoil entirely.
+
 #### Area
+
 Area is used for explosives and such to determine how large area is affected when the weapon is used. Area of effect weapons can catch multiple enemies under the weapon's effect. Every target near the primary target will take damage, but they can attempt a **Reflex Save** to quickly take cover with difficulty depending on the Area property. If the save is successful, they take only half damage. The primary target of the attack will however always take full damage.
 
 

@@ -1,4 +1,11 @@
 title: Game Mastering
 nav:
     - index.md
-    - ...
+    - Improving Characters:
+        - progression.md        
+        - merits.md
+        - team-assets.md
+        - influence.md
+        - upgrade-points.md        
+    - story-seeds.md
+    - npc.md
