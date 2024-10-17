@@ -331,6 +331,9 @@ Powered armor are wearable exosuits designed for human soldiers to improve the w
 !!! info Power Armor attributes
 	Always use the powered armor's attributes over the Frame's normal attribute, even if the armor has worse attributes.
 
+!!! info Power Source Weak Spot
+	Power Armor’s most significant weakness is its power source. If you have a chance, you can aim at the power source by taking the **Weak Spot** effect, but instead of inflicting extra damage, the target must make a D6 save with difficulty equal to damage inflicted. If they fail the save, the power source will shutdown. It won’t cause a fancy explosion or anything, but the sorry individual inside is stuck inside a heavy, immobile metal husk.
+
 ### Vehicle Plating
 Vehicles and Drones can fitted with armor plating. This kind of plating is not suitable for humanoid Frames though.
 
