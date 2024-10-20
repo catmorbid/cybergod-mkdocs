@@ -17,7 +17,7 @@ Combat is resolved in phases, and during each phase characters and opposition ac
 
 ### Tactics Phase
 
-Tactics Phase is resolved at the start of the combat, usually before any shots are fired. Each group involved in combat designates a leader, who then tests their `Tactics x Mind`. Difficulty may be influenced by a number of factors, such as the environment, lighting conditions, weather, population density etc. Whatever you can think can shift the difficulty in either direction.
+Tactics Phase is resolved at the start of the combat, or when situation calls for it, usually before any shots are fired. Each group involved in combat designates a leader, who then tests their `Tactics x Mind`. Difficulty may be influenced by a number of factors, such as the environment, lighting conditions, weather, population density etc. Whatever you can think can shift the difficulty in either direction.
 
 Once the test is resolved, the leader can then decide how to distribute the gained effects. The rest of the team is free to voice their opinions, but the leader should be the one to make the decision.
 
@@ -28,8 +28,9 @@ Once the test is resolved, the leader can then decide how to distribute the gain
 - **Bonus Reaction (2)**: One player character receives a Bonus Reaction for the first round
 - **Soft Cover (1)**: One character starts out with 4 soft mitigation until they switch position.
 - **Hard Cover (2)**: One character starts out with 2 hard mitigation until they switch position.
-- **Spread Out (1)**: Team starts out spread out evenly, so enemies cannot target them as a group
+- **Spread Out (1)**: Team starts with optimally spread positions, so enemies cannot target them as a single group
 - **Herd them(2)**: Enemies start out in a relatively tight group making them prime targets for suppression and area effect weapons.
+- **Flanking maneuver(2)**: One character flanks the enemy, bypassing their cover.
 
 ### Combat Phase
 
@@ -107,9 +108,21 @@ Armor and cover are good ways to mitigate damage, but a better way is to not get
 - **Fast Sprint(2)** Close in a long distance or reduce Extreme distance by one step.
 - **Evasive(1, 3, 6)**: Enemies take -1D penalty to attack you during this round. Can repeat up to -3D, but each new level of Evasive is more difficult to achieve.
 
+## Taking Cover
+
+You can spend an action to take cover. You must test `Tactics x Mind` against a difficulty depending on how hard it is to find cover. On success, spend effects to determine the quality of cover. Any mitigation awarded by cover are temporary and only last until the cover is destroyed, you are flanked or you leave the cover.
+
+**Effects**
+
+- **Minimal Cover (0)**: 1 point of soft mitigation
+- **Soft Cover(1)**: 4 points of soft mitigation
+- **Hard Cover(2)**: 2 points of hard mitigation
+- **Full Cover(3)**: You are completely concealed from attackers, they can approximate your position but precise attacks are hard to pull off. Attacks against you are at -4D disadvantage if you don’t take any actions that would present yourself as a target.
+
 ## Damage and Mitigation
 
 When a character is hit in combat, they may receive **Wounds**. Wounds are determined by the **Damage Class** of an attack and **Mitigation** used to reduce the damage.
+
 ### Damage Class
 
 **Damage Class (DC)** of an attack is determined by the Weapon used. For unarmed attacks DC is 1 (Non-Lethal). Damage Class indicates the level of wound inflicted on a successful **hit** when not affected by **Mitigation**. You can take multiple hits from an attack, but each Hit has the same DC, unless modified by certain **Effects**.
