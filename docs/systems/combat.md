@@ -69,21 +69,21 @@ Test `Close Combat x Body or Reflex` for both attack and defense. Whoever gets m
 
 - **Hit(1)**: Target takes damage at DC 1 or weapon DC. You can assign hits to different targets or accumulate them to one target. **Default Limit: 2 Hits**
 - **Initiative(1)**: Be faster than the other guy. If you have more initiative, your action is resolved first.
-- **Attack Power (1)**: Damage Class +1 for all hits. **Effect Limit** depends on Body: D6=1, D8=2, D10=3, D12=4)
+- **Attack Power (1)**: Damage Class +1 for all hits. **Effect Limit** depends on Body: D6=1, D8=2, D10=3, D12=4
 - **Weak Spot Hit(2)**: Hit target at a weak spot. Inflict damage at  **Weapon DC+1**.
 - **Critical Hit(4)**: Hit target at a critical location. Inflict damage at  **Weapon DC+2**.
 - **Disarm (2)**: Disarms the target. You can grab their weapon or toss it away.
 
 ## Ranged Combat
 
-Different weapons are handle differently, so to make ranged attacks test `Ranged Combat` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[core-mechanics#Distance|Distance]] between you and the target.
+Various weapons handle differently, so to make ranged attacks test `Ranged Combat` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[core-mechanics#Distance|Distance]] between you and the target.
 
 **Effects**
 
 - **Hit(1)**: Target is hit and takes damage at DC equal to Weapon DC. You can assign hits to different targets, or accumulate multiple hits on the same target. **Default Limit: 2 hits**.
 - **Weak Spot Hit(2)**: Hit target at a weak spot. Inflict damage at  **Weapon DC+1**.
 - **Critical Hit(4)**: Hit target at a critical location. Inflict damage at  **Weapon DC+2**.
-- **Initiative(1)**: Be faster than the other guy. If you have more initiative, your action is resolved first.- 
+- **Initiative(1)**: Be faster than the other guy. If you have more initiative, your action is resolved first.
 - **Disarming Hit (3)**: Aim at target's weapon or e.g. limb that holds the weapon. You inflict regular damage, but also disarm the target. Weapons that are hit can be repaired with enough time.
 
 ### Suppressive Fire
