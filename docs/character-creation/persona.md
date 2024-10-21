@@ -165,12 +165,17 @@ A **burned** resolve is much more difficult to Refresh. This is generally up to 
 ### Improving the character
 
 You will be awarded [[progression|Progression]] and [[merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[gamemastering/index|Game Mastering]] section.
+
 ## Mental State
 
-Mental state represents gradual shift in the character's psyche and loss of their humanity. It is represented by two **factors**: **Dissociation** and **Habituation**. Characters start with D6 in both factors, and gain 1 level for every Quality they have lost due to Corruption. Mental State factors are primarily used to resist Mental Breakdown due to stress, but can be used like any other attribute, if appropriate.
+Mental state represents gradual shift in the character's psyche and loss of their humanity. It is represented by two **factors**: **Dissociation** and **Habituation**. Characters start with D6 in both factors, and gain 1 level for every Engram they have lost due to Corruption. Mental State factors are primarily used to resist Mental Breakdown due to stress, but can be used like any other attribute, if appropriate.
+
 
 ### Dissociation
 Dissociation describes the character's connection to reality, emotions and their self. As the character undergoes stressful and traumatic experiences, such as *Rebirth*, they may dissociate themselves from reality. Dissociation helps with self-control when faced with danger and excitement and social pressure, but may make social interaction more difficult.
+
+!!! info Dissociation and social tests
+	When engaging in social dialogue, your base difficulty is set by your level of Dissociation. So for typical humans social tests are *Easy*, while a relic who is *detached* from reality may find it *very hard*.
 
 **Gameplay Use**
 
@@ -186,6 +191,9 @@ Make a Dissociation Save when subjected to **extrinsic** Stress, such as enterin
 ### Habituation
 
 Habituation describes the character's reactions to new strong stimuli, such as violence, suffering, or extremely stressful situations. They become desensitized to immoral acts and may find it easier to perform such actions themselves and in the extreme end they can become volatile and violent, prone to violent psychotic episodes when put under stress.
+
+!!! info Habituation and mental breakdowns
+	Habituation makes your mental breakdowns worse; 
 
 **Gameplay Use**
 
