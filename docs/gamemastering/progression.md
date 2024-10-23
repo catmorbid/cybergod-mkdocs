@@ -9,6 +9,7 @@ Each game session should end with a short retrospective on how the session went.
 - **Danger**: If you were in serious danger, you get another point.
 - **Intrigue**: Participating in high stakes intrigue is worth some progression
 - **Humanity**: Character expressed their human side, taking into account their Engrams.
+- **Mission:** When you complete objectives tasked to you, you gain 1 Progression for each Primary objective completed. See [[merits]] for more information on objectives.
 
 Some things that should not be awarded:
 

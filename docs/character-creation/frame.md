@@ -12,7 +12,11 @@ Each character can choose one Frame Template from those provided by their Factio
 	
 	 In addition, some factions may provide the character a **Baseline**, an unaugmented bioframe for off-duty use. A Baseline is unremarkable and has D6 in all attributes and no augmentations.
 
+### Upgrade Path
 
+Upgrade Paths are a completely optional way of choosing upgrades. Instead of fully customizing your frame, you may choose to follow the default upgrade path defined for your Frame. Each Frame Template has a unique upgrade Path designed for an optimized role-specific build.
+
+You may also wish to stray from the upgrade path every now and then, and that is completely fine. Consider the Upgrade Path a tool to help your decision making process.
 ## Attributes
 
 Frame determines the character's attributes. Attributes are measured with a **Level** from 1 to 4 and each Level indicates a Die Size from D6 to D12. The average human has Level 1 attributes, i.e. a D6 in everything. If a frame is lacking any attribute, it cannot perform any related tasks.

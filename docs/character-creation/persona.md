@@ -94,7 +94,7 @@ Aptitudes are rated with a level from 0 to 3 and Skills are measured with a leve
 
 
 !!! info Character Creation info
-	Available Aptitude Points and Skill Points depend on your level of experience. You can allocate them freely on a 1:1 basis.
+	You can choose 4 Aptitudes at Level 1, and then spend available Aptitude Points and Skill Points depending on your level of [[#Experience]]. You can allocate them freely on a 1:1 basis.
 
 
 ### Combat
