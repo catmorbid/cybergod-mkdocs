@@ -33,11 +33,11 @@ You can choose how experienced your character is. More experienced characters ha
 
 | Experience  | Engrams | Mental State | Resolve | Aptitudes | Skills | Upgrades |
 | ----------- | ------- | ------------ | ------- | --------- | ------ | -------- |
-| Relic       | 1       | +4           | 1       | 4         | 12     | 8        |
-| Veteran     | 2       | +3           | 2       | 5         | 10     | 6        |
-| Experienced | 3       | +2           | 3       | 6         | 8      | 4        |
-| Junior      | 4       | +1           | 4       | 7         | 6      | 2        |
-| Fresh       | 5       | Normal       | 5       | 8         | 4      | 0        |
+| Relic       | 1       | +4           | 1       | 4+2         | 12     | 8        |
+| Veteran     | 2       | +3           | 2       | 4+3         | 10     | 6        |
+| Experienced | 3       | +2           | 3       | 4+4         | 8      | 4        |
+| Junior      | 4       | +1           | 4       | 4+5         | 6      | 2        |
+| Fresh       | 5       | Normal       | 5       | 4+6         | 4      | 0        |
 
 ## Engrams
 
