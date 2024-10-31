@@ -113,17 +113,13 @@ Sometimes you have the option to spend a **Reroll** on a test vastly improving y
 !!! example
 	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard `Persuasion x Mind` test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to Reroll five dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.
 
-## Saves
+## Usage Dice
 
-A Save is a simplified test where you typically roll one or more dice to *avoid* certain effects. If you roll the *highest* face on the die, the save will fail, otherwise it will succeed. E.g. a 10 on a D10. Saves can be rolled using any *attribute*, but there are also special saves where a fixed die type is used.
+Usage Dice are used to measure consumption of various resources such as **Ammo**, **Stress** or personal **Resources**.
 
-When a Save is noted a difficulty rating is usually included, meaning how many dice you need to roll on the save. The more dice, the more difficult it is.
+Usage Dice are measured with a die (D6, D8, D10 D12). You roll one or more dice – depending on level of usage – and if you roll a 1, you **fail**, otherwise you **succeed** and mark down the number of dice you just rolled. Future usage checks are more difficult after each success: You always roll the previous usage as well, making failure ever more likely. Consequences of failure depend on the measured usage:
+- **Ammo**: You run out of ammo and must spend a Reload
+- **Stress**: You suffer from mental breakdown
+- **Resources** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
 
-Some types of common saves:
-
-- **Ammo Save**: Roll a D6 to see if you're out of ammo and need to reload.
-- **Knockdown Save**: Roll one or more Body dice to resist being knocked down or knocked back, e.g. thrown out of a window.
-- **Death Save**: Roll **Body** for each Lethal wound at start of combat round to see if you die from your wounds.
-- **Evasion Save**: Roll **Reflex** to avoid the worst when a trap is triggered or take cover when caught under fire.
-- **Mental Save**: Roll **Mind** to maintain your cool when succumbed to stressful situations, horrors or mind manipulation.
-- **Stress Save**: Roll one or more **Stress Dice** to resist mental breakdown.
+Upon failure any tracked usage is cleared and you can start anew.

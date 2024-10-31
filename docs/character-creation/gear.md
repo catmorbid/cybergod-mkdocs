@@ -66,28 +66,31 @@ Area is used for explosives and such to determine how large area is affected whe
 
 Tags are used for additional rules regarding weapons.
 
-| Tag                | Effect                                                                                                                                                                                                |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Accurate           | Gain +1D on attack tests                                                                                                                                                                              |
-| Area               | Affects everything in an area (Small, Moderate, Large). Larger area means it's more difficult to avoid hits. Only targets right at point of impact take full damage, everyone else takes half damage. |
-| Burn               | Target takes 5 Mental Damage and will Burn next round for DC - 1 damage. Damage will reduce by one for each round burned or until extinguished.                                                       |
-| Double Hits        | For each hit you gain two hits.                                                                                                                                                                       |
-| EMP                | Electro-Magnetic Pulse. Disables electronics and machinery.                                                                                                                                           |
-| Explosive Ordnance | Uses explosives as ammunition. Pick suitable explosive from Explosives list and use its damage and tags.                                                                                              |
-| Fast               | Maximum Hit Limit is increased to 3.                                                                                                                                                                  |
-| Forceful           | High impact force causes target to be knocked back when hit. They must make Body Save at weapon DC or be knocked down.                                                                                |
-| Full Auto          | No limit on how many Hits you can take and you can lay Suppressive Fire. Gain +1D on attack if your Body rating exceeds Recoil. Make an Ammo Save after attack.                                       |
-| Hard Piercing      | Ignores Soft and Hard mitigation, but Ultra mitigation is unaffected.                                                                                                                                 |
-| High Capacity      | Ammo Check is rolled with D12: On a 12, you need to reload.                                                                                                                                           |
-| Inaccurate         | Take -1D penalty on attack tests                                                                                                                                                                      |
-| Irradiate          | Target suffers from radiation poisoning. -2D penalty.                                                                                                                                                 |
-| Low Capacity       | Make an ammo save after every attack. If Full Auto, you must reload.                                                                                                                                  |
-| Non-Lethal         | Lethal Wounds become non-lethal: target will be incapacitated, but not dying. Overkill counts as Lethal wound, but does not outright kill.                                                            |
-| Stealthy           | Weapon is silenced and can be used in stealth operations without alarming more enemies                                                                                                                |
-| Slow               | Maximum Hit Limit is decreased to 1                                                                                                                                                                   |
-| Soft Piercing      | Ignores Soft mitigation, but Hard and Ultra mitigation are unaffected                                                                                                                                 |
-| Stun               | Affected target is disoriented and will lose their next action.                                                                                                                                       |
-| Ultra Capacity     | Your Ammo Save is a D12 and its only rolled after combat.                                                                                                                                             |
+
+| Tag                | Effect                                                                                                                                                                 |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Accurate           | Gain +1D on attack tests                                                                                                                                               |
+| Area               | Affects everything in an area (Small, Moderate, Large, Huge). Larger area means it's more difficult to avoid hits (Reflex Save, see Gear/Weapons/Stats/Area)           |
+| Burn               | Target takes 2 Stress and will Burn next round for DC - 1 damage. Damage will persist until fire can be exintinguished.                                                |
+| Double Hits        | For each hit you gain two hits.                                                                                                                                        |
+| EMP                | Electro-Magnetic Pulse. Disables electronics and machinery. +1 DC vs. Cybertech frames, +2 DC vs. drones, no effect on organics.                                       |
+| Explosive Ordnance | Uses explosives as ammunition. Pick suitable explosive from Explosives list and use its damage and tags.                                                               |
+| Fast               | Maximum Hit Limit is increased to 3.                                                                                                                                   |
+| Forceful           | High impact force causes target to be knocked back when hit. They must make a Force x Body test against weapon DC or be knocked down.                                  |
+| Full Auto          | Upgrades Fast. No limit on how many Hits you can take and you can lay Suppressive Fire. Make an Ammo Check. Gain +1D on attack if your Body rating exceeds Recoil.     |
+| Gas                | Deployed as a Gas. Ignores any armor that is not completely sealed or user is not wearing a gas mask, but is ineffective if deployed against gas mask or sealed armor. |
+| Hard Piercing      | Upgrades Soft Piercing. Ignores Soft and Hard mitigation, but Ultra mitigation is unaffected.                                                                          |
+| High Capacity      | Upgrades Moderate Capacity (default: D8 Usage Die). Ammo Usage die is D10                                                                                              |
+| Inaccurate         | Take -1D penalty on attack tests                                                                                                                                       |
+| Irradiate          | Target suffers from radiation poisoning. -2D penalty.                                                                                                                  |
+| Low Capacity       | Downgrades Low Capcity. Ammo Usage Die is D6                                                                                                                           |
+| Non-Lethal         | Lethal Wounds become non-lethal: target will be incapacitated, but not dying. Overkill counts as Lethal wound, but does not outright kill.                             |
+| Stealthy           | Weapon is silenced and can be used in stealth operations without alarming more enemies                                                                                 |
+| Slow               | Maximum Hit Limit is decreased to 1                                                                                                                                    |
+| Soft Piercing      | Ignores Soft mitigation, but Hard and Ultra mitigation are unaffected                                                                                                  |
+| Stun               | Affected target is disoriented and will lose their next action.                                                                                                        |
+| Ultra Capacity     | Upgrades High Capacity. Ammo Usage Die is D12.                                                                                                                         |
+| Non-Physical       | Melee weapon cannot take Power effect to increase damage class.                                                                                                        |
 
 ### Reloads
 

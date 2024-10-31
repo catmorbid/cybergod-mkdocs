@@ -227,35 +227,29 @@ On every Rebirth the character takes a point of Corruption and then must immedia
 !!! info Waiting for resurrection
 	It can take some time before your character is reborn and can enter the play again. You should however not just wait around and skip the game while waiting. Instead you can pick up an NPC and play them, or roll another, secondary character to play in between. Maybe the team calls for backup and you enter as one of them, a side character perhaps, but nevertheless part of the game.
 
-## Mental Damage and Stress
+## Stress
 
 Witnessing violence, fear and otherworldly horrors puts a strain on the mind. Only the most hardened veterans become almost immune, and many claim that's the only way to know know if you're still human, machine or not.
 
-### Mental Damage
+Stress is handled different than physical damage, and instead of knives and bullets causing the harm, stress is caused by fear, extreme violence, gore, brutality, horror, mind-altering drugs, psionic resonance and witnessing otherworldly horrors.
 
-Mental damage is handled different than physical damage, and instead of knives and bullets causing the harm, mental damage is caused by fear, extreme violence, gore, brutality, horror, mind-altering drugs, psionic resonance and witnessing otherworldly horrors.
+Stress is generally measured on a scale of 1 to 5, but it does not have an upper limit.
 
-Mental Damage is generally measured on a scale of 1 to 5, but it does not have an upper limit.
+Whenever you take Stress, roll one of your Mental State stats – which one depends on the circumstances – as [[core-mechanics#Usage Dice|Usage Dice]], rolling as many dice as current stress + any inflicted stress. If you fail, you suffer from [[#Mental Breakdown]], otherwise mark the stress and continue as usual.
 
-Whenever you take mental damage, you must make a **Mind Save**, rolling one die for each point of Mental Damage taken. Any dice that fail, inflict a point of **Stress**, which can cause a cascading mental breakdown. If you succeed, you keep control of your nerves.
-
-
-| Mental Damage | Description |
-| ------------- | ----------- |
-| 1             | Minor       |
-| 2             | Moderate    |
-| 3             | Major       |
-| 4             | Severe      |
-| 5             | Extreme     |
-
-### Stress
-
-Whenever you take point of Stress, you need to make a **Stress Save** for each point of Stress accumulated so far. Stress Save is rolled using either of the factors in their [[persona#Mental State|Mental State]], and which factor is used depends on the situation and the source of the stress.
-
-If any of the **Stress Dice** show their maximum value (e.g. 6 on a D6 or 12 on a D12), you suffer immediate **Mental Breakdown**: roll on the table below using your [[persona#Habituation|Habituation]] Die.
+| Stress | Description |
+| ------ | ----------- |
+| 1      | Minor       |
+| 2      | Moderate    |
+| 3      | Major       |
+| 4      | Severe      |
+| 5      | Extreme     |
 
 !!! info Tracking Stress
 	Only major characters and player characters should roll stress dice and track stress. Minor characters should simply roll on the mental breakdown table if they take any points of stress, or GM should decide the outcome.
+
+### Mental Breakdown
+Having failed a Stress test you need to roll your [[persona#Habituation|Habituation]] Die to resolve outcome on mental breakdown. 
 
 | Habituation Die | Outcome      | Details                                                                                                                                                                                                                                                                                              |
 | --------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
