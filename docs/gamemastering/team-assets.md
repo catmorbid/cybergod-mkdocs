@@ -2,26 +2,26 @@
 title: Team Assets
 ---
 
-Team Assets represent how much resources their Faction is willing to provide for the team. Team Assets are essentially a pool of points available to the team to utilize during tough situations. Everyone shares the team assets and everyone can utilize them, and it's up to the team to resolve usage of their shared assets. If someone wants to be the boss of the assets, everyone else needs to agree and so on. You don't need to know what assets your team exactly has, but you can instead spend a point whenever the situation calls for it.
+Team Assets represent how much resources their Faction is willing to provide for the team for a mission. Team Assets are essentially a pool of points available to the team to utilize during tough situations. Everyone shares the team assets and everyone can utilize them, and it's up to the team to resolve usage of their shared assets. You don't need to know what assets your team exactly has, but you can instead spend a point whenever the situation calls for it.
 
-Team starts with a number of Team Assets equal to `Number of Players + 1`. You can then consult the table below as to what kind of things the assets can be used at.
+Mission specifics determine which assets are actually available and some assets may be provided for free.
 
-Certain assets require some degree of influence as well, represented by Influence Points.
+Team starts with a number of Team Assets equal to `Number of Players + 1`. GM may provide free assets, or deem certain assets unavailable, depending on circumstances of the mission. You can then consult the table below as to what kind of things the assets can be used at. Some assets can be spent when the mission is starting, but many options are available during an ongoing mission. GM may place limitations as they see fit.
 
-In addition, their Faction may provide certain assets with a discount or for free, if they are essential for the mission.
+If you ever run out of asset points, a player can always opt to use their personal resources instead of assets points, if circumstances allow. When stakes are high and situation is tense, this may also require some sort of skill test. Planning ahead is always the best choice.
 
-| Team Asset                 | Description                                                                                                                                       | AP  | IP  |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
-| Intel Request              | Request intel on a specific topic.                                                                                                                | 1   | 0   |
-| Recon Support              | Request recon support. Usually via remote drones. If granted, 1-4 drones are provided.                                                            | 1   | 0   |
-| Additional equipment       | Request additional equipment of standard grade. Provided discreetly within 2-8 hours.                                                             | 1   | 0   |
-| Rapid Deployment           | Deploy a new frame after a Moderate duration                                                                                                      | 2   | 0   |
-| R-LER Backup               | Request two heavily armored, wheeled, urban pacification drones, designation R-LER, for backup.                                                   | 2   | 0   |
-| Orbital Deployment         | A new frame can be dropped from orbit in 3 rounds.                                                                                                | 4   | 0   |
-| Regulator Backup           | Request a Regulator Combat Unit (squad of 8) as a backup. Deployment time varies, but is usually within 15 minutes on an urban area.              | 4   | 1   |
-| Equipment Drop             | Combine with any equipment request to have it airdropped on your location within 1 hour, or if you prepared the asset beforehand, within minutes. | 4   | 0   |
-| Exceptional equipment      | Request additional equipment temporarily of one higher than standard grade. Provided within 8 hours.                                              | 5   | 1   |
-| ARC Backup                 | Request additional ARC backup. 1-2 units are provided as support.                                                                                 | 8   | 1   |
-| Airstrike                  | Request an aerial strike on location.                                                                                                             | 10  | 1   |
-| Advanced Equipment Upgrade | Upgrade the team's equipment Grade to Advanced                                                                                                    | 10  | 1   |
-| Rare Equipment Upgrade     | Upgrade the team's equipment Grade to Rare                                                                                                        | 20  | 2   |
+| Team Asset            | Description                                                                                                                                                                             | Cost |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| Air Lift              | Request aerial lift on non-combat zone                                                                                                                                                  | 1    |
+| Backup                | Request a Regulator Combat Unit (squad of 8) as a backup. Deployment time varies, but is usually within 15 minutes on an urban area.                                                    | 2    |
+| Exceptional Gear      | Request one equipment at one grade higher                                                                                                                                               | 1    |
+| Intel Request         | Request intel on a specific topic.                                                                                                                                                      | 1    |
+| Recon Support         | Request recon support. Usually via remote drones. If granted, 1-4 drones are provided.                                                                                                  | 1    |
+| Equipment drop        | Request any standard gear allowed by team’s grade. Equipment can be provided via air drop or with more subtle means, depending on circumstances. Air Drop arrives in moderate duration. | 1    |
+| Rebirth               | Deploy a new frame after a Moderate duration. Progression gained will reset unless Black Box can be recovered from dead frame or the Frame has the [[immortal]] augment.                | 1    |
+| Heavy Drone Backup    | Request 1-2 heavy drones for backup, e.g. R-LER Mk.3                                                                                                                                    | 2    |
+| Rebirth: Orbital Drop | A dead character can be replaced with another frame via orbital drop, provided within 3 rounds.                                                                                         | 2    |
+| Equipment Drop        | Combine with any equipment request to have it airdropped on your location within 1 hour, or if you prepared the asset beforehand, within minutes.                                       | 2    |
+| Airstrike             | Request an aerial strike on location.                                                                                                                                                   | 3    |
+| Elite Backup          | Request backup for elite forces; augmented combatants equivalent to player characters. 1-2 units will be provided.                                                                      | 3    |
+| Superior Gear         | Request one piece of equipment at two grades higher                                                                                                                                     | 3    |
