@@ -2,7 +2,7 @@
 title: Combat System
 ---
 
-Regardless of which faction you vouch for, there are times when diplomacy fails and you must fight in armed conflict to defeat your adversaries through force.
+Regardless of which faction you vouch for, there are times when diplomacy fails and you must fight in armed conflict to defeat your adversaries through force. Do remember, that combat is **extremely deadly**, and even the toughest armor will be sheared away by a hail of bullets. Success in combat requires *tactics* and careful planning. While death is not the end, it can result in **failure**; failed objectives, missed opportunities and loss of precious resources.
 
 !!! info Using Lethal Force
 	Different factions may have limitations on when using lethal force is warranted. Commonwealth factions **ARC** and **Section 12** are most limited, while the Syndicate and Radical X probably have most freedom on the issue. For the Commonwealth use of Lethal Force comes down to ethical and moral considerations, and **ARC** especially is limited in this aspect, and must always seek permission before using lethal force. Thankfully the process is quick and amounts to simply contacting the local Regulator AI working under Themis, with the request, which will then process it using all available data.
@@ -199,7 +199,7 @@ Hits to vital organs or major arteries. Damage will cause enough pain for you to
 
 `Damage Class 5+, Dead`
 
-Brains blown out, body blown to pieces, multiple gunshot wounds at point blank range, decapitation. Anything nasty enough to take your life away immediately. There's no way to survive from this.
+Brains blown out, body blown to pieces, multiple gunshot wounds at point blank range, decapitation. Anything nasty enough to take your life away immediately. There's no way to survive from this. **Note**: Overkill can only occur through enough damage scale, not as consequence of wound *overflow*
 
 ### Damage Scale
 

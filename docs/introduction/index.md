@@ -7,7 +7,7 @@ title: Introduction
 
 **Players** are augmented humans, or *cyborgs* who have pledged their allegiance to one of the powerful **Factions** as part of an ongoing conflict that started 50 years ago after centuries of utopian peace. The players form a **team** of specialists tasked with resolving problems on behalf of their faction, undertaking various missions. As the factions have conflicting agendas, they are not always compatible and the themes and style of play may be quite different depending on which Faction is handing out the orders.
 
-Player characters cannot really die. Their **Frame** can perish, but their minds are backed up in the vastness of the **Cyberweb** and can be downloaded to a new **Frame**. This technology relies on the *Cybernetic Brain*, a core enhancement that connects them with the infinite knowledge of Cyberweb, allowing them to upload their minds, provided they have a physical Cyberweb connection.
+Player characters cannot really die. Their physical **Frame** can be destroyed – quite easily even – but their minds are backed up in the vastness of the **Cyberweb** and can be downloaded to a new **Frame**. This technology relies on the *Cybernetic Brain*, a core enhancement that connects them with the infinite knowledge of Cyberweb, allowing them to upload their minds, provided they have a physical Cyberweb connection.
 ## The Setting
 
 Centuries ago, a cataclysmic global conflict, known as the End War, cast the world into chaos, annihilating nearly half of Earth's population. Eventually, from the ashes of the old world, a new society emerged. Adamant in their determination to do better than their predecessors, they chose to create an entity void of human decadence to guide and lead them towards a brighter future.

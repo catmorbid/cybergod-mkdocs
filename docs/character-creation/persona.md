@@ -31,13 +31,40 @@ Factions are listed on [[factions/index|Factions section]] of the core book. Rea
 
 You can choose how experienced your character is. More experienced characters have seen a lot and can be mental trainwrecks, but they have more **Upgrade Points** and tend to have higher, but more focused **Skills**, while younger characters have better **Aptitudes** and more **Resolve**, but will not excel at any one thing.
 
-| Experience  | Engrams | Mental State | Resolve | Aptitudes | Skills | Upgrades |
-| ----------- | ------- | ------------ | ------- | --------- | ------ | -------- |
-| Relic       | 1       | +4           | 1       | 4+2         | 12     | 8        |
-| Veteran     | 2       | +3           | 2       | 4+3         | 10     | 6        |
-| Experienced | 3       | +2           | 3       | 4+4         | 8      | 4        |
-| Junior      | 4       | +1           | 4       | 4+5         | 6      | 2        |
-| Fresh       | 5       | Normal       | 5       | 4+6         | 4      | 0        |
+| Experience   | Engrams | Mental State | Resolve | Aptitudes | Skills | Upgrades |
+| ------------ | ------- | ------------ | ------- | --------- | ------ | -------- |
+| Relic        | 1       | +4           | 1       | 4+2       | 8+15   | 8        |
+| Veteran      | 2       | +3           | 2       | 4+3       | 8+12   | 6        |
+| Professional | 3       | +2           | 3       | 4+4       | 8+9    | 4        |
+| Experienced  | 4       | +1           | 4       | 4+5       | 8+6    | 2        |
+| Recruit      | 5       | Normal       | 5       | 4+6       | 8+3    | 0        |
+**Aptitude Points** indicate how many points are distributed between aptitudes. Everyone needs to choose four aptitudes at level 1, and then spend the extra points as they see fit.
+
+**Skill Points** indicate the character’s training and experience. Everyone must select 8 skills at level 1 and may then distribute the excess points as they wish.
+
+### Recruit
+You are a fresh recruit with only basic training and rudimentary skills, starting at the lowest rung of the ladder. But what you lack in *merits* or experience, you compensate with exceptional talent.
+
+	!!! info
+	Playing a recruit can be challenging as you have much less Upgrades to work with and your Mental State may make you a weak link in the team
+
+### Experienced
+You have some notches on your belt, you’ve seen some action and you know the toll this job has your very soul. Nevertheless you have a great deal of ambition and confidence to drive you forward to greatness.
+
+### Professional
+You are a steady professional who has been on the job for quite a while. You know your strengths and your weaknesses well and despite having experienced your share of trauma, you are relatively stable.
+
+	!!! info
+	**Professionals are the expected baseline**
+
+### Veteran
+You’ve been on the job for a long time. Long enough to know how the system works, how things tend to fold out. Nothing really surprises you any more. Your life is in shambles, you’ve lost so much and gained very little. But regardless, there’s still something that keeps you on the going, that makes you tick. But your time is running out, retirement looms in the horizon. If they ever let you.
+
+### Relic
+You’ve seen things most people wouldn’t believe. Unimaginable horrors, violence, depravity and enough trauma to shatter you into a million fragments. You are but a shell desperately trying to hold on to a broken spirit, ready to die. Sometimes you think they keep you around for their amusement. Or perhaps they’re just *afraid of you*. You are on the edge, waiting for one more slip to take you away. Whatever hope you find anywhere, better hang on to it, like your soul depends on it – because it does.
+
+	!!! info
+	Relics are extremely rare and may not last for long. Their upgrades make them deadly and powerful, but at the same time, they can be volatile and limited in their expertise. It is a challenge of its own, and not recommended as first time experience.
 
 ## Engrams
 
