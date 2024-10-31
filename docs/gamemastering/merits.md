@@ -9,8 +9,7 @@ Merits are used to measure how well the group did in their mission. They are a m
 
 Merits are marked on Merit tracker, which works much like Progression tracker. Once the you have enough points accumulated, you can exchange them for the corresponding reward.
 
-| Merit Points | Rewards        |
-|:------------ |:-------------- |
-| 2            | Team Assets +1 |
-| 4            | Influence +1   |
-| 10           | Upgrade Point  |
+| Merit Points | Rewards       |
+| :----------- | :------------ |
+| 5            | Resources +1  |
+| 10           | Upgrade Point |
