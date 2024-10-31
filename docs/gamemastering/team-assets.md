@@ -6,7 +6,9 @@ Team Assets represent how much resources their Faction is willing to provide for
 
 Mission specifics determine which assets are actually available and some assets may be provided for free.
 
-Team starts with a number of Team Assets equal to `Number of Players + 1`. GM may provide free assets, or deem certain assets unavailable, depending on circumstances of the mission. You can then consult the table below as to what kind of things the assets can be used at. Some assets can be spent when the mission is starting, but many options are available during an ongoing mission. GM may place limitations as they see fit.
+Team starts with a number of Team Assets equal to `Number of Players + 1`. GM may provide additonal points, free assets, or deem certain assets unavailable, depending on circumstances of the mission.
+
+You can then consult the table below as to what kind of things the assets can be used at. Some assets can be spent when the mission is starting, but many options are available during an ongoing mission. GM may place limitations as they fit circumstances.
 
 If you ever run out of asset points, a player can always opt to use their personal resources instead of assets points, if circumstances allow. When stakes are high and situation is tense, this may also require some sort of skill test. Planning ahead is always the best choice.
 
