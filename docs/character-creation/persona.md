@@ -105,19 +105,16 @@ Factions are listed on [[factions/index|Factions section]] of the core book. Rea
 
 ## Experience
 
-You can choose how experienced your character is. More experienced characters have seen a lot and can be mental trainwrecks, but they have more **Upgrade Points** and tend to have higher, but more focused **Skills**, while younger characters have better **Aptitudes** and more **Resolve**, but will not excel at any one thing.
+You can choose how experienced your character is. More experienced characters have seen a lot and can be mental train wrecks, but they have more **Upgrade Points** to give them and edge and tend to have higher, but more focused **Skills**, while younger characters have more **Engrams**, **Resolve** and better **Aptitudes**, but will not excel at any one thing.
 
-| Experience   | Engrams | Mental State | Resolve | Aptitudes | Skills | Upgrades |
-| ------------ | ------- | ------------ | ------- | --------- | ------ | -------- |
-| Relic        | 1       | +4           | 1       | 4+2       | 8+15   | 8        |
-| Veteran      | 2       | +3           | 2       | 4+3       | 8+12   | 6        |
-| Professional | 3       | +2           | 3       | 4+4       | 8+9    | 4        |
-| Experienced  | 4       | +1           | 4       | 4+5       | 8+6    | 2        |
-| Recruit      | 5       | Normal       | 5       | 4+6       | 8+3    | 0        |
-**Aptitude Points** indicate how many points are distributed between aptitudes. Everyone needs to choose four aptitudes at level 1, and then spend the extra points as they see fit.
-
-**Skill Points** indicate the character’s training and experience. Everyone must select 8 skills at level 1 and may then distribute the excess points as they wish.
-
+| Experience   | Engrams | Mental State | Resolve | Skills | Upgrades |
+| ------------ | ------- | ------------ | ------- | ------ | -------- |
+| Relic        | 1       | +4           | 1       | +12    | 8        |
+| Veteran      | 2       | +3           | 2       | +9     | 6        |
+| Professional | 3       | +2           | 3       | +6     | 4        |
+| Experienced  | 4       | +1           | 4       | +3     | 2        |
+| Recruit      | 5       | Normal       | 5       | +0     | 0        |
+Note down the benefits from your chosen experience level, then proceed with character creation.
 ### Recruit
 You are a fresh recruit with only basic training and rudimentary skills, starting at the lowest rung of the ladder. But what you lack in *merits* or experience, you compensate with exceptional talent.
 
@@ -189,64 +186,170 @@ Decay measures corruption on a much smaller scale, often as consequence of over-
 
 *Decay Saves* use the die indicated by a **Safety** rating. If you fail the save, you will immediately take a point of corruption
 
-## Aptitudes and Skills
+## Aptitudes
 
-Aptitude determines talent and basic ability at related skills. Each Aptitude has 3 skills underneath them.
+Aptitudes determine talent and basic ability at related skills. Each Aptitude is linked to 3 skills.
 
-Aptitudes are rated with a level from 0 to 3 and Skills are measured with a level from 0 to 4. Each Level in a Skill and relevant Aptitude adds one Die when making a **Skill Test**.
+| Aptitude Rating | Talent   | Degree of talent                                                                     |
+| --------------- | -------- | ------------------------------------------------------------------------------------ |
+| □□□             | Inept    | You lack any aptitude or talent in the field.                                        |
+| ■□□             | Average  | You have average talent for the field.                                               |
+| ■■□             | Talented | You have exceptional talent in the area.                                             |
+| ■■■             | Genius   | You can match or exceed most professionals in the field without any training at all. |
 
-
-!!! info Character Creation info
-	You can choose 4 Aptitudes at Level 1, and then spend available Aptitude Points and Skill Points depending on your level of [[#Experience]]. You can allocate them freely on a 1:1 basis.
-
+!!! info Character Creation
+	**Character Creation**
+	- From the six aptitudes choose one as your **talent** and another as **weakness**.
+	- Optionally if you choose another *weakness*, you may also pick another *talent*.
+	- Assign Aptitude points as follows:
+		- 2 points for *Talent* aptitude
+		- *zero* points for *Weakness* aptitude.
+		- 1 point for any other aptitudes (neither a *talent* nor a *weakness*)
+	- Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]].
 
 ### Combat
 
 Combat is you aptitude for violence and tactical thinking and also measures your general experience in combat.
 
-- **Fighting**: Fighting in close quarters, hand-to-hand, wrestling, martial arts.
-- **Aim**: Accuracy when using ranged weapons.
-- **Tactics**: Combat awareness, tactical perception and the ability to react in combat.
+Combat Skills:
+- [[#Fighting]]
+- [[#Aim]]
+- [[#Tactics]]
 
 ### Education
 
 Education in Commonwealth is free and offered to anyone. Education measures your general level of Education and academic knowledge and mindset. The skills listed under Education merely scratch the surface, and they are the ones considered "useful" in the context of this game, but you are free to invent an obscure academic specialization.
 
-- **Med Tech**: Knowledge on Medicine and Medical Technology, including cybernetics. You can patch wounds and repair cybernetic frames and even work on to improve them.
-- **Investigation**: Apply analytical techniques and technology to investigate scenes of crime or look for information and piece together clues.
-- **Psychology**: Psychology is the knowledge of the human psyche. It can be used to heal mental wounds and resist mental trauma.
+Education Skills:
+- [[#Investigation]]
+- [[#Med Tech]]
+- [[#Psychology]]
 
 ### Physical
 
 Aptitude for physical activity and the need for speed, an adrenaline rush.
 
-- **Force**: Skill at exerting maximum physical force to resist impacts or break down doors.
-- **Mobility**: Move, evade, dodge, jump and tumble. Interest in sports or other athletic activities. Mobility can also be used as the skill to manually operate humanoid-like or animal-like robots via neural connection.
-- **Piloting**: Manual operation of vehicles and drones
-
+Physical Skills:
+- [[#Force]]
+- [[#Mobility]]
+- [[#Piloting]]
 ### Social
 
 Understanding of the complex psychosocial relationship that is social interaction. How to connect and utilize that connection to your benefit.
 
-- **Manipulation**: Manipulate and deceive with lies, false promises and twisted words.
-- **Networking**: Form connections with people and utilize those connections to find information, allies and help when needed.
-- **Persuasion**: Smooth talking and negotiation. Sway their minds with convincing arguments.
+Social Skills:
+- [[#Manipulation]]
+- [[#Networking]]
+- [[#Persuasion]]
 
 ### Survival
 
 Survival is your aptitude for functioning outside the confines of Commonwealth, knowing the inner workings of the criminal underground. It takes a certain degree of paranoia and creativity to survive.
 
-- **Alertness**: Alertness is attention to your surroundings. Observe your surroundings, looking for escape routes, detect surveillance and tails.
-- **Stealth**: Remain undetected and perform various shadowy tasks.
-- **Streetwise**: Knowledge of the criminal underground and etiquette among them. Street awareness and knowing how to avoid trouble.
+Survival Skills:
+- [[#Alertness]]
+- [[#Stealth]]
+- [[#Streetwise]]
 
 ### Technical
 
 Technical Aptitude defines your understanding of software and hardware and how they create the everyday technology all around you. Majority of the hardware used in modern technology is so complicated and intricate that they can only be manufactured and maintained by specialized assembly systems. The human part of the technology lies in understanding the core principles of the hardware and the software that manages it. You design and the machines create.
 
-- **Design**: Design technology, software, virtual worlds.
-- **Hacking**: Find creative ways to abuse systems to bypass security measures or make them do something they were not intended for. Just don't expect a long-term solution for a problem.
-- **Troubleshooting**: Problem solving and troubleshooting, the ability to fix bugs and glitches between software and hardware. Fix it if it's broken.
+Technical Skills:
+- [[#Design]]
+- [[#Hacking]]
+- [[#Troubleshooting]]
+
+## Skills
+
+Skills determine the character’s expertise and learned experiences. Each skill is linked to a default [[#Aptitudes|Aptitude]], and when making a [[core-mechanics#Tests|Skill Test]] you usually roll dice from both the skill and the linked *Aptitude*. If you do not have a skill, you can still make a related test using just the Aptitude level.
+
+!!! info Character Creation
+	**Character Creation**
+	A characters’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*.
+	- Choose 3 skills related to your *Origin* and assign 1 skill point to each skill.
+	- Choose 3 skills related to your *profession*, or *role* within your *Faction*. Check your faction description for suggestions.
+	- Choose 2 skills as your *personal interests* and assign 1 skill point to each skill.
+	- Spend additional skill points based on **Experience Level** and distribute them as you see fit. You should not have more than one skill at Level 4.
+
+| Skill Rating | Expertise    | Description                                                                                                                                        |
+| ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| □□□□         | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                                             |
+| ■□□□         | Student      | You have basic skill, but you are still learning.                                                                                                  |
+| ■■□□         | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation.                         |
+| ■■■□         | Expert       | You are a seasoned expert on your field. One of the best.                                                                                          |
+| ■■■■         | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a different is raw natural talent. |
+### Aim
+`Combat`
+Accuracy when using ranged weapons.
+
+### Alertness
+`Survival`
+Alertness is attention to your surroundings. Observe your surroundings, looking for escape routes, detect surveillance and tails.
+
+### Design
+`Technical`
+Design technology, software, virtual worlds.
+
+### Fighting
+`Combat`
+Fighting in close quarters, hand-to-hand, wrestling, martial arts.
+
+### Force
+`Physical`
+Skill at exerting maximum physical force to resist impacts or break down doors.
+
+### Hacking
+`Technical`
+Find creative ways to abuse systems to bypass security measures or make them do something they were not intended for. Just don't expect a long-term solution for a problem.
+
+### Investigation
+`Education`
+Apply analytical techniques and technology to investigate scenes of crime or look for information and piece together clues.
+
+### Manipulation
+`Social`
+Manipulate and deceive with lies, false promises and twisted words.
+
+### Med Tech
+`Education`
+Knowledge on Medicine and Medical Technology, including cybernetics. You can patch wounds and repair cybernetic frames and even work on to improve them.
+
+### Mobility
+`Physical`
+Move, evade, dodge, jump and tumble. Interest in sports or other athletic activities. Mobility can also be used as the skill to manually operate humanoid-like or animal-like robots via neural connection.
+
+### Networking
+`Social`
+Form connections with people and utilize those connections to find information, allies and help when needed.
+
+### Persuasion
+`Social`
+Smooth talking and negotiation. Sway their minds with convincing arguments.
+
+### Piloting
+`Physical`
+Manual operation of vehicles and drones
+
+### Psychology
+`Education`
+Psychology is the knowledge of the human psyche. It can be used to heal mental wounds and resist mental trauma.
+
+### Stealth
+`Survival`
+Remain undetected and perform various shadowy tasks.
+
+### Streetwise
+`Survival`
+Knowledge of the criminal underground and etiquette among them. Street awareness and knowing how to avoid trouble.
+
+### Tactics
+`Combat`
+Combat awareness, tactical perception and the ability to react in combat.
+
+### Troubleshooting
+`Technical`
+Problem solving and troubleshooting, the ability to fix bugs and glitches between software and hardware. Fix it if it's broken.
 
 ## Resolve
 
