@@ -114,11 +114,13 @@ You can choose how experienced your character is. More experienced characters ha
 | Professional | 3       | +2           | 3       | +6     | 4        |
 | Experienced  | 4       | +1           | 4       | +3     | 2        |
 | Recruit      | 5       | Normal       | 5       | +0     | 0        |
+
 Note down the benefits from your chosen experience level, then proceed with character creation.
+
 ### Recruit
 You are a fresh recruit with only basic training and rudimentary skills, starting at the lowest rung of the ladder. But what you lack in *merits* or experience, you compensate with exceptional talent.
 
-	!!! info
+!!! info
 	Playing a recruit can be challenging as you have much less Upgrades to work with and your Mental State may make you a weak link in the team
 
 ### Experienced
@@ -127,8 +129,8 @@ You have some notches on your belt, you’ve seen some action and you know the t
 ### Professional
 You are a steady professional who has been on the job for quite a while. You know your strengths and your weaknesses well and despite having experienced your share of trauma, you are relatively stable.
 
-	!!! info
-	**Professionals are the expected baseline**
+!!! info
+	Professionals are the expected baseline
 
 ### Veteran
 You’ve been on the job for a long time. Long enough to know how the system works, how things tend to fold out. Nothing really surprises you any more. Your life is in shambles, you’ve lost so much and gained very little. But regardless, there’s still something that keeps you on the going, that makes you tick. But your time is running out, retirement looms in the horizon. If they ever let you.
@@ -136,7 +138,7 @@ You’ve been on the job for a long time. Long enough to know how the system wor
 ### Relic
 You’ve seen things most people wouldn’t believe. Unimaginable horrors, violence, depravity and enough trauma to shatter you into a million fragments. You are but a shell desperately trying to hold on to a broken spirit, ready to die. Sometimes you think they keep you around for their amusement. Or perhaps they’re just *afraid of you*. You are on the edge, waiting for one more slip to take you away. Whatever hope you find anywhere, better hang on to it, like your soul depends on it – because it does.
 
-	!!! info
+!!! info
 	Relics are extremely rare and may not last for long. Their upgrades make them deadly and powerful, but at the same time, they can be volatile and limited in their expertise. It is a challenge of its own, and not recommended as first time experience.
 
 ## Engrams
@@ -169,9 +171,8 @@ Corruption can be gained in a few ways, for example:
 
 Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Save** rolling a D6 for each point of Corruption you have. If you fail, then one of your **Engrams** is permanently corrupted. You must remove one **Engram** and you also lose the associated Resolve point and a single **Aptitude** point. You can then erase all accumulated Corruption points. This will also increase one of your **Mental State** factors by one.
 
-
-!!! warning The End
-	If your last Engram is corrupted, you will cease to be a functional human. This is as close to real death as you can get here. Your character might continue to exist as an artificial intelligence inside a husk, a mere shell, or they may end up in a psychosis, culminating in a sudden violent killing spree. Or they can wander off into the unknown, never to be heard of again. You can decide what happens to your character after, but you can't play with them any longer. Write the final paragraph of their story. But that will be the end.
+!!! warning
+    If your last Engram is corrupted, you will cease to be a functional human. This is as close to real death as you can get here. Your character might continue to exist as an artificial intelligence inside a husk, a mere shell, or they may end up in a psychosis, culminating in a sudden violent killing spree. Or they can wander off into the unknown, never to be heard of again. You can decide what happens to your character after, but you can't play with them any longer. Write the final paragraph of their story. But that will be the end.
 
 ### Removing Corruption
 
@@ -192,26 +193,32 @@ Aptitudes determine talent and basic ability at related skills. Each Aptitude is
 
 | Aptitude Rating | Talent   | Degree of talent                                                                     |
 | --------------- | -------- | ------------------------------------------------------------------------------------ |
-| □□□             | Inept    | You lack any aptitude or talent in the field.                                        |
-| ■□□             | Average  | You have average talent for the field.                                               |
-| ■■□             | Talented | You have exceptional talent in the area.                                             |
-| ■■■             | Genius   | You can match or exceed most professionals in the field without any training at all. |
+| N/A             | Inept    | You lack any aptitude or talent in the field.                                        |
+| ◼               | Average  | You have average talent for the field.                                               |
+| ◼◼              | Talented | You have exceptional talent in the area.                                             |
+| ◼◼◼             | Genius   | You can match or exceed most professionals in the field without any training at all. |
 
-!!! info Character Creation
-	**Character Creation**
-	- From the six aptitudes choose one as your **talent** and another as **weakness**.
-	- Optionally if you choose another *weakness*, you may also pick another *talent*.
-	- Assign Aptitude points as follows:
-		- 2 points for *Talent* aptitude
-		- *zero* points for *Weakness* aptitude.
-		- 1 point for any other aptitudes (neither a *talent* nor a *weakness*)
-	- Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]].
+!!! info
+	From the six aptitudes choose one as your **talent** and another as **weakness**.
+	
+	Optionally if you choose another *weakness*, you may also pick another *talent*.
+	
+	Thenna assign Aptitude points as follows:
+	
+	- 2 points for *Talent* aptitude
+
+	- *zero* points for *Weakness* aptitude.
+		
+	- 1 point for any other aptitudes (neither a *talent* nor a *weakness*)
+		
+	Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]].
 
 ### Combat
 
 Combat is you aptitude for violence and tactical thinking and also measures your general experience in combat.
 
 Combat Skills:
+
 - [[#Fighting]]
 - [[#Aim]]
 - [[#Tactics]]
@@ -221,6 +228,7 @@ Combat Skills:
 Education in Commonwealth is free and offered to anyone. Education measures your general level of Education and academic knowledge and mindset. The skills listed under Education merely scratch the surface, and they are the ones considered "useful" in the context of this game, but you are free to invent an obscure academic specialization.
 
 Education Skills:
+
 - [[#Investigation]]
 - [[#Med Tech]]
 - [[#Psychology]]
@@ -230,6 +238,7 @@ Education Skills:
 Aptitude for physical activity and the need for speed, an adrenaline rush.
 
 Physical Skills:
+
 - [[#Force]]
 - [[#Mobility]]
 - [[#Piloting]]
@@ -238,6 +247,7 @@ Physical Skills:
 Understanding of the complex psychosocial relationship that is social interaction. How to connect and utilize that connection to your benefit.
 
 Social Skills:
+
 - [[#Manipulation]]
 - [[#Networking]]
 - [[#Persuasion]]
@@ -247,6 +257,7 @@ Social Skills:
 Survival is your aptitude for functioning outside the confines of Commonwealth, knowing the inner workings of the criminal underground. It takes a certain degree of paranoia and creativity to survive.
 
 Survival Skills:
+
 - [[#Alertness]]
 - [[#Stealth]]
 - [[#Streetwise]]
@@ -256,6 +267,7 @@ Survival Skills:
 Technical Aptitude defines your understanding of software and hardware and how they create the everyday technology all around you. Majority of the hardware used in modern technology is so complicated and intricate that they can only be manufactured and maintained by specialized assembly systems. The human part of the technology lies in understanding the core principles of the hardware and the software that manages it. You design and the machines create.
 
 Technical Skills:
+
 - [[#Design]]
 - [[#Hacking]]
 - [[#Troubleshooting]]
@@ -264,91 +276,114 @@ Technical Skills:
 
 Skills determine the character’s expertise and learned experiences. Each skill is linked to a default [[#Aptitudes|Aptitude]], and when making a [[core-mechanics#Tests|Skill Test]] you usually roll dice from both the skill and the linked *Aptitude*. If you do not have a skill, you can still make a related test using just the Aptitude level.
 
-!!! info Character Creation
-	**Character Creation**
-	A characters’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*.
-	- Choose 3 skills related to your *Origin* and assign 1 skill point to each skill.
-	- Choose 3 skills related to your *profession*, or *role* within your *Faction*. Check your faction description for suggestions.
-	- Choose 2 skills as your *personal interests* and assign 1 skill point to each skill.
-	- Spend additional skill points based on **Experience Level** and distribute them as you see fit. You should not have more than one skill at Level 4.
-
 | Skill Rating | Expertise    | Description                                                                                                                                        |
 | ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| □□□□         | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                                             |
-| ■□□□         | Student      | You have basic skill, but you are still learning.                                                                                                  |
-| ■■□□         | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation.                         |
-| ■■■□         | Expert       | You are a seasoned expert on your field. One of the best.                                                                                          |
-| ■■■■         | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a different is raw natural talent. |
+| N/A          | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                                             |
+| ◼            | Student      | You have basic skill, but you are still learning.                                                                                                  |
+| ◼◼           | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation.                         |
+| ◼◼◼          | Expert       | You are a seasoned expert on your field. One of the best.                                                                                          |
+| ◼◼◼◼         | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a different is raw natural talent. |
+
+
+!!! info
+	A characters’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*.
+	
+	Choose 3 skills related to your *Origin* and assign 1 skill point to each skill.
+	
+	Choose 3 skills related to your *profession*, or *role* within your *Faction*. Check your faction description for suggestions.
+	
+	Choose 2 skills as your *personal interests* and assign 1 skill point to each skill.
+	Spend additional skill points based on **Experience Level** and distribute them as you see fit. You should not have more than one skill at Level 4.
+
+
 ### Aim
 `Combat`
+
 Accuracy when using ranged weapons.
 
 ### Alertness
 `Survival`
+
 Alertness is attention to your surroundings. Observe your surroundings, looking for escape routes, detect surveillance and tails.
 
 ### Design
 `Technical`
+
 Design technology, software, virtual worlds.
 
 ### Fighting
 `Combat`
+
 Fighting in close quarters, hand-to-hand, wrestling, martial arts.
 
 ### Force
 `Physical`
+
 Skill at exerting maximum physical force to resist impacts or break down doors.
 
 ### Hacking
 `Technical`
+
 Find creative ways to abuse systems to bypass security measures or make them do something they were not intended for. Just don't expect a long-term solution for a problem.
 
 ### Investigation
 `Education`
+
 Apply analytical techniques and technology to investigate scenes of crime or look for information and piece together clues.
 
 ### Manipulation
 `Social`
+
 Manipulate and deceive with lies, false promises and twisted words.
 
 ### Med Tech
 `Education`
+
 Knowledge on Medicine and Medical Technology, including cybernetics. You can patch wounds and repair cybernetic frames and even work on to improve them.
 
 ### Mobility
 `Physical`
+
 Move, evade, dodge, jump and tumble. Interest in sports or other athletic activities. Mobility can also be used as the skill to manually operate humanoid-like or animal-like robots via neural connection.
 
 ### Networking
 `Social`
+
 Form connections with people and utilize those connections to find information, allies and help when needed.
 
 ### Persuasion
 `Social`
+
 Smooth talking and negotiation. Sway their minds with convincing arguments.
 
 ### Piloting
 `Physical`
+
 Manual operation of vehicles and drones
 
 ### Psychology
 `Education`
+
 Psychology is the knowledge of the human psyche. It can be used to heal mental wounds and resist mental trauma.
 
 ### Stealth
 `Survival`
+
 Remain undetected and perform various shadowy tasks.
 
 ### Streetwise
 `Survival`
+
 Knowledge of the criminal underground and etiquette among them. Street awareness and knowing how to avoid trouble.
 
 ### Tactics
 `Combat`
+
 Combat awareness, tactical perception and the ability to react in combat.
 
 ### Troubleshooting
 `Technical`
+
 Problem solving and troubleshooting, the ability to fix bugs and glitches between software and hardware. Fix it if it's broken.
 
 ## Resolve
