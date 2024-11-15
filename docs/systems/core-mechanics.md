@@ -117,10 +117,10 @@ Sometimes you have the option to spend a **Reroll** on a test vastly improving y
 
 Usage Dice are used to measure consumption of various resources such as **Ammo**, **Stress** or personal **Resources**.
 
-Usage Dice are measured with a die (D6, D8, D10 or D12). When checking usage you must roll dice equal to current level of usage (consumption), and if any dice roll a 1, you **fail**, otherwise you **succeed** and mark down a new tick on the appropriate usage tracker. Future usage checks are more difficult after each success: You always roll the previous usage as well, making failure ever more likely.
+Usage Dice are measured with a die (D6, D8, D10 or D12). When checking usage you must roll dice equal to current level of usage (consumption), and if any dice equal or less than the *Consumption Rate* value (default 2), you **fail**, otherwise you **succeed** and mark down a new tick on the appropriate usage tracker. Future usage checks are more difficult after each success: You always roll the previous usage as well, making failure ever more likely.
 
 Consequences of failure depend on the measured usage:
-- **Ammo**: You run out of ammo and must spend a Reload
+- **Ammo**: You run out of ammo and must spend a Reload. but usage is cleared.
 - **Stress**: You suffer from mental breakdown
 - **Resources** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
 
