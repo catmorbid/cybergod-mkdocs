@@ -108,16 +108,18 @@ Different modifiers may apply to a test, either granting or removing dice. Gener
 
 ### Rerolls
 
-Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results, but any successes generated from the rerolled dice are counted together with the dice you did not reroll. It makes most sense to only reroll dice that did not generate any successes.
+Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results, but any successes generated from the rerolled dice are counted together with the previously rolled (and kept) dice. Usually it makes most sense to only reroll dice that did not generate any successes in the first place.
 
 !!! example
-	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard `Persuasion x Mind` test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to Reroll five dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.
+	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard `Persuasion x Mind` test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to reroll the five failed dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.
 
 ## Usage Dice
 
 Usage Dice are used to measure consumption of various resources such as **Ammo**, **Stress** or personal **Resources**.
 
-Usage Dice are measured with a die (D6, D8, D10 D12). You roll one or more dice – depending on level of usage – and if you roll a 1, you **fail**, otherwise you **succeed** and mark down the number of dice you just rolled. Future usage checks are more difficult after each success: You always roll the previous usage as well, making failure ever more likely. Consequences of failure depend on the measured usage:
+Usage Dice are measured with a die (D6, D8, D10 or D12). When checking usage you must roll dice equal to current level of usage (consumption), and if any dice roll a 1, you **fail**, otherwise you **succeed** and mark down a new tick on the appropriate usage tracker. Future usage checks are more difficult after each success: You always roll the previous usage as well, making failure ever more likely.
+
+Consequences of failure depend on the measured usage:
 - **Ammo**: You run out of ammo and must spend a Reload
 - **Stress**: You suffer from mental breakdown
 - **Resources** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.

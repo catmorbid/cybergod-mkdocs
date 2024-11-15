@@ -235,7 +235,7 @@ Stress is handled different than physical damage, and instead of knives and bull
 
 Stress is generally measured on a scale of 1 to 5, but it does not have an upper limit.
 
-Whenever you take Stress, roll one of your Mental State stats – which one depends on the circumstances – as [[core-mechanics#Usage Dice|Usage Dice]], rolling as many dice as current stress + any inflicted stress. If you fail, you suffer from [[#Mental Breakdown]], otherwise mark the stress and continue as usual.
+Whenever you take Stress, roll one of your Mental State stats, depending on circumstance, as [[core-mechanics#Usage Dice|Usage Dice]], rolling as many dice as current stress + any inflicted stress. If you fail, you suffer from [[#Mental Breakdown]], otherwise mark the stress and continue as usual.
 
 | Stress | Description |
 | ------ | ----------- |
@@ -249,6 +249,7 @@ Whenever you take Stress, roll one of your Mental State stats – which one depe
 	Only major characters and player characters should roll stress dice and track stress. Minor characters should simply roll on the mental breakdown table if they take any points of stress, or GM should decide the outcome.
 
 ### Mental Breakdown
+
 Having failed a Stress test you need to roll your [[persona#Habituation|Habituation]] Die to resolve outcome on mental breakdown. 
 
 | Habituation Die | Outcome      | Details                                                                                                                                                                                                                                                                                              |
@@ -265,3 +266,11 @@ Having failed a Stress test you need to roll your [[persona#Habituation|Habituat
 | 10              | Frenzy       | Fit of rage. You break something or do something stupid as a consequence. Receive **-1D** on Mind tests.                                                                                                                                                                                             |
 | 11              | Violent urge | You feel the urge to use excessive and brutal force on your enemies, leaving none alive.                                                                                                                                                                                                             |
 | 12              | Psychotic    | You enter into a state of violent unhinged psychosis and must kill everything and anything you see whether friend, foe or an innocent bystander, using your deadliest arsenal.                                                                                                                       |
+
+### Reducing Stress
+
+To recover stress naturally the characters must spend some [[core-mechanics#Structure of play|downtime]] to rest and relax, allowing them to recover at least one point of stress. Stress recovery can be increased in the following ways:
+- Spend the downtime in activity relating to their [[persona#Engrams|Engrams]], to recover additional point per engram engaged with this way.
+- Spend some time in therapy
+- Use drugs or other substances that alleviate stress
+
