@@ -48,22 +48,26 @@ Velocity is an abstraction of how fast something is. Acceleration, mass and kine
 - **Moderate** Velocity means something is moving at a rate roughly equivalent to a sprinting human. Vehicles tend to go fast but you really need to keep up your pace to catch them on foot.
 - **High** Velocity is equivalent to a fast moving vehicle, such as a GravCar speeding away. You can see them, but attempting to reach them on foot would be desperate.
 - **Ultra** Velocity is closing to super sonic speeds. You don't have any hope to reach this velocity on foot.
-## Tests
+## Skill Tests
 
-A Test is sometimes called upon when you need to figure out whether a character can do something that is not within basic functions of a human (or a cybernetic) being. Complicated tasks that require years of learning are represented by the characters' **Skills** and **Attributes**, which are the core elements of a Test.
+A Skill Test is called when you need to figure out whether a character can do something that is not within basic functions of a human (or a cybernetic) being.
 
-Each skill is also linked to an **Aptitude**, which is like a skill category, and the skill level is always the sum of the actual skill and the linked Aptitude. If the character doesn't have any points in the actual tested skill, they can always use the linked Aptitude.
+Skill Tests are noted as `Skill x Attribute`:
+- **Skill** is the sum of the *skill level* and its linked *Aptitude level*. Optionally, GM may allow using another *Aptitude* than the one linked to the Skill.
+- **Attribute** determines the size of the die to roll ranging from D6 to D12.
 
-Tests are noted as `Skill x Attribute`, where Skill determines the number of dice to roll, and Attribute the type of Die used. This generally results in a Dice Pool of 1 to 7 dice. The type of Die is determined by the Attribute used in the test, and can be D6, D8, D10 or D12.
+This generally results in a Dice Pool of 1 to 7 dice.
 
-### Simple Test
+### Successes and Effects
 
-Roll the dice and count **successes**:
+Once you have figured out the Dice Pool to roll with, roll the dice and count **successes**:
 
 - Count 1 *Success* for a roll of 5 or higher, or
 - Count 2 *Successes* for a roll of 10 or higher
 
-You need to beat the **Difficulty** of the test to actually succeed. If you succeed, you gain **One (1) Effect Point (EP)** plus another for each additional success rolled. Spend Effect Points to determine the actual outcome. Most Tests have a so called *Basic* effect which simply allows you to do what you set out to do in the first place for just 1 Effect Point, but GM may present additional Effects, or simply decide what happens based on how many EP you gained.
+You need to beat the **Difficulty** of the test to actually succeed. If you succeed, you gain **One (1) Effect Point (EP)** plus another for each additional success rolled.
+
+Spend **Effect Points** to determine the actual outcome. Most Tests have a so called *Basic* effect which simply allows you to do what you set out to do in the first place for just 1 Effect Point, but GM may present additional Effects, or simply decide what happens based on how many EP you gained.
 
 ### Difficulty
 
@@ -91,7 +95,7 @@ When two characters roll dice against each other, they are making an Opposed Tes
 
 Complications are optional challenges that may be present when attempting a Test. GM can introduce complications on any tests, presenting them as a potential harm that can happen unless dealt with. Players are free to choose whether they want to deal with the complication, or face the consequences.
 
-Each complication comes with a rating of 1-5 depicting how difficult the complication is to overcome. In practice this means that to overcome the complication, you need to spend that many additional successes, which can't then be used to beat the difficulty, and won't count for *Effect Points*.
+Each complication comes with a rating of 1-5 depicting how difficult the complication is to overcome. In practice this means that to overcome the complication, you need to spend that many additional successes, which can't then be used to beat the difficulty, and won't count for *Effect Points*. But as long as you overcome the complication, then it won’t come into play.
 
 It is also possible that multiple complications apply to a single test, but having more than three complications makes tracking them really difficulty, so having more than three complications on a single test is not recommended.
 
@@ -106,22 +110,35 @@ You gain a number of **Effect Points (EP)** upon beating the difficulty of a tes
 
 Different modifiers may apply to a test, either granting or removing dice. Generally the total number of modifiers should not exceed +/- 3 Dice. Regardless, maximum number of dice to roll is 10, and minimum is zero. If you don't have dice, you fail automatically.
 
+A positive modifier may be referred to as **Advantage** or **Bonus**, while a negative modifier may be called **Disadvantage** or **Penalty**.
+
 ### Rerolls
 
-Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results, but any successes generated from the rerolled dice are counted together with the previously rolled (and kept) dice. Usually it makes most sense to only reroll dice that did not generate any successes in the first place.
+Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results. When rerolling a skill test, it makes most sense to only re-roll dice that did not generate any successes, otherwise you will risk those dice producing zero successes.
 
 !!! example
 	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard `Persuasion x Mind` test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to reroll the five failed dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.
 
-## Usage Dice
+### Assistance
 
-Usage Dice are used to measure consumption of various resources such as **Ammo**, **Stress** or personal **Resources**.
+Another character may provide assistance in a test. The assistant does not roll any dice on their own, but rather awards half (round down) of their **Dice Pool** to the acting character performing the test. The minimum Dice Pool is then 2 for assistant to be of any use to the acting character.
 
-Usage Dice are measured with a die (D6, D8, D10 or D12). When checking usage you must roll dice equal to current level of usage (consumption), and if any dice equal or less than the *Consumption Rate* value (default 2), you **fail**, otherwise you **succeed** and mark down a new tick on the appropriate usage tracker. Future usage checks are more difficult after each success: You always roll the previous usage as well, making failure ever more likely.
+The assistant may also utilize a different skill than the acting character, if it fits the situation. You can suggest GM how your character would be able to assist another character, suggesting a skill to use, but the GM has the final call if such assistance works in the situation at hand.
 
-Consequences of failure depend on the measured usage:
+## Condition Tests
+
+Condition Tests are required when the character needs to *resist* a certain physical or mental condition. Condition Tests are made like any [[#Skill Tests|Skill Test]] using the relevant `Skill x Attribute`. Condition Tests do not have varying difficulty like skill test, and as they are always related to a **Condition**, the Success Threshold is equal to the Level of Condition. Condition Tests do not suffer from usual circumstantial penalties such as *Wound Penalties*, but they cannot be [[#Assistance|assisted]] either. Certain external aids may add Bonus Dice to Condition tests.
+
+## Resource Checks
+
+Resource Checks are used to measure consumption of various resources such as **Ammo** or personal **Resources**.
+
+Resource Check is rolled with Resource Dice which are D6, D8, D10 or D12. When you consume resources, you must make a Resource Check. The number of dice is 1 + previous level of consumption. E.g. If you you currently have 4 points of ammo tracked, spending another ammo means you now roll 5 dice for Resource Check.
+
+If any dice show 1-2 then the check fails. Consequences of failure depend on the measured resource:
+
 - **Ammo**: You run out of ammo and must spend a Reload. but usage is cleared.
-- **Stress**: You suffer from mental breakdown
+- **Stress**: you suffer from a mental breakdown, but stress track remains unchanged.
 - **Resources** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
 
-Upon failure any tracked usage is cleared and you can start anew.
+If you fail the check, then clear the tracked usage track and start tracking again from zero, if any resources remain.

@@ -49,18 +49,18 @@ Recoil can be reduced by one degree by having a support device for the weapon, s
 
 #### Area
 
-Area is used for explosives and such to determine how large area is affected when the weapon is used. Area of effect weapons can catch multiple enemies under the weapon's effect. Every target near the primary target will take damage, but they can attempt a **Reflex Save** to quickly take cover with difficulty depending on the Area property. If the save is successful, they take only half damage. The primary target of the attack will however always take full damage.
+Area is used for explosives and such to determine how large area is affected when the weapon is used. Area of effect weapons can catch multiple enemies under the weapon's effect. Every target near the primary target will take damage, but they can take a **Reaction** to attempt a `Mobility or Tactics x Reflex` test to quickly hit the dirt or take cover. The difficulty for the test depends on the scale of the Area stat. On success you can mitigate a single Hit per Effect Point.
 
 
-| Area     | Description                                                                                                  | Save Dif. |
-| -------- | ------------------------------------------------------------------------------------------------------------ | --------- |
-| Small    | Radius is few meters at most and can impact up to three targets in close vicinity.                           | 2         |
-| Moderate | Easily a dozen meters or more. Usually up to 6 targets.                                                      | 4         |
-| Large    | Large areas covering several dozen meters from point of impact. Affects easily up to 20 targets in vicinity. | 6         |
-| Huge     | Covers a massive area of hundred meters or more. Affects every target in the area, as many as needed.        | 8         |
+| Area     | Description                                                                                                  | Reaction Difficulty |
+| -------- | ------------------------------------------------------------------------------------------------------------ | ------------------- |
+| Small    | Radius is few meters at most and can impact up to three targets in close vicinity.                           | 1                   |
+| Moderate | Easily a dozen meters or more. Usually up to 6 targets.                                                      | 2                   |
+| Large    | Large areas covering several dozen meters from point of impact. Affects easily up to 20 targets in vicinity. | 3                   |
+| Huge     | Covers a massive area of hundred meters or more. Affects every target in the area, as many as needed.        | 4                   |
 
 !!! example
-	Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of Frag grenades in their general direction. The Bulwark scores 3 hits, firing randomly in the area, so no one takes a direct hit, but everyone in the area must now make a Difficulty 4 Reflex Save to avoid DC 4 damage. Morales rolls 4D10, scoring 1,5, 8, 10 → that’s a failure and he takes DC 4 damage, spending Hard mitigation to take only a Bruise.
+	Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of Frag grenades (Moderate Area) in their general direction. The Bulwark scores 3 hits, firing randomly in the area, so no one takes a direct hit, but everyone takes 3 Hits. Morales takes a Reaction to avoid the hits, choosing to roll with his Mobility skill of 4 against difficulty 2 (Moderate Area). Morales rolls 4D10, scoring 3, 5, 10, 4 → 3 success – Morales mitigates 2 hits, but takes a third one unmitigated.
 
 ### Tags
 
@@ -368,6 +368,9 @@ You can also carry various tools and other useful equipment. Your faction can pr
 
 Many kinds of drugs exists. Some are legal and approved for official use, while others are strictly illegal. The black market however has lots of drugs in circulation.
 
+### Safety Check
+You must make a [[persona#Safety Check|Safety Check]] whenever you use any drugs using the indicated Safety Die. Over-use may lead to [[persona#Corruption|Corruption]] and loss of humanity. Safety Checks can be re-rolled by spending a point of [[persona#Resolve|Resolve]], which might be a good idea to avoid taking corruption.
+
 ### Legal drugs
 
 | Name                | Description                                                                                                                                                                                                                                                 | Grade    | Safety |
@@ -375,7 +378,7 @@ Many kinds of drugs exists. Some are legal and approved for official use, while 
 | Nano Stim           | An injection of fast acting nano agents programmed to repair physical damage. Heals all Minor Wounds in Short Duration.                                                                                                                                     | Advanced | D10    |
 | Cognitive Enhancers | Gain a free re-roll on any Mind Test                                                                                                                                                                                                                        | Advanced | D10    |
 | Reflex Enhancers    | Gain a free re-roll on any Reflex Test                                                                                                                                                                                                                      | Advanced | D10    |
-| Painkillers         | Negate 1D worth wound penalties                                                                                                                                                                                                                             | Common   | None   |
+| Painkillers         | Negate 1D worth wound penalties                                                                                                                                                                                                                             | Common   | D12    |
 | Pscyhers            | Gain temporary telepathic ability. Can read the thoughts and emotions of nearby people. Experience is enhanced with physical contact and with proximity to other Psycher users. Very popular recreational drug, and also useful for interrogation purposes. | Rare     | D8     |
 | Purge               | Force body to flush any toxins and foreign chemical and biological agents from within their system, effectively neutralizing their effects. Cancel ANY and ALL drug and poison effects. Causes painful vomiting for 1 round per effect flushed.             | Uncommon | D12    |
 | Sedatives           | Powerful sedatives with rapid rate of effect. Reduce accumulated Stress by one.                                                                                                                                                                             | Common   | D12    |
