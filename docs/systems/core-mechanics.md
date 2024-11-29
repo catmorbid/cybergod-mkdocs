@@ -114,7 +114,7 @@ A positive modifier may be referred to as **Advantage** or **Bonus**, while a ne
 
 ### Rerolls
 
-Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results, but any successes generated from the rerolled dice are counted together with the previously rolled (and kept) dice. Usually it makes most sense to only reroll dice that did not generate any successes in the first place.
+Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results. When rerolling a skill test, it makes most sense to only re-roll dice that did not generate any successes, otherwise you will risk those dice producing zero successes.
 
 !!! example
 	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard `Persuasion x Mind` test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to reroll the five failed dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.
@@ -138,6 +138,7 @@ Resource Check is rolled with Resource Dice which are D6, D8, D10 or D12. When y
 If any dice show 1-2 then the check fails. Consequences of failure depend on the measured resource:
 
 - **Ammo**: You run out of ammo and must spend a Reload. but usage is cleared.
+- **Stress**: you suffer from a mental breakdown, but stress track remains unchanged.
 - **Resources** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
 
 If you fail the check, then clear the tracked usage track and start tracking again from zero, if any resources remain.

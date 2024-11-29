@@ -11,7 +11,10 @@ Origin is you backstory and history. Where did you come from and how did you end
 
 Origin may provide you with information or circumstantial advantage based on your past experiences. Feel free to suggest to GM when this should apply.
 
-Each origin grants you 3 skill points. You can assign the points to the suggested skills or consult the GM for alterations.
+Each origin grants you some skills. You can use the suggested skills, or choose your own. Consult the GM if needed. You must pick either:
+
+- 3 skills with +1 skill level each
+- 1 skill with +2 skill level
 
 
 | D12 | Origin              | Skills                                |
@@ -69,7 +72,7 @@ You had a satisfying life and a successful career, but then you nearly died in a
 ### Prodigy
 You were a child prodigy, found at early age by the Commonwealth and brought into the society bypassing the usual bureaucratic hoops. You were met with unsurmountable expectations while overwhelmed with praise and promises, but were ill-prepared for the simple hardships of reality. They expected so much of you, but when you fell, you fell *hard*.
 
-**Skills:** One skill gains +3.
+**Skills:** One skill gains +2.
 
 ### Slum kid
 You grew up in the Ground Zone, among the literal shadows of civilization. They promised eventually you could become a citizen, but as years passed on and hope waned, you ended up with the wrong crowd and got to experience first hand the quality of life the GZ has to offer. Finally, one day it just happened. You got in, citizen of the Commonwealth. You may leave the GZ but the GZ never leaves you.
@@ -117,6 +120,9 @@ You can choose how experienced your character is. More experienced characters ha
 
 Note down the benefits from your chosen experience level, then proceed with character creation.
 
+!!! example Kitah
+	Joe is creating a new character “Kitah”. He imagines Kitah to be a seasoned hardcore professional who is very competent in their line of work. Kitah’s experience level is “Professional”. This gives Kitah 3 Engrams, +2 mental state, 3 Resolve, 6 extra skill points and 4 upgrade points.
+
 ### Recruit
 You are a fresh recruit with only basic training and rudimentary skills, starting at the lowest rung of the ladder. But what you lack in *merits* or experience, you compensate with exceptional talent.
 
@@ -145,18 +151,26 @@ You’ve seen things most people wouldn’t believe. Unimaginable horrors, viole
 
 Engrams are strong memories deeply embedded in the character's digital psyche. Distant memories of past lives, vivid traumas and deep-rooted habits that make the character who they are, and define their humanity. Death and Rebirth are traumatizing and can result in the corruption of the Digital Psyche, represented by loss of Engrams. 
 
-Write down 1-5 engrams, filling one of the five available slots. The number of engrams determines the character's experience where lower number means more experience. Since each death takes away a little bit, it is presumed that the longer you've been in the game, the more you've died and traumatized. You have a past, and it's not a nice one.
+Write down 1-5 engrams, filling one of the five available slots. The number of engrams determines the character's [[#Experience]] where lower number means more experience. Since each death takes away a little bit, it is presumed that the longer you've been in the game, the more you've died and traumatized. You have a past, and it's not a nice one.
 
-Each Engram adds a point of **Resolve** and some **Skill Points**, but will cost you **Upgrade Points**. The total number of Engrams also determines a modifier to your [[#Mental State|Mental State factors]], leading you further away from humanity.
+The number of Engrams are determined by your chosen [[#Experience]] Level, and they are linked to your [[#Resolve]], [[#Aptitudes]] and [[#Mental State]].
 
+You can have up to 5 engrams, each engram depicting a different theme. Write down a couple of words that describe the engram well, but feel free to elaborate on your character’s background story. Engrams should provide a good reminder of your character’s story and help you flesh out their narrative and personality.
 
-**Engram Slots**
+An Engram can be **Utilized** to gain an additional [[#Refreshing Resolve|Resolve Refresh]]. Consult the GM for the details, but doing this should result in further complications to yourself or your team.
+
+**Engrams**
 
 - **Aspiration**: A personal goal, something to strive towards. What drove you to this?
+	- **Utilization**: Disregard common goals to advance your aspiration, causing trouble for your team
 - **Anchor**: Something that grounds you to reality. Family, friends, loved ones, or things covered with emotion and remembrance.
+	- **Utilization**: Neglect your duty to instead spend time with your anchors; make a phone call, spend time reminiscing over a photo or a video, chat with friends.
 - **Belief**: A strong belief, such as a philosophy or a spiritual world view. This is your moral compass, how you believe you should act in the world.
+	- **Utilization**: Choose an action in accordance to your belief that is obviously less beneficial than the alternatives.
 - **Fear**: Most people are afraid of something. Fear can be a weakness, but also a source of strength; something to overcome.
+	- **Utilization**: Avoid taking an action that correlates with your fear, leaving your team without your support or forcing you to abandon an otherwise easy path.
 - **Vice**: A bad habit, an *urge*. A source of satisfaction.
+	- **Utilization**: Indulge on your vice, go on a binge, bringing in that rush of dopamine and succumbing to the consequences, knowing they will affect you later.
 
 ### Corruption
 
@@ -169,7 +183,18 @@ Corruption can be gained in a few ways, for example:
 - Over-use of powerful combat drugs or other mind-altering substances
 - Powerful and malevolent cyber weapons
 
-Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Save** rolling a D6 for each point of Corruption you have. If you fail, then one of your **Engrams** is permanently corrupted. You must remove one **Engram** and you also lose the associated Resolve point and a single **Aptitude** point. You can then erase all accumulated Corruption points. This will also increase one of your **Mental State** factors by one.
+### Corruption Check
+
+Whenever you take a point of **Corruption**,  you must proceed to make a **Corruption Check**: Roll 1D10 for each point of Corruption you have, and if any die rolls 1-2, you fail. On failure resolve the following steps:
+
+- One of your [[#Engrams]] is permanently corrupted and removed.
+- Permanently lose 1 point of [[#Resolve]]
+- Permanently lose 1 level in an [[#Aptitudes|Aptitude]] – pick one that fits the corrupted Engram, but any Aptitude with at least 1 level will do.
+- Increase [[#Mental State]] by 1.
+- Erase all accumulated [[#Corruption]].
+
+!!! info
+	You can spend Resolve to re-roll the corruption check, to hang on to your humanity for a little while longer.
 
 !!! warning
     If your last Engram is corrupted, you will cease to be a functional human. This is as close to real death as you can get here. Your character might continue to exist as an artificial intelligence inside a husk, a mere shell, or they may end up in a psychosis, culminating in a sudden violent killing spree. Or they can wander off into the unknown, never to be heard of again. You can decide what happens to your character after, but you can't play with them any longer. Write the final paragraph of their story. But that will be the end.
@@ -181,11 +206,9 @@ Corruption can only be removed by undergoing extensive therapy. This will cost t
   - Spend [[progression|Progression Points]] to remove a point of Corruption.
   - Requires at least 4 therapy sessions (downtime activity).
 
-### Decay Saves
+### Safety Check
 
-Decay measures corruption on a much smaller scale, often as consequence of over-using drugs or powerful augments. Decay is not tracked, but rather whenever you take Decay, you must make a **Decay Save**.
-
-*Decay Saves* use the die indicated by a **Safety** rating. If you fail the save, you will immediately take a point of corruption
+Over-using drugs or powerful augments may result in corruption. Safety Check is a quick test that is resolved in a manner similar to a [[core-mechanics#Resource Checks|Resource Check]]. Whenever you use a drug or an augment with a safety rating, you need to roll the **Safety Die** and on a result of 1-2 you will take a point of Corruption and.
 
 ## Aptitudes
 
@@ -198,21 +221,18 @@ Aptitudes determine talent and basic ability at related skills. Each Aptitude is
 | ◼◼              | Talented | You have exceptional talent in the area.                                             |
 | ◼◼◼             | Genius   | You can match or exceed most professionals in the field without any training at all. |
 
-!!! info
-	From the six aptitudes choose one as your **talent** and another as **weakness**.
-	
-	Optionally if you choose another *weakness*, you may also pick another *talent*.
-	
-	Thenna assign Aptitude points as follows:
-	
-	- 2 points for *Talent* aptitude
+From the six aptitudes choose one as your **talent** and another as **weakness**. *Optionally* if you choose another *weakness*, you may also pick another *talent*.
 
-	- *zero* points for *Weakness* aptitude.
-		
-	- 1 point for any other aptitudes (neither a *talent* nor a *weakness*)
-		
-	Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]].
+Then assign Aptitude Levels:
 
+- Level 2 on *talents*
+- Level 1 on normal aptitudes that are neither talents nor weaknesses
+- Nothing on *weaknesses*.
+
+Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]].
+
+!!! example Kitah
+	Joe is deciding Aptitudes for Kitah. He chooses “Survival” as their talent and “Combat” as their weakness. Kitah is not a fighter, but a survivor who uses their wits and cunning to avoid problems. If they get into a fight, something has gone terribly wrong. Kitah’s Aptitudes are thus: Combat 0, Education 1, Physical 1, Social 1, Survival 2, Technical 1. Kitah is a professional, and has 3 Engrams and thus 3 Aptitude points. Joe assigns them to Physical, Survival and Technical. Kitah’s final Aptitudes are: Combat 0, Education 1, Physical 2, Social 1, Survival 3, Technical 2.
 ### Combat
 
 Combat is you aptitude for violence and tactical thinking and also measures your general experience in combat.
@@ -285,16 +305,18 @@ Skills determine the character’s expertise and learned experiences. Each skill
 | ◼◼◼◼         | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a different is raw natural talent. |
 
 
-!!! info
-	A characters’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*.
-	
-	Choose 3 skills related to your *Origin* and assign 1 skill point to each skill.
-	
-	Choose 3 skills related to your *profession*, or *role* within your *Faction*. Check your faction description for suggestions.
-	
-	Choose 2 skills as your *personal interests* and assign 1 skill point to each skill.
-	Spend additional skill points based on **Experience Level** and distribute them as you see fit. You should not have more than one skill at Level 4.
+A characters’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction.
 
+Assign 1 skill level to any skills chosen at each step. You can choose a skill chosen in previous step as long as it makes sense:
+
+- Choose 3 skills related to your *Origin*
+- Choose 3 skills related to your *profession*, or *role* within your *Faction*. Check your faction description for suggestions.
+- Choose 2 skills as your *personal interests*
+
+Finally, spend additional skill points based on **Experience Level** and distribute them as you see fit. You should not have more than one skill at Level 4.
+
+!!! example Kitah
+	Joe is choosing skills for “Kitah” his new character. Kitah’s Origin is Slum Kid so Joe accepts the suggested skills of “Alertness”, “Stealth” and “Streetwise”. Kitah’s faction is ARC and Joe imagines their role to be a scout or a recon and chooses “Alertness”, “Stealth” and “Fighting”. As personal interests, Joe chooses “Hacking” and “MedTech”. Skills are now: Fighting 1, Alertness 2, Stealth 2, Streetwise 1, Hacking 1, MedTech 1. Since Kitah’s experience level is Professional, Joe can assign 6 skill points to any skills and decides on: Fighting 2, Mobility, Hacking, Troubleshooting and Investigation. Their final aptitudes and skills are: **Combat** 0 – Fighting 3; **Education** 1 – Investigation 1(2), MedTech 1(2); **Physical** 2 – Mobility 1 (3); **Social** 1; **Survival** 3 – Alertness 2 (5), Stealth 2 (5), Streetwise 1 (4); **Technical** 1 – Hacking 2 (3), Troubleshooting 1 (2).
 
 ### Aim
 `Combat`
@@ -315,11 +337,6 @@ Design technology, software, virtual worlds.
 `Combat`
 
 Fighting in close quarters, hand-to-hand, wrestling, martial arts.
-
-### Force
-`Physical`
-
-Skill at exerting maximum physical force to resist impacts or break down doors.
 
 ### Hacking
 `Technical`
@@ -386,14 +403,19 @@ Combat awareness, tactical perception and the ability to react in combat.
 
 Problem solving and troubleshooting, the ability to fix bugs and glitches between software and hardware. Fix it if it's broken.
 
+### Toughness
+`Physical`
+
+Ability to withstand pain, fatigue and physical stress and to exert physical force when required. Toughness is extremely important for a character’s survival in combat.
+
 ## Resolve
 
-[[#Engrams]] determine the character's humanity, or how much is left of it. It also affects their **Resolve**, which is a pool of resources that can be spent to get out of sticky situations and invoke internal reserves of strength at times of desperation. It's a combination of persistence, luck and force of will.
+**Resolve** is a combination of persistence, luck, preparedness and force of will. Your maximum Resolve is equal to your number of [[#Engrams]]. Resolve can be spent to get give the character an advantage is risky and difficult situations. But you only have a limited pool of resolve, and once spent, it is slow to recover.
 
-Resolve can be used in the following ways to improve the outcome of [[core-mechanics#Simple Test|Tests]] or [[core-mechanics#Saves|Saves]]:
+Resolve can be used in the following ways to improve the outcome of tests, checks or other dice rolls.
 
-- **Spend** Resolve to gain a [[core-mechanics#Rerolls|Reroll]] *after* rolling the dice on *any* test or save.
-- **Burn** Resolve *before* rolling the dice to automatically succeed at a Test or a Save. A Test succeeds with the bare minimum outcome, usually just a Basic effect. If a Test is impossible, you cannot succeed no matter how much Resolve you're willing to burn.
+- **Reroll**: Spend 1 point of Resolve to gain a [[core-mechanics#Rerolls|Reroll]] *after* rolling the dice on *any* dice rolls – unless explicitly stated otherwise. You can spend as many Resolve as you like on re-rolls.
+- **Focus**: Spend 1 point of Resolve *before* a Skill Test to gain 2D advantage on the test. You can only choose this spend once.
 
 If the listed usage is not enough, Game Masters are encouraged to invent additional uses for Resolve and players can always *suggest* spending or burning resolve to survive a tricky situation.
 
@@ -401,9 +423,9 @@ If the listed usage is not enough, Game Masters are encouraged to invent additio
 
 **Spent** Resolve is **Refreshed** by one point at the start of each game session. Resolve is usually fully refreshed after some [[core-mechanics#Structure of play|Downtime]], once the character has had some time to relax.
 
-A **burned** resolve is much more difficult to Refresh. This is generally up to the GM how often they allow refreshing burned resolve. E.g. long downtime or going on a vacation or achieving a significant story goal may refresh burned resolve, to give a few examples. If the character has burned all their resolve, the may be forced on a leave of absence until they recover some.
+If you can utilize one of your [[#Engrams]] you may gain an additional refresh. You should consult the GM for details on how this would impact the situation. You can only utilize an Engram once per game session.
 
-### Improving the character
+## Character Improvement
 
 You will be awarded [[progression|Progression]] and [[merits|Merits]] as you play the game and complete missions. Once you accumulate enough, you can spend them to improve your character. You can mark them on your character sheet. For more information on Progression and Merits see [[gamemastering/index|Game Mastering]] section.
 
