@@ -41,7 +41,5 @@ Systems
 
 [[gamemastering/index|Game Mastering]]
 
-## Playtesters
 
-Nuutti Vertanen, Joni Salmela, Niko Ekilä
 

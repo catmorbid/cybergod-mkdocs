@@ -83,10 +83,17 @@ Cyber determines how many **Apps** you can have installed. Apps are your weapons
 
 ## Energy
 
-Energy is used to fuel Augments. Each Attribute adds some Energy to the total based on its rating. You automatically recover 1 point of Energy after each scene, and additional 1D6 energy if you spend time recovering or consuming nutrients after.
+Energy is used to fuel Augments. Each Frame starts with Energy Level of D6. Energy is consumption based, so when you spend some energy, mark it down and make a [[core-mechanics#Usage Dice|Usage Check]] for Energy. If you fail, you take a point of **Burn**.
 
-| Attribute | Energy |
-| :-------- | :----- |
-| D8        | 1      |
-| D10       | 2      |
-| D12       | 4      |
+All spent energy is until current *burn level* is cleared at the end of the scene.
+
+!!! example
+	Boris burned a lot of energy during a tough fight and now has 4 points of Burn. At the end of the scene he has 9 points of spent energy, and with the burn he can clear it down to 4 points.
+### Burn
+Burn represents long-term, potentially hazardous strain on the entire system that can harm the frame or cause system shutdown.
+
+Whenever you take a point of **Burn**, mark it down and make a Usage Check (D6): On failure, the frame will temporarily shut down for a moderate duration to protect critical systems from overloading.
+
+You can force the frame to push through the shutdown, but this will inflict a Major Wound.
+
+Burn also determines the usage level at the start of a scene and it can only be removed with proper rest and recharge.
