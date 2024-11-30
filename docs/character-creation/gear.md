@@ -21,6 +21,38 @@ Availability is measured with a **Grade**:
 
 Bulk determines general bulkiness of items, incorporating both mass and size. A character's **Max Bulk** rating is equal to the their Body Die size, i.e. for D6 Body Max Bulk is 6 and for D12 Body it is 12. This limit determines how much stuff you can carry around without being penalized. The stuff includes both Armor and Weapons, plus any extra equipment carried and Reloads.
 
+## Resources
+
+Resources represent consumable assets such as various wealth, supplies or ammo but also more abstract resources like stress and influence.
+
+When you consume resources, you mark down the consumption and then proceed to make a [[#Resource Checks|Resource Check]] to see if you can manage the consumption. Different resources work in slightly different ways, but the amount of resources is always indicated by a **Resource Die**, which is either D6, D8, D10 or D12.
+
+### Resource Check
+
+A Resource Check is used to measure consumption of various resources such as **Ammo** or personal **Assets**.
+
+Resource Check is rolled with Resource Dice which are D6, D8, D10 or D12. When you consume resources, you must make a Resource Check. The number of dice is 1 + previous level of consumption. E.g. If you you currently have 4 points of ammo tracked, spending another ammo means you now roll 5 dice for Resource Check.
+
+If any dice show 1-2 then the check fails. Consequences of failure depend on the measured resource:
+
+- **Ammo**: You run out of ammo and must spend a Reload. but usage is cleared.
+- **Stress**: you suffer from a mental breakdown, but stress track remains unchanged.
+- **Assets** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
+
+If you fail the check, then clear the tracked usage track and start tracking again from zero, if any resources remain.
+
+### General Resources
+General Resources are various commodities you can spend to obtain other commodities, favors or privileges. They include Resource Points, Quantum Crypto Currency and Influence. You can write down other resources as needed.
+
+**Resource Points (RP)** is a measure of Commonwealth standard currency, a fully digitalized, personal unit of consumption. Commonwealth is a resource based economy so consumption is rather based on resource availability and cost of production than arbitrary monetary value. Overconsumption may also increase the cost as Resource Points are tracked personally.
+
+**Quantum Crypto Currency (QC)** is widely used throughout freeports and in black markets within commonwealth. It is often distributed in anonymized encrypted polyhedral storage devices small enough to fit in a pouch or pocket, and in that form can be used as the equivalent to “cash” or physical money. The shape of the QC storage devices has given it the nickname “qubes” and “dice”.
+
+**Influence** is a measure of social wealth, respect and renown. It can be used to call in favors and influence outcomes of certain situations.
+
+### Ammo
+
+When you use a weapon in combat, you need to track its ammo usage. Mark down how much ammo you used (typically just one) and make a [[#Resource Check]] after attack using the weapon’s [[#Capacity]] as the Resource Die. On failure, you are out of ammo and must spend a Reload.
 ## Weapons
 
 ### Stats
@@ -62,6 +94,8 @@ Area is used for explosives and such to determine how large area is affected whe
 !!! example
 	Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of Frag grenades (Moderate Area) in their general direction. The Bulwark scores 3 hits, firing randomly in the area, so no one takes a direct hit, but everyone takes 3 Hits. Morales takes a Reaction to avoid the hits, choosing to roll with his Mobility skill of 4 against difficulty 2 (Moderate Area). Morales rolls 4D10, scoring 3, 5, 10, 4 → 3 success – Morales mitigates 2 hits, but takes a third one unmitigated.
 
+#### Capacity
+Capacity (CAP) determines the Resource Die used when making Ammo Checks. Higher Capacity means you will run out of ammo less likely and have to reload less frequently.
 ### Tags
 
 Tags are used for additional rules regarding weapons.
@@ -77,7 +111,7 @@ Tags are used for additional rules regarding weapons.
 | Explosive Ordnance | Uses explosives as ammunition. Pick suitable explosive from Explosives list and use its damage and tags.                                                               |
 | Fast               | Maximum Hit Limit is increased to 3.                                                                                                                                   |
 | Forceful           | High impact force causes target to be knocked back when hit. They must make a Force x Body test against weapon DC or be knocked down.                                  |
-| Full Auto          | Upgrades Fast. No limit on how many Hits you can take and you can lay Suppressive Fire. Make an Ammo Check. Gain +1D on attack if your Body rating exceeds Recoil.     |
+| Full Auto          | Upgrades Fast. No limit on how many Hits you can take and you can lay Suppressive Fire. Consumes 3 Ammo. Gain +1D on attack if your Body rating exceeds Recoil.        |
 | Gas                | Deployed as a Gas. Ignores any armor that is not completely sealed or user is not wearing a gas mask, but is ineffective if deployed against gas mask or sealed armor. |
 | Hard Piercing      | Upgrades Soft Piercing. Ignores Soft and Hard mitigation, but Ultra mitigation is unaffected.                                                                          |
 | High Capacity      | Upgrades Moderate Capacity (default: D8 Usage Die). Ammo Usage die is D10                                                                                              |
@@ -95,13 +129,6 @@ Tags are used for additional rules regarding weapons.
 ### Reloads
 
 Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads are specific to weapons you carry, but you can abstract your personal reloads. When looting ammo from dead enemies, you might not find the correct ammo. Also when an ally is out of ammo, they need to have a matching weapon or your reloads won't be of use to them.
-
-### Ammo Save
-
-When required, make an Ammo Save. Roll a D6, and on 6, you're out of ammo and need to reload. Mark down every Ammo Save you passed, and future Ammo Saves are rolled with an additional die. On 6th consecutive ammo save, you are forced to reload. Clear the marks after reload.
-
-!!! info Post-combat Ammo Checks
-	As a rule of thumb, if you used a weapon in combat, make a single Ammo Save for it after the combat is over. You can disregard this if you just reloaded.
 
 ### Sidearms
 

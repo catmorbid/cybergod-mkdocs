@@ -48,6 +48,7 @@ Velocity is an abstraction of how fast something is. Acceleration, mass and kine
 - **Moderate** Velocity means something is moving at a rate roughly equivalent to a sprinting human. Vehicles tend to go fast but you really need to keep up your pace to catch them on foot.
 - **High** Velocity is equivalent to a fast moving vehicle, such as a GravCar speeding away. You can see them, but attempting to reach them on foot would be desperate.
 - **Ultra** Velocity is closing to super sonic speeds. You don't have any hope to reach this velocity on foot.
+
 ## Skill Tests
 
 A Skill Test is called when you need to figure out whether a character can do something that is not within basic functions of a human (or a cybernetic) being.
@@ -124,21 +125,3 @@ Sometimes you have the option to spend a **Reroll** on a test vastly improving y
 Another character may provide assistance in a test. The assistant does not roll any dice on their own, but rather awards half (round down) of their **Dice Pool** to the acting character performing the test. The minimum Dice Pool is then 2 for assistant to be of any use to the acting character.
 
 The assistant may also utilize a different skill than the acting character, if it fits the situation. You can suggest GM how your character would be able to assist another character, suggesting a skill to use, but the GM has the final call if such assistance works in the situation at hand.
-
-## Condition Tests
-
-Condition Tests are required when the character needs to *resist* a certain physical or mental condition. Condition Tests are made like any [[#Skill Tests|Skill Test]] using the relevant `Skill x Attribute`. Condition Tests do not have varying difficulty like skill test, and as they are always related to a **Condition**, the Success Threshold is equal to the Level of Condition. Condition Tests do not suffer from usual circumstantial penalties such as *Wound Penalties*, but they cannot be [[#Assistance|assisted]] either. Certain external aids may add Bonus Dice to Condition tests.
-
-## Resource Checks
-
-Resource Checks are used to measure consumption of various resources such as **Ammo** or personal **Resources**.
-
-Resource Check is rolled with Resource Dice which are D6, D8, D10 or D12. When you consume resources, you must make a Resource Check. The number of dice is 1 + previous level of consumption. E.g. If you you currently have 4 points of ammo tracked, spending another ammo means you now roll 5 dice for Resource Check.
-
-If any dice show 1-2 then the check fails. Consequences of failure depend on the measured resource:
-
-- **Ammo**: You run out of ammo and must spend a Reload. but usage is cleared.
-- **Stress**: you suffer from a mental breakdown, but stress track remains unchanged.
-- **Resources** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
-
-If you fail the check, then clear the tracked usage track and start tracking again from zero, if any resources remain.
