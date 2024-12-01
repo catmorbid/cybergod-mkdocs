@@ -96,35 +96,33 @@ Area is used for explosives and such to determine how large area is affected whe
 
 #### Capacity
 Capacity (CAP) determines the Resource Die used when making Ammo Checks. Higher Capacity means you will run out of ammo less likely and have to reload less frequently.
-### Tags
+### Weapon Tags
 
 Tags are used for additional rules regarding weapons.
 
 
-| Tag                | Effect                                                                                                                                                                 |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weapon Tag         | Effect                                                                                                                                                                 |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Accurate           | Gain +1D on attack tests                                                                                                                                               |
-| Area               | Affects everything in an area (Small, Moderate, Large, Huge). Larger area means it's more difficult to avoid hits (Reflex Save, see Gear/Weapons/Stats/Area)           |
-| Burn               | Target takes 2 Stress and will Burn next round for DC - 1 damage. Damage will persist until fire can be exintinguished.                                                |
+| AOE                | Areaf of Effect; affects everything in an area (Small, Moderate, Large, Huge). Larger area means it's more difficult to avoid hits                                     |
+| Bleeding           | When target becomes Wounded, Injured or Dying, they are also Bleeding                                                                                                  |
+| Burn               | Target receives Burning condition equal to mitigated DC                                                                                                                |
 | Double Hits        | For each hit you gain two hits.                                                                                                                                        |
-| EMP                | Electro-Magnetic Pulse. Disables electronics and machinery. +1 DC vs. Cybertech frames, +2 DC vs. drones, no effect on organics.                                       |
+| EMP                | Electro-Magnetic Pulse. Disables electronics and machinery.                                                                                                            |
 | Explosive Ordnance | Uses explosives as ammunition. Pick suitable explosive from Explosives list and use its damage and tags.                                                               |
 | Fast               | Maximum Hit Limit is increased to 3.                                                                                                                                   |
-| Forceful           | High impact force causes target to be knocked back when hit. They must make a Force x Body test against weapon DC or be knocked down.                                  |
-| Full Auto          | Upgrades Fast. No limit on how many Hits you can take and you can lay Suppressive Fire. Consumes 3 Ammo. Gain +1D on attack if your Body rating exceeds Recoil.        |
+| Forceful           | High impact force causes target to be knocked back when hit. Make a Moderate Toughness x Body test to avoid being knocked down.                                        |
+| Full Auto          | Upgrades Fast. No limit on how many Hits you can take and you can lay Suppressive Fire. Use 2 Ammo. Gain +1D on attack if your Body rating exceeds Recoil.             |
 | Gas                | Deployed as a Gas. Ignores any armor that is not completely sealed or user is not wearing a gas mask, but is ineffective if deployed against gas mask or sealed armor. |
-| Hard Piercing      | Upgrades Soft Piercing. Ignores Soft and Hard mitigation, but Ultra mitigation is unaffected.                                                                          |
-| High Capacity      | Upgrades Moderate Capacity (default: D8 Usage Die). Ammo Usage die is D10                                                                                              |
 | Inaccurate         | Take -1D penalty on attack tests                                                                                                                                       |
 | Irradiate          | Target suffers from radiation poisoning. -2D penalty.                                                                                                                  |
-| Low Capacity       | Downgrades Low Capcity. Ammo Usage Die is D6                                                                                                                           |
-| Non-Lethal         | Lethal Wounds become non-lethal: target will be incapacitated, but not dying. Overkill counts as Lethal wound, but does not outright kill.                             |
-| Stealthy           | Weapon is silenced and can be used in stealth operations without alarming more enemies                                                                                 |
+| Non-Lethal         | When inflicting condition resolve a Shock Trigger instead of the normal Trigger                                                                                        |
+| Non-Physical       | (Melee only) Cannot take Power effect to increase damage class.                                                                                                        |
 | Slow               | Maximum Hit Limit is decreased to 1                                                                                                                                    |
-| Soft Piercing      | Ignores Soft mitigation, but Hard and Ultra mitigation are unaffected                                                                                                  |
-| Stun               | Affected target is disoriented and will lose their next action.                                                                                                        |
-| Ultra Capacity     | Upgrades High Capacity. Ammo Usage Die is D12.                                                                                                                         |
-| Non-Physical       | Melee weapon cannot take Power effect to increase damage class.                                                                                                        |
+| Stealthy           | Weapon is silenced and can be used in stealth operations without alarming more enemies                                                                                 |
+| Stun               | When target becomes Wounded, Injured or Dying, they are also Stunned.                                                                                                  |
+| Wasteful           | Spend additional Ammo on attack                                                                                                                                        |
+
 
 ### Reloads
 
@@ -137,18 +135,19 @@ Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads a
 Sidearms are small **(Bulk 1)** and easily concealed under clothing. They are not suitable for main weapons in serious combat duty, but serve as easily concealable backup weapons. Sidearms can be used effectively one-handed, but a two-handed grip is more common, reducing their effective [[#Recoil]] by one degree.
 
 
-| Weapon                  | DC  | Range          | Recoil   | Grade    | Tags                   |
-| ----------------------- | --- | -------------- | -------- | -------- | ---------------------- |
-| Light Pistol            | 2   | Short-Moderate | Low      | Common   | Fast                   |
-| Shock Gun               | 4   | Short          | Low      | Uncommon | Slow, Stun, Non-Lethal |
-| Heavy Pistol            | 3   | Short-Moderate | Moderate | Uncommon |                        |
-| Micro SMG               | 2   | Short-Moderate | Low      | Uncommon | Full Auto              |
-| Hand Cannon             | 4   | Short-Moderate | High     | Advanced | Slow, Low Capacity     |
-| Laser Pistol            | 2   | Moderate       | Low      | Advanced | Accurate, Full Auto    |
-| Sonic Blaster           | 3   | Short          | Low      | Advanced | Stun, Soft Piercing    |
-| Plasma Pistol           | 5   | Short-Moderate | Low      | Rare     | Inaccurate             |
-| Gauss Pistol            | 3   | Moderate-Long  | High     | Rare     | Hard Piercing          |
-| CHAOS Mk.2 (base model) | 3   | Short-Moderate | Low      | Exotic   | Full Auto              |
+| Weapon                  | DC  | AP  | RNG            | RCL      | CAP | Grade    | Tags                   |
+| ----------------------- | --- | --- | -------------- | -------- | --- | -------- | ---------------------- |
+| CHAOS Mk.2 (base model) | 3   | 1   | Short-Moderate | Low      | D8  | Exotic   | Full Auto              |
+| Gauss Pistol            | 3   | 3   | Moderate-Long  | High     | D8  | Rare     |                        |
+| Hand Cannon             | 4   | 1   | Short-Moderate | High     | D6  | Advanced | Slow                   |
+| Heavy Pistol            | 3   | 1/2 | Short-Moderate | Moderate | D8  | Uncommon |                        |
+| Laser Pistol            | 2   | 1   | Moderate       | Low      | D8  | Advanced | Accurate, Full Auto    |
+| Light Pistol            | 2   | 1/2 | Short-Moderate | Low      | D8  | Common   | Fast                   |
+| Micro SMG               | 2   | 1/2 | Short-Moderate | Low      | D6  | Uncommon | Full Auto, Wasteful    |
+| Plasma Pistol           | 5   | 2   | Short-Moderate | Low      | D6  | Rare     | Inaccurate, Burn       |
+| Shock Gun               | 4   | 1   | Short          | Low      | D8  | Uncommon | Slow, Stun, Non-Lethal |
+| Sonic Blaster           | 3   | 2   | Short          | Low      | D8  | Advanced | Stun                   |
+
 
 
 ### Assault Weapons
@@ -157,20 +156,20 @@ Sidearms are small **(Bulk 1)** and easily concealed under clothing. They are no
 
 Assault Weapons are usually Medium sized weapons **(Bulk 2)** that require a *two-handed grip* for effective use. They are designed for moderate to long-ranged encounters. You can wield an assault Weapon in one hand, but this will increase [[#Recoil]] by one step.
 
+| Weapon              | DC  | AP  | RNG            | RCL      | CAP | Grade    | Tags                        |
+| ------------------- | --- | --- | -------------- | -------- | --- | -------- | --------------------------- |
+| Assault Laser       | 3   | 1   | Long           | Low      | D8  | Rare     | Accurate, Full Auto         |
+| Assault Rifle       | 3   | 1   | Moderate-Long  | Low      | D8  | Uncommon | Full Auto                   |
+| Assault Shotgun     | 3   | 1/2 | Short-Moderate | Moderate | D8  | Advanced | Fast, Double Hits, Forceful |
+| Battle Rifle        | 4   | 1   | Long-Extreme   | Moderate | D8  | Advanced | Fast                        |
+| Gauss Needler       | 2   | 3   | Moderate-Long  | Moderate | D8  | Rare     | Full Auto, Double Hits      |
+| Gauss Rifle         | 4   | 4   | Long-Extreme   | Extreme  | D8  | Rare     | Full Auto                   |
+| Heavy Assault Rifle | 5   | 1   | Moderate-Long  | High     | D6  | Advanced | Fast                        |
+| Heavy SMG           | 3   | 1   | Short-Moderate | Low      | D8  | Uncommon | Full Auto                   |
+| Plasma Rifle        | 6   | 4   | Moderate-Long  | Low      | D8  | Rare     | Inaccurate, Burn, Fast      |
+| Riot Shotgun        | 2   | 1/2 | Short-Moderate | Low      | D8  | Uncommon | Double Hits, Forceful       |
+| Tactical SMG        | 2   | 1   | Short-Moderate | Low      | D8  | Uncommon | Stealthy, Full Auto         |
 
-| Weapon              | DC  | Range          | Recoil   | Grade    | Tags                                  |
-| ------------------- | --- | -------------- | -------- | -------- | ------------------------------------- |
-| Assault Rifle       | 3   | Moderate-Long  | Low      | Uncommon | Full Auto                             |
-| Heavy SMG           | 3   | Short-Moderate | Low      | Uncommon | Full Auto                             |
-| Riot Shotgun        | 2   | Short-Moderate | Low      | Uncommon | Double Hits, Forceful                 |
-| Tactical SMG        | 2   | Short-Moderate | Low      | Uncommon | Stealthy, Full Auto                   |
-| Assault Shotgun     | 3   | Short-Moderate | Moderate | Advanced | Fast, Double Hits, Forceful           |
-| Battle Rifle        | 4   | Long-Extreme   | Moderate | Advanced | Fast                                  |
-| Heavy Assault Rifle | 5   | Moderate-Long  | High     | Advanced | Fast, Low Capacity                    |
-| Assault Laser       | 3   | Long           | Low      | Rare     | Accurate, Full Auto                   |
-| Gauss Needler       | 2   | Moderate-Long  | Moderate | Rare     | Full Auto, Double Hits, Hard Piercing |
-| Gauss Rifle         | 4   | Long-Extreme   | Extreme  | Rare     | Full Auto, Hard Piercing              |
-| Plasma Rifle        | 6   | Moderate-Long  | Low      | Rare     | Inaccurate, Burn                      |
 
 
 ### Heavy Weapons
@@ -181,22 +180,23 @@ Assault Weapons are usually Medium sized weapons **(Bulk 2)** that require a *tw
 
 Heavy weapons fit the support role. They are big and clumsy **(Bulk 4)** and most of them are designed to be set up on a fixed position before firing, but can be used while detached. Heavy Weapons have reduced (-1) recoil when using from a fixed position. You need to spend an action to set up a heavy weapon properly.
 
-| Weapon                | DC     | Range          | Recoil   | Grade    | Tags                                            |
-| --------------------- | ------ | -------------- | -------- | -------- | ----------------------------------------------- |
-| Light Machinegun      | 3      | Long-Extreme   | High     | Uncommon | Full Auto, High Capacity                        |
-| Chaingun              | 3      | Moderate-Long  | High     | Advanced | Full Auto, Double Hits, Ultra Capacity          |
-| Flamethrower          | 4      | Short-Moderate | Moderate | Advanced | Full Auto, Double Hit, Burn                     |
-| Grenade Launcher      | Varies | Long-Extreme   | Moderate | Advanced | Explosive Ordnance                              |
-| Heavy Machinegun      | 5      | Long-Extreme   | Extreme  | Advanced | Full Auto, High Capacity                        |
-| Missile Launcher      | 8      | Long-Extreme   | Low      | Advanced | Accurate, Area (Moderate), Low Capacity, Slow   |
-| Sonic Disruptor       | 3      | Long           | Low      | Advanced | Area (Moderate), Stun, Soft Piercing            |
-| Auto Shotgun          | 3      | Short-Moderate | High     | Advanced | Full Auto, Double Hits, High Capacity, Forceful |
-| Auto Grenade Launcher | Varies | Moderate-Long  | High     | Rare     | Inaccurate, Full Auto, Explosive Ordnance       |
-| Auto Plasma           | 6      | Moderate-Long  | Moderate | Rare     | Inaccurate, Full Auto                           |
-| Gauss Machinegun      | 4      | Long-Extreme   | Extreme  | Rare     | Full Auto, High Capacity, Hard Piercing         |
-| Laser Gatling         | 3      | Long           | Low      | Rare     | Accurate, Full Auto, Double Hits, High Capacity |
-| Plasma Cannon         | 8      | Long-Extreme   | High     | Rare     | Inaccurate, Area (Small), Burn, Slow            |
-| Pulse Cannon          | 5      | Long-Extreme   | Low      | Rare     | Area (Moderate), EMP, Hard Piercing, Slow       |
+| Weapon                | DC     | AP     | RNG            | RCL      | CAP | Grade    | Tags                                      |
+| --------------------- | ------ | ------ | -------------- | -------- | --- | -------- | ----------------------------------------- |
+| Auto Grenade Launcher | Varies | Varies | Moderate-Long  | High     | D8  | Rare     | Inaccurate, Full Auto, Explosive Ordnance |
+| Auto Plasma           | 6      | 4      | Moderate-Long  | Moderate | D8  | Rare     | Inaccurate, Full Auto, Burn               |
+| Auto Shotgun          | 3      | 1/2    | Short-Moderate | High     | D10 | Advanced | Full Auto, Double Hits, Forceful          |
+| Chaingun              | 3      | 1      | Moderate-Long  | High     | D12 | Advanced | Full Auto, Double Hits, Wasteful          |
+| Flamethrower          | 4      | 1/2    | Short-Moderate | Moderate | D8  | Advanced | Full Auto, Double Hits, Burn              |
+| Gauss Machinegun      | 4      | 3      | Long-Extreme   | Extreme  | D10 | Rare     | Full Auto                                 |
+| Grenade Launcher      | Varies | Varies | Long-Extreme   | Moderate | D6  | Advanced | Explosive Ordnance                        |
+| Heavy Machinegun      | 5      | 1      | Long-Extreme   | Extreme  | D10 | Advanced | Full Auto                                 |
+| Laser Gatling         | 3      | 1      | Long           | Low      | D10 | Rare     | Accurate, Full Auto, Double Hits          |
+| Light Machinegun      | 3      | 1      | Long-Extreme   | High     | D10 | Uncommon | Full Auto                                 |
+| Missile Launcher      | 8      | 2      | Long-Extreme   | Low      | 1   | Advanced | Accurate, AOE-M, Slow                     |
+| Plasma Cannon         | 8      | 5      | Long-Extreme   | High     | D8  | Rare     | Inaccurate, AOE-S, Burn, Slow             |
+| Pulse Cannon          | 5      | 5      | Long-Extreme   | Low      | D8  | Rare     | AOE-M, EMP, Slow                          |
+| Sonic Disruptor       | 3      | 2      | Long           | Low      | D8  | Advanced | AOE-M, Stun                               |
+
 
 
 ### Precision Weapons
@@ -205,15 +205,13 @@ Heavy weapons fit the support role. They are big and clumsy **(Bulk 4)** and mos
 
 Precision weapons are ideal for extreme range support and assassinations. They are somewhat big and clumsy **(Bulk 3)** and tend to have low rate of fire, but can be used at extreme range. Precision Weapons are more effective when when deployed as a dedicated two-person team where one operates the weapon while the other acts as a spotter. A remote-operated drone can also be used as extra pair of eyes for an effective lone sniper. Precision Weapons require good focus to utilize effectively.
 
-| Weapon              | DC | Range   | Recoil   | Grade    | Tags                               |
-|---------------------|----|---------|----------|----------|------------------------------------|
-| Hunting Rifle       | 4  | Extreme | Moderate | Common   | Slow, Low Capacity                 |
-| Marksman Rifle      | 4  | Extreme | Moderate | Uncommon |                                    |
-| Anti-Material Rifle | 6  | Extreme | High     | Advanced | Slow, Low Capacity                 |
-| Light Railgun       | 5  | Extreme | Extreme  | Rare     | Slow, Hard Piercing                |
-| Laser Sniper        | 4  | Extreme | Low      | Rare     | Accurate, Full Auto, Soft Piercing |
-
-
+| Weapon              | DC  | AP  | RNG     | RCL      | CAP | Grade    | Tags                |
+| ------------------- | --- | --- | ------- | -------- | --- | -------- | ------------------- |
+| Anti-Material Rifle | 6   | 2   | Extreme | High     | D6  | Advanced | Slow                |
+| Hunting Rifle       | 4   | 1   | Extreme | Moderate | D6  | Common   | Slow                |
+| Laser Sniper        | 4   | 2   | Extreme | Low      | D8  | Rare     | Accurate, Full Auto |
+| Light Railgun       | 5   | 5   | Extreme | Extreme  | D8  | Rare     | Slow                |
+| Marksman Rifle      | 4   | 2   | Extreme | Moderate | D8  | Uncommon |                     |
 
 ### Explosives
 
@@ -227,25 +225,37 @@ Precision weapons are ideal for extreme range support and assassinations. They a
 | Long         | 4           |
 | Extreme      | 8           |
 
-
 **Demolitions**: `Tactics x Mind`
 
 **Bomb disposal**: `Combat+Troubleshooting x Mind`
 
 Explosive ordnance can be deployed as stand-alone explosive or launched using the appropriate platform.
 
-| Explosive      | DC           | Area     | Grade    | Tags                |
-| :------------- | :----------- | :------- | :------- | :------------------ |
-| Frag           | 4            | Moderate | Uncommon |                     |
-| High-Explosive | 5            | Small    | Uncommon | Forceful            |
-| Incendiary     | 3            | Small    | Common   | Burn                |
-| Anti-Armor     | 4            | Small    | Advanced | Hard Piercing       |
-| Concussion     | 4            | Small    | Uncommon | Forceful            |
-| Stun           | 2            | Moderate | Uncommon | Stun                |
-| Plasma         | 8            | Small    | Rare     | Burn                |
-| EM Pulse       | 6 (machines) | Moderate | Rare     | EMP                 |
-| Nuclear        | 10           | Large    | N/A      | Burn, EMP, Forceful |
-| Dirty Bomb     | 5            | Moderate | Rare     | Irradiate           |
+#### URDO
+`Bulk 1/4, Advanced Grade`
+
+**Universal Remote-Detonated Ordnance** (URDO) is an advanced compact explosive delivery system that can be utilized like a grenade, but it is highly configurable and can be programmed to detonate by impact, timed fuse, remote detonation or by proximity or pressure trigger. As such it can serve as a landmine, demolitions charge or a hand grenade.
+
+URDO use sophisticated nanites to enable different warhead configurations and they are completely safe until you **format** them to utilize a specific configuration. Formatting takes a **Short** duration, but once formatted the device is more sensitive and could be triggered to explode externally. A formatted URDO is also susceptible to remote hacking (Very Hard), so consider carefully before carrying around formatted URDO.
+### Warheads
+Warheads are used with various weapon delivery systems from missile launchers to grenades or improvised explosive devices.
+
+| Name           | DC  | AP  | Grade    | Tags                       |
+| -------------- | --- | --- | -------- | -------------------------- |
+| Anti-Armor     | 4   | 3   | Advanced | AOE-S                      |
+| Concussion     | 4   | 1   | Uncommon | Forceful, AOE-S            |
+| Dirty Bomb     | 5   | 3   | Rare     | Irradiate, AOE-L           |
+| EM Pulse       | 6   | 3   | Rare     | EMP, AOE-M                 |
+| Frag           | 3   | 2   | Uncommon | AOE-M                      |
+| High-Explosive | 5   | 1   | Uncommon | Forceful, AOE-S            |
+| Incendiary     | 4   | 1   | Common   | Burn, AOE-S                |
+| Nuclear        | 10  | 5   | N/A      | Burn, EMP, Forceful, AOE-H |
+| Plasma         | 7   | 2   | Rare     | Burn, AOE-S                |
+| Tear Gas       | 3   | 0   | Uncommon | AOE-M, Gas, Non-Lethal     |
+| Lethal Gas     | 4   | 0   | Advanced | AOE-M, Gas                 |
+| Smoke          | 1   | 0   | Common   | AOE-M, Gas, Non-Lethal     |
+| Stun           | 3   | 1   | Uncommon | Stun, AOE-M                |
+
 
 ### Melee Weapons
 
@@ -262,22 +272,24 @@ Melee weapon can be anything from a blunt object to a master-crafted nano-edge k
 | Large  | D10       | 3    |
 | Huge   | D12       | 4    |
 
-| Melee Weapon       | DC | Range | Size   | Grade    | Tags                       |
-|--------------------|----|-------|--------|----------|----------------------------|
-| Knife              | 2  | Close | Small  | Common   | Accurate, Fast             |
-| Club/Baton         | 3  | Close | Medium | Common   |                            |
-| Sledgehammer       | 4  | Close | Large  | Common   | Forceful, Slow             |
-| Fighting Stick     | 3  | Close | Small  | Uncommon | Accurate                   |
-| Chainsaw           | 4  | Close | Large  | Uncommon | Double Hits, Inaccurate    |
-| Shock Stick        | 3  | Close | Small  | Advanced | Non-Lethal, Stun           |
-| Nanoblade Katana   | 3  | Close | Medium | Rare     | Hard Piercing              |
-| Nanoblade Knife    | 2  | Close | Small  | Rare     | Hard Piercing, Fast        |
-| Mono Whip          | 2  | Short | Small  | Rare     | Inaccurate, Hard Piercing  |
-| Improvised, small  | 2  | Close | Small  | Common   | Fast                       |
-| Improvised, medium | 3  | Close | Medium | Common   |                            |
-| Improvised, large  | 4  | Close | Large  | Common   | Inaccurate, Forceful       |
-| Improvised, huge   | 5  | Close | Huge   | Common   | Inaccurate, Forceful, Slow |
-
+| Weapon                 | DC  | AP  | RNG   | SIZ    | Grade    | Tags                              |
+| ---------------------- | --- | --- | ----- | ------ | -------- | --------------------------------- |
+| Chainsaw               | 4   | 1   | Close | Large  | Uncommon | Double Hits, Inaccurate, Bleeding |
+| Club/Baton             | 3   | 1/2 | Close | Medium | Common   | Forceful                          |
+| Combat Knife           | 2   | 1   | Close | Small  | Uncommon | Accurate, Fast, Bleeding          |
+| Fighting Stick         | 3   | 1/2 | Close | Small  | Uncommon | Accurate                          |
+| Improvised, huge       | 5   | 1/2 | Close | Huge   | Common   | Inaccurate, Forceful, Slow        |
+| Improvised, large      | 4   | 1/2 | Close | Large  | Common   | Inaccurate, Forceful              |
+| Improvised, medium     | 3   | 1/2 | Close | Medium | Common   |                                   |
+| Improvised, small      | 2   | 1/2 | Close | Small  | Common   | Fast                              |
+| Mono Lash              | 4   | 5   | Short | Small  | Exotic   | Inaccurate, Reach                 |
+| Nanoblade Katana       | 3   | 5   | Close | Medium | Rare     | Bleeding                          |
+| Nanoblade Knife        | 2   | 5   | Close | Small  | Rare     | Fast                              |
+| Shock Stick            | 3   | 1   | Close | Small  | Advanced | Non-Lethal, Stun                  |
+| Sledgehammer           | 4   | 1/2 | Close | Large  | Common   | Forceful, Slow                    |
+| Ultra-Blade Battle Axe | 5   | 2   | Close | Large  | Advanced | Inaccurate, Slow, Bleeding        |
+| Ultra-Blade Katana     | 4   | 2   | Close | Medium | Advanced | Bleeding                          |
+| Ultra-Blade Knife      | 3   | 2   | Close | Small  | Advanced | Accurate, Fast, Bleeding          |
 
 ### Custom Spec Weapons
 Custom Spec weapons allow you to modify standard weapons with attachments or high quality components.
@@ -285,12 +297,21 @@ Custom Spec weapons allow you to modify standard weapons with attachments or hig
 The rules of obtaining Custom Spec weapons are relatively simple: For each modification you increase the Rarity of the weapon by one, and can now apply one of the following modifications:
 
 - Remove a negative Tag (e.g. Inaccurate)
-- Add any custom-spec compliant Tag (e.g. Soft Piercing)
-- Upgrade a basic tag to a more advanced variant (e.g. Soft Piercing -> Hard Piercing)
+- Add a suitable Weapon Tag (e.g. Fast)
+- Add a custom spec Tag (table below)
+- Upgrade a basic tag to a more advanced variant (e.g. Fast → Full Auto)
 
-Custom Spec weapons are difficult to replace and you cannot expect your Faction to simply have them lying around, so losing your weapon or dying horribly explosive death means you will also lose your custom spec weapon. In addition your weapon might use unique ammunition and it might be difficult for you to find extra reloads on the field.
+Custom Spec weapons are difficult to replace and you cannot expect your Faction to simply have them lying around, so losing your weapon or dying horribly explosive death means you will also lose your custom spec weapon until another can be provided. In addition your weapon might use unique ammunition and it might be difficult for you to find extra reloads on the field.
 
 GM can veto any custom spec weapons if they do not make any sense, so try to make up a good explanation on how the modifications be made possible.
+
+| Custom Spec Tag    | Effect                                                                                                                  |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------|
+| AP Rounds          | Armor Piercing rounds. DC -1, AP +1.                                                                                    |
+| HP Rounds          | Hollow-Point or anti-personnel rounds. DC +1, AP -1                                                                     |
+| Large Caliber      | Increased caliber for more damage. DC +1, Recoil +1. Only if Recoil is High or lower.                                   |
+| Huge Caliber       | Massively increased caliber. Upgrades Large Caliber. DC +2, Recoil +2, Capacity -1. Only if Recoil is Moderate or Lower |
+| Increased Capacity | Increased Capacity. Capacity +1, Bulk +1.                                                                               |
 
 ### Vehicle Weapons
 Vehicle weapons are too big for personal use and usually need to be fitted to a vehicle and must be fitted to a **Hardpoint** of suitable size, reflected by the Size stat of a vehicle weapon.
@@ -321,52 +342,89 @@ Vehicle weapons are too big for personal use and usually need to be fitted to a 
 | Plasma Missile Array (x6)   | 10 | Extreme  | V. Large | Low      | Exotic   | Accurate, Area (Large), Burn                          |
 
 
-## Personal Armor
+## Armor
 
-| Armor                   | Soft | Hard | Ultra | Bulk | Grade    | Powered             |
-| ----------------------- | ---- | ---- | ----- | ---- | -------- | ------------------- |
-| Ballistic Weave         | 4    |      |       | 0    | Common   |                     |
-| Ballistic Plates        | 0    | 2    |       | 1    | Common   |                     |
-| Nano Weave              | 2    | 2    |       | 0    | Uncommon |                     |
-| Security Armor          | 4    | 2    |       | 1    | Uncommon |                     |
-| Combat Armor            | 4    | 4    |       | 2    | Advanced |                     |
-| Hard Shell              | 1    | 3    | 3     | 4    | Advanced |                     |
-| Industrial Exosuit      | 3    | 3    |       | 2    | Advanced | Body D12, Reflex D6 |
-| Combat Exosuit          | 5    | 5    | 1     | 1    | Rare     | Body D10, Reflex D8 |
-| Reflex Armor            | 2    | 4    | 1     | 0    | Rare     | Body D8, Reflex D10 |
-| Power Suit              | 6    | 4    | 4     | 2    | Exotic   | Body D12, Reflex D6 |
-| Cybernetic armor 1      | 4    | 2    | 1     | 0    | -        |                     |
-| Cybernetic armor 2      | 4    | 4    | 2     | 2    | -        |                     |
-| Cybernetic armor 3      | 5    | 5    | 3     | 4    | -        |                     |
-| Vehicle Plating, Light  | 2    | 2    |       | 1    | Common   |                     |
-| Vehicle Plating, Medium | 4    | 4    |       | 2    | Uncommon |                     |
-| Vehicle Plating, Heavy  | 6    | 4    | 2     | 4    | Advanced |                     |
-| Vehicle Plating, Ultra  | 6    | 6    | 4     | 8    | Rare     |                     |
+### Stats
+#### Damage Reduction
+Damage Reduction is a measure of passive protection and resistance to weapons and it reduces Damage Class of attacks directly. Read more about [[combat#Damage Reduction|Damage Reduction]] in [[combat|Combat Mechanics]].
 
-### Ballistic Weave
-Ballistic Weave can be manufactured into common clothing. It protects the user from small arms and knives, but not much more.
-### Nano Weave
-Nano Weave uses advanced nanotech materials to create a lightweight protective mesh in clothing and can be fabricated into almost anything. Nano Weave is stain-proof and self-repairing. Restore all Soft Mitigation and 1 point of Hard mitigation in Moderate duration when not subjected to more damage.
-### Ballistic Plates
-A thin layer of poly-ceramic armor that can be inserted to clothing and combat vests. It won't withstand sustained fire, but may be a lifesaver when nothing better is available.
-### Security Armor
+#### Mitigation
+Mitigation is the armor’s ability to withstand and absorb damage. Mitigation also indicates the durability of the armor. Read more about [[combat#Mitigation|Mitigation]] in [[combat|Combat Mechanics]].
+
+#### Bulk
+Indicates how much armor weighs and slows down the characters. Exceeding your Bulk limit comes with penalties to physical actions.
+
+
+### Armor Tags
+
+Armor tags describe additional rules and effects that come to play with certain armor.
+
+| Armor Tag   | Effect                                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------------------- |
+| Camouflage  | Integrated camouflage augmentation.                                                                                 |
+| Concealable | Concealable under regular clothing. Very Hard to spot.                                                              |
+| Self-Repair | Repairs 50% mitigation in Moderate Duration                                                                         |
+| Sealed      | Protects from environmental hazards. Comes with integrated respirators. Immune to gasses and other airborne agents. |
+| Body        | Power Armor: Body Attribute is replaced with the indicated rating.                                                  |
+| Reflex      | Power Armor: Reflex Attribute is replaced with the indicated rating.                                                |
+
+
+### Personal Armor
+
+| Armor                   | DR | Mitigation | Bulk | Grade    | Tags                                    |
+|-------------------------|----|------------|------|----------|-----------------------------------------|
+| Ballistic Weave         | 0  | 4          | 0    | Common   | Concealable                             |
+| Ballistic Plates        | 1  | 2          | 1    | Common   | Concealable                             |
+| Nano Weave              | 0  | 12         | 0    | Advanced | Concealable, Self-repair                |
+| Security Armor          | 1  | 4          | 1    | Uncommon |                                         |
+| Combat Armor            | 1  | 10         | 2    | Advanced |                                         |
+| Hard Shell              | 2  | 12         | 4    | Advanced | Sealed                                  |
+| Industrial Exosuit      | 1  | 3          | 2    | Advanced | Body D12, Reflex D6                     |
+| Combat Exosuit          | 2  | 8          | 1    | Rare     | Body D10, Reflex D8                     |
+| Reflex Armor            | 2  | 4          | 0    | Rare     | Sealed, Body D8, Reflex D10             |
+| Ghost Armor             | 1  | 6          | 0    | Rare     | Sealed, Camouflage, Body D8, Reflex D10 |
+| Power Suit              | 3  | 20         | 2    | Exotic   | Sealed, Body D12, Reflex D8             |
+| Cybernetic armor 1      | 1  | 5          | 0    | -        | Concealable                             |
+| Cybernetic armor 2      | 2  | 10         | 1    | -        |                                         |
+| Cybernetic armor 3      | 3  | 15         | 3    | -        |                                         |
+| Vehicle Plating, Light  | 0  | 2          | 1    | Common   |                                         |
+| Vehicle Plating, Medium | 1  | 4          | 2    | Uncommon |                                         |
+| Vehicle Plating, Heavy  | 2  | 6          | 4    | Advanced |                                         |
+| Vehicle Plating, Ultra  | 3  | 8          | 8    | Rare     |
+
+
+#### Ballistic Weave
+Ballistic Weave can be manufactured into common clothing. It can protect the user against few hits from small arms and blades, but not much more – at least it is light and does not encumber the wielder.
+
+#### Ballistic Plates
+A thin layer of extremely resistant poly-ceramic armor that can be inserted to clothing and combat vests. It won't withstand sustained fire, but may be a lifesaver when nothing better is available. Commonly used by cheap mercenaries and street thugs.
+
+#### Nano Weave
+Nano Weave uses advanced nanotech materials to create a lightweight protective mesh in clothing and can be fabricated into almost anything. Nano Weave is stain-proof and self-repairing and can also interface with cybernetic augments by changing shape and adapting to the augments as needed.
+
+#### Security Armor
 A lightweight suit of body armor with layers of ballistic weave and poly-ceramic plating. The body armor is often complemented with arm and leg guards and a lightweight helmet with an info-visor covering the eyes. Standard issue for regulator units and corporate security throughout the world.
-### Combat Armor
-Combat armor is a bulky suit of polymer-ceramic armor intended for military operations. Standard issue comes with a body armor and separate pieces for arms and legs, as well as a heavy-duty helmet with full face protection and a Smart visor.
-### Hard Shell
-A seamless full-body suit built for heavy encounters. Toughest available in un-powered suits. It adds a lot of bulk, but offers excellent protective capabilities and can withstand a few shots from even heaviest weapons.
-### Powered Armor
+
+#### Combat Armor
+Combat armor is a bulky suit of polymer-ceramic armor intended for military operations. Standard issue comes with a sturdy body armor and separate pieces for arms and legs, as well as a heavy-duty helmet with full face protection and a Smart visor.
+
+#### Hard Shell
+A seamless full-body suit built for rough encounters. Toughest armor available in un-powered suits. It adds a lot of bulk, but offers excellent protective capabilities and is completely sealed with integrated respirators to survive environmental hazards.
+
+#### Exosuits and Powered Armor
 Powered armor are wearable exosuits designed for human soldiers to improve the wearer's strength, stamina and coordination with assisted robotic limbs. The technology was refined in the the pre-collapse era and has seen only minor improvements since then. The technology is expensive, hard to maintain and has limited time of operation due necessity of compact well-protected power cells: with full charge the suit will last roughly 16 hours of active use, with the exception of the **Industrial Exosuit**, which is much bulkier, but also has bigger power cells, upgrading active use to 48 hours.
 
 !!! info Power Armor attributes
 	Always use the powered armor's attributes over the Frame's normal attribute, even if the armor has worse attributes.
 
 !!! info Power Source Weak Spot
-	Power Armor’s most significant weakness is its power source. If you have a chance, you can aim at the power source by taking the **Weak Spot** effect, but instead of inflicting extra damage, the target must make a D6 save with difficulty equal to damage inflicted. If they fail the save, the power source will shutdown. It won’t cause a fancy explosion or anything, but the sorry individual inside is stuck inside a heavy, immobile metal husk.
+	Power Armor’s most significant weakness is its power source. If you have a chance, you can aim at the power source by taking the **Weak Spot** effect and announcing you are aiming for the power source: instead of inflicting extra damage, all **Condition Triggers**, except *Shock Trigger* are replaced with *Catastrophic Failure Trigger*: On failure, the power source will shutdown rendering the suit immobile. It won’t cause a fancy explosion or anything, but the sorry individual inside is stuck inside a heavy, immobile metal coffin.
 
-### Vehicle Plating
+#### Cybernetic Armor
+Armor obtainable through cybernetic augmentation. You need to purchase this with Upgrade Points. Cybernetic Armor is integrated to the wielder’s frame and cannot be removed, repaired or replaced without proper tools.
+
+#### Vehicle Plating
 Vehicles and Drones can fitted with armor plating. This kind of plating is not suitable for humanoid Frames though.
-
  
 ## Equipment
  
