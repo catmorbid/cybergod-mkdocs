@@ -1,0 +1,13 @@
+
+[data-md-color-scheme=slate] {
+    --md-typeset-table-color: var(--md-primary-fg-color)
+}
+
+.md-typeset table:not([class]) th {    
+    min-width: 0;
+}
+
+strong,
+em {
+    color: var(--md-accent-fg-color);    
+}
