@@ -52,7 +52,7 @@ This section examines the **machine** of Commonwealth governance: how department
 1. **Regulator Logistics**  
    - **CRA** coordinates **Regulators** who handle mundane policing, while **ARC** (ref: tri_core, themis_control_arc) handles high-threat scenarios. Both keep daily rosters updated with Themis, ensuring real-time data on crime hotspots or potential Syndicate activities.  
    - **Challenges**: Bureaucratic slowdowns if a local Regulator unit needs advanced gear or ARC backup. Requests might bounce between multiple subcommittees before a final “go” arrives.
-   - **ARC** overrides the standard bureaucracy by having a direct line to Themis via local Regulator VIE, which has the authority to grant rapid response decisions.
+   - **ARC** overrides the standard bureaucracy by having a direct line to Themis via local Regulator VIE, which has the authority to grant rapid response decisions. This creates strife between ARC and other CRA divisions.
 
 2. **Research & Licensing**
    - **DEI** holds exclusive authority to grant Research Licenses (ref: technology_licensing). Tension emerges when a small lab tries to fast-track an experimental biotech or psionic device, only to find itself entangled in red tape.  
