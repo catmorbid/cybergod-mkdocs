@@ -4,7 +4,19 @@ title: Religion
 A plethora of religious, pseudo-religious and spiritual belief systems co-exist in the world, but a majority of them are marginal and the only major religion is **The Order of the Void**, which was created during the post-collapse era. Commonwealth is absolutely secular and while it allows the practice of any kind of belief system, it does not allow any exemption to the laws and rules of society to any kind of organization, religious or otherwise. Certain practices of goodwill and charity are seen as beneficial to society and are awarded with RP merits, taking into consideration the value of the efforts.
 
 Many of the old-world major religions were slow to adapt to post-collapse conditions, but have nevertheless maintained some degree of presence. Places of worship have become virtual forums and large communities exist in the Cyberweb.
-  
+
+The largest abrahamic religion is the post-collapse **Church of Trinity**, which manages to combine christian, judaic and islamic traits to one that worships the **Tri-Core** as actual gods. The older traditions naturally despise the Church of Trinity, claiming it has nothing to do with the any of the original abrahamic traditions.
+
+**Islamic** religion is prevalent especially in the middle-east, and its main focus is in maintaining a healthy community and practices charity and crisis aid, helping refugees find their standing.
+
+**Christianity** retains a symbolic presence with the existence of Mega Rome, which maintains the Vatican as a historical landmark and tourist attraction. Post-collapse Christianity quickly shattered into many smaller sects and rapidly lost its status as a major religion. The cyberweb is nevertheless filled with virtual places of worship, but most of them are desolate echo chambers for a few devout believers clinging on to past.
+
+**Judaism** with its strong communal traditions and history of surviving persecution maintains a relatively strong presence post-collapse, albeit with dwindled numbers.
+
+**Buddhism** has retained a significant following, promoting self-improvement, meditation and personal wellbeing, but at times reminds more of a capitalized self-improvement program than actual religion.
+
+Various forms of Neo-Paganism and eco worship have become popular, promoting co-existence and worship of nature.
+
 # The Order of the Void
 
 The **Order of the Void** is a globally recognized spiritual movement—and, to some, a dangerous cult—that has grown into a formidable power in recent decades. Members venerate an entity they call **“The Sensible,”** which they claim to be an extra-terrestrial or otherworldly intelligence capable of granting “blessings” that permanently alter its followers’ bodies. Within the Order’s ranks, these **Blessed** beings wield monstrous organic weaponry and uncanny resilience, fueling the Order’s reputation as both harbingers of religious salvation and architects of terror.
