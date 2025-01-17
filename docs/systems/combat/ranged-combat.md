@@ -1,5 +1,9 @@
 ---
 title: Ranged Combat
+tags:
+  - Action
+  - Combat
+  - Offense
 ---
 Various weapons handle differently, so to make ranged attacks test `Ranged Combat` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[core-mechanics#Distance|Distance]] between you and the target.
 

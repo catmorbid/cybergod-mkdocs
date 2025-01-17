@@ -1,5 +1,6 @@
 ---
 title: Death and Rebirth
+version: 1
 ---
 
 Death is not the end in Cybergod. If your frame dies, your character is out of commission for the remainder of the game session. Your team mates must recover your **Black Box**, a Quantum Digital Storage device implanted somewhere into your frame. Team Mates should be able to know what they're looking for and recovery itself is pretty straightforward, although it might get a bit messy.

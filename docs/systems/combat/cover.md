@@ -1,5 +1,10 @@
 ---
 title: Taking Cover
+tags:
+  - Action
+  - Combat
+  - Defense
+version: 2
 ---
 
 You can spend an action to take cover. You must test `Tactics x Mind` against a difficulty depending on how hard it is to find cover. On success, spend effects to determine the quality of cover. Any mitigation awarded by cover are temporary and only last until the cover is destroyed, you are flanked or you leave the cover.

@@ -1,5 +1,6 @@
 ---
 title: Damage System
+version: 2
 ---
 When a character is hit in combat they can receive [[#Conditions]] that reflect various degrees of physical trauma and wounds to their Frame. Conditions are determined by the [[#Damage Class]] of an attack, which can be reduced by [[#Mitigation and Penetration|Mitigation]] or [[#Damage Reduction]].
 
