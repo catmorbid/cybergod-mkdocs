@@ -346,10 +346,10 @@ Vehicle weapons are too big for personal use and usually need to be fitted to a 
 
 ### Stats
 #### Damage Reduction
-Damage Reduction is a measure of passive protection and resistance to weapons and it reduces Damage Class of attacks directly. Read more about [[combat#Damage Reduction|Damage Reduction]] in [[combat|Combat Mechanics]].
+Damage Reduction is a measure of passive protection and resistance to weapons and it reduces Damage Class of attacks directly. Read more about [[docs/systems/combat/index#Damage Reduction|Damage Reduction]] in [[docs/systems/combat/index|Combat Mechanics]].
 
 #### Mitigation
-Mitigation is the armor’s ability to withstand and absorb damage. Mitigation also indicates the durability of the armor. Read more about [[combat#Mitigation|Mitigation]] in [[combat|Combat Mechanics]].
+Mitigation is the armor’s ability to withstand and absorb damage. Mitigation also indicates the durability of the armor. Read more about [[docs/systems/combat/index#Mitigation|Mitigation]] in [[docs/systems/combat/index|Combat Mechanics]].
 
 #### Bulk
 Indicates how much armor weighs and slows down the characters. Exceeding your Bulk limit comes with penalties to physical actions.
@@ -522,7 +522,7 @@ Commodities are general everyday household items and services. Note that players
 
 Individual ownership of vehicles is extremely rare, and most civilians used some form of public transportation or shared vehicles. Drones are extremely common and all vehicles can also be remote-controlled. If the players’ team requires use of a vehicle, you can use their basic Grade as point of reference and then simply allow or deny use of such vehicle. Characters may wish to spend their [[gamemastering/index|index]]
 
-**Vehicle Scale** determines the scale of the vehicle relative to humans. A Scale of 0 indicates equal to scale to humans, while bigger scale means larger and smaller scale means smaller. Scale affects [[combat#Damage Scale|Damage Scale]] when the vehicle or drone is used in combat.
+**Vehicle Scale** determines the scale of the vehicle relative to humans. A Scale of 0 indicates equal to scale to humans, while bigger scale means larger and smaller scale means smaller. Scale affects [[docs/systems/combat/index#Damage Scale|Damage Scale]] when the vehicle or drone is used in combat.
 
 **Hardpoints** determine what kind of equipment or weaponry can be fitted on vehicles or drones.
 

@@ -42,4 +42,4 @@ Follow these steps to create a character. You can read the details on the approp
 	- Choose miscellaneous equipment, armor and Reloads.
 	- Choose Apps, limited by **Max Apps** stat.
 	- Calculate total Bulk to ensure loadout is below or equal to **Max Bulk**.
-	- Mark [[combat#Mitigation|Mitigation Points]] from augments and armor.
+	- Mark [[docs/systems/combat/index#Mitigation|Mitigation Points]] from augments and armor.

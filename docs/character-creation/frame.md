@@ -32,7 +32,7 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 **Max Bulk** determines how much gear and armor you can carry without penalties. The [[gear|Gear section]] details the available gear you can have.
 
-**Wounds Slots** determine how much damage your Frame can take before going down. Higher level Body helps sustain more damage and still remain functional. See [[combat#Damage and Mitigation|Combat section]] on how wound slots work.
+**Wounds Slots** determine how much damage your Frame can take before going down. Higher level Body helps sustain more damage and still remain functional. See [[docs/systems/combat/index#Damage and Mitigation|Combat section]] on how wound slots work.
 
 | Body | Description | Max Power | Max Bulk | Wounds Slots                         |
 |------|-------------|-----------|----------|--------------------------------------|
@@ -45,7 +45,7 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 Reflex determines hand-eye coordination and reaction time. Reflex is used to react to sudden situations, evade attacks and make ranged attacks.
 
-Reflex affects [[combat#Initiative|Initiative]] which determines how fast you can act when making a Conflicting test in combat. At D10 or higher Reflex you also become **Ambidextrous** and can handle actions with either hand effectively. Without ambidexterity, you take a -1D penalty to using your off-hand, when relevant.
+Reflex affects [[docs/systems/combat/index#Initiative|Initiative]] which determines how fast you can act when making a Conflicting test in combat. At D10 or higher Reflex you also become **Ambidextrous** and can handle actions with either hand effectively. Without ambidexterity, you take a -1D penalty to using your off-hand, when relevant.
 
 | Reflex | Description | Initiative | Ambidextrous |
 | ------ | ----------- | ---------- | ------------ |

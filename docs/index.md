@@ -23,7 +23,7 @@ Copyright © 2024 Mikko Lainio
 Systems
 
 - [[core-mechanics|Core Mechanics]]
-- [[combat|Combat System]]
+- [[docs/systems/combat/index|Combat System]]
 - [[cyber-warfare|Cyber Warfare]]
 
 [[character-creation/index|Character Creation]]
