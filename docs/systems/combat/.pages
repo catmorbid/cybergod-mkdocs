@@ -5,8 +5,8 @@ nav:
   - ranged-combat.md
   - dual-weapons.md
   - mobility-evasion.md
-  - cover.md
-  - damage-system-v2.md
+  - cover-v3.md
+  - damage-system-v3.md
   - death-rebirth.md
   - stress.md
   - ...
