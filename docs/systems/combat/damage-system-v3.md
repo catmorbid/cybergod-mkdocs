@@ -51,7 +51,7 @@ Based on the total shock and wounds, the defender's condition is determined:
 - **Unharmed:** No shock or wounds.
 - **Wounded:** Up to 5 Wounds. Take a Penalty Die to actions for each Wound up to 5 wounds.
 - **Critically Wounded:** 6 or more Wounds. Character is incapacitated and unable to take any actions. Make a **Death Test** with Difficulty equal to number of Critical Wounds
-- **Dazed**: 5+ Shock. Temporary disorientation. Suffer -1D penalty until Shock is reduced to 5 or less.
+- **Dazed**: 6+ Shock. Temporary disorientation. Suffer -1D penalty until Shock is reduced to 6 or less.
 - **Stunned:** 10 Shock; Unable to take any Actions. Character is vulnerable to further attacks. Any Shock taken beyond 10 Shock is converted to Wounds.
 - **Instant Death:** 11 or more Wounds. Excessive wounds beyond survivable limits.
 

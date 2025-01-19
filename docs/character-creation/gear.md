@@ -26,21 +26,6 @@ Bulk determines general bulkiness of items, incorporating both mass and size. A 
 Resources represent consumable assets such as various wealth, supplies or ammo but also more abstract resources like stress and influence.
 
 When you consume resources, you mark down the consumption and then proceed to make a [[#Resource Checks|Resource Check]] to see if you can manage the consumption. Different resources work in slightly different ways, but the amount of resources is always indicated by a **Resource Die**, which is either D6, D8, D10 or D12.
-
-### Resource Check
-
-A Resource Check is used to measure consumption of various resources such as **Ammo** or personal **Assets**.
-
-Resource Check is rolled with Resource Dice which are D6, D8, D10 or D12. When you consume resources, you must make a Resource Check. The number of dice is 1 + previous level of consumption. E.g. If you you currently have 4 points of ammo tracked, spending another ammo means you now roll 5 dice for Resource Check.
-
-If any dice show 1-2 then the check fails. Consequences of failure depend on the measured resource:
-
-- **Ammo**: You run out of ammo and must spend a Reload. but usage is cleared.
-- **Stress**: you suffer from a mental breakdown, but stress track remains unchanged.
-- **Assets** (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
-
-If you fail the check, then clear the tracked usage track and start tracking again from zero, if any resources remain.
-
 ### General Resources
 General Resources are various commodities you can spend to obtain other commodities, favors or privileges. They include Resource Points, Quantum Crypto Currency and Influence. You can write down other resources as needed.
 
