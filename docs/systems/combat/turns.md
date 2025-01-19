@@ -20,6 +20,11 @@ Once the test is resolved, the leader can then decide how to distribute the gain
 - **Herd them(2)**: Enemies start out in a relatively tight group making them prime targets for suppression and area effect weapons.
 - **Flanking maneuver(2)**: One character flanks the enemy, bypassing their cover.
 
+### Upkeep Phase
+
+- Resolve any persistent conditions (e.g. bleeding or burning)
+- Remove 1 Shock from every combatant
+- Check if any Augments have effects that ended
 ### Combat Phase
 
 Once tactics phase is resolved, you start the combat. The first turn can be influenced by the Tactics phase, so make it count.

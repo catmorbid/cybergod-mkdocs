@@ -81,31 +81,31 @@ Area is used for explosives and such to determine how large area is affected whe
 
 #### Capacity
 Capacity (CAP) determines the Resource Die used when making Ammo Checks. Higher Capacity means you will run out of ammo less likely and have to reload less frequently.
+
 ### Weapon Tags
 
 Tags are used for additional rules regarding weapons.
 
-
-| Weapon Tag         | Effect                                                                                                                                                                 |
+| Tag                | Effect                                                                                                                                                                 |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Accurate           | Gain +1D on attack tests                                                                                                                                               |
 | AOE                | Areaf of Effect; affects everything in an area (Small, Moderate, Large, Huge). Larger area means it's more difficult to avoid hits                                     |
-| Bleeding           | When target becomes Wounded, Injured or Dying, they are also Bleeding                                                                                                  |
-| Burn               | Target receives Burning condition equal to mitigated DC                                                                                                                |
+| Bleeding           | When receiving any wounds, the target is also Bleeding.                                                                                                                |
+| Burn               | When receiving any wounds, the target is also Burning.                                                                                                                 |
 | Double Hits        | For each hit you gain two hits.                                                                                                                                        |
 | EMP                | Electro-Magnetic Pulse. Disables electronics and machinery.                                                                                                            |
 | Explosive Ordnance | Uses explosives as ammunition. Pick suitable explosive from Explosives list and use its damage and tags.                                                               |
 | Fast               | Maximum Hit Limit is increased to 3.                                                                                                                                   |
-| Forceful           | High impact force causes target to be knocked back when hit. Make a Moderate Toughness x Body test to avoid being knocked down.                                        |
-| Full Auto          | Upgrades Fast. No limit on how many Hits you can take and you can lay Suppressive Fire. Use 2 Ammo. Gain +1D on attack if your Body rating exceeds Recoil.             |
+| Forceful           | High impact force causes target to be knocked back when hit. Test Toughness x Body against attack DC to avoid being knocked down.                                      |
+| Full Auto          | Upgrades Fast. Hit Limit 5, you can lay Suppressive Fire. Use 2 Ammo. Gain +1D on attack if your Body rating exceeds Recoil.                                           |
 | Gas                | Deployed as a Gas. Ignores any armor that is not completely sealed or user is not wearing a gas mask, but is ineffective if deployed against gas mask or sealed armor. |
 | Inaccurate         | Take -1D penalty on attack tests                                                                                                                                       |
 | Irradiate          | Target suffers from radiation poisoning. -2D penalty.                                                                                                                  |
-| Non-Lethal         | When inflicting condition resolve a Shock Trigger instead of the normal Trigger                                                                                        |
+| Non-Lethal         | Inflict non-lethal damage: Half of mitigated damage is automatically soaked before making Soak Test.                                                                   |
 | Non-Physical       | (Melee only) Cannot take Power effect to increase damage class.                                                                                                        |
 | Slow               | Maximum Hit Limit is decreased to 1                                                                                                                                    |
 | Stealthy           | Weapon is silenced and can be used in stealth operations without alarming more enemies                                                                                 |
-| Stun               | When target becomes Wounded, Injured or Dying, they are also Stunned.                                                                                                  |
+| Stun               | Double the inflicted Shock                                                                                                                                             |
 | Wasteful           | Spend additional Ammo on attack                                                                                                                                        |
 
 

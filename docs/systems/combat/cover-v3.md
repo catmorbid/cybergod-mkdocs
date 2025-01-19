@@ -11,6 +11,7 @@ You can spend an action to take cover. You must test `Tactics x Mind` against a 
 - Cover awards DR and MP like any armor.
 - Cover may include armor tags (Durable, Fragile)
 - Cover MP is refreshed like those from Armor at start of each round.
+- Cover must always spend MP - even if minimum damage is dealt, but hits dealing minimum damage do not bypass cover: Target behind cover is unharmed in this case.
 - Cover is destroyed when its DR are all spent.
 - Cover may be flanked by tactics and maneuvering, meaning it cannot be applied
 
