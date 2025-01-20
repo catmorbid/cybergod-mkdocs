@@ -8,8 +8,8 @@ version: 2
 Specialized Tactical Marksmanship enhancement is an ideal augment for fire-team leaders and sniper spotters. **Pinpoint** automatically tracks marked targets and provides a real-time feed to allies on the targets and their positions. The system can also identify vulnerabilities, improving attack effectiveness against the targets.
 
 **System**
-- Spend 1 Energy to activate and use the **Mark Targets** action, or to maintain existing Marks.
-- **Mark Targets**: Spend an Action to observe targets in the battlefield and mark them for yourself and allies. Make an Easy `Tactics x Cyber` test. Available **effects** depend on Augment Level. Mark Targets is susceptible to electronic interference. Marks can be maintained, for following rounds, but this requires additional energy expenditure. You can also choose to take the **Mark Targets** action again, but all existing Marks are reset.
+- **Mark Targets**: Spend 1 Energy and take an Action to observe targets in the battlefield and mark them for yourself and allies. Make an Easy `Tactics x Cyber` test. Available **effects** depend on Augment Level. Mark Targets is susceptible to electronic interference.
+- **Maintain Marks:** Spend 1 Energy to maintain existing Marks as an Instant Action each round. You can also choose to take the **Mark Targets** action again, but all existing Marks are reset, but this will allow you to distribute effects again.
 - Resolve any Ranged or Melee attacks normally, but apply special benefits against Marks.
 
 ### Level 1
@@ -27,6 +27,7 @@ Unlock new **Effects** for **Mark Targets** action.
 Unlock new **Effects** for **Mark Targets** action.
 
 - **Expose Critical Vulnerability (2):** For each effect bought, you can assign it to one **Marked Target**. The Cyborg (but not allies) gains +1 AP and +1 DC on next attack against the target. Effect stacks with any other **Expose** effects, but you can only assign one **Expose Critical Vulnerability** to a any single Mark.
+- **Overdrive:** Spend two Energy on the **Mark Targets** action to *double* the number of Effect Points available for Marking targets and Expose effects. If you **overload** due to **Burn**, all Marks are canceled immediately.
 
 ### Old effects
 
