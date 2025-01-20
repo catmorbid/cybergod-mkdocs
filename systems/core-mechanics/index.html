@@ -1,0 +1,4180 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Tabletop RPG project page">
+      
+      
+        <meta name="author" content="Mikko Lainio">
+      
+      
+      
+        <link rel="prev" href="../../introduction/inspirations/">
+      
+      
+        <link rel="next" href="../combat/">
+      
+      
+      <link rel="icon" href="../../_assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Core Systems - Cybergod RPG</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#structure-of-play" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cybergod RPG" class="md-header__button md-logo" aria-label="Cybergod RPG" data-md-component="logo">
+      
+  <img src="../../_assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cybergod RPG
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Core Systems
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Cybergod: Reborn
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../introduction/" class="md-tabs__link">
+          
+  
+    
+  
+  Introduction
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+    
+  
+  Systems
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../character-creation/" class="md-tabs__link">
+          
+  
+    
+  
+  Character Creation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../factions/" class="md-tabs__link">
+          
+  
+    
+  
+  Factions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../gamemastering/" class="md-tabs__link">
+          
+  
+    
+  
+  Game Mastering
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../npc-db/baselines/" class="md-tabs__link">
+          
+  
+    
+  
+  NPC DB
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cybergod RPG" class="md-nav__button md-logo" aria-label="Cybergod RPG" data-md-component="logo">
+      
+  <img src="../../_assets/logo.png" alt="logo">
+
+    </a>
+    Cybergod RPG
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cybergod: Reborn
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../introduction/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Themes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Themes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/themes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/utopia-and-dystopia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Utopia and Dystopia
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/moral-dilemmas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Dilemmas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/humanity-and-artificial-life/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Humanity and Artificial Life
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/psionics-and-horror/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Psionics and Otherworldly Horror
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/technology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Technology Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/inspirations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspirations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Systems
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Systems
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Core Systems
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Core Systems
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure-of-play" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure of play
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structure of play">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measurements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measurements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velocity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skill-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill Tests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Skill Tests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#successes-and-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successes and Effects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#difficulty" class="md-nav__link">
+    <span class="md-ellipsis">
+      Difficulty
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opposed-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opposed Test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complications
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Effects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modifiers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rerolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rerolls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assistance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resource-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resource Check
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../combat/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Combat
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Combat
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/turns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Turn order
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/close-combat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Close Combat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/ranged-combat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranged Combat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/dual-weapons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dual Weapons
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/mobility-evasion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mobility and Evasion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/cover-v3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taking Cover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/damage-system-v3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Damage System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/death-rebirth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Death and Rebirth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/stress/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stress
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/cover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taking Cover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/damage-system-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Damage System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/ranged-combat-v3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranged Combat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cyber-warfare/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cyber Warfare
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../character-creation/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Character Creation
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Character Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/persona/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/frame/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frame
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../character-creation/augments/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Augments
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Augments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/adrenaline-rush/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adrenaline Rush
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/aegis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aegis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/avatar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Avatar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/biomorph-armor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biomorph Armor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/biomorph-healing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biomorph Healing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/biomorph-invasion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biomorph Invasion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/biomorph-weapons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biomorph Weapons
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/camouflage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Camouflage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/chronoflux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chronoflux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/coil-interface/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coil interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/crucible/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crucible
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/cybernetic-armor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cybernetic Armor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/drone-eyes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drone Eyes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/face/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FACE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/flight/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Flight System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/gravitron/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gravitron
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/immortal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Immortal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/inhibitor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inhibitor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/interference/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Interference
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/mimic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mimic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/mobility-system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mobility System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/pinpoint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pinpoint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/psionics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Psionic Enhancement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/regeneration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Regeneration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/smart-weapons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Smart Weapons
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/swarm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Swarm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/targeting-system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Targeting System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/augments/weapon-systems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Weapon Systems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-creation/gear/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gear
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../factions/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Factions
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Factions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../factions/core/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Core
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Core
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/core/arc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advanced Regulator Corps (ARC)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/core/section-12/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Section 12
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/core/syndicate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Syndicate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../factions/ideological/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Ideological
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Ideological
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/ideological/order-of-the-void/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Order of the Void
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/ideological/radical-x/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Radical X
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../factions/mercenary/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Mercenary
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Mercenary
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/mercenary/agd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atlas Global Defense (AGD)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/mercenary/cyberweavers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Cyberweavers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../gamemastering/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Game Mastering
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Game Mastering
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Improving Characters
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Improving Characters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gamemastering/progression/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Progression
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gamemastering/merits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Merits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gamemastering/team-assets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team Assets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gamemastering/influence/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Influence
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gamemastering/upgrade-points/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Upgrade Points
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gamemastering/story-seeds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Story seeds
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gamemastering/npc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Enemies and NPC's
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    NPC DB
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            NPC DB
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../npc-db/baselines/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Baselines
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Baselines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/baselines/heavy-trooper/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heavy Trooper
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/baselines/security-forces/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Forces
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/baselines/soldier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Soldier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../npc-db/drones/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Drones
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Drones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/drones/drone-rler/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    R-LER Mk.3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/drones/scout-drone/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scout Drone
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../npc-db/factions/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Factions
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Factions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/agd-colossus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colossus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/agd-reaper/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reaper
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/agd-soldat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Soldat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/arc-bulwark/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bulwark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/arc-ghost/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ghost
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/arc-hunter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hunter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/order-disciple/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blessed Disciple
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/order-harbinger/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blessed Harbinger
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/order-paladin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blessed Paladin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/order-zombie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zombified Civilian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/radical-x-avenger/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Avenger
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/radical-x-berserker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Berserker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/radical-x-martyr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Martyr
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/section12-operator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Operator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/section12-protector/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/section12-sentinel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sentinel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/syndicate-guardian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Puccini Guardian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/syndicate-ronin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shosuro Ronin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/syndicate-stratagem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wu-Tai Stratagem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/syndicate-tzar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Radinovich Tzar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/weaver-adept/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adept
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/weaver-shadow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shadow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../npc-db/factions/weaver-virtual/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure-of-play" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure of play
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structure of play">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measurements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measurements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velocity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skill-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill Tests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Skill Tests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#successes-and-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successes and Effects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#difficulty" class="md-nav__link">
+    <span class="md-ellipsis">
+      Difficulty
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opposed-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opposed Test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complications
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Effects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modifiers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rerolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rerolls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assistance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resource-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resource Check
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Core Systems</h1>
+
+<h2 id="structure-of-play">Structure of play<a class="headerlink" href="#structure-of-play" title="Permanent link">&para;</a></h2>
+<p>Gameplay is structurally divided into few components, each serving a specific purpose.</p>
+<p><strong>Game Session</strong> takes place when players and Game Master gather together to play the game. A game session usually lasts for several hours in real time. During a game session the Game Master and Players create a narrative. The Game Master sets the <strong>Scene</strong>, but the players each control a <strong>character</strong> and have full control on their thoughts, actions and motivations.</p>
+<p>A <strong>Story</strong> is a long narrative arc that has a beginning, and an end. You decide what your stories are about. Stories consist of <strong>Scenes</strong> and <strong>Downtime</strong>, and may span one ore more <em>game sessions</em>.</p>
+<p><strong>Scene</strong> is the core structural unit. Each time players explore a location or meet people, they enter a new scene. Whatever happens in that location is what defines the contents of the scene. A scene can be <strong>freeform</strong> where players interact with the environment in non-specific order, or it can be played out in a more structured <strong>turn-based</strong> order, in which case the action is divided into <strong>Rounds</strong>.</p>
+<p><strong>Round</strong> is a brief period during which each participant in the scene can take one more more actions. Each party gets their turn to act.</p>
+<p><strong>Downtime</strong> is a flexible unit of time during which the players can do things that do not require elaborate description like boring paperwork to sleeping or spending some R&amp;R with friends. Downtime is usually played out with high abstraction and players do not need to provide a detailed schedule, just point out the highlights for what their character is going to do. A single stretch of downtime can take anywhere from few hours to months, sometimes more.</p>
+<p><strong>Rest</strong> is a specific type of <em>downtime</em> where the character can recover from the stresses of their work. Humans typically require some rest period each day.</p>
+<h3 id="measurements">Measurements<a class="headerlink" href="#measurements" title="Permanent link">&para;</a></h3>
+<p>All measurements are treated as abstractions.</p>
+<h4 id="time">Time<a class="headerlink" href="#time" title="Permanent link">&para;</a></h4>
+<p>Time is measured in abstract intervals, very often to measure the <em>duration</em> of something, e.g. how long does an ability take effect.</p>
+<ul>
+<li><strong>Instant</strong> is a fraction of a second, or at most a second. Enough to affect a single Action during a <em>round</em>.</li>
+<li><strong>Short</strong> interval is equivalent to one round of action or combat, equivalent to a few seconds.</li>
+<li><strong>Moderate</strong> interval lasts an entire <em>scene</em>.</li>
+<li><strong>Long</strong> interval lasts until you play some <em>downtime</em>, usually several scenes or an entire game session.</li>
+</ul>
+<h4 id="distance">Distance<a class="headerlink" href="#distance" title="Permanent link">&para;</a></h4>
+<p>Distance is a measurement of distance between targets. Can be used in combat to determine how easy or hard it is to hit a target, or to measure distance during a chase.</p>
+<ul>
+<li><strong>Close</strong> distance means you can touch the object or entity referenced to.</li>
+<li><strong>Short</strong> distance can be traversed easily in one round. No action required.</li>
+<li><strong>Moderate</strong> distance requires some effort to traverse. An action with <strong>1 Effect</strong> is enough to reach it. </li>
+<li><strong>Long</strong> distance means the target is quite a bit of distance away. You can reach Long distance with an action and at least <strong>2 Effects</strong>.</li>
+<li><strong>Extreme</strong> distance needs more than one action to catch up to.</li>
+</ul>
+<h4 id="velocity">Velocity<a class="headerlink" href="#velocity" title="Permanent link">&para;</a></h4>
+<p>Velocity is an abstraction of how fast something is. Acceleration, mass and kinetic energy are all accounted for. The examples below are described relative to a human being on foot. When you compare fighter jets or space crafts, the examples would be very different.</p>
+<ul>
+<li><strong>Low</strong> Velocity means something is moving slowly enough to observe easily with human eye. Human could easily run beside the object.</li>
+<li><strong>Moderate</strong> Velocity means something is moving at a rate roughly equivalent to a sprinting human. Vehicles tend to go fast but you really need to keep up your pace to catch them on foot.</li>
+<li><strong>High</strong> Velocity is equivalent to a fast moving vehicle, such as a GravCar speeding away. You can see them, but attempting to reach them on foot would be desperate.</li>
+<li><strong>Ultra</strong> Velocity is closing to super sonic speeds. You don't have any hope to reach this velocity on foot.</li>
+</ul>
+<h2 id="skill-tests">Skill Tests<a class="headerlink" href="#skill-tests" title="Permanent link">&para;</a></h2>
+<p>A Skill Test is called when you need to figure out whether a character can do something that is not within basic functions of a human (or a cybernetic) being.</p>
+<p>Skill Tests are noted as <code>Skill x Attribute</code>:
+- <strong>Skill</strong> is the sum of the <em>skill level</em> and its linked <em>Aptitude level</em>. Optionally, GM may allow using another <em>Aptitude</em> than the one linked to the Skill.
+- <strong>Attribute</strong> determines the size of the die to roll ranging from D6 to D12.</p>
+<p>This generally results in a Dice Pool of 1 to 7 dice.</p>
+<h3 id="successes-and-effects">Successes and Effects<a class="headerlink" href="#successes-and-effects" title="Permanent link">&para;</a></h3>
+<p>Once you have figured out the Dice Pool to roll with, roll the dice and count <strong>successes</strong>:</p>
+<ul>
+<li>Count 1 <em>Success</em> for a roll of 5 or higher, or</li>
+<li>Count 2 <em>Successes</em> for a roll of 10 or higher</li>
+</ul>
+<p>You need to beat the <strong>Difficulty</strong> of the test to actually succeed. If you succeed, you gain <strong>One (1) Effect Point (EP)</strong> plus another for each additional success rolled.</p>
+<p>Spend <strong>Effect Points</strong> to determine the actual outcome. Most Tests have a so called <em>Basic</em> effect which simply allows you to do what you set out to do in the first place for just 1 Effect Point, but GM may present additional Effects, or simply decide what happens based on how many EP you gained.</p>
+<h3 id="difficulty">Difficulty<a class="headerlink" href="#difficulty" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Difficulty</th>
+<th>Success Threshold</th>
+<th>% 3D6</th>
+<th>%3D8</th>
+<th>%3D10</th>
+<th>%3D12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Easy</td>
+<td>1</td>
+<td>70%</td>
+<td>88%</td>
+<td>95%</td>
+<td>98%</td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>2</td>
+<td>26%</td>
+<td>50%</td>
+<td>73%</td>
+<td>88%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>3</td>
+<td>4%</td>
+<td>13%</td>
+<td>34%</td>
+<td>59%</td>
+</tr>
+<tr>
+<td>Very  Hard</td>
+<td>4</td>
+<td>-</td>
+<td>-</td>
+<td>11%</td>
+<td>24%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Difficulty</strong> determines the <strong>Success Threshold</strong> for a test, which is the number of success required to actually succeed. When making Opposed tests, where there is an opponent who tests their own skills, Difficulty indicates the margin by which you need to succeed, in order to actually succeed.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Janey must beat a Hard test of <code>Investigation x Mind</code>. She rolls 3D12 gaining 10, 6 and 9. That's total 4 successes, which earns her 2 Effect Points.</p>
+</div>
+<h3 id="opposed-test">Opposed Test<a class="headerlink" href="#opposed-test" title="Permanent link">&para;</a></h3>
+<p>When two characters roll dice against each other, they are making an Opposed Test. The outcome of one test will be highly dependent on the outcome of the other test. Whoever has more successes is the victor, with a margin equal to the difference between the results. So if you beat your opponent by one success, you succeed with a one success.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>a Moderately difficult test means that on an opposed test you need 2 successes more than your opponent to actually succeed.</p>
+</div>
+<h3 id="complications">Complications<a class="headerlink" href="#complications" title="Permanent link">&para;</a></h3>
+<p>Complications are optional challenges that may be present when attempting a Test. GM can introduce complications on any tests, presenting them as a potential harm that can happen unless dealt with. Players are free to choose whether they want to deal with the complication, or face the consequences.</p>
+<p>Each complication comes with a rating of 1-5 depicting how difficult the complication is to overcome. In practice this means that to overcome the complication, you need to spend that many additional successes, which can't then be used to beat the difficulty, and won't count for <em>Effect Points</em>. But as long as you overcome the complication, then it won’t come into play.</p>
+<p>It is also possible that multiple complications apply to a single test, but having more than three complications makes tracking them really difficulty, so having more than three complications on a single test is not recommended.</p>
+<div class="admonition example complications example">
+<p class="admonition-title">Example</p>
+<p>Marko is trying to hack into a Syndicate server to obtain some cargo manifest data he needs for a client. He's testing <code>Hacking x Cyber</code> and can roll 4D10. But GM tells him that the while the server itself only has Moderate security, there is a local Sys Op monitoring the situation, which presents a 1-point complication. If Marko fails to overcome the complication, the Sys Op will detect him and will begin countermeasures and a trace, which might eventually see Marko's location compromised...</p>
+</div>
+<h3 id="effects">Effects<a class="headerlink" href="#effects" title="Permanent link">&para;</a></h3>
+<p>You gain a number of <strong>Effect Points (EP)</strong> upon beating the difficulty of a test equal to 1 + any successes in excess of the <em>Success Threshold</em> determined by difficulty. EP can be spent on various <em>Effects</em> to determine the outcome of the test. Each Test will have some sort of <strong>Basic Effect</strong>, that will always cost just 1 EP, allowing the character to simply do what they set out to do. Additional Effects allow the character to somehow improve the outcome, and could be as as simple as <em>doing it faster</em>, or <em>doing it with style</em>. You can suggest your own effects, which can cost any number of Effect Points. Many actions listed in the rulebook have some kind of list of Effects that can be used without further debate, but players and GM should feel free to improvise and discuss.</p>
+<h3 id="modifiers">Modifiers<a class="headerlink" href="#modifiers" title="Permanent link">&para;</a></h3>
+<p>Different modifiers may apply to a test, either granting or removing dice. Generally the total number of modifiers should not exceed +/- 3 Dice. Regardless, maximum number of dice to roll is 10, and minimum is zero. If you don't have dice, you fail automatically.</p>
+<p>A positive modifier may be referred to as <strong>Advantage</strong> or <strong>Bonus</strong>, while a negative modifier may be called <strong>Disadvantage</strong> or <strong>Penalty</strong>.</p>
+<h3 id="rerolls">Rerolls<a class="headerlink" href="#rerolls" title="Permanent link">&para;</a></h3>
+<p>Sometimes you have the option to spend a <strong>Reroll</strong> on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results. When rerolling a skill test, it makes most sense to only re-roll dice that did not generate any successes, otherwise you will risk those dice producing zero successes.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard <code>Persuasion x Mind</code> test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to reroll the five failed dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.</p>
+</div>
+<h3 id="assistance">Assistance<a class="headerlink" href="#assistance" title="Permanent link">&para;</a></h3>
+<p>Another character may provide assistance in a test. The assistant does not roll any dice on their own, but rather awards half (round down) of their <strong>Dice Pool</strong> to the acting character performing the test. The minimum Dice Pool is then 2 for assistant to be of any use to the acting character.</p>
+<p>The assistant may also utilize a different skill than the acting character, if it fits the situation. You can suggest GM how your character would be able to assist another character, suggesting a skill to use, but the GM has the final call if such assistance works in the situation at hand.</p>
+<h2 id="resource-check">Resource Check<a class="headerlink" href="#resource-check" title="Permanent link">&para;</a></h2>
+<p>A Resource Check is used to measure consumption of various resources such as <strong>Ammo</strong> or personal <strong>Assets</strong>. It's a quicker and simplified form of test where degrees of success do not matter. A resource Check can be noted simply as <code>Check (resource)</code>, e.g. <code>Check Ammo</code> to make Resource Check to see if your weapon is running out of ammo.</p>
+<p>Resource Check is rolled with <strong>Resource Dice</strong> which are D6, D8, D10 or D12. The number of dice is Total Level of consumption. E.g. If you you currently have 4 points of ammo tracked, spending another ammo means you now roll 5 dice for Resource Check.</p>
+<p>If any dice show 1-2 then the check fails. Consequences of failure depend on the measured resource:</p>
+<p>Examples:
+- <strong>Ammo</strong>: You run out of ammo and must spend a Reload. but usage is cleared.
+- <strong>Stress</strong>: you suffer from a mental breakdown, but stress track remains unchanged.
+- <strong>Assets</strong> (RP, QC or Influence): You must reduce the usage dice by one step or forfeit the transaction.
+- <strong>Energy:</strong> receive a point of <em>Burn</em></p>
+<p>If you fail the check, then clear the tracked usage track and start tracking again from zero, if any resources remain.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../introduction/inspirations/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Inspirations">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Inspirations
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../combat/" class="md-footer__link md-footer__link--next" aria-label="Next: Combat System">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Combat System
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2014 - 2024 - Mikko Lainio
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.footer", "toc.follow"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
