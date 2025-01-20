@@ -13,7 +13,7 @@ Any Personal Weapons are automatically modified to be compatible, but random wea
 	Smart Weapons are only compatible with conventional firearms and slow projectile launches, such as missile launchers or grenade launchers and cannot be used with Gauss weapons, Laser weapons or Plasma weapons.
 
 **System**
-- Spend 1 Energy to Activate
+- Spend 1 Energy to Activate as an Instant Action
 - Test `Aim x Cyber` when using Smart Weapons to resolve Ranged Attacks
 - Available Effects are **Initiative(1)** and any Effects provided by your current Level of augment, including previous levels.
 - **Full Auto** attacks do not benefit from +1D recoil control bonus on attack if wielder’s Body exceeds the weapon’s Recoil.

@@ -8,7 +8,7 @@ version: 2
 Enables extremely high damage and precision in combat by extreme calculation power, which is displayed as slowed down time and trajectory tracking. Effective in both close combat and ranged combat.
 
 **System**
-- Spend 1 Energy to activate for one round.
+- Spend 1 Energy to activate as an Instant Action
 - **Close Combat:** Test `Fighting x Cyber`
 - **Ranged Combat:** Test `Aim x Cyber`
 - See Level-specific effects
