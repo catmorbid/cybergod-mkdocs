@@ -2,3 +2,4 @@
 .obsidian/*
 docs/.obsidian/*
 *.code-workspace
+.DS_Store
