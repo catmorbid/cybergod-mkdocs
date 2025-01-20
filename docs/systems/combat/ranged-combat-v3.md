@@ -6,7 +6,7 @@ tags:
   - Offense
 version: 3
 ---
-Various weapons handle differently, so to make ranged attacks test `Ranged Combat` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[core-mechanics#Distance|Distance]] between you and the target.
+Various weapons handle differently, so to make ranged attacks test `Aim` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[core-mechanics#Distance|Distance]] between you and the target.
 
 **Effects**
 
