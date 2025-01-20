@@ -4,6 +4,7 @@ tags:
   - Cybertech
   - Nanotech
   - Biotech
+version: 2
 ---
 A system for manufacturing and coordinating an army of nanites (or Biomorphs) programmed to repair physical damage. Regeneration is extremely rapid and may induce stress on anyone not accustomed for such sights. The process is incredible, and extremely painful, and built-in safeguard ensure that the user does not collapse due to shock when the process is active, hence the augment has high reliance on the user’s fortitude and pain threshold, and does not require much medical know-how otherwise, although skilled individuals may attempt hacking or controlling their augments to produce unorthodox effects.
 
