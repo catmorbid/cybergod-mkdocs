@@ -331,10 +331,7 @@ Vehicle weapons are too big for personal use and usually need to be fitted to a 
 
 ### Stats
 #### Damage Reduction
-Damage Reduction is a measure of passive protection and resistance to weapons and it reduces Damage Class of attacks directly. Read more about [[docs/systems/combat/index#Damage Reduction|Damage Reduction]] in [[docs/systems/combat/index|Combat Mechanics]].
-
-#### Mitigation
-Mitigation is the armor’s ability to withstand and absorb damage. Mitigation also indicates the durability of the armor. Read more about [[docs/systems/combat/index#Mitigation|Mitigation]] in [[docs/systems/combat/index|Combat Mechanics]].
+Damage Reduction is a measure of overall protection and resistance to weapons and it reduces Damage Class of attacks directly. DR also determines how many Mitigation Points are generated each round. **Default MP** = `DR x 2`
 
 #### Bulk
 Indicates how much armor weighs and slows down the characters. Exceeding your Bulk limit comes with penalties to physical actions.
@@ -346,8 +343,10 @@ Armor tags describe additional rules and effects that come to play with certain 
 
 | Armor Tag   | Effect                                                                                                              |
 | ----------- | ------------------------------------------------------------------------------------------------------------------- |
-| Camouflage  | Integrated camouflage augmentation.                                                                                 |
+| Camouflage  | Integrated camouflage augmentation. Provides Level 1 Camouflage augment. Provides 6 energy points for the augment.  |
 | Concealable | Concealable under regular clothing. Very Hard to spot.                                                              |
+| Durable     | Mitigation Points = 3x DR                                                                                           |
+| Fragile     | Mitigation Points = DR                                                                                              |
 | Self-Repair | Repairs 50% mitigation in Moderate Duration                                                                         |
 | Sealed      | Protects from environmental hazards. Comes with integrated respirators. Immune to gasses and other airborne agents. |
 | Body        | Power Armor: Body Attribute is replaced with the indicated rating.                                                  |
