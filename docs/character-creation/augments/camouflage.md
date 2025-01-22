@@ -22,7 +22,7 @@ A stealth augment that can blend the character with their surroundings. Advanced
 
 ### Level 1
 - **Basic Cloak:** The Cyborg can become invisible to naked eye and any optical recording devices, such as standard cameras.
-	- **Invisibility:** Effect Point Cost of **Undetected** effect is reduced to zero. It is easier for you to hide and pull of other maneuvers. You can freely engage in combat while cloaked, but if you take any hits, the Cloak will be disrupted for a brief moment, giving aware observers clear line of sight.
+	- **Invisibility:** Effect Point Cost of **Undetected** effect is reduced to zero. It is easier for you to hide and execute other maneuvers. You can freely engage in combat while cloaked, but if you take any hits, the Cloak will be disrupted for a brief moment, giving aware observers clear line of sight.
 	- **Cloaked Assassin:** The Effect Point cost of **Assassinate** effect is halved (min. 1). You can easily carve your way through weak opponents.
 	- **Hard Target**: You can be attacked while **Partially Detected**, but the attacks are made at **Moderate** difficulty.
 - **Drawbacks:** Does not hide sounds, so nearby observers may still hear footsteps and fast movement will definitely be heard and Infra-Red, Radar or X-Ray scanning can easily detect you.
@@ -30,7 +30,7 @@ A stealth augment that can blend the character with their surroundings. Advanced
 ### Level 2
 - **Multi-Spectrum Cloak:** Hides the cyborg’s thermal signature making them invisible in the infrared spectrum and dampens any sounds produced in immediate vicinity, such as movement.
 	- **Stealth Sprint:** You can move at full speed while cloaked without any penalties to Stealth.
-	- **Vanish:** You can activate Camouflage by taking a **Reaction** and test `Stealth x Cyber`. To disappear even after being detected or when surprised or mid-combat.
+	- **Vanish:** You can activate Camouflage to disappear even after being detected or when surprised or mid-combat. Use a **Reaction** and test `Stealth x Cyber`.
 	- **Ghost:** You can be attacked while **Partially Detected**, but the attacks are made at **Hard** difficulty.
 - **Drawbacks:** Radar or advanced EM sensors can detect you.
 
