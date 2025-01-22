@@ -34,11 +34,11 @@ Time is measured in abstract intervals, very often to measure the *duration* of 
 
 Distance is a measurement of distance between targets. Can be used in combat to determine how easy or hard it is to hit a target, or to measure distance during a chase.
 
-- **Close** distance means you can touch the object or entity referenced to.
-- **Short** distance can be traversed easily in one round. No action required.
-- **Moderate** distance requires some effort to traverse. An action with **1 Effect** is enough to reach it. 
-- **Long** distance means the target is quite a bit of distance away. You can reach Long distance with an action and at least **2 Effects**.
-- **Extreme** distance needs more than one action to catch up to.
+- **Close** distance means you can almost touch the object or entity referenced to, by taking just a few steps.
+- **Short** distance can be traversed easily in one round. Optimal range for typical sidearms.
+- **Moderate** distance requires some effort to traverse. Optimal range for many assault weapons.
+- **Long** distance means the target is quite a bit of distance away, but clearly within line of sight. Optimal range for Precision weapons.
+- **Extreme** distance is very far away and needs more than one action to catch up to. Extreme Distance can be further divided several brackets if needed, e.g. Extreme-1, Extreme-2, Extreme-3 etc. Extreme Distance is the typical range for Precision Weapons.
 
 #### Velocity
 
@@ -105,7 +105,9 @@ It is also possible that multiple complications apply to a single test, but havi
 
 ### Effects
 
-You gain a number of **Effect Points (EP)** upon beating the difficulty of a test equal to 1 + any successes in excess of the *Success Threshold* determined by difficulty. EP can be spent on various *Effects* to determine the outcome of the test. Each Test will have some sort of **Basic Effect**, that will always cost just 1 EP, allowing the character to simply do what they set out to do. Additional Effects allow the character to somehow improve the outcome, and could be as as simple as *doing it faster*, or *doing it with style*. You can suggest your own effects, which can cost any number of Effect Points. Many actions listed in the rulebook have some kind of list of Effects that can be used without further debate, but players and GM should feel free to improvise and discuss.
+You gain a number of **Effect Points (EP)** upon beating the difficulty of a test equal to 1 + any successes in excess of the *Success Threshold* determined by difficulty. EP can be spent on various *Effects* to determine the outcome of the test. Each Test will have some sort of **Basic Effect**, that will always cost just 1 EP, allowing the character to simply do what they set out to do. Additional Effects allow the character to somehow improve the outcome, and could be as as simple as *doing it faster*, or *doing it with style*.
+
+Any Effect Points that are not spent immediately, are lost. You can suggest your own effects, which can cost any number of Effect Points, and GM may present options as well. Many actions listed in the rulebook have some kind of list of Effects that can be used without further debate, but players and GM should feel free to improvise and discuss.
 
 ### Modifiers
 
