@@ -36,10 +36,10 @@ The ultimate adrenaline surge. Lets you shrug off grievous wounds and move with 
 
 - **Unstoppable:** You ignore up to -3D wound penalties and can keep going even when Critically Wounded: Spend 1 Energy when receiving Critical Wounds to remain active and postpone Death Test for one round. Make Death Test immediately when Adrenaline Rush ends, if any Critical Wounds persist.
 - **Stress Immunity:** Reduce Stress taken by 3 points. Any Stress taken does not trigger Stress Checks. Make a Stress Check immediately after Adrenaline Rush ends.
-- **Adrenal Surge:** Once per Scene. Make Adrenaline Test with `Toughness x Body` as an Instant Action and spend Effect Points as follows:
-	- **Strength Surge (1):** Gain +1 DC per Effect Point on one close combat attack . Limit 3.
-	- **Speed Surge (1):** Gain 2 EP worth *Sprint* or *Evasion* effects. Limit 3.
-	- **Vitality Surge (1):** Recover 2 Shock and remove a negative condition. Limit 3.
+- **Adrenal Surge:** Once per Scene. Make an **Adrenaline Test** as an Instant Action and spend Effect Points as follows:
+	- **Strength Surge (1-3):** Gain +1 DC per Effect Point on one close combat attack. Limit 3.
+	- **Speed Surge (1-3):** Gain 2 EP worth *Sprint* or *Evasion* effects from a [[mobility-evasion|Mobility Test]]. Limit 3.
+	- **Vitality Surge (1-3):** Recover 2 Shock and remove a negative condition. Limit 3.
 	- **Rampage (4):** Make two close combat attacks with your next action without additional penalties. Limit 1.
 - **Major Crash:** When Adrenaline Rush ends you take a -2D penalties until the end of the Scene, and -1D penalty during *next Scene*. If you have any Critical Wounds, resolve Death Test first and then immediately collapse – whether you live or die. If you re-activate Adrenaline Rush before the crash effects have waned, the next Crash will add an additional -1D penalty.
 
