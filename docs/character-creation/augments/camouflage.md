@@ -9,7 +9,7 @@ version: 2
 A stealth augment that can blend the character with their surroundings. Advanced tiers also help mitigate noise from movement and provide additional masking options.
 
 **System**
-+ **Activate:** Spend 1 Energy to Activate
++ **Activate:** Spend 1 Energy as an Instant Action
 + **Maintain:** Spend 1 Energy per round when active in combat. No energy is spent if you do not take any physical actions; or 1 energy per Skill Test during non-combat scenes.
 + **Stealth Tests:** Resolve Stealth tests with `Stealth x Cyber` to adapt to surroundings, or possibly `Streetwise x Cyber` to cover long distances in an urban environment. See each augment Level for details how the augment affects you.
 + **Full Detection:** Observers can only fully detect you if they have access to technology that makes it possible. If they have access, the stealth test is resolved as contested stealth test as usual (with any circumstantial modifiers applied). If they cannot detect you, they cannot make the test at all, unless you cause some reason.

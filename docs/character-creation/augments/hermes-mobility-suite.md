@@ -8,7 +8,7 @@ version: 2
 The HERMES Mobility Suite is an Advanced Mobility enhancement suite that augments the cyborg's movement capabilities, helping them move faster in combat and evade attacks easier.
 
 **System**
-	- **Activate** by spending 1 Energy as an Instant Action
+- **Activate** by spending 1 Energy as an Instant Action
 
 ### Level 1
 - **Enhanced Mobility**: Cost for any **Sprint** Effects is reduced by 1. You can still only pick one Sprint Effect as default.
