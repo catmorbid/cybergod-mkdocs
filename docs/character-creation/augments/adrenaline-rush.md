@@ -3,6 +3,7 @@ tags:
   - Biotech
   - Cybertech
   - Nanotech
+  - Unsafe
 title: Adrenaline Rush
 version: 2
 ---
@@ -14,6 +15,10 @@ Enter a state of constant adrenaline frenzy improving close quarters fighting ab
 - **Adrenaline Test:** When called for, test `Toughness x Body` to fuel special adrenaline-based effects (detailed below). Spend Effect Points on available options based on augment Level.
 - **Conditional Unsafe:** At GM's discretion, prolonged use may trigger additional safety [[persona#Safety Check|Safety Checks]].
 - **Adrenaline Crash:** When Adrenaline Rush ends, you suffer -1D to all physical actions until the end of the Scene. If you re-activate Adrenaline Rush when suffering from Adrenaline Crash, you can ignore this penalty, but the next Adrenaline Crash penalty is increased by additional -1D for each additional activation.
+-  **Synergy: Cortical Regulator:** Adrenaline Rush drives on high emotional rush and adrenaline, while Cortical Regulator derives its effectiveness from calm and emotional stunting. This does not however mean they are incompatible, but rather when combined, the augments make the character a cold-hearted emotionless killer fueled by muted, violent rage:
+	- **Combined Stress Buffer:** Stress mitigation is the highest of either + half (round up) of the other augment. I.e. 5 when both augments are level 3.
+	- **Extreme Crash:** You suffer both crash effects in full effect.
+	- **Neural Decay:** Using both augments at the same time has high likelihood for causing neural decay; Roll an additional die for Safety Test when using both augments, equal to the lowest Decay die from either augment.
 
 ### Level 1
 You flood your system with adrenaline, gaining a short burst of enhanced strength and aggression.

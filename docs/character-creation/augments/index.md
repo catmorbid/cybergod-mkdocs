@@ -15,7 +15,7 @@ Augments are possible with three types of technology: `Cybertech`, `Nanotech` an
 Many augments can be **Boosted** by spending additional energy. When some property can be boosted, it's marked with an arrow symbol ->, indicating the new boosted property.
 
 ## Safety
-High level augments or those tagged as `Unsafe` will trigger a *Decay Save* whenever they're used. The die size depends on the augment level and whether the augment has the unsafe tag. Only augments that require activation trigger *Decay Saves*.
+High level augments or those tagged as `Unsafe` will trigger a *Decay Save* whenever they're activated during a scene. The die size depends on the augment level and whether the augment has the unsafe tag. Only augments that require activation trigger *Decay Saves*.
 
 | Augment Level | Safe | Unsafe |
 | ------------- | ---- | ------ |
@@ -45,7 +45,7 @@ High level augments or those tagged as `Unsafe` will trigger a *Decay Save* when
 | [[flight]]                 | Built-in thrusters to arms and legs and other modifications that enable flight                                                                                                 | #Cybertech                                      |
 | [[gravitron]]              | The Gravitron is a powerful augment that can be used for manipulating and altering gravity                                                                                     | #Cybertech #Unsafe                              |
 | [[immortal]]               | Takes a backup of consciousness in realtime.                                                                                                                                   | #Cybertech #Nanotech #Passive                   |
-| [[inhibitor]]              | A system for controlling hormonal activity and emotional state. Helps mitigate Stress and maintain combat readiness.                                                           | #Cybertech #Nanotech #Biotech #Unsafe           |
+| [[cortical-regulator]]              | A system for controlling hormonal activity and emotional state. Helps mitigate Stress and maintain combat readiness.                                                           | #Cybertech #Nanotech #Biotech #Unsafe           |
 | [[interference]]           | An asymmetric warfare system that allows disruption of communications, electronics and augmentations.                                                                          | #Cybertech                                      |
 | [[mimic]]                  | Reconstruct your facial features and mimic voice and behavioral patterns of a person, or create entirely new personalities and faces by combining known patterns and features. | #Cybertech #Nanotech #Biotech #Unsafe           |
 | [[hermes-mobility-suite]] | Advanced Mobility enhancement system enhances the cyborg's movement capabilities.                                                                                              | #Cybertech #Nanotech                            |
