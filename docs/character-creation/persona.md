@@ -208,7 +208,7 @@ Corruption can only be removed by undergoing extensive therapy. This will cost t
 
 ### Safety Check
 
-Over-using drugs or powerful augments may result in corruption. Safety Check is a quick test that is resolved in a manner similar to a [[core-mechanics#Resource Checks|Resource Check]]. Whenever you use a drug or an augment with a safety rating, you need to roll the **Safety Die** and on a result of 1-2 you will take a point of Corruption and.
+Over-using drugs or powerful augments may result in corruption. Safety Check is a quick test that is resolved in a manner similar to a [[core-mechanics#Resource Checks|Resource Check]]. Whenever you use a drug or an augment with a safety rating, you need to roll the **Safety Die** and on a result of 1-2 you will take a point of Corruption.
 
 ## Aptitudes
 
