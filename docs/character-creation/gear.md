@@ -293,33 +293,34 @@ GM can veto any custom spec weapons if they do not make any sense, so try to mak
 | Huge Caliber       | Massively increased caliber. Upgrades Large Caliber. DC +2, Recoil +2, Capacity -1. Only if Recoil is Moderate or Lower |
 | Increased Capacity | Increased Capacity. Capacity +1, Bulk +1.                                                                               |
 
-### Vehicle Weapons
-Vehicle weapons are too big for personal use and usually need to be fitted to a vehicle and must be fitted to a **Hardpoint** of suitable size, reflected by the Size stat of a vehicle weapon.
+### Super-Heavy Weapons
+Super-Heavy weapons are too big for personal use and usually need to be fitted to a vehicle and fitted to a **Hardpoint** of suitable size, reflected by the Size stat of a vehicle weapon.
 
-**Large** weapons have Bulk 4 and they are equivalent to personal heavy weapons.
+It is possible to utilize Super-Heavy weapons as personal weapons, but it is highly impractical – ath least without the correct [[recoil-compensator|Augment]] to mitigate this.
 
-**Very Large** weapons have Bulk 8. It is possible to pick up and carry one with a high Body, but Recoil is increased by 2 steps.
++ **Increased Bulk and Recoil:** Super-Heavy weapons are very heavy and have increased Recoil. The listed rating presumes the weapon is fitted on a suitable vehicle, drone or mech – not to be carried around by a humanoid sized creature.
+	+ **Large** weapons have Bulk 6 and while similar in size to typical Heavy Weapons they tend to be more cumbersome and pack a bit more punch, resulting in +1 Recoil.
+	- **Very Large** weapons have Bulk 8. Recoil +2.
+	- **Massive** weapons have Bulk 12. Recoil +4.
 
-**Massive** weapons have Bulk 12. They can be removed and carried around with high Body, but are practically impossible to use as personal weapons.
-
-| Weapon                      | DC | Range    | Size     | Recoil   | Grade    | Tags                                                  |
-|-----------------------------|----|----------|----------|----------|----------|-------------------------------------------------------|
-| Auto Cannon                 | 6  | Long     | V. Large | High     | Advanced | Full Auto, High Capacity                              |
-| Minigun                     | 4  | Moderate | V. Large | High     | Advanced | Full Auto, Double Hits, Ultra Capacity                |
-| Standard Missile (x1)       | 8  | Extreme  | Large    | Low      | Advanced | Accurate, Area (Moderate), Forceful                   |
-| Auto Plasma Cannon          | 6  | Moderate | V. Large | Moderate | Rare     | Full Auto, Inaccurate                                 |
-| Beam Laser Cannon           | 6  | Long     | V. Large | Low      | Rare     | Accurate, Full Auto, Soft Piercing                    |
-| Gauss Vulcan                | 6  | Moderate | V. Large | Extreme  | Rare     | Full Auto, Double Hits, Hard Piercing, Ultra Capacity |
-| Heavy Plasma Cannon         | 12 | Long     | Massive  | High     | Rare     | Slow, Inaccurate, Burn, Area (Moderate)               |
-| Heavy Railgun               | 10 | Long     | Massive  | Extreme  | Rare     | Slow, Hard Piercing                                   |
-| Medium Railgun              | 7  | Long     | V. Large | High     | Rare     | Hard Piercing                                         |
-| Plasma Cannon               | 10 | Moderate | V. Large | Moderate | Rare     | Inaccurate, Burn, Area (Small)                        |
-| Plasma Missile (x1)         | 10 | Extreme  | Large    | Low      | Rare     | Accurate, Area (Large), Burn                          |
-| Pulse Laser Cannon          | 8  | Long     | V. Large | Low      | Rare     | Accurate, Soft Piercing                               |
-| Standard Missile Array (x6) | 8  | Extreme  | V. Large | Low      | Rare     | Accurate, Area (Moderate), Forceful                   |
-| Fusion Missile (x1)         | 12 | Extreme  | Large    | Low      | Exotic   | Accurate, Area (Large), Burn, EMP, Forceful           |
-| Fusion Missile Array (x6)   | 12 | Extreme  | V. Large | Low      | Exotic   | Accurate, Area (Large), Burn, EMP, Forceful           |
-| Plasma Missile Array (x6)   | 10 | Extreme  | V. Large | Low      | Exotic   | Accurate, Area (Large), Burn                          |
+| Weapon                      | DC  | Range    | Size     | Recoil   | Grade    | Tags                                                  |
+| --------------------------- | --- | -------- | -------- | -------- | -------- | ----------------------------------------------------- |
+| Auto Cannon                 | 6   | Long     | V. Large | High     | Advanced | Full Auto, High Capacity                              |
+| Minigun                     | 4   | Moderate | Large    | High     | Advanced | Full Auto, Double Hits, Ultra Capacity                |
+| Standard Missile (x1)       | 8   | Extreme  | Large    | Low      | Advanced | Accurate, Area (Moderate), Forceful                   |
+| Auto Plasma Cannon          | 6   | Moderate | V. Large | Moderate | Rare     | Full Auto, Inaccurate                                 |
+| Beam Laser Cannon           | 6   | Long     | V. Large | Low      | Rare     | Accurate, Full Auto, Soft Piercing                    |
+| Gauss Vulcan                | 6   | Moderate | V. Large | Extreme  | Rare     | Full Auto, Double Hits, Hard Piercing, Ultra Capacity |
+| Heavy Plasma Cannon         | 12  | Long     | Massive  | High     | Rare     | Slow, Inaccurate, Burn, Area (Moderate)               |
+| Heavy Railgun               | 10  | Long     | V. Large | Extreme  | Rare     | Slow, Hard Piercing                                   |
+| Medium Railgun              | 7   | Long     | Large    | High     | Rare     | Hard Piercing                                         |
+| Plasma Cannon               | 10  | Moderate | V. Large | Moderate | Rare     | Inaccurate, Burn, Area (Small)                        |
+| Plasma Missile (x1)         | 10  | Extreme  | Large    | Low      | Rare     | Accurate, Area (Large), Burn                          |
+| Pulse Laser Cannon          | 8   | Long     | V. Large | Low      | Rare     | Accurate, Soft Piercing                               |
+| Standard Missile Array (x6) | 8   | Extreme  | V. Large | Low      | Rare     | Accurate, Area (Moderate), Forceful                   |
+| Fusion Missile (x1)         | 12  | Extreme  | Large    | Low      | Exotic   | Accurate, Area (Large), Burn, EMP, Forceful           |
+| Fusion Missile Array (x6)   | 12  | Extreme  | V. Large | Low      | Exotic   | Accurate, Area (Large), Burn, EMP, Forceful           |
+| Plasma Missile Array (x6)   | 10  | Extreme  | V. Large | Low      | Exotic   | Accurate, Area (Large), Burn                          |
 
 
 ## Armor
