@@ -8,10 +8,12 @@ version: 3
 ---
 Various weapons handle differently, so to make ranged attacks test `Aim` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[core-mechanics#Distance|Distance]] between you and the target.
 
+Ranged attacks usually consume some [[gear#Ammo|Ammo]]. Spend *1 Ammo* on each ranged attack, unless otherwise noted.
+
 **Effects**
 
 - **Hits:** You can stack several Hits to one target or distribute Hits between multiple targets. **Default Hit Limit is 2**, accounting for total number of Hit effects you can distribute between targets. Each type of Hit has separate EP cost.
-	- **Normal Hit(1)**: Target is hit and takes *normal damge* based on weapon used.
+	- **Normal Hit(1)**: Target is hit and takes *normal damage* based on weapon used.
 	- **Weak Spot Hit(2)**: Hit target at a weak spot, inflicting *normal damage* with +1 *Armor Piercing*.
 	- **Critical Hit(4)**: Hit target at a critical location. Inflict damage at  **Weapon DC+4**. If a critical wound is inflicted, apply suitable **Condition** such as *Crippled* or *Stunned* based on hit location.
 - **Initiative(1)**: Be faster than the other guy. When actions *conflict* the action with higher total initiative is resolved first.
@@ -19,7 +21,7 @@ Various weapons handle differently, so to make ranged attacks test `Aim` skill w
 
 ### Suppressive Fire
 
-Fully automatic weapons can be used to lay suppressive fire. You don't need an attack test, but instead you indicate a Fire Zone, which is a cone shaped area that will then cause everyone in the area to take a Hit if they take any actions while within the Fire Zone. This will likely lead the targets to take cover instead, to avoid getting hit.
+Fully automatic weapons can be used to lay suppressive fire. You don't need an attack test, but instead you indicate a **Fire Zone**, which is a cone shaped area that will then cause everyone in the area to take a **Normal Hit** if they move into the zone or take any physical actions while inside the zone. This will likely lead the targets to take cover instead, to avoid getting hit. Any *Tags* or *Augments* that can multiply the number of Hits are applied.
 
 You must be stationary and take no other actions to lay suppressive fire.
 

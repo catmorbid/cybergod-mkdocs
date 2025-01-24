@@ -37,7 +37,7 @@ General Resources are various commodities you can spend to obtain other commodit
 
 ### Ammo
 
-When you use a weapon in combat, you need to track its ammo usage. Mark down how much ammo you used (typically just one) and make a [[#Resource Check]] after attack using the weapon’s [[#Capacity]] as the Resource Die. On failure, you are out of ammo and must spend a Reload.
+When you use a weapon in combat, you need to track its ammo usage. Mark down how much ammo you used (typically just one) and make a [[#Resource Check]] after the attack using the weapon’s [[#Capacity]] as the Resource Die. On failure, you are out of ammo and must spend an action to [[#Reloads|Reload]].
 ## Weapons
 
 ### Stats
@@ -92,12 +92,12 @@ Tags are used for additional rules regarding weapons.
 | AOE                | Areaf of Effect; affects everything in an area (Small, Moderate, Large, Huge). Larger area means it's more difficult to avoid hits                                     |
 | Bleeding           | When receiving any wounds, the target is also Bleeding.                                                                                                                |
 | Burn               | When receiving any wounds, the target is also Burning.                                                                                                                 |
-| Double Hits        | For each hit you gain two hits.                                                                                                                                        |
-| EMP                | Electro-Magnetic Pulse. Disables electronics and machinery.                                                                                                            |
+| Double Hits        | For each hit you inflict an additional Hit of the same type. Hit Limit is also doubled.                                                                                |
+| EMP                | Electro-Magnetic Pulse. Disables electronics and machinery. Cybertech or Nanotech frames take **Double Damage**.                                                       |
 | Explosive Ordnance | Uses explosives as ammunition. Pick suitable explosive from Explosives list and use its damage and tags.                                                               |
-| Fast               | Maximum Hit Limit is increased to 3.                                                                                                                                   |
-| Forceful           | High impact force causes target to be knocked back when hit. Test Toughness x Body against attack DC to avoid being knocked down.                                      |
-| Full Auto          | Upgrades Fast. Hit Limit 5, you can lay Suppressive Fire. Use 2 Ammo. Gain +1D on attack if your Body rating exceeds Recoil.                                           |
+| Fast               | Hit Limit is increased to 3.                                                                                                                                           |
+| Forceful           | High impact force causes target to be knocked back when hit. Test Toughness x Body against unmitigated Hit DC to avoid being knocked down.                             |
+| Full Auto          | Upgrades Fast. Hit Limit 5, you can lay Suppressive Fire. Use 2 Ammo per attack. Gain +1D on attack if your Body rating exceeds Recoil.                                |
 | Gas                | Deployed as a Gas. Ignores any armor that is not completely sealed or user is not wearing a gas mask, but is ineffective if deployed against gas mask or sealed armor. |
 | Inaccurate         | Take -1D penalty on attack tests                                                                                                                                       |
 | Irradiate          | Target suffers from radiation poisoning. -2D penalty.                                                                                                                  |
