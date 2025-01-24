@@ -55,12 +55,7 @@ Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one ra
 
 #### Recoil
 
-How much the weapon kicks when fired. You need to match recoil with high enough **Body** attribute to mitigate recoil, otherwise you take a -1D penalty to attack for each step of difference. Having 2+ steps higher recoil also means you take Bruise or greater wound each time you use the weapon.
-
-- **Low**: Body D6 to mitigate recoil
-- **Moderate**: Body D8 to mitigate recoil
-- **High**: Body D10 to mitigate recoil
-- **Extreme**: Body D12 to mitigate recoil
+How much the weapon kicks when fired. Recoil is measured with a Die from D6 to D12. You need to match recoil with your **Body** attribute to mitigate recoil, otherwise you take a -1D penalty on Attack Test for each step of difference. Having 2+ steps higher recoil also means you take a Wound each time you use the weapon.
 
 Recoil can be reduced by one degree by having a support device for the weapon, such as a bipod. The support device typically adds **2 Bulk**. Properly mounted weapons always mitigate the recoil entirely.
 
