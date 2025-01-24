@@ -8,20 +8,9 @@ Your initial Augments are determined by your **Frame**. Choose a frame from the 
 
 ## Augmentation Technology
 Augments are possible with three types of technology: `Cybertech`, `Nanotech` and `Biotech`. Each frame supports only one type of technology. So if your frame is a `Cybertech` frame,  you can only install augments with the `Cybertech` tag. Many augments support several technology.
-## Activation
-**Activating** Augments is an **Instant Action** and will add at least 1 point of Energy Usage. Some Augments are tagged as `Passive`  and those do not require energy expenditure.
-
-## Boosting
-Many augments can be **Boosted** by spending additional energy. When some property can be boosted, it's marked with an arrow symbol ->, indicating the new boosted property.
 
 ## Safety
-High level augments or those tagged as `Unsafe` will trigger a *Decay Save* whenever they're activated during a scene. The die size depends on the augment level and whether the augment has the unsafe tag. Only augments that require activation trigger *Decay Saves*.
-
-| Augment Level | Safe | Unsafe |
-| ------------- | ---- | ------ |
-| [1] Basic     | -    | D10    |
-| [2] Advanced  | D12  | D8     |
-| [3] Ultra     | D10  | D6     |
+High level augments or those tagged as `Unsafe` may trigger a [[persona#Safety Check|Safety Checks]] or add [[persona#Corruption|Corruption]] they're activated during a scene. *Safety Die* to roll is indicated with the *Safety Check* note. If a character relies on an augment heavily, or uses it in morally questionable manner, GM may impose a *Safety Check* directly.
 
 ## Augmentations Overview
 
