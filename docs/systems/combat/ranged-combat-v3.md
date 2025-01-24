@@ -10,11 +10,12 @@ Various weapons handle differently, so to make ranged attacks test `Aim` skill w
 
 **Effects**
 
-- **Hit(1)**: Target is hit and takes damage at DC equal to Weapon DC. You can assign hits to different targets, or accumulate multiple hits on the same target. **Default Limit: 2 hits**.
-- **Weak Spot Hit(2)**: Hit target at a weak spot, adding +1 AP.
-- **Critical Hit(4)**: Hit target at a critical location. Inflict damage at  **Weapon DC+4**.
-- **Initiative(1)**: Be faster than the other guy. If you have more initiative, your action is resolved first.
-- **Disarming Hit (3)**: Aim at target's weapon or e.g. limb that holds the weapon. You inflict regular damage, but also disarm the target. Weapons that are hit can be repaired with enough time.
+- **Hits:** You can stack several Hits to one target or distribute Hits between multiple targets. **Default Hit Limit is 2**, accounting for total number of Hit effects you can distribute between targets. Each type of Hit has separate EP cost.
+	- **Normal Hit(1)**: Target is hit and takes *normal damge* based on weapon used.
+	- **Weak Spot Hit(2)**: Hit target at a weak spot, inflicting *normal damage* with +1 *Armor Piercing*.
+	- **Critical Hit(4)**: Hit target at a critical location. Inflict damage at  **Weapon DC+4**. If a critical wound is inflicted, apply suitable **Condition** such as *Crippled* or *Stunned* based on hit location.
+- **Initiative(1)**: Be faster than the other guy. When actions *conflict* the action with higher total initiative is resolved first.
+- **Disarming Hit (3)**: Aim at target's weapon or e.g. limb that holds the weapon. You inflict regular damage, but also disarm the target. Weapons that are hit are likely damaged and cannot be utilized, but can be repaired given enough time.
 
 ### Suppressive Fire
 
