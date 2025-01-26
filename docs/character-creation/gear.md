@@ -20,24 +20,6 @@ Availability is measured with a **Grade**:
 ## Bulk
 
 Bulk determines general bulkiness of items, incorporating both mass and size. A character's **Max Bulk** rating is equal to the their Body Die size, i.e. for D6 Body Max Bulk is 6 and for D12 Body it is 12. This limit determines how much stuff you can carry around without being penalized. The stuff includes both Armor and Weapons, plus any extra equipment carried and Reloads.
-
-## Resources
-
-Resources represent consumable assets such as various wealth, supplies or ammo but also more abstract resources like stress and influence.
-
-When you consume resources, you mark down the consumption and then proceed to make a [[#Resource Checks|Resource Check]] to see if you can manage the consumption. Different resources work in slightly different ways, but the amount of resources is always indicated by a **Resource Die**, which is either D6, D8, D10 or D12.
-### General Resources
-General Resources are various commodities you can spend to obtain other commodities, favors or privileges. They include Resource Points, Quantum Crypto Currency and Influence. You can write down other resources as needed.
-
-**Resource Points (RP)** is a measure of Commonwealth standard currency, a fully digitalized, personal unit of consumption. Commonwealth is a resource based economy so consumption is rather based on resource availability and cost of production than arbitrary monetary value. Overconsumption may also increase the cost as Resource Points are tracked personally.
-
-**Quantum Crypto Currency (QC)** is widely used throughout freeports and in black markets within commonwealth. It is often distributed in anonymized encrypted polyhedral storage devices small enough to fit in a pouch or pocket, and in that form can be used as the equivalent to “cash” or physical money. The shape of the QC storage devices has given it the nickname “qubes” and “dice”.
-
-**Influence** is a measure of social wealth, respect and renown. It can be used to call in favors and influence outcomes of certain situations.
-
-### Ammo
-
-When you use a weapon in combat, you need to track its ammo usage. Mark down how much ammo you used (typically just one) and make a [[#Resource Check]] after the attack using the weapon’s [[#Capacity]] as the Resource Die. On failure, you are out of ammo and must spend an action to [[#Reloads|Reload]].
 ## Weapons
 
 ### Stats

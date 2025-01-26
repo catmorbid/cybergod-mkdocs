@@ -103,49 +103,95 @@ You grew up in a small agricultural community that provided food for the Commonw
 
 **Skills:** Alertness, Manipulation, Stealth
 
-## Faction
-Factions are listed on [[factions/index|Factions section]] of the core book. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with the group.
-
 ## Experience
 
-You can choose how experienced your character is. More experienced characters have seen a lot and can be mental train wrecks, but they have more **Upgrade Points** to give them and edge and tend to have higher, but more focused **Skills**, while younger characters have more **Engrams**, **Resolve** and better **Aptitudes**, but will not excel at any one thing.
+You can choose how experienced your character is when starting the game. More experienced characters have seen a lot and can be mental train wrecks, but they have more **Upgrade Points** to give them and edge and tend to have higher, but more focused **Skills**, while younger characters have more **Engrams**, **Resolve** and better **Aptitudes**, but will not excel at any one thing.
 
-| Experience   | Engrams | Mental State | Resolve | Skills | Upgrades |
-| ------------ | ------- | ------------ | ------- | ------ | -------- |
-| Relic        | 1       | +4           | 1       | +12    | 8        |
-| Veteran      | 2       | +3           | 2       | +9     | 6        |
-| Professional | 3       | +2           | 3       | +6     | 4        |
-| Experienced  | 4       | +1           | 4       | +3     | 2        |
-| Recruit      | 5       | Normal       | 5       | +0     | 0        |
+| Experience   | Engrams | Mental State | Resolve | Skills | Rank |
+| ------------ | ------- | ------------ | ------- | ------ | ---- |
+| Relic        | 1       | +4           | 1       | +12    | 4    |
+| Veteran      | 2       | +3           | 2       | +9     | 3    |
+| Professional | 3       | +2           | 3       | +6     | 2    |
+| Experienced  | 4       | +1           | 4       | +3     | 1    |
+| Recruit      | 5       | Normal       | 5       | +0     | 0    |
 
-Note down the benefits from your chosen experience level, then proceed with character creation.
+Note down the benefits from your chosen experience level, then proceed with choosing your Faction. You can come back and change this later, but the choice will affect many aspects of your character’s Persona profile.
 
 !!! example Kitah
 	Joe is creating a new character “Kitah”. He imagines Kitah to be a seasoned hardcore professional who is very competent in their line of work. Kitah’s experience level is “Professional”. This gives Kitah 3 Engrams, +2 mental state, 3 Resolve, 6 extra skill points and 4 upgrade points.
 
-### Recruit
-You are a fresh recruit with only basic training and rudimentary skills, starting at the lowest rung of the ladder. But what you lack in *merits* or experience, you compensate with exceptional talent.
+### Experience Levels
+Experience Level indicates your starting rank in your chosen Faction. It’s also much more: It correlates to how much action you have seen, how long you’ve been in the game, and directly reflects how traumatized and broken you are mentally.
+#### Recruit (Rank 0)
+You are a fresh recruit with only basic training and rudimentary skills, starting at the lowest rung of the ladder. You’re basically on probation, but what you lack in *merits* or experience, you compensate with exceptional talent.
 
 !!! info
 	Playing a recruit can be challenging as you have much less Upgrades to work with and your Mental State may make you a weak link in the team
 
-### Experienced
+#### Experienced (Rank 1)
 You have some notches on your belt, you’ve seen some action and you know the toll this job has your very soul. Nevertheless you have a great deal of ambition and confidence to drive you forward to greatness.
 
-### Professional
+#### Professional (Rank 2)
 You are a steady professional who has been on the job for quite a while. You know your strengths and your weaknesses well and despite having experienced your share of trauma, you are relatively stable.
 
 !!! info
 	Professionals are the expected baseline
 
-### Veteran
+#### Veteran (Rank 3)
 You’ve been on the job for a long time. Long enough to know how the system works, how things tend to fold out. Nothing really surprises you any more. Your life is in shambles, you’ve lost so much and gained very little. But regardless, there’s still something that keeps you on the going, that makes you tick. But your time is running out, retirement looms in the horizon. If they ever let you.
 
-### Relic
+#### Relic (Rank 4)
 You’ve seen things most people wouldn’t believe. Unimaginable horrors, violence, depravity and enough trauma to shatter you into a million fragments. You are but a shell desperately trying to hold on to a broken spirit, ready to die. Sometimes you think they keep you around for their amusement. Or perhaps they’re just *afraid of you*. You are on the edge, waiting for one more slip to take you away. Whatever hope you find anywhere, better hang on to it, like your soul depends on it – because it does.
 
 !!! info
 	Relics are extremely rare and may not last for long. Their upgrades make them deadly and powerful, but at the same time, they can be volatile and limited in their expertise. It is a challenge of its own, and not recommended as first time experience.
+
+### Experience Points
+As you play the game, GM awards you Experience Points representing your personal progression and growth. Experience Points can be used to improve your Persona in various ways. When starting play with a fresh character you do not have any experience points.
+
+- **Improve Skills:** Improving a Skill by 1 level costs **Next Skill Level** in Experience Points.
+- **Heal Corruption:** Healing a point of Corruption costs **10 Experience Points** and some sessions in intense VR therapy during downtime. Do this before you fail Corruption Checks.
+- **Improve Aptitude:** Aptitudes can be improve by investing lot of time and effort. The costs is **Next Aptitude Level x 5** in experience points.
+- **Heal Mental Condition:** Healing a mental condition costs **5 Experience Points** and some sessions in therapy, during downtime.
+- **Obtain Resources:** You can improve your resources during downtime by spending Experience Points. Consult GM if improvement is possible. If allowed, the cost is **Current Resource Level x 2** in experience points.
+## Faction
+Factions are listed on [[factions/index|Factions section]] of the core book. Read through the factions and choose the faction your character swears allegiance to. Faction is an important factor in the game, and as different factions have conflicting agendas and are outright in war, you should make your faction choices together with the group.
+
+### Rank
+Rank measures your position in the faction’s hierarchy. Higher rank offers better benefits and greater degree of pull in your faction. Upon increasing your Rank, you gain the following benefits:
+
+- 2 Upgrade Points
+- 1 Asset Point
+- Choice of any Resource +1
+
+You can consult the following table to quickly find out merit points for each rank, and the benefits awarded. When *creating a new Character* you gain all benefits from your faction Rank.
+
+| Rank | Merits required | Upgrades | Assets | Resources |
+| ---- | --------------- | -------- | ------ | --------- |
+| 0    | 0               | 0        | 0      | 0         |
+| 1    | 1               | 2        | 1      | 1         |
+| 2    | 3               | 4        | 2      | 2         |
+| 3    | 6               | 6        | 3      | 3         |
+| 4    | 10              | 8        | 4      | 4         |
+| 5    | 15              | 10       | 5      | 5         |
+| 6    | 21              | 12       | 6      | 6         |
+| 7    | 28              | 14       | 7      | 7         |
+| 8    | 36              | 16       | 8      | 8         |
+| 9    | 45              | 18       | 9      | 9         |
+| 10   | 55              | 20       | 10     | 10        |
+
+### Merits
+Merits are gained as you further your faction’s agenda, by completing missions for your factions. Once you gain enough Merits, you can increased your Rank and gain major benefits. In character creation, note down merits corresponding to your current [[#Rank]].
+
+### Upgrades
+Upgrade Points measure you total available Upgrades. Upgrades used to improve your Frame. Note your total Upgrade Points for reference in Persona Sheet, and mark the Frame’s Upgrades on the Frame Sheet.
+
+### Assets
+Assets represent what your bring to your team. Sum the total of each character’s Assets to obtain a pool of **Team Assets** when going on a mission. 
+
+You can also spend Assets Points to obtain personal [[gear#Custom Spec Weapons|customizable equipment]] that can exceed the ordinary faction Grade. [[arc|ARC]] can also spend Assets to upgrade their personal CHAOS Mk. 2 sidearm.
+
+Spending any Assets for personal equipment will permanently reduce your Asset points, contributing less to Team Assets.
 
 ## Engrams
 
