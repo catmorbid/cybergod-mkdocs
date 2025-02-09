@@ -9,6 +9,25 @@ You can find a variety of pre-made NPC's with stat blocks and other information 
 - [[npc-db/drones/index|Drone encounters]]
 - [[npc-db/factions/index|Faction encounters]]
 
+### Mean Dice Rolls
+You can use the following table to determine the mean value of any standard dice roll (no rerolls). This can be used to simplify NPC Soak Tests or even attack tests by simply using the mean result. This can be good if you need to simulate a large group of NPC’s, e.g. a crowd of civilians attempting to do something. So Instead of rolling any dice, you simply take their combined mean effort and use that to resolve what kind of impact they make.
+
+
+> E.g. A group of 10 angry civilians are trying break down a door. This requires 10 effect points total as an extended test. Each civilian has a dicepool of 2D6 on the test, producing a mean 0.67 successes each, so their combined effort is 6.7 =~ 7 effect points per test. Each test takes one round, so this means the mob can break down the door in 2 rounds.
+
+| Dice | D6 | D8 | D10 | D12 |
+| ---- | -- | -- | --- | --- |
+| 1 | 0.34 | 0.50 | 0.69 | 0.92 |
+| 2 | 0.67 | 1.02 | 1.39 | 1.84 |
+| 3 | 0.99 | 1.49 | 2.11 | 2.75 |
+| 4 | 1.34 | 2.01 | 2.81 | 3.68 |
+| 5 | 1.66 | 2.50 | 3.51 | 4.59 |
+| 6 | 2.01 | 2.98 | 4.20 | 5.51 |
+| 7 | 2.35 | 3.50 | 4.90 | 6.42 |
+| 8 | 2.66 | 3.98 | 5.61 | 7.34 |
+| 9 | 3.01 | 4.51 | 6.30 | 8.25 |
+| 10 | 3.36 | 5.01 | 6.99 | 9.18 |
+
 ### NPC stats
 You can always create an enemy or NPC using the normal character creation rules, but it is fine to simplify the rules a bit. Minor characters presented in this section use the following set of simplified stats.
 
