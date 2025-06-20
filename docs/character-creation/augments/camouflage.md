@@ -6,7 +6,7 @@ tags:
   - Nanotech
 version: 2
 ---
-A stealth augment that can blend the character with their surroundings. Advanced tiers also help mitigate noise from movement and provide additional masking options.
+A stealth augment that can blend the character with their surroundings. Advanced tiers also help mitigate noise from movement and provide additional masking options. Camouflage augments [[stealth-combat|Stealth Combat]], so please be sure to revise the relevant rules.
 
 **System**
 + **Activate:** Spend 1 Energy as an Instant Action
@@ -18,7 +18,7 @@ A stealth augment that can blend the character with their surroundings. Advanced
 **General Limitations**
 + **EMP vulnerability**: EMP or massive electric surges immediately disable the Camouflage augment.
 + **Armor Compatibility:** Camouflage does not work with most external suits of armor. Compatible with *Cybernetic Armor*, *Nano Weave* and *Reflex Suit*
-+ **Weapon Compatibility:** Only **Small** melee Weapons and sidearms retain camouflage. Medium or Large Integrated weapons are visible when activated, but remain camouflaged while concealed.
++ **Weapon Compatibility:** Only **Small** melee Weapons and sidearms retain camouflage, but any *Weapon Systems* are naturally compatible with Camouflage.
 
 ### Level 1
 - **Basic Cloak:** The Cyborg can become invisible to naked eye and any optical recording devices, such as standard cameras.
