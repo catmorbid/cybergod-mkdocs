@@ -1,10 +1,11 @@
 ---
 title: Resource Checks
+version: 2
 ---
 
 A Resource Check is used to measure consumption of various resources such as **Ammo** or personal **Assets**. It's a quicker and simplified form of test where degrees of success do not matter. A resource Check can be noted simply as `Check (resource)`, e.g. `Check Ammo` to make Resource Check to see if your weapon is running out of ammo.
 
-Resource Check is rolled with **Resource Dice** which are D6, D8, D10 or D12. The number of dice is Total Level of consumption. E.g. If you you currently have 4 points of ammo tracked, spending another ammo means you now roll 5 dice for Resource Check.
+Resource Check is rolled with **Resource Dice** which are D4, D6, D8, D10 or D12. The number of dice is Total Level of consumption. E.g. If you you currently have 4 points of ammo tracked, spending another ammo means you now roll 5 dice for Resource Check.
 
 If any dice show 1-2 then the check fails. Consequences of failure depend on the measured resource:
 
