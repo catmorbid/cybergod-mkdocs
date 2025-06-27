@@ -18,6 +18,7 @@ Gain the following benefits from targeting assistance and slowed perception of t
 
 - **Combat Awareness**: Slow perception of time, gaining better chance to score a successful hit. Gain one free re-roll on attack tests and general combat awareness tests
 - **Enhanced Targeting**: Use predictive algorithms to highlight optimal Aim Points to hit vulnerable locations. Reduce Effect Point cost for **Weak Spot Hit**, **Critical Hit** and **Disarming Hit** by one.
+- **Motion Vector Compensation**: Ignore 1 level of Evasion or Velocity penalty per level of augment.
 
 ### Level 2
 Unlocks new **Effects** for both ranged and close combat.
@@ -30,7 +31,6 @@ Unlocks new **Effects** for both ranged and close combat.
 ### Level 3
 Unlock the following benefits
 
-- **Motion Vector Compensation**: Ignore up to 3 penalty dice on Attack Test due to target’s velocity or Evasive action through Mobility Tests.
 - **Awareness Overload**: You can spend any number of additional energy to gain re-rolls on Attack tests and general combat awareness tests, unless you become **Overloaded** due to **Burn**.
 
 ### Old Effects
