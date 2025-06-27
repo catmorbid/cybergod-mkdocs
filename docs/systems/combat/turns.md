@@ -25,7 +25,7 @@ Once the test is resolved, the leader can then decide how to distribute the gain
 - Resolve any persistent conditions (e.g. bleeding or burning)
 - Remove 1 Shock from every combatant
 - Check if any Augments have effects that ended
-### Combat Phase
+### Action Phase
 
 Once tactics phase is resolved, you start the combat. The first turn can be influenced by the Tactics phase, so make it count.
 

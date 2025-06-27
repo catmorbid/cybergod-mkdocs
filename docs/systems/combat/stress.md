@@ -9,7 +9,7 @@ Stress is generally measured on a scale of 1 to 5, but it does not have an upper
 
 ### Stress Check
 
-Whenever you take Stress, mark it down on the stress tracker and make a [[core-mechanics#Resource Checks|Resource Check]] with [[persona#Dissociation|Dissociation]], rolling dice equal to current stress. If you fail, you suffer from [[#Mental Breakdown]].
+Whenever you take Stress, mark it down on the stress tracker and make a [[systems/core-mechanics/index#Resource Checks|Resource Check]] with [[persona#Dissociation|Dissociation]], rolling dice equal to current stress. If you fail, you suffer from [[#Mental Breakdown]].
 
 | Stress | Description |
 | ------ | ----------- |
@@ -43,7 +43,7 @@ Having failed a Stress test you need to roll your [[persona#Habituation|Habituat
 
 ### Reducing Stress
 
-To recover stress naturally the characters must spend some [[core-mechanics#Structure of play|downtime]] to rest and relax, allowing them to recover at least one point of stress. Stress recovery can be increased in the following ways:
+To recover stress naturally the characters must spend some [[systems/core-mechanics/index#Structure of play|downtime]] to rest and relax, allowing them to recover at least one point of stress. Stress recovery can be increased in the following ways:
 
 - Spend the downtime in activity relating to their [[persona#Engrams|Engrams]], to recover additional point per engram engaged with this way
 - Spend some time in therapy

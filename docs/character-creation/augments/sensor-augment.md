@@ -1,11 +1,16 @@
 ---
 title: Sensor Augment
 version: 1
+tags:
+  - Biotech
+  - Cybertech
+  - Nanotech
 ---
 The Sensor augment improve a character’s detection capabilities by enabling various advanced modes or perception and adding additional detection systems such as a built-in radar or sonar.
 
 **System (draft)**
 - Spend energy to *augment* all sensory inputs, gaining augment die on Minds tests for perception, alertness or observation. Spend 1 Energy to gain D6, D8 or D10 augment die on such tests for one scene.
+- Certain effects are restricted only to Cybertech and Nanotech augments.
 - Unlock *visual modes* that can be activated to negate specific types of camouflage
 	- Low-light Vision - negate penalties for darkness
 	- Thermal Vision - see heat traces, negates optical camouflage

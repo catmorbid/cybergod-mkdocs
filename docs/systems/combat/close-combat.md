@@ -9,7 +9,7 @@ version: 3
 ---
 ## Close Combat
 
-Make an [[core-mechanics#Opposed Test|Opposed Test]] of `Fighting x Body or Reflex` for both *attack* and *defense*. If the target is not defending themselves (they do not take an action to fight back), the test is resolved as a normal **Easy** test.
+Make an [[systems/core-mechanics/index#Opposed Test|Opposed Test]] of `Fighting x Body or Reflex` for both *attack* and *defense*. If the target is not defending themselves (they do not take an action to fight back), the test is resolved as a normal **Easy** test.
 
 **Unarmed Combat:** When fighting unarmed **Damage Class** is 1, otherwise you use the DC from melee weapon.
 

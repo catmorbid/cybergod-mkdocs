@@ -59,11 +59,11 @@ Reflex affects [[docs/systems/combat/index#Initiative|Initiative]] which determi
 Mind determines intellect, cunning, awareness and focus. Mind is utilized to resist mental damage and is often used in many skill tests, but does not have any passive effects.
 
 | Mind | Description |
-|------|-------------|
+| ---- | ----------- |
 | D6   | Average     |
 | D8   | Smart       |
 | D10  | Genius      |
-| D12  | Visionary  |
+| D12  | Visionary   |
 
 ### Cyber
 

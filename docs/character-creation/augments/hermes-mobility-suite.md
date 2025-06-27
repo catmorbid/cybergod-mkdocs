@@ -17,7 +17,7 @@ The HERMES Mobility Suite is an Advanced Mobility enhancement suite that augment
 ### Level 2
 - **Super Jump**: You can jump incredible heights (up to 4 times normal) and distances. Reduce Difficulty of any actions for jumping by 3, when relevant, including landing safely.
 - **Mode - Roller Blades**
-	- Increase [[core-mechanics#Velocity|Velocity]] scale to **High**. You can easily match any ground vehicles in velocity and remain incredible mobile on even surface
+	- Increase [[systems/core-mechanics/index#Velocity|Velocity]] scale to **High**. You can easily match any ground vehicles in velocity and remain incredible mobile on even surface
 	- Navigating rough terrain (stairs, grass, dirt) is more difficult and risky: add Complication **Unsuitable Terrain (2)** risking getting stuck or falling if you do not overcome it.
 	- Once activated, this mode remains in effects without need to Maintain the effect. If you need the other benefits of **Mobility System** augment, you need to activate them separately.
 	- Disable mode at will, but re-activation requires using another point of Energy.

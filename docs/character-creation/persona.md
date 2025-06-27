@@ -254,7 +254,7 @@ Corruption can only be removed by undergoing extensive therapy. This will cost t
 
 ### Safety Check
 
-Over-using drugs or powerful augments may result in corruption. Safety Check is a quick test that is resolved in a manner similar to a [[core-mechanics#Resource Checks|Resource Check]]. Whenever you use a drug or an augment with a safety rating, you need to roll the **Safety Die** and on a result of 1-2 you will take a point of Corruption.
+Over-using drugs or powerful augments may result in corruption. Safety Check is a quick test that is resolved in a manner similar to a [[systems/core-mechanics/index#Resource Checks|Resource Check]]. Whenever you use a drug or an augment with a safety rating, you need to roll the **Safety Die** and on a result of 1-2 you will take a point of Corruption.
 
 ## Aptitudes
 
@@ -340,7 +340,7 @@ Technical Skills:
 
 ## Skills
 
-Skills determine the character’s expertise and learned experiences. Each skill is linked to a default [[#Aptitudes|Aptitude]], and when making a [[core-mechanics#Tests|Skill Test]] you usually roll dice from both the skill and the linked *Aptitude*. If you do not have a skill, you can still make a related test using just the Aptitude level.
+Skills determine the character’s expertise and learned experiences. Each skill is linked to a default [[#Aptitudes|Aptitude]], and when making a [[systems/core-mechanics/index#Tests|Skill Test]] you usually roll dice from both the skill and the linked *Aptitude*. If you do not have a skill, you can still make a related test using just the Aptitude level.
 
 | Skill Rating | Expertise    | Description                                                                                                                                        |
 | ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -460,14 +460,14 @@ Ability to withstand pain, fatigue and physical stress and to exert physical for
 
 Resolve can be used in the following ways to improve the outcome of tests, checks or other dice rolls.
 
-- **Reroll**: Spend 1 point of Resolve to gain a [[core-mechanics#Rerolls|Reroll]] *after* rolling the dice on *any* dice rolls – unless explicitly stated otherwise. You can spend as many Resolve as you like on re-rolls.
+- **Reroll**: Spend 1 point of Resolve to gain a [[systems/core-mechanics/index#Rerolls|Reroll]] *after* rolling the dice on *any* dice rolls – unless explicitly stated otherwise. You can spend as many Resolve as you like on re-rolls.
 - **Focus**: Spend 1 point of Resolve *before* a Skill Test to gain 2D advantage on the test. You can only choose this spend once.
 
 If the listed usage is not enough, Game Masters are encouraged to invent additional uses for Resolve and players can always *suggest* spending or burning resolve to survive a tricky situation.
 
 ### Refreshing Resolve
 
-**Spent** Resolve is **Refreshed** by one point at the start of each game session. Resolve is usually fully refreshed after some [[core-mechanics#Structure of play|Downtime]], once the character has had some time to relax.
+**Spent** Resolve is **Refreshed** by one point at the start of each game session. Resolve is usually fully refreshed after some [[systems/core-mechanics/index#Structure of play|Downtime]], once the character has had some time to relax.
 
 If you can utilize one of your [[#Engrams]] you may gain an additional refresh. You should consult the GM for details on how this would impact the situation. You can only utilize an Engram once per game session.
 

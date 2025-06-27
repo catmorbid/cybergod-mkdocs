@@ -7,7 +7,7 @@ tags:
 version: 3
 ---
 
-Armor and cover are good ways to mitigate damage, but a better way is to not get hit in the first place. This can be achieved by being mobile throughout combat, and that means keeping on the move. You can take a Move action and test `Mobility x Reflex` to close in some [[core-mechanics#Distance|Distance]], or simply makes yourself a hard target - or combine both.
+Armor and cover are good ways to mitigate damage, but a better way is to not get hit in the first place. This can be achieved by being mobile throughout combat, and that means keeping on the move. You can take a Move action and test `Mobility x Reflex` to close in some [[systems/core-mechanics/index#Distance|Distance]], or simply makes yourself a hard target - or combine both.
 
 Player can choose alternate goals as well, for example, climbing or jumping higher to reach a better vertical vantage point, or rolling through obstacles. These kind of objectives are subject to GM call and will affect the difficulty of the test.
 

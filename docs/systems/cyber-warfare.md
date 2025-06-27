@@ -58,7 +58,7 @@ To engage in cyberjacking, you must first reach the target at close range, then 
 
 Anyone with a cybernetic brain has a neural port and is susceptible to attack. The port may be protected by armor, so you might have to make sure they've taken enough damage to make the port accessible.
 
-**Resolve** cyberjacking as an [[core-mechanics#Opposed Test]]. Attacker tests `Hacking x Cyber` while defender tests `Troubleshooting x Cyber`.
+**Resolve** cyberjacking as an [[systems/core-mechanics/index#Opposed Test]]. Attacker tests `Hacking x Cyber` while defender tests `Troubleshooting x Cyber`.
 
 **Compare successes**
 
