@@ -1,5 +1,6 @@
 ---
 title: Ranged Combat
+status: deprecated
 tags:
   - Action
   - Combat

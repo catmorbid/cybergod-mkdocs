@@ -1,6 +1,7 @@
 ---
 title: Damage System
 version: 3
+status: deprecated
 ---
 ## Glossary
 

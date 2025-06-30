@@ -1,5 +1,6 @@
 ---
 title: Structure of Play
+version: 1
 ---
 Gameplay is structurally divided into few components, each serving a specific purpose.
 

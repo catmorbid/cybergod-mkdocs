@@ -1,6 +1,7 @@
 ---
 title: Skill Tests
-version: 2
+status: new
+version: 1
 ---
 Skill Tests are the most common type of test you need to do. The syntax for a Skill in the rules is usually:
 

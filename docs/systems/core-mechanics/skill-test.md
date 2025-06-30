@@ -1,5 +1,6 @@
 ---
 title: Skill Tests
+status: deprecated
 version: 1
 ---
 

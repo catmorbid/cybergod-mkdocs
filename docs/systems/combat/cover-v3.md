@@ -5,6 +5,7 @@ tags:
   - Combat
   - Defense
 version: 3
+status: deprecated
 ---
 
 You can spend an action to take cover. You must test `Tactics x Mind` against a difficulty depending on how hard it is to find cover. On success, spend effects to determine the quality of cover. GM may present available cover as a list, using the Effect costs to determine costs for cover.
