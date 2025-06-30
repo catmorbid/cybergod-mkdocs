@@ -13,7 +13,7 @@ Favored by heavy weapons specialists, the *TITAN Recoil Compensation System* is 
 + **Activate:** Spend 1 Energy to activate for 1 round of combat
 + See Agument Level -specific benefits
 + **Synergy:** Anything that improve ranged combat prowess with full auto weapons or heavy weapons works well with TITAN.
-	+ [[gear#Weapon Tags|Weapon Tags]]: Full Auto, Double Hits
+	+ [[character-creation/gear/index#Weapon Tags|Weapon Tags]]: Full Auto, Double Hits
 	+ Augments: [[smart-weapons|Smart Weapons]], [[targeting-system|Targeting System]]
 
 ### Level 1
@@ -33,4 +33,4 @@ The user can wield even bigger weapons and carry tons of heavy equipment.
 
 - **Very Large Weapons:** Recoil from Super-Heavy weapons is reduced by total 2 steps. You can comfortably use **Very Large** super-heavy weapons.
 - **Super-Heavy Load (Passive):** Your Max Load is increased by 8 (including the benefit from L2). This is a Passive effect and is always active.
-- **Burst Control Overdrive:** Spend 1 additional Energy to further improve your Burst Control: Gain total +3D with [[gear#Weapon Tags|Full Auto]] weapons when your Body exceeds Recoil; *Hit Limit* for Full Auto weapons is increased to 8 Hits. This Hit Limit increase stacks with any other Hit Limit modifiers, such as [[smart-weapons|Smart Weapons]].
+- **Burst Control Overdrive:** Spend 1 additional Energy to further improve your Burst Control: Gain total +3D with [[character-creation/gear/index#Weapon Tags|Full Auto]] weapons when your Body exceeds Recoil; *Hit Limit* for Full Auto weapons is increased to 8 Hits. This Hit Limit increase stacks with any other Hit Limit modifiers, such as [[smart-weapons|Smart Weapons]].

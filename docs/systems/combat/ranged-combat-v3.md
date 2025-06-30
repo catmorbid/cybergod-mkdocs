@@ -7,9 +7,9 @@ tags:
   - Offense
 version: 3
 ---
-Various weapons handle differently, so to make ranged attacks test `Aim` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[systems/core-mechanics/index#Distance|Distance]] between you and the target.
+Various weapons handle differently, so to make ranged attacks test `Aim` skill with the appropriate **attribute** depending on [[character-creation/gear/index#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[character-creation/gear/index#Range|Range]] and [[systems/core-mechanics/index#Distance|Distance]] between you and the target.
 
-Ranged attacks usually consume some [[gear#Ammo|Ammo]]. Spend *1 Ammo* on each ranged attack, unless otherwise noted.
+Ranged attacks usually consume some [[character-creation/gear/index#Ammo|Ammo]]. Spend *1 Ammo* on each ranged attack, unless otherwise noted.
 
 **Effects**
 

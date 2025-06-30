@@ -6,7 +6,7 @@ tags:
   - Combat
   - Offense
 ---
-Various weapons handle differently, so to make ranged attacks test `Ranged Combat` skill with the appropriate **attribute** depending on [[gear#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[gear#Range|Range]] and [[systems/core-mechanics/index#Distance|Distance]] between you and the target.
+Various weapons handle differently, so to make ranged attacks test `Ranged Combat` skill with the appropriate **attribute** depending on [[character-creation/gear/index#Weapons|Weapon Type]]. Also take into consideration any penalties due to weapon [[character-creation/gear/index#Range|Range]] and [[systems/core-mechanics/index#Distance|Distance]] between you and the target.
 
 **Effects**
 

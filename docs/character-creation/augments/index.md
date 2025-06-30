@@ -10,7 +10,7 @@ Your initial Augments are determined by your **Frame**. Choose a frame from the 
 Augments are possible with three types of technology: `Cybertech`, `Nanotech` and `Biotech`. Each frame supports only one type of technology. So if your frame is a `Cybertech` frame,  you can only install augments with the `Cybertech` tag. Many augments support several technology.
 
 ## Safety
-High level augments or those tagged as `Unsafe` may trigger a [[persona#Safety Check|Safety Checks]] or add [[persona#Corruption|Corruption]] they're activated during a scene. *Safety Die* to roll is indicated with the *Safety Check* note. If a character relies on an augment heavily, or uses it in morally questionable manner, GM may impose a *Safety Check* directly.
+High level augments or those tagged as `Unsafe` may trigger a [[character-creation/persona/index#Safety Check|Safety Checks]] or add [[character-creation/persona/index#Corruption|Corruption]] they're activated during a scene. *Safety Die* to roll is indicated with the *Safety Check* note. If a character relies on an augment heavily, or uses it in morally questionable manner, GM may impose a *Safety Check* directly.
 
 ## Augmentations Overview
 

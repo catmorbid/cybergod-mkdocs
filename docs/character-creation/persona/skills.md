@@ -2,12 +2,32 @@
 title: Skills
 version: 2
 ---
+A characters’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction.
+
+| Skill Rating | Expertise    | Description                                                                                                                                        |
+| ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| N/A (0)      | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                                             |
+| D4 (1)       | Student      | You have basic skill, but you are still learning.                                                                                                  |
+| D6 (2)       | Amateur      | You have some practical experience, but lack deeper understanding on the subject.                                                                  |
+| D8 (3)       | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation.                         |
+| D10 (4)      | Expert       | You are a seasoned expert on your field. One of the best.                                                                                          |
+| D12 (5)      | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a different is raw natural talent. |
+
+## Character Creation
+Assign 1 skill level to any skills chosen at each step. You can choose a skill chosen in previous step as long as it makes sense:
+
+- Choose 3 skills related to your *Origin*
+- Choose 3 skills related to your *profession*, or *role* within your *Faction*. Check your faction description for suggestions.
+- Choose 2 skills as your *personal interests*
+
+Finally, spend additional skill points based on [[experience]] and distribute them as you see fit. You should not have more than one skill at Master (D12) level.
+
+!!! example Kitah
+	Joe is choosing skills for “Kitah” his new character. Kitah’s Origin is Slum Kid so Joe accepts the suggested skills of “Alertness”, “Stealth” and “Streetwise”. Kitah’s faction is ARC and Joe imagines their role to be a scout or a recon and chooses “Alertness”, “Stealth” and “Fighting”. As personal interests, Joe chooses “Hacking” and “MedTech”. Skills are now: Fighting 1, Alertness 2, Stealth 2, Streetwise 1, Hacking 1, MedTech 1. Since Kitah’s experience level is Professional, Joe can assign 6 skill points to any skills and decides on: Fighting 2, Mobility, Hacking, Troubleshooting and Investigation. Their final aptitudes and skills are: **Combat** 0 – Fighting 3; **Education** 1 – Investigation 1(2), MedTech 1(2); **Physical** 2 – Mobility 1 (3); **Social** 1; **Survival** 3 – Alertness 2 (5), Stealth 2 (5), Streetwise 1 (4); **Technical** 1 – Hacking 2 (3), Troubleshooting 1 (2).
 
 Each **Skill** is tied to a default **Aptitude**, and it can be paired with any of the four **Attributes**—**Body**, **Reflex**, **Mind**, and **Cyber**—to perform actions. Choose the combination that makes the most sense for the situation. The short tables below illustrate possible use-case examples for each Skill + Attribute combination.
-
----
-
-## Aim
+## Skills
+### Aim
 
 **Aptitude:** Combat
 
@@ -21,7 +41,7 @@ Proficiency with ranged weaponry. **Aim** covers the precision and know-how to a
 |**Mind**|Sniper calculations over long range, factoring in wind and bullet drop.|
 |**Cyber**|Using smart-linked scopes, neural targeting, or advanced targeting software.|
 
-## Alertness
+### Alertness
 
 **Aptitude:** Survival
 
@@ -35,7 +55,7 @@ Attentiveness to surroundings, noticing subtle changes or threats, and maintaini
 |**Mind**|Carefully observing a scene for forensic or strategic details.|
 |**Cyber**|Monitoring AR feeds, sensor implants, or digital surveillance for anomalies.|
 
-## Design
+### Design
 
 **Aptitude:** Technical
 
@@ -49,7 +69,7 @@ Engineering new solutions, from software to hardware. **Design** emphasizes the 
 |**Mind**|Planning complex software architectures or hardware schematics.|
 |**Cyber**|Integrating neural-design tools, coding in VR, or creating advanced cyber-interfaces.|
 
-## Fighting
+### Fighting
 
 **Aptitude:** Combat
 
@@ -63,7 +83,7 @@ Expertise in hand-to-hand and close-quarters combat. **Fighting** covers grappli
 |**Mind**|Analyzing an opponent’s style and exploiting weaknesses mid-fight.|
 |**Cyber**|Using cybernetic limbs or exoskeletons for enhanced melee attacks.|
 
-## Hacking
+### Hacking
 
 **Aptitude:** Technical
 
@@ -77,7 +97,7 @@ Exploiting weaknesses in systems to bypass security, infiltrate networks, or sei
 |**Mind**|Methodically cracking encryption or analyzing network protocols.|
 |**Cyber**|Direct neural hacks, leveraging advanced implants to outpace firewalls and ICE.|
 
-## Investigation
+### Investigation
 
 **Aptitude:** Education
 
@@ -91,7 +111,7 @@ Systematic analysis of clues, data, and leads. **Investigation** goes beyond qui
 |**Mind**|Detailed forensic analysis, correlating large amounts of information.|
 |**Cyber**|Data mining through digital archives, using AI to flag relevant intel.|
 
-## Manipulation
+### Manipulation
 
 **Aptitude:** Social
 
@@ -105,7 +125,7 @@ Deception and coercion through lies, false promises, or twisted words. **Manipul
 |**Mind**|Crafting elaborate cons or cover stories, layering your deceptions.|
 |**Cyber**|Deepfakes, digital forgeries, and neural-implanted suggestions or illusions.|
 
-## Med Tech
+### Med Tech
 
 **Aptitude:** Education
 
@@ -119,7 +139,7 @@ Knowledge of healing, surgery, and medical technology (including cybernetics). *
 |**Mind**|Diagnosing complex ailments, analyzing data to craft thorough treatment plans.|
 |**Cyber**|Installing or repairing cybernetic implants using advanced AR surgery rigs.|
 
-## Mobility
+### Mobility
 
 **Aptitude:** Physical
 
@@ -133,7 +153,7 @@ Athleticism, acrobatics, and the ability to move smoothly through various terrai
 |**Mind**|Plotting an efficient route through complex terrain or timing jumps precisely.|
 |**Cyber**|Piloting bipedal drones or exosuits with neural control to perform advanced maneuvers.|
 
-## Networking
+### Networking
 
 **Aptitude:** Social
 
@@ -147,7 +167,7 @@ Building and leveraging social connections to gather information or call in favo
 |**Mind**|Strategically cultivating alliances, remembering details about contacts.|
 |**Cyber**|Tapping into social networks or digital communities via neural links for immediate leads.|
 
-## Persuasion
+### Persuasion
 
 **Aptitude:** Social
 
@@ -161,7 +181,7 @@ Swaying others through reason, charm, and negotiation. **Persuasion** covers hon
 |**Mind**|Structured logical arguments, carefully presenting evidence and counterarguments.|
 |**Cyber**|Augmented reality presentations, data-driven pitches, or subtle conversation prompts via implants.|
 
-## Piloting
+### Piloting
 
 **Aptitude:** Physical
 
@@ -175,7 +195,7 @@ Operating vehicles, mechs, drones, or other machinery that requires manual or se
 |**Mind**|Plotting routes, timing maneuvers, coordinating multiple drone formations.|
 |**Cyber**|Neural control of vehicles, operating advanced autopilots or remote piloting through VR.|
 
-## Psychology
+### Psychology
 
 **Aptitude:** Education
 
@@ -189,7 +209,7 @@ Knowledge of mental health, human psyche, and therapeutic techniques. **Psycholo
 |**Mind**|In-depth therapy sessions, diagnosing complex mental conditions.|
 |**Cyber**|Monitoring mental states through neural implants, administering targeted neuro-stim therapies.|
 
-## Stealth
+### Stealth
 
 **Aptitude:** Survival
 
@@ -203,7 +223,7 @@ Remaining undetected and moving silently. **Stealth** includes hiding, sneaking,
 |**Mind**|Planning infiltration routes, using distractions and misdirection.|
 |**Cyber**|Spoofing cameras, jamming sensors, and masking digital footprints.|
 
-## Streetwise
+### Streetwise
 
 **Aptitude:** Survival
 
@@ -217,7 +237,7 @@ Knowledge of urban underworld, criminal culture, and street-level survival. **St
 |**Mind**|Navigating complex gang politics or recalling underworld lore.|
 |**Cyber**|Accessing dark web contacts, using encrypted street-level comms.|
 
-## Tactics
+### Tactics
 
 **Aptitude:** Combat
 
@@ -231,7 +251,7 @@ Battlefield awareness, strategic thinking, and leadership in combat scenarios. *
 |**Mind**|Planning multi-phase strategies, analyzing enemy weak points, or leading squads.|
 |**Cyber**|Integrating drone intel, using HUD overlays or networked comms for real-time coordination.|
 
-## Troubleshooting
+### Troubleshooting
 
 **Aptitude:** Technical
 
@@ -245,23 +265,16 @@ Diagnosis and repair of hardware and software issues. **Troubleshooting** is abo
 |**Mind**|Logical step-by-step debugging, sorting through logs and error codes.|
 |**Cyber**|Using implant-based diagnostic tools, repairing systems from within via neural interface.|
 
-## Toughness
+### Toughness
 
 **Aptitude:** Physical
 
 **Description:**  
 Resilience against pain, extreme conditions, and fatigue. **Toughness** represents the ability to keep going despite harm or stress and is crucial for survival in harsh or violent settings.
 
-|**Attribute**|**Example Use Case**|
-|---|---|
-|**Body**|Withstanding physical beatings, harsh climates, or extreme exertion.|
-|**Reflex**|Recovering quickly from hits or maintaining composure under rapid assaults.|
-|**Mind**|Enduring psychological pressure or mental exhaustion during protracted challenges.|
-|**Cyber**|Relying on cybernetic enhancements to mitigate pain, block shock, or sustain performance under duress.|
-
-## Final Notes
-
-- Each Skill pairs with the relevant **Attribute** to form a pool of dice, reflecting the synergy between learned expertise and innate or augmented ability.
-- **Aptitudes** (Combat, Survival, Technical, Education, Social, Physical) provide a baseline for untrained attempts and group Skills thematically.
-- Encourage **Cyber** usage in multiple scenarios (combat, social, exploration) by leveraging augmented capabilities.
-- Keep **Mind** valuable for intellectual tasks but distinguish it clearly from direct cybernetic interfacing to ensure **Cyber** shines in its own domain.
+| **Attribute** | **Example Use Case**                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------ |
+| **Body**      | Withstanding physical beatings, harsh climates, or extreme exertion.                                   |
+| **Reflex**    | Recovering quickly from hits or maintaining composure under rapid assaults.                            |
+| **Mind**      | Enduring psychological pressure or mental exhaustion during protracted challenges.                     |
+| **Cyber**     | Relying on cybernetic enhancements to mitigate pain, block shock, or sustain performance under duress. |

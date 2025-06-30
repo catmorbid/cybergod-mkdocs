@@ -416,7 +416,7 @@ You can also carry various tools and other useful equipment. Your faction can pr
 Many kinds of drugs exists. Some are legal and approved for official use, while others are strictly illegal. The black market however has lots of drugs in circulation.
 
 ### Safety Check
-You must make a [[persona#Safety Check|Safety Check]] whenever you use any drugs using the indicated Safety Die. Over-use may lead to [[persona#Corruption|Corruption]] and loss of humanity. Safety Checks can be re-rolled by spending a point of [[persona#Resolve|Resolve]], which might be a good idea to avoid taking corruption.
+You must make a [[character-creation/persona/index#Safety Check|Safety Check]] whenever you use any drugs using the indicated Safety Die. Over-use may lead to [[character-creation/persona/index#Corruption|Corruption]] and loss of humanity. Safety Checks can be re-rolled by spending a point of [[character-creation/persona/index#Resolve|Resolve]], which might be a good idea to avoid taking corruption.
 
 ### Legal drugs
 

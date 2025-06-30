@@ -1,21 +1,22 @@
 ---
 title: Character Creation
+version: 3
 ---
 Follow these steps to create a character. You can read the details on the appropriate sections of the rulebook.
 
 1. Choose [[factions/index|Faction]]
-2. Roll, pick or invent an [[persona#Origin|Origin]]
-3. Choose [[persona#Experience|Experience Level]] and write down [[persona#Engrams|Engrams]], [[persona#Mental State|Mental State]], [[persona#resolve|Resolve]] and note down the point pools for **Aptitudes**, **Skills** and **Upgrade Points**.
+2. Roll, pick or invent an [[character-creation/persona/index#Origin|Origin]]
+3. Choose [[character-creation/persona/index#Experience|Experience Level]] and write down [[character-creation/persona/index#Engrams|Engrams]], [[character-creation/persona/index#Mental State|Mental State]], [[character-creation/persona/index#resolve|Resolve]] and note down the point pools for **Aptitudes**, **Skills** and **Upgrade Points**.
 
-| Experience   | Engrams | Mental State | Resolve | Skills | Upgrades |
-| ------------ | ------- | ------------ | ------- | ------ | -------- |
-| Relic        | 1       | +4           | 1       | +12    | 8        |
-| Veteran      | 2       | +3           | 2       | +9     | 6        |
-| Professional | 3       | +2           | 3       | +6     | 4        |
-| Experienced  | 4       | +1           | 4       | +3     | 2        |
-| Recruit      | 5       | Normal       | 5       | +0     | 0        |
+| Experience   | Engrams | Mental State | Resolve | Aptitudes | Skills | Rank |
+| ------------ | ------- | ------------ | ------- | --------- | ------ | ---- |
+| Relic        | 1       | +5           | 1       | +1        | +12    | 4    |
+| Veteran      | 2       | +4           | 2       | +2        | +9     | 3    |
+| Professional | 3       | +3           | 3       | +3        | +6     | 2    |
+| Experienced  | 4       | +2           | 4       | +4        | +3     | 1    |
+| Recruit      | 5       | +1           | 5       | +5        | +0     | 0    |
  
-4. Determine [[persona#Aptitudes and Skills|Aptitudes and Skills]]
+4. Determine [[character-creation/persona/index#Aptitudes and Skills|Aptitudes and Skills]]
 	- Choose **Aptitudes**
 		- Choose a *talent* (level 2) and *weakness* (level 0)
 		- (optional) Choose another *talent* and another *weakness*

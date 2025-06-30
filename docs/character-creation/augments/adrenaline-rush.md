@@ -13,7 +13,7 @@ Enter a state of constant adrenaline frenzy improving close quarters fighting ab
 - **Activate:** Spend 1 energy as an Instant Action
 - **Maintain:** Spend 1 energy each round to keep Adrenaline Rush effects active during combat. Otherwise the effects will end immediately.
 - **Adrenaline Test:** When called for, test `Toughness x Body` to fuel special adrenaline-based effects (detailed below). Spend Effect Points on available options based on augment Level.
-- **Conditional Unsafe:** At GM's discretion, prolonged use may trigger additional safety [[persona#Safety Check|Safety Checks]].
+- **Conditional Unsafe:** At GM's discretion, prolonged use may trigger additional safety [[character-creation/persona/index#Safety Check|Safety Checks]].
 - **Adrenaline Crash:** When Adrenaline Rush ends, you suffer -1D to all physical actions until the end of the Scene. If you re-activate Adrenaline Rush when suffering from Adrenaline Crash, you can ignore this penalty, but the next Adrenaline Crash penalty is increased by additional -1D for each additional activation.
 -  **Synergy: Cortical Regulator:** Adrenaline Rush drives on high emotional rush and adrenaline, while Cortical Regulator derives its effectiveness from calm and emotional stunting. This does not however mean they are incompatible, but rather when combined, the augments make the character a cold-hearted emotionless killer fueled by muted, violent rage:
 	- **Combined Stress Buffer:** Stress mitigation is the highest of either + half (round up) of the other augment. I.e. 5 when both augments are level 3.

@@ -30,7 +30,7 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 **Max Power** determines how much damage you can deal in close combat, indicating how many **Attack Power** effects you can take without harming yourself.
 
-**Max Bulk** determines how much gear and armor you can carry without penalties. The [[gear|Gear section]] details the available gear you can have.
+**Max Bulk** determines how much gear and armor you can carry without penalties. The [[character-creation/gear/index|Gear section]] details the available gear you can have.
 
 **Wounds Slots** determine how much damage your Frame can take before going down. Higher level Body helps sustain more damage and still remain functional. See [[docs/systems/combat/index#Damage and Mitigation|Combat section]] on how wound slots work.
 
@@ -72,7 +72,7 @@ Cyber determines the character's ability to interface with computers, hack devic
 !!! info The Cybernetic Brain
 	A character must have a Cybernetic Brain to obtain a Cyber rating, which enables them to backup their QDC. On the other hand this also makes them vulnerable to [[cyber-warfare#cyberjacking|Cyberjacking]].
 
-Cyber determines how many **Apps** you can have installed. Apps are your weapons when using Combat Hacks, but can also be spent on general purpose [[gear#Utility Apps|Utility Apps]]. Read more about uses on Cyber attribute on [[cyber-warfare|Cyber Warfare section]].
+Cyber determines how many **Apps** you can have installed. Apps are your weapons when using Combat Hacks, but can also be spent on general purpose [[character-creation/gear/index#Utility Apps|Utility Apps]]. Read more about uses on Cyber attribute on [[cyber-warfare|Cyber Warfare section]].
 
 | Cyber | Description     | Apps |
 | ----- | --------------- | ---- |

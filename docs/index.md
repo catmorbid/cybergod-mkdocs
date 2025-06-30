@@ -28,10 +28,10 @@ Systems
 
 [[character-creation/index|Character Creation]]
 
-- [[persona|Persona]]
+- [[character-creation/persona/index|Persona]]
 - [[frame|Frame]]
 - [[character-creation/augments/index|Augments]]
-- [[gear|Gear]]
+- [[character-creation/gear/index|Gear]]
 
 [[factions/index|Factions]]
 
