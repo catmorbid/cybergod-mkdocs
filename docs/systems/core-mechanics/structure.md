@@ -10,7 +10,11 @@ A **Story** is a long narrative arc that has a beginning, and an end. You decide
 
 **Scene** is the core structural unit. Each time players explore a location or meet people, they enter a new scene. Whatever happens in that location is what defines the contents of the scene. A scene can be **freeform** where players interact with the environment in non-specific order, or it can be played out in a more structured **turn-based** order, in which case the action is divided into **Rounds**.
 
-**Round** is a brief period during which each participant in the scene can take one more more actions. Each party gets their turn to act.
+**Tests** and **Checks** are ways to determine uncertainty, usually by rolling some dice. The outcome may influence the direction of the narrative.
+
+**Round** is a brief period during which each participant in the scene can take one more more actions. Each party gets their turn to act, and has one opportunity to react to others. Rounds are usually used in combat, but may be utilized with any high-stake time-critical sequences.
+
+**Callback** is brief step to a previously undetermined event that took place before current situation. A callback may be allowed if it makes sense, in relation to current scene. Callback can be resolved as a simple skill test to decide if something a character did before succeeds or not, or an entire mini scene, describing some previous action in detail. GM has the sole authority on callbacks, although players are encouraged to suggest them.
 
 **Downtime** is a flexible unit of time during which the players can do things that do not require elaborate description like boring paperwork to sleeping or spending some R&R with friends. Downtime is usually played out with high abstraction and players do not need to provide a detailed schedule, just point out the highlights for what their character is going to do. A single stretch of downtime can take anywhere from few hours to months, sometimes more.
 

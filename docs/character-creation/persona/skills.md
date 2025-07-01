@@ -2,7 +2,7 @@
 title: Skills
 version: 2
 ---
-A characters’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction.
+A character’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction.
 
 | Skill Rating | Expertise    | Description                                                                                                                                        |
 | ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
