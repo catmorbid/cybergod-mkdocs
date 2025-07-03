@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[section-12]]
+
 **Role**: Psionic warfare and infiltration
+
 **Augments:**
 - [[psionics|PSI-Cognitive Modulator]]
 - [[face]]

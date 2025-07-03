@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[section-12]]
+
 **Role**: Recon, Infiltration, Saboteur
+
 **Augments:**
 - [[psionics|ESP Modulator]]
 - [[skill-suite]]

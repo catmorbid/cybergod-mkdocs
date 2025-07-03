@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[agd|Atlas Global Defense]]
+
 **Role**: Heavy Duty Fire Support
+
 **Augments:**
 - [[cybernetic-armor]]
 - [[regeneration]]

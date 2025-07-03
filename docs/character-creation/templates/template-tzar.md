@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[syndicate]]
+
 **Role**: Leadership, Intimidation and close combat
+
 **Augments:**
 - [[adrenaline-rush]]
 - [[face]]

@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[agd|Atlas Global Defense]]
+
 **Role**: Stealth sniper and Cyber Warfare
+
 **Augments:**
 - [[pinpoint]]
 - [[camouflage]]

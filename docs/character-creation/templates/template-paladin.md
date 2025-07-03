@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[order-of-the-void]]
+
 **Role**: Heavy Defender, Healing
+
 **Augments:**
 - [[biomorph-armor]]
 - [[biomorph-healing]]

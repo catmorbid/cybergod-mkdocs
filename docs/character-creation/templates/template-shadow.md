@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[cyberweavers]]
+
 **Role**: Infiltration and Recon
+
 **Augments:**
 - [[mimic]]
 - [[camouflage]]

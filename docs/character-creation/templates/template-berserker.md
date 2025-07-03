@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[radical-x]]
+
 **Role**: Aggressive close combat fighter
+
 **Augments:**
 - [[adrenaline-rush]]
 - [[regeneration]]

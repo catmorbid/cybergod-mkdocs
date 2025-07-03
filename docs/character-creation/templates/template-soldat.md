@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[agd|Atlas Global Defense]]
+
 **Role**: Rapid Tactical Assault
+
 **Augments:**
 - [[targeting-system]]
 - [[hermes-mobility-suite]]

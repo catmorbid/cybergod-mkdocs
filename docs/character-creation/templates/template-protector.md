@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[section-12]]
+
 **Role**: Psionic warfare, tactical defense, close combat
+
 **Augments:**
 - [[psionics|Psychokinetic Amplifier]]
 - [[adrenaline-rush]]

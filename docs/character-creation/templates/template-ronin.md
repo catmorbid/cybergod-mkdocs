@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[syndicate]]
+
 **Role**: Assassination
+
 **Augments:**
 - [[chronoflux]]
 - [[targeting-system]]

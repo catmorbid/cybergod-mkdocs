@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[arc]]
+
 **Role**: Cyber Weapons Support and Anti-Cyborg Warfare
+
 **Augments:**
 - [[camouflage]]
 - [[cyberjacking-suite|Cyberjacking Suite]]

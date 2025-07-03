@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[order-of-the-void]]
+
 **Role**: Infiltration and Assassination
+
 **Augments:**
 - [[biomorph-weapons]]
 - [[regeneration]]

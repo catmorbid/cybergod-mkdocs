@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[radical-x]]
+
 **Role**: Suicide Bomber
+
 **Augments:**
 - [[crucible]]
 - [[gravitron]]

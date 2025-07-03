@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[syndicate]]
+
 **Role**: Strategist and support
+
 **Augments:**
 - [[mimic]]
 - [[interference]]

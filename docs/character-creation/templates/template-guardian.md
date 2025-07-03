@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[syndicate]]
+
 **Role**: Ultra-heavy defender
+
 **Augments:**
 - [[aegis]]
 - [[cybernetic-armor]]

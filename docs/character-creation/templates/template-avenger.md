@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[radical-x]]
+
 **Role**: Tactical Aerial support and Mobility
+
 **Augments:**
 - [[targeting-system]]
 - [[flight]]

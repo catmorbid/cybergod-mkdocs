@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[arc]]
+
 **Role**: Heavy Weapons Support
+
 **Augments:**
 - [[cybernetic-armor|Cybernetic Armor]]
 - [[smart-weapons|Smart Weapons]]

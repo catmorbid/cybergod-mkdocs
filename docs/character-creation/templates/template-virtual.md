@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[cyberweavers]]
+
 **Role**: Cyber operations and support
+
 **Augments:**
 - [[avatar]]
 - [[immortal]]

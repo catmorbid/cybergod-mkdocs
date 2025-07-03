@@ -8,7 +8,9 @@ tags:
 version: 4
 ---
 **Faction**: [[arc]]
+
 **Role**: Long Range Support and Recon
+
 **Augments:**
 - [[pinpoint]]
 - [[drone-eyes]]
