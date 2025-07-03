@@ -4,6 +4,7 @@ tags:
   - Cybertech
   - Nanotech
   - Unsafe
+  - Augment
 title: Adrenaline Rush
 version: 2
 ---
@@ -24,7 +25,7 @@ Enter a state of constant adrenaline frenzy improving close quarters fighting ab
 You flood your system with adrenaline, gaining a short burst of enhanced strength and aggression.
 - **Pain Tolerance:** Ignore -1D worth wound penalties.
 - **Stress Tolerance 1:** Reduce Stress taken by 1 point.
-- **Adrenal Strength:** You gain +1 Attack Power while in Adrenaline Rush and gain a +1D advantage to Toughness or Mobility tests for exerting force.
+- **Adrenal Strength:** Your [[stats#Physical DC|Physical Damage Class]] is +1 while in Adrenaline Rush and gain **D6 Augment Die** to Toughness or Mobility tests for exerting force.
 - **Heightened Aggression:** You are more prone to reckless behavior. If you engage Adrenaline Rush while attempting Stealth (even when camouflaged), you are automatically detected (partially when camouflaged). You have trouble with rational thinking and are unable to maintain composure and take -2D penalty when appropriate to social or mental tests.
 
 ### Level 2

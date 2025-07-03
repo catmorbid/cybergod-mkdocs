@@ -5,6 +5,7 @@ tags:
   - Nanotech
   - Biotech
   - Unsafe
+  - Augment
 ---
 > _“Fear is a chemical reaction; doubt is an electrical impulse. Both can be bypassed.”_  
 > —Excerpt from the R&D notes of Neural Governor, GenSys Corp.

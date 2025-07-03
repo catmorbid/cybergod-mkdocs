@@ -2,6 +2,7 @@
 tags:
   - Cybertech
   - Faction-RadicalX
+version: 1
 ---
 # The Radical X
 
@@ -16,8 +17,11 @@ The Radical X fights against the Commonwealth and anything that has to do with i
 - `Uncommon` weapons and armor
 - `Cybertech` augments
 
+!!! info "The Crucible"
+	Radical X cyborgs can be fitted with dangerous Energy Core modification, they dubbed *”The Crucible”* – their well-known weapon of mass destruction and terror. The Crucible is effectively a self-destruction device they use spread terror. Those who carry the devices are often referred as “Martyrs”. In reality, their sacrifice is meaningless one, as they are often backed up remotely and resurrect soon after their deed is done.
+
 ### Frames
 
-- **Berserker**: Body D10, Reflex D8, Mind D6, Cyber D6, Adrenaline Rush, Regeneration
-- **Martyr**: Body D8, Reflex D8, Mind D8, Cyber D6, The Crucible, Gravitron
-- **Avenger**: Body D6, Reflex D8, Mind D6, Cyber D10, Targeting System, Flight
+- [[template-berserker]]
+- [[template-martyr]]
+- [[template-avenger]]

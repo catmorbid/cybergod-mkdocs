@@ -3,6 +3,7 @@ title: Swarm
 tags:
   - Cybertech
   - Nanotech
+  - Augment
 ---
 Utilize a swarm of special micro drones to spread out and monitor large areas, or to harass, disrupt or attack enemies. Swarm persists for a Moderate duration or until destroyed.
 

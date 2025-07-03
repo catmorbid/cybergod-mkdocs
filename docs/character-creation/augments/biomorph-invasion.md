@@ -5,6 +5,7 @@ tags:
   - Unsafe
   - Exotic
   - Faction-Order
+  - Augment
 ---
 Invade a target with parasitic Biomorphs that latch onto the target's biological components. Gain access to their motor functions and even cognitive state. Synthetic frames cannot be invaded, but even Cybernetic frames are susceptible to invasion. Target must be within close range and unable or unwilling to resist physically. It is practical to first physically incapacitate the target before attempting invasion.
 

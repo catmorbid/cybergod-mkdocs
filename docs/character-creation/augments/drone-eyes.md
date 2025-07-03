@@ -2,6 +2,7 @@
 title: Drone Eyes
 tags:
   - Cybertech
+  - Augment
 ---
 A modified ocular system which has an array of multiple *Ocular Drones* that can be launched independently to provide visual coverage of a large area. The image of all the drones is combined in real-time to a visual matrix combined from the image of all the drones.
 

@@ -32,7 +32,7 @@ If you can detect a combat hack in time, you can attempt to defend against it by
 
 ### Apps
 
-Each App is a separate weapon used in Combat Hacking. You can get Apps as part of your Gear, and all Apps are of **Advanced** grade. You maximum App capacity depends on your [[frame#Cyber|Cyber]] attribute level
+Each App is a separate weapon used in Combat Hacking. You can get Apps as part of your Gear, and all Apps are of **Advanced** grade. You maximum App capacity depends on your [[character-creation/frame/index#Cyber|Cyber]] attribute level
 
 There are also a few [[character-creation/gear/index#Utility Apps|Utility Apps]], which use the same App slots, so you might want to consider those as well.
 

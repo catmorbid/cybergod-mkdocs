@@ -2,6 +2,7 @@
 title: Interference
 tags:
   - Cybertech
+  - Augment
 ---
 An asymmetric warfare system that allows disruption of communications, electronics and augmentations. Designed for anti-cyborg warfare, Interference can be a powerful tool against powerful cyborgs.
 

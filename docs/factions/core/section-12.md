@@ -1,8 +1,9 @@
 ---
 tags:
-    - Cybertech
-    - Nanotech
-    - Faction-Section12
+  - Cybertech
+  - Nanotech
+  - Faction-Section12
+version: 1
 ---
 
 # Section 12
@@ -18,6 +19,6 @@ tags:
 	Section 12 with their unique nanotech augmentations has developed a way to unlock psionic potential in the human brain, resulting in the Psionic Enhancements. All Section 12 operatives may utilize Psionic Enhancements, but typically the *Sentinel* frame is best suited for it. The other factions are aware this technology exists, but they have no means of reverse-engineering it, but they know enough to *fear* it. The public, other than a handful of *conspiracy theorists*, are unaware of such technology.
 ### Frames
 
-- **Sentinel**: Body D6, Reflex D6, Mind D12, Cyber D6, Psionics, Inhibitor
-- **Protector**: Body D8, Reflex D8, Mind D8, Cyber D6, Aegis, Gravitron
-- **Operator**: Body D6, Reflex D10, Mind D6, Cyber D8, Weapon Systems, Camouflage
+- [[template-sentinel]]
+- [[template-protector]]
+- [[template-operator]]

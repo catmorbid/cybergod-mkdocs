@@ -2,6 +2,7 @@
 tags:
   - Biotech
   - Faction-Order
+version: 1
 ---
 # The Order of the Void
 
@@ -24,6 +25,6 @@ In their self-righteous dogma, the *blessings* are merely a sign of faith and ar
 
 ### Frames
 
-- **Disciple**: Body D8, Reflex D10, Mind D8, Cyber n/a, Biomorph Weapons, Regeneration,
-- **Paladin**: Body D10, Reflex D8, Mind D8, Cyber n/a, Biomorph Armor, Biomorph Healing
-- **Harbinger**: Body D8, Reflex D8, Mind D10, Cyber n/a, Biomorph Invasion, Regeneration
+- [[template-disciple]]
+- [[template-paladin]]
+- [[template-harbinger]]

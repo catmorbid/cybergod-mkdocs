@@ -2,6 +2,7 @@
 title: TITAN Recoil Compensation System
 tags:
   - Cybertech
+  - Augment
 version: 1
 ---
 > *”Our boys and girls need bigger guns – and by that I mean massive guns that can blow a hole in a fucking planet, can you make this happen?”*

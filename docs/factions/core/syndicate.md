@@ -2,6 +2,7 @@
 tags:
   - Cybertech
   - Faction-Syndicate
+version: 1
 ---
 # The Syndicate
 
@@ -24,7 +25,7 @@ The Free Ports have become symbols of the Syndicate’s struggle, isolated and f
 ### Frames
 Each of the four families have a signature Frame template that Syndicate Agents utilize. While not intended to be a show of loyalty, some families wear their signature frames like badges of honor, disregarding all functionality.
 
-- **Shosuro Ronin**: Body D8, Reflex D10, Mind D6, Cyber D6, Chronoflux, Targeting System
-- **Wu-Tai Stratagem**: Body D6, Reflex D6, Mind D10, Cyber D8, Swarm, Interference
-- **Puccini Guardian**: Body D12, Reflex D6, Mind D6, Cyber D6, Aegis, Cybernetic Armor
-- **Radinovich Tzar**: Body D10, Reflex D6, Mind D8, Cyber D6, Adrenaline Rush, FACE
+- [[template-ronin]]
+- [[template-stratagem]]
+- [[template-guardian]]
+- [[template-tzar]]

@@ -4,6 +4,7 @@ version: 1
 tags:
   - Cybertech
   - Nanotech
+  - Augment
 ---
 - replace cyberwarfare apps
 - abstract app effects

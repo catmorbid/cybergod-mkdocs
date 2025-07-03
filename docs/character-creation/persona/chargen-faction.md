@@ -8,35 +8,38 @@ Factions are listed on [[factions/index|Factions section]] of the core book. Rea
 ### Rank
 Rank measures your position in the faction’s hierarchy. Higher rank offers better benefits and greater degree of pull in your faction. Upon increasing your Rank, you gain the following benefits:
 
-- 2 Upgrade Points
-- 1 Asset Point
+- [[upgrades|Frame Upgrade]]
+- 2 Asset Points
 - Choice of any Resource +1
 
 You can consult the following table to quickly find out merit points for each rank, and the benefits awarded. When *creating a new Character* you gain all benefits from your faction Rank.
 
-| Rank | Merits required | Upgrades | Assets | Resources |
-| ---- | --------------- | -------- | ------ | --------- |
-| 0    | 0               | 0        | 0      | 0         |
-| 1    | 1               | 2        | 1      | 1         |
-| 2    | 3               | 4        | 2      | 2         |
-| 3    | 6               | 6        | 3      | 3         |
-| 4    | 10              | 8        | 4      | 4         |
-| 5    | 15              | 10       | 5      | 5         |
-| 6    | 21              | 12       | 6      | 6         |
-| 7    | 28              | 14       | 7      | 7         |
-| 8    | 36              | 16       | 8      | 8         |
-| 9    | 45              | 18       | 9      | 9         |
-| 10   | 55              | 20       | 10     | 10        |
+
+| Rank | Description                                                                                                           | Merits |
+| ---- | --------------------------------------------------------------------------------------------------------------------- | ------ |
+| 0    | **Outsider** – You are not a member of the faction. You may be known, but not trusted.                                | 0      |
+| 1    | **Initiate** – A newcomer undergoing trials or probation. You have minimal access and few privileges.                 | 10     |
+| 2    | **Regular** – A fully accepted member. You’re assigned tasks and trusted with basic responsibilities.                 | 30     |
+| 3    | **Veteran** – Proven and dependable. You’ve seen conflict or handled critical duties. Others may follow your lead.    | 60     |
+| 4    | **Senior** – A respected figure with influence. You mentor lower ranks and may be consulted on faction decisions.     | 100    |
+| 5    | **Officer** – Entrusted with leadership over operations or small groups. You shape faction actions directly.          | 150    |
+| 6    | **Commander** – A key leader with strategic responsibility. Your decisions impact major faction efforts.              | 210    |
+| 7    | **Warden** – Overseer of territory, doctrine, or a vital faction asset. You are a guardian of the faction’s strength. | 280    |
+| 8    | **Architect** – A master planner or visionary. You help define the faction’s long-term goals and policies.            | 360    |
+| 9    | **Paragon** – A living embodiment of the faction’s ideals. You hold near-mythic status among the members.             | 450    |
+| 10   | **Supreme Commander** – The highest authority. You speak for the faction and command ultimate loyalty.                | 550    |
 
 ### Merits
 Merits are gained as you further your faction’s agenda, by completing missions for your factions. Once you gain enough Merits, you can increased your Rank and gain major benefits. In character creation, note down merits corresponding to your current [[#Rank]].
 
-### Upgrades
-Upgrade Points measure you total available Upgrades. Upgrades used to improve your Frame. Note your total Upgrade Points for reference in Persona Sheet, and mark the Frame’s Upgrades on the Frame Sheet.
-
 ### Assets
-Assets represent what your bring to your team. Sum the total of each character’s Assets to obtain a pool of **Team Assets** when going on a mission. 
+Assets represent what your bring to your team. Sum the total of each character’s Assets to obtain a pool of **Team Assets** when going on a mission.
 
-You can also spend Assets Points to obtain personal [[character-creation/gear/index#Custom Spec Weapons|customizable equipment]] that can exceed the ordinary faction Grade. [[arc|ARC]] can also spend Assets to upgrade their personal CHAOS Mk. 2 sidearm.
+You can spend Assets Points to obtain **Personal Assets** such as custom weaponry and specialized tools. [[arc|ARC]] can also spend Assets to upgrade their personal CHAOS Mk. 2 sidearm.
 
-Spending any Assets for personal equipment will permanently reduce your Asset points, contributing less to Team Assets.
+Spending any Assets for personal equipment will permanently reduce your Asset points, contributing less to Team Assets. You are free to change your loadout between missions, picking from the standard equipment lists.
+
+#### Personal Assets
+A Personal Asset is a specific piece of equipment, item or contact that can be utilized during play. Personal Assets are measured with a Die rating from D4 to D12. All Personal Assets start out at D4, but each additional Asset Point spent increases its rating up to D12.
+
+Personal Assets are unique, specialized tools and equipment, as thus they have limited use. You can only use each personal asset **once** per game session. When used, the asset is added as an **Augment Die** to a skill test.

@@ -2,6 +2,7 @@
 tags:
   - Cybertech
   - Faction-ARC
+version: 1
 ---
 # Advanced Regulator Corps (ARC)
 
@@ -16,9 +17,9 @@ When ordinary Regulators of the *Core Regulator Authority* find themselves in a 
 
 ### Frames
 
-- **Bulwark:** Body D10, Reflex D8, Mind D6, Cyber D6, Cybernetic armor, Smart weapons
-- **Ghost:** Body D6, Reflex D8, Mind D6, Cyber D10, Camouflage, Interference
-- **Hunter:** Body D6, Reflex D8, Mind D10, Cyber D6, Pinpoint, Drone Eyes
+- [[template-bulwark]]
+- [[template-ghost]]
+- [[template-hunter]]
 
 ### CHAOS Mk.2
 

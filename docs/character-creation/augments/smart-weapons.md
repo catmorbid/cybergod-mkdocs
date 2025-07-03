@@ -3,6 +3,7 @@ title: Smart Weapons
 tags:
   - Cybertech
   - Nanotech
+  - Augment
 version: 2
 ---
 You can interface with Smart Weapons and ordnance and use guided projectiles and access their combat data. **Smart Weapons** augment is ideal for high rate of fire weaponry enabling high number of Hits on single - and even multiple targets - compared to regular weapons.

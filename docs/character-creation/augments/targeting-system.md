@@ -3,6 +3,7 @@ title: Targeting System
 tags:
   - Cybertech
   - Nanotech
+  - Augment
 version: 2
 ---
 Enables extremely high damage and precision in combat by extreme calculation power, which is displayed as slowed down time and trajectory tracking. Effective in both close combat and ranged combat.

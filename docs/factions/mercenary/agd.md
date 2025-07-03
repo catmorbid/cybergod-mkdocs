@@ -14,9 +14,14 @@ AGD mercenaries take any kind of contracts and unlike other factions, they are i
 - `Advanced` Weapons and Armor
 - `Cybertech` augments, max level 2
 
-AGD has access to `Cybertech` augments, but Commonwealth regulations only allow **Level 2** augments to private operators. In addition, they are cleared for **Advanced grade** equipment, and may not officially obtain higher grade equipment. The AGD has found to be circumventing these regulations at times through backchannel access, or even resorting to black market and hacked or reverse-engineered schematics.
+AGD has access to `Cybertech` augments, but Commonwealth regulations only allow **Level 2** augments to private operators. In addition, they are cleared for **Advanced grade** equipment, and may not officially obtain higher grade equipment. The AGD has found to be circumventing these regulations at times through backchannel access, or even resorting to black market and hacked or reverse-engineered schematics. AGD tend to compensate their limited access to advanced augments by improving the raw performance of their frames
+
+!!! info "AGD Frame Upgrades"
+	- Max Augment level 2
+	- Level 4, 7 and 10: No Augment upgrade, but instead get 2 Attribute upgrades.
+	- Upgrade Path table reflects this change
 
 ### Frames
-- **Colossus**: Body D12, Reflex D6, Mind D6, Cyber D6, Cybernetic Armor, Regeneration
-- **Soldat**: Body D8, Reflex D10, Mind D6, Cyber D6, Targeting System, Mobility System
-- **Reaper**: Body D6, Reflex D8, Mind D6, Cyber D10, Pinpoint, Camouflage
+- [[template-colossus]]
+- [[template-soldat]]
+- [[template-reaper]]

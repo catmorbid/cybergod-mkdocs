@@ -47,7 +47,7 @@ After the actions are declared, you can start by resolving them one at a time. E
 
 #### Initiative
 
-Initiative is only considered for Conflicting actions to decide who acts faster. Default initiative is based on [[frame#Reflex|Reflex]]. In addition you can always take Initiative as Effect when resolving your action to act faster than the opposition.
+Initiative is only considered for Conflicting actions to decide who acts faster. Default initiative is based on [[character-creation/frame/index#Reflex|Reflex]]. In addition you can always take Initiative as Effect when resolving your action to act faster than the opposition.
 
 #### Splitting actions
 Actions can be split between different simultaneous actions. For example, you can move and shoot or move and dive for cover, or shoot with a weapon in your both hands. You can't split between multiple same actions.

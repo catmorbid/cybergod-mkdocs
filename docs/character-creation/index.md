@@ -27,16 +27,10 @@ Follow these steps to create a character. You can read the details on the approp
 		- Choose 3 skills related to your *Role* in your Faction
 		- Choose 2 skills as personal interests
 		- Spend bonus skill points awarded by *experience*
-5. Choose a [[frame#Frame Template|Frame Template]] from your Faction
-	- Mark down [[frame#Attributes|Attributes]] and [[character-creation/augments/index|Augments]]. Augments start at Level 1.
+5. Choose a [[character-creation/frame/index#Frame Template|Frame Template]] from your Faction
+	- Mark down [[character-creation/frame/index#Attributes|Attributes]] and [[character-creation/augments/index|Augments]]. Augments start at Level 1.
 6. Spend **Upgrade Points** to improve Attributes or Augments, or take new Augments.
-7. Write down Frame stats
-	- Max Bulk ([[frame#Body|Body]])
-	- Wound Slots ([[frame#Body|Body]])
-	- Max Attack Power ([[frame#Body|Body]])
-	- Max Apps ([[frame#Cyber|Cyber]]) 
-	- Initiative ([[frame#Reflex|Reflex]])
-	- Energy (modifiers from [[frame#Attributes|Attributes]])
+7. Write down [[character-creation/frame/index|Frame Stats]]
 8. Choose Gear
 	- Faction determines maximum equipment Grade, choose equipment freely up max Grade, but keep your loadout under **Max Bulk**.
 	- Choose Weapons

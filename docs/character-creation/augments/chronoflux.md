@@ -5,6 +5,7 @@ tags:
   - Faction-Syndicate
   - Unsafe
   - Exotic
+  - Augment
 ---
 > _“Time is a straight line—until you twist it into a knot and try not to strangle yourself in the process.”_
 >—Syndicate Leader Researcher Dr. Matsumoto Goro, Chronoflux Project
