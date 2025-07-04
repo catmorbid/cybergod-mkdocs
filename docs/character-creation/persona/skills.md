@@ -4,14 +4,14 @@ version: 2
 ---
 A character’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction.
 
-| Skill Rating | Expertise    | Description                                                                                                                                        |
-| ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| N/A (0)      | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                                             |
-| D4 (1)       | Student      | You have basic skill, but you are still learning.                                                                                                  |
-| D6 (2)       | Amateur      | You have some practical experience, but lack deeper understanding on the subject.                                                                  |
-| D8 (3)       | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation.                         |
-| D10 (4)      | Expert       | You are a seasoned expert on your field. One of the best.                                                                                          |
-| D12 (5)      | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a different is raw natural talent. |
+| Skill Rating | Expertise    | Description                                                                                                                                         |
+| ------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| N/A (0)      | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                                              |
+| D4 (1)       | Student      | You have basic skill, but you are still learning.                                                                                                   |
+| D6 (2)       | Amateur      | You have some practical experience, but lack deeper understanding on the subject.                                                                   |
+| D8 (3)       | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation.                          |
+| D10 (4)      | Expert       | You are a seasoned expert on your field. One of the best.                                                                                           |
+| D12 (5)      | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a difference is raw natural talent. |
 
 ## Character Creation
 Assign 1 skill level to any skills chosen at each step. You can choose a skill chosen in previous step as long as it makes sense:
