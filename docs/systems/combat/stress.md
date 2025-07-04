@@ -1,5 +1,6 @@
 ---
 title: Stress
+version: 4
 ---
 Witnessing violence, fear and otherworldly horrors puts a strain on the mind. Only the most hardened veterans become almost immune, and many claim that's the only way to know know if you're still human, machine or not.
 
