@@ -21,7 +21,7 @@ version: 4
 - [[flight]]
 
 ### Upgrade Path
-AGD must follow a limited Upgrade Path: at level 4, 7 and 10, cannot upgrade augments, but instead upgrade 2 attributes. Max Augment Level 2.
+AGD Characters are required to adhere to [[agd#Frame Upgrade Limitations|Frame Upgrade Limitations]] upheld by Commonwealth.
 
 | Level | Body | Reflex | Mind | Cyber | Energy | Augments                                                                                                             |
 |-------|------|--------|------|-------|--------|----------------------------------------------------------------------------------------------------------------------|
