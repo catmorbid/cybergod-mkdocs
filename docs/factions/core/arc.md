@@ -3,6 +3,7 @@ tags:
   - Cybertech
   - Faction-ARC
 version: 1
+title: Advanced Regulator Corps
 ---
 # Advanced Regulator Corps (ARC)
 

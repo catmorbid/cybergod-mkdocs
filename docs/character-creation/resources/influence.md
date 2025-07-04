@@ -1,5 +1,6 @@
 ---
 title: Influence
+version: 4
 ---
 Influence is social currency within a Faction. You gain Influence primarily by completing jobs for a Faction. You can purchase Influence with Merits.
 

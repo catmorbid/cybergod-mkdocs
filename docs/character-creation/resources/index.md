@@ -1,5 +1,6 @@
 ---
 title: Resources
+version: 1
 ---
 Resources represent consumable assets such as various wealth, supplies or ammo but also more abstract resources like stress and influence.
 

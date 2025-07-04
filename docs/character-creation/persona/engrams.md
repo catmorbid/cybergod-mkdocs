@@ -58,7 +58,7 @@ Whenever you take a point of **Corruption**, mark it down and keep playing. Once
 
 Corruption can only be removed by undergoing extensive therapy. This will cost time, likely some Resources, and finally, as a token of the character's dedication to this process, some experience points. If all conditions are met, one point of corruption can be removed.
 
-  - Spend [[progression|Progression Points]] to remove a point of Corruption.
+  - Spend [[gm-experience|Progression Points]] to remove a point of Corruption.
   - Requires at least 4 therapy sessions (downtime activity).
 
 ### Safety Check

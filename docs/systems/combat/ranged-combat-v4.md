@@ -14,10 +14,12 @@ Test `Aim + Combat` plus Attribute depending on type of weapon
 - `Cyber:` Attacks utilizing augments, such as **Targeting System** or remote-operating neural-controlled attack drones
 
 Consider the following conditions that could add to Difficulty of the attack test. Only consider circumstances that make a test more difficult; if something were to make a test impossible, then a test should not be allowed.
-- **Target Range:** +1 Difficulty cost for each step less or more than Optimal Range
-- **Target Velocity:** Fast moving targets, such as drones or vehicles may automatically add +1 to +3 Difficulty cost when moving at high speeds. Humans or cyborgs moving on foot rarely count for this, but if they do it is indicated by increased in Velocity Scale.
-- **Target Evasion:** Target may be making themselves a hard target. Add their current effective Evasion rating to the difficulty cost.
-- **Low visibility:** Darkness, fog, rain, clutter and generally anything that can obscure vision. Poor visibility makes it hard to spot and track target. Can be ignored by suitable augments. Add +1 to +3 Difficulty cost.
+- **Target Range:** Add `DIF 1` for each step less or more than Optimal Range
+- **Target Velocity:** `DIF 1+`. Objects moving at high [[structure#Velocity|Velocity]] make for more difficult targets. Add the difference in attacker’s and target’s relative velocity, if they are moving faster. Cyborgs may have [[hermes-mobility-suite|augments]] that increase their *Velocity* scale.
+- **Target Evasion:** `DIF 1+`. [[mobility-evasion|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit.
+- **Low visibility:** `DIF 1`– `DIF 3`.Darkness, fog, rain, clutter and generally anything that can obscure vision. Poor visibility makes it hard to spot and track target. Such hindrances can be ignored by suitable augments.
+
+In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add a complication to the test.
 
 !!! example "Ranged Combat Example"
 	 Cyber Joe is tracking a slippery Syndicate assassin on the maze-like streets of ground-level slums. He catches the criminal below an overpass, just as they’re about the disappear into the side alleys of a busy market street. Joe has a brief opportunity and attempts to take a shot.
@@ -60,7 +62,7 @@ Consider the following conditions that could add to Difficulty of the attack tes
 
 
 ### Effects
-All attacks can score a **Single Hit** (1 stack), but the availability of other effects depend on [[weapon_rules#Rate of Fire|Rate Of Fire]]. Automatic Weapons have new effects and their cost is affected by [[weapon_rules#Recoil|Recoil]] of a weapon.
+All attacks can score a **Single Hit** (1 stack), but the availability of other effects depend on [[weapon_rules#Rate of Fire|Rate Of Fire]].
 
 #### Basic Hits
 Available basic hits and their maximum stacks depends on the weapon’s [[weapon_rules#Rate of Fire|ROF]].

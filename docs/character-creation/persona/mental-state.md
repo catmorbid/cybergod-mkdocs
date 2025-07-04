@@ -5,9 +5,7 @@ version: 2
 
 Mental state represents gradual shift in the character's psyche and loss of their humanity. It is represented by two stats: **Dissociation** and **Habituation**.
 
-## Character Creation
-
-When creating a character:
+**When creating a character:**
 
 - Both stats start at D4
 - Distribute (1 + 1 per missing engram) points between the stats.
@@ -24,13 +22,13 @@ Dissociation describes the character's connection to reality, emotions and their
 
 Use Dissociation as the die when making [[stress|Stress Checks]] to avoid Breakdown.
 
-| Level | Rating                | Social | Description                                                                                                       |
-| ----- | --------------------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
-| D4    | Integrated            | D0     | Fully aware and connected to reality, emotions and self                                                           |
-| D6    | Mild dissociation     | D1     | Occasional feelings of detachment from emotions and surroundings                                                  |
-| D8    | Moderate dissociation | D2     | Frequent disconnection from emotions, feeling detached from oneself or the environment                            |
-| D10   | Severe dissociation   | D3     | Severe emotional disconnection and detachment from reality                                                        |
-| D12   | Detached              | D4     | Complete emotional numbness, profound detachment from reality, leading to lack of empathy and concern for others. |
+| Level | Rating                | Social  | Description                                                                                                       |
+| ----- | --------------------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
+| D4    | Integrated            | `DIF 0` | Fully aware and connected to reality, emotions and self                                                           |
+| D6    | Mild dissociation     | `DIF 1` | Occasional feelings of detachment from emotions and surroundings                                                  |
+| D8    | Moderate dissociation | `DIF 2` | Frequent disconnection from emotions, feeling detached from oneself or the environment                            |
+| D10   | Severe dissociation   | `DIF 3` | Severe emotional disconnection and detachment from reality                                                        |
+| D12   | Detached              | `DIF 4` | Complete emotional numbness, profound detachment from reality, leading to lack of empathy and concern for others. |
 
 ### Habituation
 
@@ -41,7 +39,7 @@ Habituation describes the character's reactions to new strong stimuli, such as v
 
 **Gameplay Use**
 
-Use Habituation Die to roll on Mental Breakdown table, whenever you fail a [[stress|Stress Check]].
+Use Habituation Die to roll on **Mental Breakdown table,** whenever you fail a [[stress|Stress Check]].
 
 | Level | Rating               | Description                                                                                   |
 | ----- | -------------------- | --------------------------------------------------------------------------------------------- |

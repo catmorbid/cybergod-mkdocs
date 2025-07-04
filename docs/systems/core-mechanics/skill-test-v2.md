@@ -54,7 +54,7 @@ On the following table you’ll find probabilities for rolling a result exactly,
 
 ## Dice pool
 
-Every test uses two kinds of dice: **Human Dice**, based on your character’s stats, and **Modifier Dice**, from tools, augments, or allies.
+Every test uses two kinds of dice: **Human Dice**, based on your character’s stats, and **Modifier Dice**, from tools, advantages, or allies.
 
 - Up to 3 **Human Dice**
 	- *Raw Power* — 1 Attribute Die (Frame)
@@ -62,7 +62,7 @@ Every test uses two kinds of dice: **Human Dice**, based on your character’s s
 	- *Expertise* — 0-1 Skill Dice (Persona; or Frame with suitable *Augments*)
 - Up to 3 **Modifier Dice**
 	- Utility Dice
-	- Augment Dice
+	- Advantage Dice
 	- Teamwork Dice
 
 Every test rolls at least 2 dice; **Attribute Die** and **Aptitude Die**. The **Skill Die** is optional as a character without any training in a skill only rolls their Attribute and Aptitude dice.
@@ -72,7 +72,7 @@ Every test rolls at least 2 dice; **Attribute Die** and **Aptitude Die**. The **
 If more than 3 modifier dice were to be applicable on a single test, you must choose which dice to keep and drop the rest.
 
 - **Utility Dice** can be awarded by using tools, equipment, augments, instructions and walk-throughs.
-- **Augment Dice** can be gained through use of Augments or unique circumstantial advantages.
+- **Advantage Dice** can be gained through use of Augments or suitable circumstantial advantages.
 - **Teamwork Dice** can be gained by receiving assistance from other characters. You can benefit from up to 3 assistants, any more would just make things more complicated, and they will then “lend” one of their human dice, as appropriate to situation – usually Attribute or Skill Die. A preceding test may be required to coordinate teamwork efforts in order to allow benefiting from the teamwork dice.
 
 
@@ -129,7 +129,6 @@ If you overcome difficulty, but do not generate any Effect Points thereafter, or
 - Sacrifice something – make a personal sacrifice in order to get ahead and win with just single Effect Point. E.g. an equipment can break or maybe you burn a bridge with a (former) ally to get what you want.
 
 ## Rerolls
-Spend **Rerolls** to 
 
 Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each *Reroll* allows you to pick any number of rolled dice and roll them again. You must keep the new results, even if they’re worse. When rerolling a skill test, it makes most sense to only re-roll dice that did not generate any successes, otherwise you will risk those dice producing zero successes.
 

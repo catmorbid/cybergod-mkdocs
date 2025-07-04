@@ -28,7 +28,7 @@ AGD has access to `Cybertech` augments, but Commonwealth regulations only allow 
 	- Consult **Frame Level Table** for chosen frame for example upgrade path
 
 ### Contracts
-AGD characters are bound to their client via a Contract. The [[merits]] earned on a job depend on how well they adhere to their contract. Morality is secondary, what matters is the terms laid out in the ink. Any breach of contract is an immediate demerit, but if you manage to go the extra mile to please your client, you can expect bonus merits.
+AGD characters are bound to their client via a Contract. The [[gm-merits]] earned on a job depend on how well they adhere to their contract. Morality is secondary, what matters is the terms laid out in the ink. Any breach of contract is an immediate demerit, but if you manage to go the extra mile to please your client, you can expect bonus merits.
 
 To evaluate the merits, GM first presents how many merits can be gained if you pull off the job without a hitch. E.g. let’s say a small gig is worth 10 merits. You succeed and this is how much you get. You know the stakes beforehand, that’s part of the job. Needless to say, if you fail the job, you will get nothing and any demerits are subtracted from your existing tally. Yes, you can be demoted.
 

@@ -1,11 +1,13 @@
 ---
-title: Damage Class
+title: Resolving Damage
 version: 1
 status: new
 subtitle: DC
 ---
-**Damage Class** (DC) is a classification system for a weapon’s power, indicated by a numeric value in the range of -3 to 12. Any lower is insignificant and should be ignored while any higher should be represented with a **Damage Scale** variable.
+## Damage Class
+**Damage Class** (DC) is a classification system for a weapon’s power, indicated by a numeric value. Typically Damage class can range between -3 and 20, but the **Damage Class Table** will list DC ratings up to 50, for reference.
 
+## Damage Class Table
 Subtract **Armor Class** (AC) from **Damage Class** (DC) to obtain **Damage**. *Damage* is either dice or a fixed value. You roll damage dice once per **Hit** obtained. DC of 7 or higher rolls always two dice, so both dice are rolled once per hit. DC of 0 or less on the other hand always inflicts fixed damage. For DC < 0 the damage is actually a fraction and you always round it down. But when taking multiple hits, sum the fractions to determine total damage dealt. This means that a large volume of low powered hits may still accumulate some damage.
 
 | Damage Class | Damage Roll | Attack Example                                   |
@@ -46,24 +48,6 @@ Subtract **Armor Class** (AC) from **Damage Class** (DC) to obtain **Damage**. *
 
 !!! Example
 	Cyber Joe retaliates immediately, charging into close combat and delivering a powerful cybernetically augmented attack for 2 hits at DC 9. He rolls 2d10+2d8 damage for total (7, 10, 4, 2) 23 damage, completely obliterating the Punk.
-
-## Damage Scale
-The normal rules are designed for personal combat on a **human scale**. When you resolve combat between different types of entities, such as **Vehicles** or **Spacecrafts**, you’re essentially working on a different *scale*. Scale can be noted numerically, and unless otherwise stated, for human-scale is zero (0). For each point of scale difference you do the following:
-
-Target is lower scale
-
-- Armor Class of Lower scale target has their AC divided by 5.
-- Damage to Lower scale target is multiplied by 5.
-
-Target is higher scale
-- Target AC is multiplied by 5
-
-
-!!! example
-	Cyber Joe and his team of 8 regulators are ambushed by a Radical X guerilla force supported by heavy artillery and 2 light combat mechs. Cyber Joe botches his tactics test and before they can make a move, they’re bombarded by artillery, followed by an intense rapid fire assault by the combat mechs. The Artillery is scale +1 attack with DC 3. AC of 5+ is required to negate any damage. Cyber Joe thankfully has AC 5, but regulators only have AC 3 so they do not get any benefits. Cyber Joe then gets D4 x 5 damage while each regulator gets D6 x 5 damage
-	 	- Joe is lucky and only takes 5 damage (threshold 6/12/18), reduced by 2 soak to just 3 shock and no harm.
-	 	- Regulators get (25, 10, 25, 5, 20, 15, 5, 15) damage (threshold 4 / 8 / 12)
-	 5 Regulators are killed and 3 are wounded before the light mechs attack.
 
 ## Optional Rule: Simplified damage
 You can choose to resolve an attack using simplified damage rule:

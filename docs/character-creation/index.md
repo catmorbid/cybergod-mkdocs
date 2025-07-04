@@ -10,11 +10,11 @@ Follow these steps to create a character. You can read the details on the approp
 
 | Experience   | Engrams | Mental State | Resolve | Aptitudes | Skills | Rank |
 | ------------ | ------- | ------------ | ------- | --------- | ------ | ---- |
-| Relic        | 1       | +5           | 1       | +1        | +12    | 4    |
-| Veteran      | 2       | +4           | 2       | +2        | +9     | 3    |
-| Professional | 3       | +3           | 3       | +3        | +6     | 2    |
-| Experienced  | 4       | +2           | 4       | +4        | +3     | 1    |
-| Recruit      | 5       | +1           | 5       | +5        | +0     | 0    |
+| Relic        | 1       | +5           | 1       | +1        | +12    | 5    |
+| Veteran      | 2       | +4           | 2       | +2        | +9     | 4    |
+| Professional | 3       | +3           | 3       | +3        | +6     | 3    |
+| Experienced  | 4       | +2           | 4       | +4        | +3     | 2    |
+| Recruit      | 5       | +1           | 5       | +5        | +0     | 1    |
  
 4. Determine Aptitudes and Skills
 	- Choose [[aptitudes|Aptitudes]]

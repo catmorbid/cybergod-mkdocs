@@ -9,7 +9,7 @@ version: 4
 ---
 **Faction**: [[radical-x]]
 
-**Role**: Aggressive close combat fighter
+**Role**: Aggressive combat specialist
 
 **Augments:**
 - [[adrenaline-rush]]

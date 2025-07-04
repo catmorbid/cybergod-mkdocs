@@ -1,5 +1,5 @@
 ---
-title: Merits
+title: Awarding Merits
 version: 2
 ---
 Merits are used to measure how well the group did in their mission. They are a measure of renown and prestige within their faction. Each Mission Objective is worth a certain amount of Merits. 

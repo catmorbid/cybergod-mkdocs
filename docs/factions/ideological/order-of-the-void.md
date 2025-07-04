@@ -16,7 +16,7 @@ In their self-righteous dogma, the *blessings* are merely a sign of faith and ar
 
 
 !!! info "Rebirth of the Void"
-    The Order of the Void cannot resurrect in the same way other factions can. In fact they do not even have a Black Box, nor a Cybernetic Brain. But they do have other means. The Biomorphs naturally store an imprint of the individual's psyche and through gathering of the remnants of the deceased character, they can be *regrown* into a new body at one of the Order's secret facilities. This is not nearly as effective as being simply uploaded to a remote server and downloaded back into a new frame again, and takes quite a bit longer, so don't expect to be back on your feet the next session. On the other hand, whenever you are *reborn* as a *Blessed*, you gain an Upgrade Point and get to keep whatever progression you gained from your previous trials.
+    The Order of the Void cannot resurrect in the same way other factions can. In fact they do not even have a Black Box, nor a Cybernetic Brain. But they do have other means. The Biomorphs naturally store an imprint of the individual's psyche and through gathering of the remnants of the deceased character, they can be *regrown* into a new body at one of the Order's secret facilities. This is not nearly as effective as being simply uploaded to a remote server and downloaded back into a new frame again, and takes quite a bit longer, so don't expect to be back on your feet the next session. On the other hand, whenever you are *reborn* as a *Blessed*, you gain an additional **Upgrade Point** and get to keep whatever experiences and memories you had from your previous trials.
 
 ### Technology
 
@@ -28,3 +28,8 @@ In their self-righteous dogma, the *blessings* are merely a sign of faith and ar
 - [[template-disciple]]
 - [[template-paladin]]
 - [[template-harbinger]]
+
+#### No Cyber Attribute
+The *Blessed* do not taint their perfect organic bodies with cybernetics, hence they simply do not have a [[attributes#Cyber|Cyber attribute]], nor can they ever have one. If they need to do some hacking, they can always use external equipment with suitable Cyber attribute, such as a [[chargen-faction#Personal Assets|Personal Asset]] designed to do just that.
+
+Since their bodies are originally just ordinary Bioframes, they also start with lower attributes, but gain upgrades at same rate as Cybertech and Nanotech frames.

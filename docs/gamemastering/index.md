@@ -8,8 +8,8 @@ A story should be built around the characters who take a central role in the sto
 
 Improving characters
 
-- [[progression|Progression]]
-- [[merits|Merits]]
+- [[gm-experience|Progression]]
+- [[gm-merits|Merits]]
 - [[team-assets|Team Assets]]
 - [[influence|Influence]]
 - [[upgrade-points|Upgrade Points]]

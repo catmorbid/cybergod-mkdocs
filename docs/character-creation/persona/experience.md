@@ -8,11 +8,11 @@ You can choose how experienced your character is when starting the game. More ex
 
 | Experience   | Engrams | Mental State | Resolve | Aptitudes | Skills | Rank |
 | ------------ | ------- | ------------ | ------- | --------- | ------ | ---- |
-| Relic        | 1       | +5           | 1       | +1        | +12    | 4    |
-| Veteran      | 2       | +4           | 2       | +2        | +9     | 3    |
-| Professional | 3       | +3           | 3       | +3        | +6     | 2    |
-| Experienced  | 4       | +2           | 4       | +4        | +3     | 1    |
-| Recruit      | 5       | +1           | 5       | +5        | +0     | 0    |
+| Relic        | 1       | +5           | 1       | +1        | +12    | 5    |
+| Veteran      | 2       | +4           | 2       | +2        | +9     | 4    |
+| Professional | 3       | +3           | 3       | +3        | +6     | 3    |
+| Experienced  | 4       | +2           | 4       | +4        | +3     | 2    |
+| Recruit      | 5       | +1           | 5       | +5        | +0     | 1    |
 
 Note down the benefits from your chosen experience level, then proceed with choosing your Faction. You can come back and change this later, but the choice will affect many aspects of your character’s Persona profile.
 
@@ -46,10 +46,17 @@ You’ve seen things most people wouldn’t believe. Unimaginable horrors, viole
 	Relics are extremely rare and may not last for long. Their upgrades make them deadly and powerful, but at the same time, they can be volatile and limited in their expertise. It is a challenge of its own, and not recommended as first time experience.
 
 ### Experience Points
-As you play the game, GM awards you Experience Points representing your personal progression and growth. Experience Points can be used to improve your Persona in various ways. When starting play with a fresh character you do not have any experience points.
+As you play the game, the Game Master [[gm-experience|awards]] you *Experience Points* `(XP)` representing your personal progress and growth. Experience Points can be used to improve your Persona in various ways. When starting play with a fresh character you do not have any experience points – your previous experiences are included in your *Experience Level*.
 
-- **Improve Skills:** Improving a Skill by 1 level costs **Next Skill Level** in Experience Points.
-- **Heal Corruption:** Healing a point of Corruption costs **10 Experience Points** and some sessions in intense VR therapy during downtime. Do this before you fail Corruption Checks.
-- **Improve Aptitude:** Aptitudes can be improve by investing lot of time and effort. The costs is **Next Aptitude Level x 5** in experience points.
-- **Heal Mental Condition:** Healing a mental condition costs **5 Experience Points** and some sessions in therapy, during downtime.
-- **Obtain Resources:** You can improve your resources during downtime by spending Experience Points. Consult GM if improvement is possible. If allowed, the cost is **Current Resource Level x 2** in experience points.
+You cannot spend your experience points immediately; instead you must wait until suitable *Downtime*. You need to rest and reflect on your experiences. Changes and growth take time.
+
+When given permission to spend Experience points, you have the following options:
+
+
+| Improvement           | Experience Cost         | Requirements                 |
+| --------------------- | ----------------------- | ---------------------------- |
+| Improve Skills        | Next Skill Level        | Downtime                     |
+| Improve Aptitude      | Next Aptitude Level x 5 | Downtime, training           |
+| Heal Corruption       | 10                      | Downtime, Intense VR therapy |
+| Heal Mental condition | 5                       | Downtime, Therapy            |
+| Resources             | Next Resource Level x2  | Downtime, GM Permission      |
