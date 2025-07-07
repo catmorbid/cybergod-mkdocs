@@ -3,7 +3,9 @@ title: Aptitudes
 version: 2
 ---
 
-Aptitudes determine talent and basic ability at related skills. Each Aptitude is linked to 3 [[skills]].
+Aptitudes represent innate personality traits, instincts, or psychological frameworks. They define how a character approaches problems, interacts with others, and learns skills. Each Aptitude links to three skills, but applies to many broader situations in play.
+
+When building a character, Aptitudes begin at **D6 (average)**, with options to raise one or more based on your concept.
 
 | Aptitude Rating | Talent      | Degree of talent                                                                     |
 | --------------- | ----------- | ------------------------------------------------------------------------------------ |

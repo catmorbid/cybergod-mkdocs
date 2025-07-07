@@ -1,6 +1,6 @@
 ---
 title: Skills
-version: 2
+version: 4
 ---
 A character’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction.
 
@@ -23,13 +23,16 @@ Assign 1 skill level to any skills chosen at each step. You can choose a skill c
 Finally, spend additional skill points based on [[experience]] and distribute them as you see fit. You should not have more than one skill at Master (D12) level.
 
 !!! example Kitah
-	Joe is choosing skills for “Kitah” his new character. Kitah’s Origin is Slum Kid so Joe accepts the suggested skills of “Alertness”, “Stealth” and “Streetwise”. Kitah’s faction is ARC and Joe imagines their role to be a scout or a recon and chooses “Alertness”, “Stealth” and “Fighting”. As personal interests, Joe chooses “Hacking” and “MedTech”. Skills are now: Fighting 1, Alertness 2, Stealth 2, Streetwise 1, Hacking 1, MedTech 1. Since Kitah’s experience level is Professional, Joe can assign 6 skill points to any skills and decides on: Fighting 2, Mobility, Hacking, Troubleshooting and Investigation. Their final aptitudes and skills are: **Combat** 0 – Fighting 3; **Education** 1 – Investigation 1(2), MedTech 1(2); **Physical** 2 – Mobility 1 (3); **Social** 1; **Survival** 3 – Alertness 2 (5), Stealth 2 (5), Streetwise 1 (4); **Technical** 1 – Hacking 2 (3), Troubleshooting 1 (2).
+	Joe is choosing skills for “Kitah” his new character. Kitah’s Origin is Slum Kid so Joe accepts the suggested skills of *Alertness*, *Stealth* and *Streetwise*. Kitah’s faction is ARC and Joe imagines their role to be a scout or a recon and chooses *Alertness*, *Stealth* and *Fighting*. As personal interests, Joe chooses *Hacking* and *MedTech*. Skills are now: *Fighting D4*, *Alertness D6*, *Stealth D6*, *Streetwise D4*, *Hacking D4*, *MedTech D4*. Since Kitah’s experience level is Professional, Joe can assign 6 skill points to any skills and decides on: *Aim*, *Fighting*, *Mobility*, *Hacking*, *Troubleshooting* and *Investigation*. Kitah’s final Aptitudes and Skills are now: **Dominance D4** – *Fighting D6*, *Mobility D4*; **Analytical D6** – *Investigation D4*, *Troubleshooting D4*; **Adaptive D10** – *Alertness D6*, *Stealth D6*, *Hacking D6*; **Empathic D6** – *Medtech D4*; **Resilient D8** – *Aim D4*; **Creative D8** – *Streetwise D4*.
 
 Each **Skill** is tied to a default **Aptitude**, and it can be paired with any of the four **Attributes**—**Body**, **Reflex**, **Mind**, and **Cyber**—to perform actions. Choose the combination that makes the most sense for the situation. The short tables below illustrate possible use-case examples for each Skill + Attribute combination.
+
+!!! info "Freeform Aptitude + Skill Combinations"
+	Any skill can be used with a different Aptitude than the one linked if situation so demands, but ultimately GM makes the call on whether an alternate Aptitude can be used or not. This should not however be the norm, as that would reduce the emphasis of the Aptitude choices made during character creation, but should be fine as a rare exception.
 ## Skills
 ### Aim
 
-**Aptitude:** Combat
+**Aptitude:** [[aptitudes-v2#Resilient]]
 
 **Description:**  
 Proficiency with ranged weaponry. **Aim** covers the precision and know-how to accurately fire guns, throw projectiles, and operate ranged systems. Whether lining up a sniper shot or tossing a grenade, **Aim** represents the character’s ability to put rounds on target.
@@ -43,7 +46,7 @@ Proficiency with ranged weaponry. **Aim** covers the precision and know-how to a
 
 ### Alertness
 
-**Aptitude:** Survival
+**Aptitude:** [[aptitudes-v2#Adaptive]]
 
 **Description:**  
 Attentiveness to surroundings, noticing subtle changes or threats, and maintaining vigilance. **Alertness** governs passive perception and quick observation of the environment, making it crucial for spotting ambushes and hidden clues.
@@ -57,7 +60,7 @@ Attentiveness to surroundings, noticing subtle changes or threats, and maintaini
 
 ### Design
 
-**Aptitude:** Technical
+**Aptitude:**  [[aptitudes-v2#Creative]]
 
 **Description:**  
 Engineering new solutions, from software to hardware. **Design** emphasizes the creative and technical know-how behind building or modifying technology—be it crafting gadgets, programming AIs, or designing virtual environments.
@@ -71,7 +74,7 @@ Engineering new solutions, from software to hardware. **Design** emphasizes the 
 
 ### Fighting
 
-**Aptitude:** Combat
+**Aptitude:**  [[aptitudes-v2#Dominant]]
 
 **Description:**  
 Expertise in hand-to-hand and close-quarters combat. **Fighting** covers grappling, striking, martial arts, and any melee techniques used to subdue or overpower foes.
@@ -85,7 +88,7 @@ Expertise in hand-to-hand and close-quarters combat. **Fighting** covers grappli
 
 ### Hacking
 
-**Aptitude:** Technical
+**Aptitude:**  [[aptitudes-v2#Adaptive]]
 
 **Description:**  
 Exploiting weaknesses in systems to bypass security, infiltrate networks, or seize control. **Hacking** is about finding shortcuts and vulnerabilities—expect messy solutions that might not last long under scrutiny.
@@ -99,7 +102,7 @@ Exploiting weaknesses in systems to bypass security, infiltrate networks, or sei
 
 ### Investigation
 
-**Aptitude:** Education
+**Aptitude:**  [[aptitudes-v2#Analytical]]
 
 **Description:**  
 Systematic analysis of clues, data, and leads. **Investigation** goes beyond quick observation and involves piecing evidence together, studying crime scenes, and drawing conclusions from details.
@@ -113,7 +116,7 @@ Systematic analysis of clues, data, and leads. **Investigation** goes beyond qui
 
 ### Manipulation
 
-**Aptitude:** Social
+**Aptitude:**  [[aptitudes-v2#Dominant]]
 
 **Description:**  
 Deception and coercion through lies, false promises, or twisted words. **Manipulation** is the art of _tricking_ someone into a desired belief or action, often without them realizing they’ve been swayed.
@@ -127,7 +130,7 @@ Deception and coercion through lies, false promises, or twisted words. **Manipul
 
 ### Med Tech
 
-**Aptitude:** Education
+**Aptitude:**  [[aptitudes-v2#Empathic]]
 
 **Description:**  
 Knowledge of healing, surgery, and medical technology (including cybernetics). **Med Tech** is critical for patching up injuries, performing enhancements, and understanding the human (or augmented) body.
@@ -141,7 +144,7 @@ Knowledge of healing, surgery, and medical technology (including cybernetics). *
 
 ### Mobility
 
-**Aptitude:** Physical
+**Aptitude:**  [[aptitudes-v2#Dominant]]
 
 **Description:**  
 Athleticism, acrobatics, and the ability to move smoothly through various terrains. **Mobility** represents running, jumping, tumbling, and even operating _humanoid-style_ robots via neural connection.
@@ -155,7 +158,7 @@ Athleticism, acrobatics, and the ability to move smoothly through various terrai
 
 ### Networking
 
-**Aptitude:** Social
+**Aptitude:**  [[aptitudes-v2#Creative]]
 
 **Description:**  
 Building and leveraging social connections to gather information or call in favors. **Networking** is about _who_ you know and how effectively you can use those relationships.
@@ -169,7 +172,7 @@ Building and leveraging social connections to gather information or call in favo
 
 ### Persuasion
 
-**Aptitude:** Social
+**Aptitude:**  [[aptitudes-v2#Empathic]]
 
 **Description:**  
 Swaying others through reason, charm, and negotiation. **Persuasion** covers honest or at least _transparent_ methods of convincing someone to cooperate, buy in, or see your point of view.
@@ -183,7 +186,7 @@ Swaying others through reason, charm, and negotiation. **Persuasion** covers hon
 
 ### Piloting
 
-**Aptitude:** Physical
+**Aptitude:**  [[aptitudes-v2#Resilient]]
 
 **Description:**  
 Operating vehicles, mechs, drones, or other machinery that requires manual or semi-manual control. **Piloting** is the skill for driving/flying/steering any sort of non-humanoid vehicle.
@@ -197,7 +200,7 @@ Operating vehicles, mechs, drones, or other machinery that requires manual or se
 
 ### Psychology
 
-**Aptitude:** Education
+**Aptitude:**  [[aptitudes-v2#Empathic]]
 
 **Description:**  
 Knowledge of mental health, human psyche, and therapeutic techniques. **Psychology** can be used to treat mental traumas, counsel others, or analyze a target’s mental state.
@@ -211,7 +214,7 @@ Knowledge of mental health, human psyche, and therapeutic techniques. **Psycholo
 
 ### Stealth
 
-**Aptitude:** Survival
+**Aptitude:**  [[aptitudes-v2#Adaptive]]
 
 **Description:**  
 Remaining undetected and moving silently. **Stealth** includes hiding, sneaking, and all manner of covert movement or infiltration.
@@ -225,7 +228,7 @@ Remaining undetected and moving silently. **Stealth** includes hiding, sneaking,
 
 ### Streetwise
 
-**Aptitude:** Survival
+**Aptitude:**  [[aptitudes-v2#Creative]]
 
 **Description:**  
 Knowledge of urban underworld, criminal culture, and street-level survival. **Streetwise** means you understand black markets, local gangs, and how to handle shady situations without getting burned.
@@ -239,7 +242,7 @@ Knowledge of urban underworld, criminal culture, and street-level survival. **St
 
 ### Tactics
 
-**Aptitude:** Combat
+**Aptitude:**  [[aptitudes-v2#Analytical]]
 
 **Description:**  
 Battlefield awareness, strategic thinking, and leadership in combat scenarios. **Tactics** helps coordinate allies, find advantageous positions, and respond to threats decisively.
@@ -253,7 +256,7 @@ Battlefield awareness, strategic thinking, and leadership in combat scenarios. *
 
 ### Troubleshooting
 
-**Aptitude:** Technical
+**Aptitude:**  [[aptitudes-v2#Analytical]]
 
 **Description:**  
 Diagnosis and repair of hardware and software issues. **Troubleshooting** is about _fixing what’s broken_, whether it’s a faulty engine or corrupted operating system.
@@ -267,7 +270,7 @@ Diagnosis and repair of hardware and software issues. **Troubleshooting** is abo
 
 ### Toughness
 
-**Aptitude:** Physical
+**Aptitude:**  [[aptitudes-v2#Resilient]]
 
 **Description:**  
 Resilience against pain, extreme conditions, and fatigue. **Toughness** represents the ability to keep going despite harm or stress and is crucial for survival in harsh or violent settings.
