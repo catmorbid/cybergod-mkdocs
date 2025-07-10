@@ -20,7 +20,12 @@ Area is used for explosives and such to determine how large area is affected whe
 	Morales' team of insurgents is ambushed by an ARC-backed regulator force. They are under heavy fire and take cover behind nearby concrete pillars, but the ARC Bulwark giving fire support has an automatic grenade launcher and lands a burst of Frag grenades (Moderate Area) in their general direction. The Bulwark scores 3 hits, firing randomly in the area, so no one takes a direct hit, but everyone takes 3 Hits. Morales takes a Reaction to avoid the hits, choosing to roll with his Mobility skill of 4 with *Difficult 2* complication.. Morales rolls 3D10, scoring 5, 10, 4 → 4 successes – Morales mitigates 2 hits, but the third one lands close enough to inflict damage.
 
 ### Capacity
-Capacity (CAP) determines the Resource Die used when making Ammo Checks. Higher Capacity means you will run out of ammo less likely and have to reload less frequently. Check 
+**Capacity `(CAP)`** determines the [[resource-check|Resource Die]] used when making **Ammo Checks**. Higher Capacity means you will run out of ammo less likely and have to reload less frequently. Active [[#Rate of Fire]] determines how much ammo is consumed per attack.
+
+#### Limited Capacity
+Noted with the syntax `L[X]` – e.g. `L4` = *4 shots*.
+
+Capacity can be *limited* to a small fixed amount of shots, between 1 and 6. Limited Capacity weapons cannot have any other [[#Rate of Fire]] than [[#Single]], and each attack consumes 1 ammo. Ammo Checks are not made, since number of shots is easy to track.
 
 ### Control
 Control `(CTRL)` determines how accurate and easy to handle the weapon is. **CTRL** is rated between D4 and D12 and every weapon has a **CTRL** rating. **CTRL** may be applied as [[skill-test-v2#Dice pool|Utility Dice]] on an attack.
@@ -70,20 +75,64 @@ Chosen rate of Fire mode determines the following:
 - **Ammo Usage:** How much ammo is spent on an attack, regardless of how well you did.
 - **Utility Dice:** Determines if any utility dice are added to attack test dice pool.
 
-| ROF        | Hit Effect (max)                                         | Hits | Miss         | Ammo Usage | Utility Dice                         |
-| ---------- | -------------------------------------------------------- | ---- | ------------ | ---------- | ------------------------------------ |
-| [S] Single | Single Hit (1)<br>Aimed Hit (1)                          | 1    | -            | None       | None, unless **Aim** action is taken |
-| [E] Semi   | Single Hit (5)<br>Aimed Hit (3)<br>Suppression(1)        | 1-5  | Collateral 1 | 1          | None, unless **Aim** action is taken |
-| [B] Burst  | Single Hit (1)<br>Burst Hit (2)<br>Suppression(1)        | 1-6  | Collateral 1 | 1          | Yes, 1 **CTRL** die                  |
-| [A] Auto   | Single Hit (1)<br>Volley Hit (2)<br>Suppression(2)       | 1-8  | Collateral 2 | 2          | Yes, 2 **CTRL** dice                 |
-| [R] Rapid  | Single Hit (1)<br>Rapid Volley Hit (2)<br>Suppression(4) | 1-10 | Collateral 3 | 3          | Yes, 3 **CTRL** dice                 |
+| ROF        | Hit Effect (max)                                          | Hits | Miss         | Ammo Usage | Utility Dice                         |
+| ---------- | --------------------------------------------------------- | ---- | ------------ | ---------- | ------------------------------------ |
+| [S] Single | Single Hit (1)<br>Aimed Hit (1)                           | 1    | -            | None       | None, unless **Aim** action is taken |
+| [E] Semi   | Single Hit (5)<br>Aimed Hit (3)<br>Suppression (1)        | 1-5  | Collateral 1 | 1          | None, unless **Aim** action is taken |
+| [B] Burst  | Single Hit (1)<br>Burst Hit (2)<br>Suppression(1)         | 1-6  | Collateral 1 | 1          | Yes, 1 **CTRL** die                  |
+| [A] Auto   | Single Hit (1)<br>Volley Hit (2)<br>Suppression (2)       | 1-8  | Collateral 2 | 2          | Yes, 2 **CTRL** dice                 |
+| [R] Rapid  | Single Hit (1)<br>Rapid Volley Hit (2)<br>Suppression (4) | 1-10 | Collateral 3 | 3          | Yes, 3 **CTRL** dice                 |
+#### Single
+- **Code:** `S`
+- **Effects:** Single Hit (1), Aimed Hit (1)
+- **Recoil:** Half
+- **Ammo Usage:** None
 
+Fire single shots. Hits are limited to one. Does not use any ammo, unless weapon capacity is **Limited**. If you take **Aim** action, you can add weapon **CTRL** dice as Utility Dice to the attack.
+
+#### Semi
+- **Code:** `E`
+- **Effects:** Single Hit (5), Aimed Hit (3)
+- **Recoil:** Half
+- **Ammo Usage:** 1
+
+Fire several consecutive shots, not quite as fast as full auto weapons, but fast enough to inflict several hits. You can even land a few more Aimed Hits, but not quite as many as when simply aiming for center of mass. If you take **Aim** action before attack, you add **CTRL** dice as Utility Dice.
+
+#### Burst
+- **Code:** `B`
+- **Effects:** Single Hit (1), Burst Hit (1), Suppression (1)
+- **Recoil:** Full
+- **Ammo Usage:** 1
+
+Fire a short automatic burst, improving chance of landing a hit. Apply **CTRL** as Utility Dice.
+
+#### Auto
+- **Code:** `A`
+- **Effects:** Single Hit (1), Volley Hit (2), Suppression (2)
+- **Recoil:** Full
+- **Ammo Usage:** 2
+
+Fire a long fully automatic burst. Consumes a lot of ammo, but when properly utilized can be extremely effective. Apply **2 CTRL Dice** as Utility Dice.
+
+#### Rapid
+
+- **Code:** `E`
+- **Effects:** Single Hit (1), Rapid Volley Hit (2), Suppression (4)
+- **Recoil:** Full
+- **Ammo Usage:** 3
+
+Fire a long fully automatic burst with extremely high rate of fire. Extremely high ammo consumption, but can be devastating due to sheer volume of shots fired. Apply **3 CTRL Dice** as Utility Dice.
 ### Recoil
 
 Recoil is measured with a number, generally between 0 and 5. Recoil describes how much a weapon kicks when fired. High recoil can throw the character out of balance and makes controlling the weapon more difficult, which is especially important with automatic weapons.
 
 **System**
-*Recoil* is applied as a [[skill-test-v2#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]], with cost equal to *Recoil*. If you fail to overcome Recoil, you are thrown out of balance and will *lose your next Action or Reaction*, when trying to recover your balance.
+*Recoil* is applied as a [[skill-test-v2#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]]. Cost depends on active [[#Rate of Fire]]:
+
+- **Burst, Auto or Rapid:** cost is full *Recoil*
+- **Single and Semi:**  cost is **half** *Recoil*
+
+If you fail to overcome Recoil, you are thrown out of balance and will *lose your next Action or Reaction*, when trying to recover your balance.
 
 *Recoil* is modified by [[attributes#Body|Body attribute]], and other modifications (such as those from *Augments*). If Recoil is dropped to zero or less, you can make the attack test without the added complication.
 

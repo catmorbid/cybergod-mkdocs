@@ -14,13 +14,16 @@ When ordinary Regulators of the *Core Regulator Authority* find themselves in a 
 
 - Customizable CHAOS Mk. 2 Assault Sidearm
 - `Advanced` weapons and armor
-- `Cybertech` augments
+- #Cybertech augments
+- ARC does not recommend #Unsafe augments.
 
 ### Frames
 
 - [[template-bulwark]]
 - [[template-ghost]]
 - [[template-hunter]]
+- [[template-warden]]
+- [[template-vanguard]]
 
 ### CHAOS Mk.2
 

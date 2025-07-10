@@ -10,28 +10,32 @@ You can interface with Smart Weapons and ordnance and use guided projectiles and
 
 Any Personal Weapons are automatically modified to be compatible, but random weapons picked from dead enemies are likely incompatible. Even if they were, Smart Weapons have high security and need to be hacked before they can be used.
 
-!!! warning Compatibility
-	Smart Weapons are only compatible with conventional firearms and slow projectile launches, such as missile launchers or grenade launchers and cannot be used with Gauss weapons, Laser weapons or Plasma weapons.
+!!! warning "Compatibility and Smart Tag"
+	Smart Weapons are only compatible with conventional firearms and slow projectile launches, such as missile launchers or grenade launchers and cannot be used with Gauss weapons, Shock Weapons, Sonic Weapons, Laser weapons or Plasma weapons. Any weapons that are modified for Smart Weapons augment should have the **Smart** tag added. This will reduce their damage in exchange for other benefits. See **System** for details.
 
 **System**
 - **Activate**: Spend 1 Energy to Activate as an Instant Action
-- **Smart Weapons Attack Test:** Test `Aim x Cyber` when using Smart Weapons to resolve Ranged Attacks
+- **Reduced Muzzle Velocity:** *Ballistic* weapons modified for Smart Weapons compatibility have -1DC and -1AP (min. 0) reflecting reduced muzzle velocity. Launchers are not affected.
+- **Smart Weapons Attack Test:** Test `Aim + Cyber` when using Smart Weapons to resolve Ranged Attacks
 	- Available Effects are **Initiative(1)** and any Effects provided by your current Level of augment, including previous levels.
-	- **Full Auto** attacks do not benefit from +1D recoil control bonus on attack if wielder’s Body exceeds the weapon’s Recoil.
+	- Any *Utility Dice* added by augment replaces other sources, such as weapon **CTRL** dice.
+- **Fire Support Synergy:** Smart Weapons can attack any targets marked by a networked, linked ally, even when they are out of line of sight, without additional penalties. They can fire in a ballistic trajectory with any SMART capable weapon, but normal hit penalties still apply and this *does **not*** ignore Cover.
 ### Level 1
-- **Effects**
-	- **Guided Volley (1):** Each **Guided Volley** counts as two regular Hits on center of mass inflicting regular damage. All Hits must be specified at a single target. Hit Limit +1.
+- **Guided Projectiles 1:** Apply **D12 Utility** to attack test. All hits must focus on 1 target.
 - **Trigger Control**: Don’t waste ammo. Ammo usage is reduced by 1 but cannot be reduced below 1
-- **Telemetry:** Projectiles provide detailed telemetry data up to 1km
+- **Telemetry:** Projectiles provide detailed telemetry data up to 2km
 
 ### Level 2
-- **Effects**
-	- **Multi Target (1)**: Designates an additional target for **Guided Volleys**. Each target has separate Hit Limit, with -1 Penalty to Hit Limit per **Multi Target** effect. E.g. with one additional target a full auto burst has hit limit of 5, and five **Guided Volleys** are enough to produce 10 total Hits, inflicting 5 hits on both targets.
-- **Bullet Cam**: Projectiles provide visual feedback in addition to regular telemetry for up to 3km. A single projectile can be guided manually after launching with a `Piloting x Cyber` Test at targets that are at Long Range or further, bypassing any range penalties.
-- **Guaranteed Hit**: Alternate mode of attack. You don’t need to roll any dice, instead you score a single Hit at any one target that is within your weapon’s Effective Range.
+- **Guided Projectiles 2:** Apply **2D12 Utility** to attack test.
+- **Multi Targets 1:** You can attack up to 3 targets with Smart Weapons.
+- **Improved Range:** Effective [[weapon-stats-v4#Range|Weapon Range]] is increased by 1 step. Likewise, *Optimal Range* width is increased. E.g. Optimal Range of Short becomes Short-Medium.
+- **Bullet Cam**: Projectiles provide visual feedback in addition to regular telemetry for up to 5km. A single projectile can be guided manually after launching with a `Pilot + Cyber` Test at targets that are at Extreme Range or further, bypassing any range penalties.
+- **Guaranteed Hit**: Costs additional 1 Energy. Alternate mode of attack. You don’t need to roll any dice, instead you score a **Single Hit**, **Aimed Hit** or a **Burst Hit** (depending on active [[weapon-stats-v4#Rate of Fire|ROF]]) at any one target that is within your weapon’s Effective Range.
 
 ### Level 3
-- **Effects**
-	- **Critical Guided Volley (3)**: Reduced projectile velocity to maintain finer control over point of impact. Generate 2 Hits with +2 DC each, aimed at a vulnerable location (such as head). No change to Hit Limit. Can benefit from **Multi-Target**.
-	- **Disarming Guided Volley (2):** Guide projectiles to target’s weapon or a limb holding the weapon. Reduced projectile velocity means damage dealt is at -1 DC, but generates 2 Hits. Can benefit from **Multi-Target**.
-- **Guaranteed Multi-Hit**: Alternate mode of attack. You don’t need to roll any dice, instead you score a single Hit at *any* *eligible* targets up to normal **Hit Limit** within the weapon’s Effective Range.
+- **Guided Projectiles 3:** Apply **3D12 Utility** to attack test.
+- **Multi Targets 2:** You can attack up to 5 targets with Smart Weapons
+- **Aimed Smart Hits:** You can *upgrade* any **Hit Effect** (including Volley and Rapid Volley) to an aimed hit. The cost is the normal cost of the Aimed Hit effect, in addition to base hit effect cost.
+	- E.g. 
+- **Drone Bullet:** You can control up to 3 bullets or projectiles within a range of 10km, operating them with `Pilot + Cyber` test. The bullets still depends on initial muzzle velocity, but you have extremely fine control over where they land.
+- **Guaranteed Multi-Hit**: Costs additional 1 Energy. Alternate mode of attack. You don’t need to roll any dice, instead you automatically gain any one **Hit Effect** and distribute the Hits between *any* *eligible* targets within the weapon’s Effective Range.

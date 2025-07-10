@@ -11,6 +11,8 @@ version: 4
 
 **Role**: Anti-Cyborg Warfare
 
+**Attribute Focus:** Cyber, Reflex, Body, Mind
+
 **Augments:**
 - [[weapon-systems]]
 - [[coil-interface]]

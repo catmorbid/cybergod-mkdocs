@@ -7,6 +7,7 @@ tags:
   - "#Faction-ARC"
   - "#Networked"
   - "#Active"
+  - Exotic
 ---
 > _“You are no longer a person. You are a node of the Law.”_
 
@@ -24,12 +25,13 @@ Access to restricted data, personnel compliance, and even civilian infrastructur
 - **Activate:** Spend 1 Energy to Activate as Instant Action. You can choose one effect from any of the effects listed up to your Augment Level. You can activate multiple effects if required, but each activation costs more energy.
 - **Requires:** Faction: ARC. Warden frame or other ARC Frame at higher level.
 - **Conflict:** Cannot stack with control effects provided by [[psionics]], [[cyberjacking-suite]] or [[biomorph-invasion]] on the same target
+- **Linked Ally:** Any ally, team mate or temporary battle buddy; you must be able to communicate properly through wireless comms, and they must give you access to their AR feed.
 
 ### Level 1
 
 **Command Imprint** – You gain tactical override access to Commonwealth-regulated systems when within Commonwealth Cyberweb range.
 
-- **Directive Command:** Issue orders to up to 3 networked friendly units. While following these orders they receive **D6 advantage** on relevant tests.
+- **Directive Command:** Issue orders to up to 3 **Linked Allies**. While following these orders they receive **D6 advantage** on relevant tests.
 - **Tactical Override:** Once per scene, you may issue a tactical override to:
 	- Open sealed Commonwealth doors.   
 	- Gain temporary access to surveillance feeds, encrypted comms, or secure vehicles.    
@@ -39,11 +41,11 @@ Access to restricted data, personnel compliance, and even civilian infrastructur
 
 **Operational Authority** – Your influence extends across combat infrastructure, systems of control, and civilian administration.
 
-- **Expanded Command:** You may now issue **Directive Commands** to up to **5** networked friendly units. They gain **D8 advantage** while following orders, and are **immune to Fear, Panic, and Suppression** while under your command link.
-- **Force Compliance:** Once per scene, you may target a hostile or neutral actor with Cyberweb access. Test `Manipulation + Cyber or Mind` with **D10 Advantage** against the target’s `Toughness + Mind or Cyber`.  On success, the target is compelled to follow a single command. They’ll act against their better judgment, rationalizing it afterward —  
+- **Expanded Command:** You may now issue **Directive Commands** to up to **5** **Linked Allies**. They gain **D8 advantage** while following orders, and do not suffer from **Mental Breakdown**, and are immune to **Suppression** while under your command link.
+- **Force Compliance:** Once per scene, you may target a hostile or neutral actor within Cyberweb range. Test `Manipulation + Cyber or Mind` with **D10 Advantage** against the target’s `Toughness + Mind or Cyber`.  On success, the target is compelled to follow a single command. They’ll act against their better judgment, rationalizing it afterward —  
 	_“Well… they did just threaten me with a 90% generational income tax.”_
-- **Asset Commandeering:** You may take control of:
-    - **A vehicle, drone, or system** (e.g., defense turrets, public announcements, power grid).
+- **Asset Commandeering:** You may take immediate control of:
+    - **A vehicle, drone, or system** (e.g., defense turrets, public announcements, power grid) by using Commonwealth backdoor access. Jury Rigged and extra secure systems are not affected, but any public domain or civilian vehicles and systems are.
     - **A secure terminal or node**, allowing you to access private files, redirect funds, unseal classified data, or shut down accounts.
       Use of commandeering must be within a jurisdiction under active Commonwealth influence and may trigger consequences if logged improperly.
 

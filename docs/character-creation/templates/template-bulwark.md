@@ -11,6 +11,8 @@ version: 4
 
 **Role**: Heavy Weapons Support
 
+**Attribute Focus:** Body, Cyber, Reflex, Mind
+
 **Augments:**
 - [[cybernetic-armor|Cybernetic Armor]]
 - [[smart-weapons|Smart Weapons]]

@@ -13,10 +13,10 @@ version: 4
 
 **Augments:**
 - [[psionics|Psychokinetic Amplifier]]
+- [[nano-forge]]
 - [[adrenaline-rush]]
 - [[regeneration]]
 - [[targeting-system]]
-- [[hermes-mobility-suite]]
 - [[cortical-regulator]]
 - [[immortal]]
 

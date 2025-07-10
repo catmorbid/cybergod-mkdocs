@@ -3,18 +3,14 @@ title: Archetypes
 version: 1
 status: new
 ---
-Archetypes are completely optional way of picking your starting Aptitudes and Skills, and get some ideas to start your character with. New players may find these archetypes useful, while experiences players probably just wing it.
+Archetypes are completely optional way of picking your starting Aptitudes and Skills, and get some ideas to start your character with.
 
 Archetype determines the following aspects of your character:
 
-- **Talented Aptitudes:** These are core to your archetype and start at D8. You can choose one or both, but you must also pick same amount of Inept Aptitudes.
+- **Talented Aptitudes:** Two Aptitudes suitable for archetype are listed. These are core to your archetype and start at D8. You can choose one or both, but you must also pick same amount of Inept Aptitudes.
 - **Inept Aptitudes:** Aptitudes where the character is not good at. Pick same number of Inept Aptitudes as you did Talented Aptitudes.
 - **Primary Skills (3):** Core to the archetype’s concept — recommended to train early or focus on. 
 - **Secondary Skills (3):** Support the primary concept or give depth — good for broadening or flavor.
-
-Absolutely! Here's a **markdown-friendly version** of the full archetype list. This format preserves clarity and usability for your docs or handouts:
-
----
 
 ### **Combat Engineer**
 
@@ -50,7 +46,7 @@ Absolutely! Here's a **markdown-friendly version** of the full archetype list. T
 - **Talented:** Adaptive, Resilient
 - **Inept:** Empathic, Creative
 - **Primary Skills:** Stealth, Alertness, Aim
-- **Secondary Skills:** Mobility, Streetwise, Hacking
+- **Secondary Skills:** Mobility, Toughness, Tactics
 
 ### **Crisis Negotiator**
 

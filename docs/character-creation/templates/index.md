@@ -13,14 +13,16 @@ Each character was born at some point into a natural frame. This natural frame i
 A natural Frame has D6 in all Attributes, but if you take one Attribute at D4, you may take one at D8. A faction-provided Natural Frame has a Cybernetic Brain, and can be backed up, but your original frame does not have one, nor can it have - non-enhanced natural frames have high rejection rate to cybernetics, and simply will not work with a Cybernetic Brain.
 
 ## Faction Frame Templates
-Each [[factions/index|Faction]] has its own set of Frame Templates. Characters must choose one of the templates. They can customize the frames to some extent, but there are limitations.
+Each [[factions/index|Faction]] has its own set of Frame Templates. Characters must choose one of the templates. They can customize the frames to some extent, but must pick augments with matching **Tech Tag** (Cybertech, Nanotech, Biotech), and cannot take augments that are restricted to another Faction or Frame.
 
-You can read more about Frame Templates on each template’s page. Use the augment list to pick your upgrades and optionally you can utilize the pre-made **Upgrade Path** table.
+You can read more about Frame Templates on each template’s page. The Frame augment list provides a list of suggested augments to pick and choose from. Optionally you can utilize the pre-made **Upgrade Path** table for quick upgrade.
 
 ### ARC Templates
 - [[template-bulwark]]
 - [[template-ghost]]
 - [[template-hunter]]
+- [[template-warden]]
+- [[template-vanguard]]
 ### Section 12 Templates
 - [[template-operator]]
 - [[template-protector]]

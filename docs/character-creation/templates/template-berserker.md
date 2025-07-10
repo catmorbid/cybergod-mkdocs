@@ -7,9 +7,11 @@ tags:
   - Cybertech
 version: 4
 ---
-**Faction**: [[radical-x]]
+**Faction:** [[radical-x]]
 
-**Role**: Aggressive combat specialist
+**Role:** Aggressive combat specialist
+
+**Attribute Focus:** Body, Reflex, Mind, Cyber
 
 **Augments:**
 - [[adrenaline-rush]]

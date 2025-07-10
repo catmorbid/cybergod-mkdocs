@@ -12,21 +12,23 @@ Favored by heavy weapons specialists, the *TITAN Recoil Compensation System* is 
 
 **System**
 + **Activate:** Spend 1 Energy to activate for 1 round of combat
-+ See Agument Level -specific benefits
++ See Augment Level -specific benefits
 + **Synergy:** Anything that improve ranged combat prowess with full auto weapons or heavy weapons works well with TITAN.
 	+ [[character-creation/gear/index#Weapon Tags|Weapon Tags]]: Full Auto, Double Hits
 	+ Augments: [[smart-weapons|Smart Weapons]], [[targeting-system|Targeting System]]
 
 ### Level 1
+Reinforced spine and and artificial muscle control systems makes the character a steady support platform for high rate of fire weapons.
+
 Helps mitigate recoil when using standard weapons, compensating for weak physical strength.
 
-+ **Recoil Compensation:** Decrease the effective recoil of any weapons by one step.
-+ **Burst Control:** When Body rating exceeds the required Recoil, you gain +2D Bonus with Full Auto weapons, instead of the normal +1D. *Hit Limit* for Full Auto weapons is increased to 6 Hits. This Hit Limit increase stacks with any other Hit Limit modifiers, such as [[smart-weapons|Smart Weapons]].
++ **Recoil Compensation:** Reduce [[weapon-stats-v4#Recoil|Recoil]] by 1.
++ **Burst Control:** Increase number of Hits produced at any range by 1 for the following [[ranged-combat-v4#Effects|Effects:]] Volley, Rapid Volley.
 
 ### Level 2
-The user can wield very large weapons with ease and can manage the added weight better.
+Skeletal and limbic systems redesigned to handle extreme weight and recoil. The user can wield very large weapons with ease and can manage the added weight better.
 
-- **Large Weapons:** Recoil from Super-Heavy weapons is reduced by 1. You can comfortably use **Large** super-heavy weapons.
+- **Large Weapons:** Recoil from [[catalog_weapons#Super-Heavy Weapons|Super-Heavy Weapons]] is reduced by 1. You can comfortably use **Large** super-heavy weapons.
 - **Heavy Load (Passive):** Your Max Load is increased by 4. This is a Passive effect and always active.
 
 ### Level 3
@@ -34,4 +36,4 @@ The user can wield even bigger weapons and carry tons of heavy equipment.
 
 - **Very Large Weapons:** Recoil from Super-Heavy weapons is reduced by total 2 steps. You can comfortably use **Very Large** super-heavy weapons.
 - **Super-Heavy Load (Passive):** Your Max Load is increased by 8 (including the benefit from L2). This is a Passive effect and is always active.
-- **Burst Control Overdrive:** Spend 1 additional Energy to further improve your Burst Control: Gain total +3D with [[character-creation/gear/index#Weapon Tags|Full Auto]] weapons when your Body exceeds Recoil; *Hit Limit* for Full Auto weapons is increased to 8 Hits. This Hit Limit increase stacks with any other Hit Limit modifiers, such as [[smart-weapons|Smart Weapons]].
+- **Burst Control Overdrive:** Spend 1 additional Energy to further improve your Burst Control for 1 round: Increase number of Hits produced at any range by +1 for the following [[ranged-combat-v4#Effects|Effects:]] Burst, Volley, Rapid Volley. Stacks with **Burst Control** at Level 1 and any other similar effects, such as those from [[smart-weapons]] augment.

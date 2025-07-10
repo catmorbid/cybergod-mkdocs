@@ -11,6 +11,8 @@ version: 4
 
 **Role**: Psionic warfare and infiltration
 
+**Attribute Focus:** Mind, Reflex, Body, Cyber
+
 **Augments:**
 - [[psionics|PSI-Cognitive Modulator]]
 - [[face]]

@@ -11,6 +11,8 @@ version: 4
 
 **Role**: Tactical Aerial support and Mobility
 
+**Attribute Focus:** Body, Mind, Cyber, Reflex
+
 **Augments:**
 - [[targeting-system]]
 - [[flight]]
