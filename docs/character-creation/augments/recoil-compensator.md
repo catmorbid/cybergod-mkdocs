@@ -14,7 +14,7 @@ Favored by heavy weapons specialists, the *TITAN Recoil Compensation System* is 
 + **Activate:** Spend 1 Energy to activate for 1 round of combat
 + See Augment Level -specific benefits
 + **Synergy:** Anything that improve ranged combat prowess with full auto weapons or heavy weapons works well with TITAN.
-	+ [[character-creation/gear/index#Weapon Tags|Weapon Tags]]: Full Auto, Double Hits
+	+ High [[weapon-stats-v4#Rate of Fire|Rate of Fire]]
 	+ Augments: [[smart-weapons|Smart Weapons]], [[targeting-system|Targeting System]]
 
 ### Level 1
@@ -23,7 +23,7 @@ Reinforced spine and and artificial muscle control systems makes the character a
 Helps mitigate recoil when using standard weapons, compensating for weak physical strength.
 
 + **Recoil Compensation:** Reduce [[weapon-stats-v4#Recoil|Recoil]] by 1.
-+ **Burst Control:** Increase number of Hits produced at any range by 1 for the following [[ranged-combat-v4#Effects|Effects:]] Volley, Rapid Volley.
++ **Burst Control:** Roll an additional CTRL Die when firing on full auto.
 
 ### Level 2
 Skeletal and limbic systems redesigned to handle extreme weight and recoil. The user can wield very large weapons with ease and can manage the added weight better.

@@ -58,9 +58,20 @@ Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one ra
 
 ### Rate of Fire
 
-*Rate of Fire* (ROF) determines how rapidly you can fire a weapon, describe on a verbal scale. 
-- Higher ROF can produce more Hits, by unlocking new **Effects**
-- Higher ROF will consume more ammo
+*Rate of Fire* (ROF) determines how rapidly you can fire a weapon, described on a verbal scale. 
+- Higher ROF can produce more Hits, by unlocking new **Effects**, or increasing maximum **Stack** for hit effects.
+- Higher ROF will consume more ammo, but will also add Weapon’s **CTRL** die without aim action.
+- Higher ROF will have higher **Recoil**.
+
+| ROF         | Hit Effect (max)                                   | Hits | Miss         | Ammo | Utility Dice | RCL |
+| ----------- | -------------------------------------------------- | ---- | ------------ | ---- | ------------ | --- |
+| [S] Single  | Single Hit (1)<br>Aimed Hit (1)                    | 1    | -            | None | With **Aim** | -2  |
+| [E] Semi    | Single Hit (4)<br>Aimed Hit (2)<br>Suppression (1) | 1-4  | 1 Collateral | 1    | With **Aim** | -1  |
+| [B] Burst   | Double Hit (2)<br>Suppression(1)                   | 2-4  | 1 Collateral | 1    | **1 CTRL**   | +0  |
+| [A] Auto    | Double Hit (3)<br>Suppression (2)                  | 2-6  | 2 Collateral | 2    | **1 CTRL**   | +1  |
+| [R] Rapid   | Triple Hit (2)<br>Suppression (2)                  | 3-6  | 3 Collateral | 2    | **2 CTRL**   | +2  |
+| [M] Massive | Triple Hit (3)<br>Suppression (3)                  | 3-9  | 4 Collateral | 3    | **2 CTRL**   | +3  |
+| [X] Extreme | Triple Hit (4)<br>Suppression (4)                  | 3-12 | 5 Collateral | 3    | **3 CTRL**   | +4  |
 
 A weapon can have one or more ROF modes listed, and you must choose which mode to use before engaging your target. Each ROF mode is abbreviated with a single letter, which can be joined to short *string* of text.
 
@@ -74,67 +85,84 @@ Chosen rate of Fire mode determines the following:
 - **Miss:** What happens if you fail the attack, missing the target completely, unable to produce any hits? Automatic weapons result in collateral hits.
 - **Ammo Usage:** How much ammo is spent on an attack, regardless of how well you did.
 - **Utility Dice:** Determines if any utility dice are added to attack test dice pool.
+- **Recoil:** A modifier to weapon’s base Recoil
 
-| ROF        | Hit Effect (max)                                          | Hits | Miss         | Ammo Usage | Utility Dice                         |
-| ---------- | --------------------------------------------------------- | ---- | ------------ | ---------- | ------------------------------------ |
-| [S] Single | Single Hit (1)<br>Aimed Hit (1)                           | 1    | -            | None       | None, unless **Aim** action is taken |
-| [E] Semi   | Single Hit (5)<br>Aimed Hit (3)<br>Suppression (1)        | 1-5  | Collateral 1 | 1          | None, unless **Aim** action is taken |
-| [B] Burst  | Single Hit (1)<br>Burst Hit (2)<br>Suppression(1)         | 1-6  | Collateral 1 | 1          | Yes, 1 **CTRL** die                  |
-| [A] Auto   | Single Hit (1)<br>Volley Hit (2)<br>Suppression (2)       | 1-8  | Collateral 2 | 2          | Yes, 2 **CTRL** dice                 |
-| [R] Rapid  | Single Hit (1)<br>Rapid Volley Hit (2)<br>Suppression (4) | 1-10 | Collateral 3 | 3          | Yes, 3 **CTRL** dice                 |
 #### Single
 - **Code:** `S`
 - **Effects:** Single Hit (1), Aimed Hit (1)
-- **Recoil:** Half
+- **Miss:** No effect
+- **Recoil:** -2
 - **Ammo Usage:** None
 
-Fire single shots. Hits are limited to one. Does not use any ammo, unless weapon capacity is **Limited**. If you take **Aim** action, you can add weapon **CTRL** dice as Utility Dice to the attack.
+Fire single shots. Hits are limited to one. Does not use any ammo, unless weapon has [[#Limited Capacity]]. If you take **Aim** action, you can add weapon **CTRL** dice as Utility Dice to the attack.
 
 #### Semi
 - **Code:** `E`
-- **Effects:** Single Hit (5), Aimed Hit (3)
-- **Recoil:** Half
+- **Effects:** Single Hit (4), Aimed Hit (2), Suppression (1)
+- **Miss:** 1 Collateral Hit
+- **Recoil:** -1
 - **Ammo Usage:** 1
 
 Fire several consecutive shots, not quite as fast as full auto weapons, but fast enough to inflict several hits. You can even land a few more Aimed Hits, but not quite as many as when simply aiming for center of mass. If you take **Aim** action before attack, you add **CTRL** dice as Utility Dice.
 
+Weapons with [[#Limited Capacity]] can be semi-automatic, but you need to choose *before attacking* how many shots to spend, between 1 and 4, limiting the max number of Hits you can obtain.
+
 #### Burst
 - **Code:** `B`
-- **Effects:** Single Hit (1), Burst Hit (1), Suppression (1)
-- **Recoil:** Full
+- **Effects:** Double Hit (2), Suppression (1)
+- **Miss:** 1 Collateral Hit
+- **Recoil:** +0
 - **Ammo Usage:** 1
 
-Fire a short automatic burst, improving chance of landing a hit. Apply **CTRL** as Utility Dice.
+Fire a short automatic burst, improving chance of landing a hit, but usually wasting at least one shot. Apply **CTRL** as Utility Dice.
 
 #### Auto
 - **Code:** `A`
-- **Effects:** Single Hit (1), Volley Hit (2), Suppression (2)
-- **Recoil:** Full
+- **Effects:** Double Hit (3), Suppression (2)
+- **Miss:** 2 Collateral Hits
+- **Recoil:** +1
 - **Ammo Usage:** 2
 
-Fire a long fully automatic burst. Consumes a lot of ammo, but when properly utilized can be extremely effective. Apply **2 CTRL Dice** as Utility Dice.
+Fire a long fully automatic burst. Very good at suppression and sustained fire. Consumes a lot of ammo, and misses most shots, but when properly utilized can be extremely effective. Apply **CTRL** as Utility Dice.
 
 #### Rapid
+- **Code:** `R`
+- **Effects:** Triple Hit (2), Suppression (2)
+- **Miss:** 3 Collateral Hits
+- **Recoil:** +2
+- **Ammo Usage:** 2
 
-- **Code:** `E`
-- **Effects:** Single Hit (1), Rapid Volley Hit (2), Suppression (4)
-- **Recoil:** Full
+High rate of fire and high ammo consumption. Rapid fire weapons can be devastating due to sheer volume of shots fired, but they are harder to control. Apply **2 CTRL Dice** as Utility Dice.
+#### Massive
+- **Code:** `M`
+- **Effects:** Triple Hit (3), Suppression (3)
+- **Miss:** 4 Collateral Hits
+- **Recoil:** +3
 - **Ammo Usage:** 3
 
-Fire a long fully automatic burst with extremely high rate of fire. Extremely high ammo consumption, but can be devastating due to sheer volume of shots fired. Apply **3 CTRL Dice** as Utility Dice.
+Massive Rate of Fire rate of fire, usually attributed to multi-barrel weapon platforms or weapons with exceptional and inventive feed systems. Apply **3 CTRL Dice** as Utility Dice.
+
+#### Extreme
+- **Code:** `X`
+- **Effects:** Triple Hit (4), Suppression (4)
+- **Miss:** 5 Collateral Hits
+- **Recoil:** +4
+- **Ammo Usage:** 3
+
+Highest practical rate of fire, usually found in heavy weapons bolted to a support platform with multiple rotary barrels and an electric feed mechanism. They fire at incredibly high rate of fire with extremely high ammo consumption and immense recoil. Apply **3 CTRL Dice** as Utility Dice.
+
 ### Recoil
 
 Recoil is measured with a number, generally between 0 and 5. Recoil describes how much a weapon kicks when fired. High recoil can throw the character out of balance and makes controlling the weapon more difficult, which is especially important with automatic weapons.
 
 **System**
-*Recoil* is applied as a [[skill-test-v2#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]]. Cost depends on active [[#Rate of Fire]]:
+*Recoil* is applied as a [[skill-test-v2#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]]. Cost is modified by active [[#Rate of Fire]].
 
-- **Burst, Auto or Rapid:** cost is full *Recoil*
-- **Single and Semi:**  cost is **half** *Recoil*
+> E.g. Assault Rifle has ROF `SEA` and RCL 2. Firing on semi-auto mode is RCL 1 while Full auto is RCL 3
 
 If you fail to overcome Recoil, you are thrown out of balance and will *lose your next Action or Reaction*, when trying to recover your balance.
 
-*Recoil* is modified by [[attributes#Body|Body attribute]], and other modifications (such as those from *Augments*). If Recoil is dropped to zero or less, you can make the attack test without the added complication.
+*Recoil* is modified by [[attributes#Body|Body attribute]], and other modifications (such as those from [[recoil-compensator|Augments]]). If Recoil is dropped to zero or less, you can make the attack test without the added complication.
 
 | Body D4    | Body D6    | Body D8   | Body D10  | Body D12  |
 | ---------- | ---------- | --------- | --------- | --------- |

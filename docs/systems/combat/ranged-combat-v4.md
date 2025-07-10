@@ -67,13 +67,12 @@ All attacks can score a **Single Hit** (1 stack), but the availability of other 
 #### Basic Hits
 Available basic hits and their maximum stacks depends on the weapon’s [[weapon_rules#Rate of Fire|ROF]].
 
-| Effect           | Cost | Description                                                                                                                                                                                                      |
-| ---------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Single Hit       | 3    | Inflict 1 hit aimed at the general center of mass of the target.                                                                                                                                                 |
-| Burst Hit        | 2    | 3 hits at Optimal Range; or 2 Hit plus 1 Collateral Hit at up to Maximum Range to a single target.                                                                                                               |
-| Volley Hit       | 2    | 4 hits at Optimal Range; or 2 Hits and 1 Collateral Hit at up to Maximum range. **Multiple targets**.                                                                                                            |
-| Rapid Volley Hit | 3    | 5 hits and 1 Collateral Hit at Optimal Range; or 3 hits and 2 Collateral Hits at up to Maximum range. **Multiple targets**.                                                                                      |
-| Suppression      | 2    | Designate a [[threat-zone\|Threat Zone]] where everyone within is at risk of taking a Hit, if they take any other actions than stick to cover. If Suppression is stacked, the number of Hits taken is increased. |
+| Effect      | Cost | Description                                                                                                                                                                                                      |
+| ----------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Single Hit  | 1    | Inflict 1 hit aimed at the general center of mass of the target.                                                                                                                                                 |
+| Double Hit  | 1    | 2 hits at Optimal Range; or 1 Hit and 1 Collateral Hit at up to Maximum range. **Multiple targets**.                                                                                                             |
+| Triple Hit  | 1    | 3 hits at Optimal Range; or 1 hit and 2 Collateral Hits at up to Maximum range. **Multiple targets**.                                                                                                            |
+| Suppression | 2    | Designate a [[threat-zone\|Threat Zone]] where everyone within is at risk of taking a Hit, if they take any other actions than stick to cover. If Suppression is stacked, the number of Hits taken is increased. |
 
 #### Aimed Hits
 

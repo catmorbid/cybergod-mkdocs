@@ -22,7 +22,8 @@ Any Personal Weapons are automatically modified to be compatible, but random wea
 - **Fire Support Synergy:** Smart Weapons can attack any targets marked by a networked, linked ally, even when they are out of line of sight, without additional penalties. They can fire in a ballistic trajectory with any SMART capable weapon, but normal hit penalties still apply and this *does **not*** ignore Cover.
 ### Level 1
 - **Guided Projectiles 1:** Apply **D12 Utility** to attack test. All hits must focus on 1 target.
-- **Trigger Control**: Don’t waste ammo. Ammo usage is reduced by 1 but cannot be reduced below 1
+- **Hit Stack:** Increase max stack for Hit Effects by 1 for all [[weapon-stats-v4#Rate of Fire|ROF modes]] except **Single**.
+- **Trigger Control**: Don’t waste ammo. Ammo usage is reduced by 1.
 - **Telemetry:** Projectiles provide detailed telemetry data up to 2km
 
 ### Level 2
@@ -35,7 +36,7 @@ Any Personal Weapons are automatically modified to be compatible, but random wea
 ### Level 3
 - **Guided Projectiles 3:** Apply **3D12 Utility** to attack test.
 - **Multi Targets 2:** You can attack up to 5 targets with Smart Weapons
-- **Aimed Smart Hits:** You can *upgrade* any **Hit Effect** (including Volley and Rapid Volley) to an aimed hit. The cost is the normal cost of the Aimed Hit effect, in addition to base hit effect cost.
+- **Aimed Smart Hits:** You can *upgrade* any **Basic Hit Effect** to an aimed hit. The cost is the normal cost of the Aimed Hit effect, in addition to base hit effect cost.
 	- E.g. 
 - **Drone Bullet:** You can control up to 3 bullets or projectiles within a range of 10km, operating them with `Pilot + Cyber` test. The bullets still depends on initial muzzle velocity, but you have extremely fine control over where they land.
 - **Guaranteed Multi-Hit**: Costs additional 1 Energy. Alternate mode of attack. You don’t need to roll any dice, instead you automatically gain any one **Hit Effect** and distribute the Hits between *any* *eligible* targets within the weapon’s Effective Range.

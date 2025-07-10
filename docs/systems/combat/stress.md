@@ -11,13 +11,13 @@ Stress is generally measured on a scale of 1 to 5, but it does not have an upper
 
 #### Combat & Violence Stress table
 
-|Stress|Description|Example Situation|
-|---|---|---|
-|1|**Minor**|Taking a grazing shot; seeing a teammate wounded; being ordered to draw on someone who hasn’t made a move yet; hearing the calm tone of someone casually executing a prisoner over comms.|
-|2|**Moderate**|Being flanked with no cover; watching someone bleed out slowly; firing into a crowd to protect your team; discovering your bullets hit someone they shouldn’t have; realizing your target was just a terrified teenager.|
-|3|**Major**|Killing someone up close and seeing their face twist in confusion; receiving a direct order to finish off survivors; dragging the remains of a teammate into extraction while under fire; shooting someone who was begging not to die.|
-|4|**Severe**|Surviving an explosion only to realize you’re covered in your ally’s remains; being the only one left alive after a lost engagement; hearing an enemy beg for mercy in a voice that sounds like your own; carrying out a clean execution and realizing you felt nothing.|
-|5|**Extreme**|Accidentally killing a civilian and having no one acknowledge it; being ordered to silence a witness and obeying; watching your team wipe out a group that had already surrendered — and being told it was “classified necessity.”|
+| Stress | Description  | Example Situation                                                                                                                                                                                                                                                        |
+| ------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1      | **Minor**    | Taking a grazing shot; seeing a teammate wounded; being ordered to draw on someone who hasn’t made a move yet; hearing the calm tone of someone casually executing a prisoner over comms.                                                                                |
+| 2      | **Moderate** | Being flanked with no cover; watching someone bleed out slowly; firing into a crowd to protect your team; discovering your bullets hit someone they shouldn’t have; realizing your target was just a terrified teenager.                                                 |
+| 3      | **Major**    | Killing someone up close and seeing their face twist in confusion; receiving a direct order to finish off survivors; dragging the remains of a teammate into extraction while under fire; shooting someone who was begging not to die.                                   |
+| 4      | **Severe**   | Surviving an explosion only to realize you’re covered in your ally’s remains; being the only one left alive after a lost engagement; hearing an enemy beg for mercy in a voice that sounds like your own; carrying out a clean execution and realizing you felt nothing. |
+| 5      | **Extreme**  | Accidentally killing a civilian and having no one acknowledge it; being ordered to silence a witness and obeying; watching your team wipe out a group that had already surrendered — and being told it was “classified necessity.”                                       |
 
 #### Social Stress table
 
