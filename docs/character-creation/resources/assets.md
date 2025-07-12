@@ -14,4 +14,4 @@ Spending any Assets for personal equipment will permanently reduce your Asset po
 #### Personal Assets
 A Personal Asset is a specific piece of equipment, item or contact that can be utilized during play. Personal Assets are measured with a Die rating from D4 to D12. All Personal Assets start out at D4, but each additional Asset Point spent increases its rating up to D12.
 
-Personal Assets are unique, specialized tools and equipment, as thus they have limited use. You can only use each personal asset **once** per game session. When used, the asset adds an [[skill-test-v2#Dice pool|Augment Die]] to a skill test.
+Personal Assets are unique, specialized tools and equipment, as thus they have limited use. You can only use each personal asset **once** per game session. When used, the asset adds an [[skill-test-v4#Dice pool|Augment Die]] to a skill test.
