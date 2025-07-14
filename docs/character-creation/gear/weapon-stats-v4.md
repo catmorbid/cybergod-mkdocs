@@ -28,7 +28,7 @@ Noted with the syntax `L[X]` – e.g. `L4` = *4 shots*.
 Capacity can be *limited* to a small fixed amount of shots, between 1 and 6. Limited Capacity weapons cannot have any other [[#Rate of Fire]] than [[#Single]], and each attack consumes 1 ammo. Ammo Checks are not made, since number of shots is easy to track.
 
 ### Control
-Control `(CTRL)` determines how accurate and easy to handle the weapon is. **CTRL** is rated between D4 and D12 and every weapon has a **CTRL** rating. **CTRL** may be applied as [[skill-test-v2#Dice pool|Utility Dice]] on an attack.
+Control `(CTRL)` determines how accurate and easy to handle the weapon is. **CTRL** is rated between D4 and D12 and every weapon has a **CTRL** rating. **CTRL** may be applied as [[skill-test-v4#Dice pool|Utility Dice]] on an attack.
 - **Ranged Weapons:** the active [[#Rate of Fire]] determines if **CTRL** can be applied or not.
 - [[#Melee Weapons]]: always use **CTRL** die. 
 ### Damage Class
@@ -156,7 +156,7 @@ Highest practical rate of fire, usually found in heavy weapons bolted to a suppo
 Recoil is measured with a number, generally between 0 and 5. Recoil describes how much a weapon kicks when fired. High recoil can throw the character out of balance and makes controlling the weapon more difficult, which is especially important with automatic weapons.
 
 **System**
-*Recoil* is applied as a [[skill-test-v2#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]]. Cost is modified by active [[#Rate of Fire]].
+*Recoil* is applied as a [[skill-test-v4#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]]. Cost is modified by active [[#Rate of Fire]].
 
 > E.g. Assault Rifle has ROF `SEA` and RCL 2. Firing on semi-auto mode is RCL 1 while Full auto is RCL 3
 
