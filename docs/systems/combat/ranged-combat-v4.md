@@ -13,35 +13,35 @@ Test `Aim + Combat` plus Attribute depending on type of weapon
 - `Mind:` Single shot powerful rifles and support weapons like rocket launchers.
 - `Cyber:` Attacks utilizing augments, such as **Targeting System** or remote-operating neural-controlled attack drones
 
-Consider the following [[skill-test-v4#Complications|Complications]] that could make a ranged attack more difficult. A suitable *consequence* for these complications is to simply *miss* the attack, or hit a [[collateral-damage|Collateral target]] instead. Each of the complications can be worth 1-3 EP.
+Consider the following circumstancial [[penalties]]:
 
-- **Target Range:** Cost `1 EP` for each step less or more than Optimal Range
-- **Target Velocity:** Cost `1+ EP`. Objects moving at high [[structure#Velocity|Velocity]] make for more difficult targets. Add the difference in attacker’s and target’s relative velocity, if they are moving faster. Cyborgs may have [[hermes-mobility-suite|augments]] that increase their *Velocity* scale.
-- **Target Evasion:** Cost `1+ EP`. [[mobility-evasion|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit.
-- **Low visibility:** Cost `1-3 EP`.Darkness, fog, rain, clutter and generally anything that can obscure vision, makes it more difficult to spot the *correct* target or track them. Such hindrances can be ignored by suitable augments or gadgets.
-- **Cover:** Cost `1-5 EP`. Target is protected by some kind of blocking cover. You need to time your attack to hit them or attempt to find a gap or a weak spot to bypass. Failing this complication means cover is hit instead of target. A human shield can act as a cover, unfortunately for them.
+- **Target Range:** Add **-1 penalty** for each step less or more than Optimal Range
+- **Target Velocity:** Apply **-1 penalty** or worse. Objects moving at high [[structure#Velocity|Velocity]] make for more difficult targets. Add the difference in attacker’s and target’s relative velocity, if they are moving faster. Cyborgs may have [[hermes-mobility-suite|augments]] that increase their *Velocity* scale.
+- **Target Evasion:** Apply target’s current [[stats#Evasion|Evasion]] as **penalty**. [[mobility-evasion|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit.
+- **Low visibility:** Apply **-1 to -3 penalty**. Darkness, fog, rain, clutter and generally anything that can obscure vision, makes it more difficult to spot the *correct* target or track them. Such hindrances can be ignored by suitable augments or gadgets.
+- **Cover:** Cost **-1 to -5 penalty**. Target is protected by some kind of blocking cover. You need to time your attack to hit them or attempt to find a gap or a weak spot to bypass. Attacks that miss due to cover will hit the cover instead.
 
-In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add a complication to the test.
+In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add another complication to the test.
 
 !!! example "Ranged Combat Example"
 	 Cyber Joe is tracking a slippery Syndicate assassin on the maze-like streets of ground-level slums. He catches the criminal below an overpass, just as they’re about the disappear into the side alleys of a busy market street. Joe has a brief opportunity and attempts to take a shot.
 	 
 	 Joe declares he wants to **Aim** and then **Shoot**, using his full turn. GM allows the aim action. There’s not much time, but it only takes a few seconds for a decent aim. This will however be Joe’s only attempt. Not taking the Aim Action Joe could possibly try twice, but Joe decides he wants to go all-in on this.
 	 
-	 GM considers for a moment and assigns the test the following complications:
+	 GM considers for a moment and assigns the test the following modifiers:
 	
-	   - **Target Range (1):** Target is at long range while Joe’s weapon is optimal at Moderate range
-	   - **Target Evasion (3):** Target is moving erratically and very skillfully; they definitely don’t want to get hit.
-	   - **Low Visibility (2):** It is dark, and there is fog and rain obscuring vision.
-	   - **Bystanders (1):** It’s a busy street, there is a high chance to miss the target and hit an innocent bystander instead.
+	   - **Target Range (-1):** Target is at long range while Joe’s weapon is optimal at Moderate range
+	   - **Target Evasion (-3):** Target is moving erratically and very skillfully; they definitely don’t want to get hit.
+	   - **Low Visibility (-2):** It is dark, and there is fog and rain obscuring vision.
+	   - **Complication 'Bystanders 1':** It’s a busy street, there is a high chance to miss the target and hit an innocent bystander instead.
      
-		 The **Bystanders 1* complication is optional, while the rest, worth 6 EP are mandatory, resulting in failed attack unless overcome. It’s not looking good, but luckily Joe has some aces up his sleave.
+		 The **Bystanders 1* complication is optional, while the rest accumulate a total of -6 penalty to the test. It’s not looking good, but luckily Joe has some aces up his sleave.
 	
 	Joe activates **Sensor Augment** and **Targeting System** to help with the difficulty. He marks 2 energy usage and rolls 2d8 usage check → 4, 7 and passes (any 1-2 would have resulted in failure, resulting in risk of overload).
 	- **Sensor Augment**: At Level 1 the augment provides Low-Light Vision, which negates the 1 point penalty due to darkness, but does not negate vision obscurement due to rain and fog and visual clutter.
 	- **Targeting System**: At Level 2 he can reduce the target’s Evasion by 2 points, and gets a free re-roll on attack test and reduces cost of **Aimed Hit** effects by one. He can also make Trick Shots, but that is not of any use in this situation.
 	  
-	  In total with augments Joe reduces the complications to **Difficult 3** and **Collateral 1**, for total 4 complication points. Joe needs to overcome the difficult complication to succeed, while Collateral is optional, although it may have severe repercussions.
+	  In total with augments Joe reduces the penalties to -3, but also has the 'Bystanders 1' complication to overcome.
 	     
 	 Joe’s semi-automatic weapon normally uses **Reflex**, but his active **Targeting System** requires using **Cyber** instead. Due to the **Aim Action**, he adds the weapon’s **CTRL** die.
 	 
@@ -50,9 +50,9 @@ In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add a comp
 	- Using the Targeting System’s Reroll, he rolls the three lower dice again (5, 5, 3): new results are 8, 6, 4
 	 - **Final successes:** 9, 8, 6, 4 → **6 total successes** (2 double successes, 2 successes).
 	 
-	 Joe clears all complications, leaving **2 Effect Points** available.
+	 After penalties, Joe has 3 **Effect Points**, enough to overcome the 'Bystanders 1' complication, leaving **2 Effect Points** available.
 	  
-	 He chooses one **Aimed Hit, Cripple** effect, each reduced by Targeting System from 3 EP to 2 EP – Joe wants the assassin alive.
+	 He chooses one **Aimed Hit, Cripple** effect, reduced by Targeting System from 3 EP to 2 EP – Joe wants the assassin alive.
 	    
 	 Joe’s sidearm (**DC 6**, **AP 1**) vs. target’s armor (**AC 4**) results in modified **DC 3** hits. The target’s damage thresholds (Body D8): Harm 4, Trauma 8, Fatal 16.
 	    
@@ -68,8 +68,8 @@ Available basic hits and their maximum stacks depends on the weapon’s [[weapon
 | Effect       | Cost | Description                                                                                                                                                                                                      |
 | ------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Single Hit   | 2    | 1 Hit                                                                                                                                                                                                            |
-| Double Hit   | 2    | 2 hits                                                                                                                                                                                                           |
-| Triple Hit   | 2    | 3 hits                                                                                                                                                                                                           |
+| Auto Hit     | 1    | 1 Hit                                                                                                                                                                                                            |
+| Rapid Hit    | 1    | 2 Hits                                                                                                                                                                                                           |
 | Extra Target | 1    | Add an extra target. You can distribute any Hits freely between targets.                                                                                                                                         |
 | Suppression  | 2    | Designate a [[threat-zone\|Threat Zone]] where everyone within is at risk of taking a Hit, if they take any other actions than stick to cover. If Suppression is stacked, the number of Hits taken is increased. |
 
