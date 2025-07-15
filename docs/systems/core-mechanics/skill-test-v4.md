@@ -19,8 +19,8 @@ Skill Tests are the most common type of test you need to do. The syntax for a Sk
 For example: *”Test `Moderate(2) Investigation + Mind` to find clues on the crime scene.”*
 
 This test tells you the most important components you need for the test:
-- [[#Test Dice]]: Which dice should you roll (Investigation skill, linked with Analytical Aptitude, and Mind attribute)
-- [[#Effects|Effect Cost]]: How many *Effect Points* you need to succeed, indicating how difficult a test is. (2 effect points required to succeed).
+- [[#Test Dice]]: Which dice should you roll
+- [[#Effects|Effect Cost]]: How many *Effect Points* you need to succeed, indicating how difficult a test is.
 
 If Effect cost is missing, there is probably a list of possible effects to choose from.
  
@@ -36,7 +36,7 @@ Simply roll all dice that are relevant for a skill test, and then count **Effect
 | --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | 3 or less | 0             | Check these first and put them aside before tallying rest of successes. If you have any re-rolls, start from these dice. |
 | 4+        | 1             | Each die can produce 1 EP.                                                                                               |
-| 8+        | 2             | D8, D10 and D12 can produce 2 EP. Check for these after d12.                                                             |
+| 8+        | 2             | D8, D10 and D12 can produce 2 EP. Check for these after D12.                                                             |
 | 12+       | 3             | Only d12 can produce 3 EP. Check for these first!                                                                        |
 
 
@@ -98,7 +98,7 @@ Most other complications may be voluntary, in the sense that not overcoming them
 ### Effects
 Effects determine the outcome of your test. GM will tell you how many *Effect Points* you need for a particular effect. If you don't have enough, you don't succeed. GM may give the option to buy a lesser, weaker effect instead.
 
-Certain systems, such as [[systems/combat/index|Combat System]] or [[systems/cyber-warfare/index|Cyber Warfare]] already provide a list of Effects you can take, but for any other situation, consult the GM. The Effect cost essentially defines how easy or hard it is to achieve such an Effect.
+Certain systems, such as [[systems/combat/index|Combat System]] or [[systems/cyber-warfare/index|Cyber Warfare]] already provide a list of Effects you can take, but for any other situation, consult the GM. The Effect cost essentially defines the *Difficulty* of the test.
 
 | Cost | Difficulty | 3D4 | 3D6 | 3D8 | 3D10 | 3D12 |
 | ---- | ---------- | --- | --- | --- | ---- | ---- |
@@ -107,6 +107,9 @@ Certain systems, such as [[systems/combat/index|Combat System]] or [[systems/cyb
 | 3    | Hard       | 2%  | 13% | 40% | 64%  | 78%  |
 | 4    | Very Hard  | -   | -   | 14% | 36%  | 56%  |
 | 5    | Extreme    | -   | -   | 3%  | 14%  | 32%  |
+
+!!! example
+	Mick is looking for information on a Syndicate junior lieutenant to get tips on their current location and is scouring through the Cyberweb. GM declares the Mick needs 3 Effect Points to find out what he’s looking for and calls for a `Networking + Cyber` test.
 
 #### Multiple Effects
 As a rule of thumb, you can take multiple effects, as long as they affect different aspects of the outcome. Certain rule systems may defined stricter limits on effects, so you should follow those rules.
@@ -133,21 +136,16 @@ In addition to determining the cost of the desired Effect (which may be already 
 
 ### Complications
 
-A complication is noted as `Complication X`, where X is the cost of complication e.g. *Fail 2*, indicating a *Fail* complication with cost of 2.
-
-- GM sets complications
-- Complication has a **cost** and **consequence**:
-	- *Cost* determines how many Effect Points are required to *overcome* the complication
-	- *Consequence* determines what happens when complication is *not* overcome
-- When overcome, nothing happens
-
-[[complication-fail]]
-
-### Opposed Test
-Opposed Tests mean that two characters, e.g. PC and NPC both roll their dice competing against one another. They may test the same skill or different skills (opposing skills), depending on circumstance. Whoever rolls most successes wins, but their opponent’s successes are subtracted, acting much like *Difficult Complication*.
+Complications represent various contextual problems or difficulty modifiers. A complication is noted as `Complication X`, where X is the cost of complication. Complications must be *overcome* by spending enough *Effect Points*, or the consequences implied will come to play.
 
 !!! Example
-	Kris is leading the team making entry into the Syndicate warehouse. The team is going for a stealth approach, following a plan Kris formulated earlier. GM allows a *Callback* and calls Kris to test `Stealth + Mind` – but this is an opposed test against the Syndicate warehouse security chief in charge of handling the security. Kris rolls `D10+2d8` → 8, 7, 5 → 4 successes. The Syndicate security chief rolls `4d8` → 7, 4, 5, 2 → 3 successes. Kris beats the opponent and the team enters the facility following Kris’ meticulously formulated infiltration plan. GM awards the team a D6 augment die to any future tests related to Kris’ plan.
+	Joe received a [[trauma]] when apprehending a suspect. He’s got [[damage-pain|Pain Level 2]], which adds a [[complication-fail|Fail 2]] Complication to any physical and mental tests. GM calls for an Easy(1) Alertness+Mind test, but Joe must also overcome the complication from his trauma and needs a total of 3 Effect Points to succeed. **Note:** GM could have called for a Hard test, bypassing the complication entirely. But if other players are involved, they would each apply their own complications due to whatever status conditions they have, so it makes sense to establish the base difficulty, and only then add everyone’s personal complications.
+
+### Opposed Test
+Opposed Tests mean that two characters, e.g. PC and NPC both roll their dice competing against one another. They may test the same skill or different skills (opposing skills), depending on circumstance. Highest number of Effect Points win: Net Effect Point is the difference between the highest and the lowest total.
+
+!!! Example
+	Kris is leading the team making entry into the Syndicate warehouse. The team is going for a stealth approach, following a plan Kris formulated earlier. GM allows a *Callback* and calls Kris to test `Stealth + Mind` – but this is an opposed test against the Syndicate warehouse security chief in charge of handling the security. Kris rolls `D10+2d8` → 8, 7, 5 → 4 Effect Points. The Syndicate security chief rolls `4d8` → 7, 4, 5, 2 → 3 EP. Kris beats the opponent and the team enters the facility following Kris’ meticulously formulated infiltration plan. GM awards the team a D6 augment die to any future tests related to Kris’ plan.
 
 ### Stalemates
 If you overcome difficulty, but do not generate any Effect Points thereafter, or match your opponent’s successes, then the test is effectively a *stalemate*. You neither succeed, nor you lose. What happens next, is up to the GM to decide, but here are a few options:
