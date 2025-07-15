@@ -1,6 +1,6 @@
 ### Complications
 
-A complication is noted as `Complication X`, where X is the cost of complication e.g. *Fail 2*, indicating a *Fail* complication with cost of 2.
+A complication depicts a usually troublesome consequences in near or immediate future. To overcome a complication you must spend Effects Points to *overcome* it. Complications are noted as `Complication X`, where X is the cost of complication.
 
 - GM sets complications
 - Complication has a **cost** and **consequence**:

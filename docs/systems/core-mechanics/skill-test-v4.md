@@ -39,7 +39,6 @@ Simply roll all dice that are relevant for a skill test, and then count **Effect
 | 8+        | 2             | D8, D10 and D12 can produce 2 EP. Check for these after d12.                                                             |
 | 12+       | 3             | Only d12 can produce 3 EP. Check for these first!                                                                        |
 
-
 ### Dice Face Probability
 
 On the following table you’ll find probabilities for rolling a result exactly, as well as the expected Effect Points (mean value) generated per die. Dice Pool probabilities may be difficult to calculate, but this small table may be very helpful with this.
@@ -126,15 +125,15 @@ Some rules may modify the die size. This can be indicated e.g. by stating *Body 
 
 ## Challenge
 
-In addition to determining the cost of the desired Effect (which may be already determined if using an existing system), there’s two ways to set up the challenge for a test:
+In addition to determining the cost of the the player’s desired Effect, there are three ways to set up the challenge for a test:
 
-- Assign [[complications]]
-- Assign [[penalties|Penalties]]
-- Make an [[opposed-test|Opposed Test]]
+- Assign [[complications|Complications]] – optional narrative consequences to *overcome*.
+- Assign [[penalties|Penalties]] – difficulty modifiers due to various [[systems/conditions/index|Conditions]] or circumstances.
+- Make an [[opposed-test|Opposed Test]] – test a character’s skills against another character, such as an NPC.
 
-### Stalemates
-If you overcome difficulty, but do not generate any Effect Points thereafter, or match your opponent’s successes, then the test is effectively a *stalemate*. You neither succeed, nor you lose. What happens next, is up to the GM to decide, but here are a few options:
+## Handling Failure
+A test can fail in many ways: Not scoring enough Effect Points or choosing to overcome complications, but failing the test; or ending up in a stalemate in an [[opposed-test|Opposed Test]]. GM can present players various options, depending on circumstance. Sometimes it’s good to just accept the failure and think of something else.
 
-- Try again. Perhaps with some sort of penalty for stressing you out.
-- Settle on a status quo – maybe it’s time to compromise?
-- Sacrifice something – make a personal sacrifice in order to get ahead and win with just single Effect Point. E.g. an equipment can break or maybe you burn a bridge with a (former) ally to get what you want.
+- **Try again:** Perhaps with some sort of [[penalties|Penalty]] for stressing you out.
+- **Fail Forward:** Failure opens another route – perhaps not the optimal route, but a route forward regardless.
+- **Sacrifice something:** make a personal sacrifice in order to get ahead and win with just single Effect Point. E.g. an equipment can break or maybe you burn a bridge with a (former) ally to get what you want.
