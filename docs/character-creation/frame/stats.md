@@ -3,46 +3,52 @@ title: Derived Stats
 version: 4
 ---
 
-Stats are miscellaneous statistics, often derived from Attributes.
+Stats are miscellaneous statistics, often derived from [[Attributes]].
 
+### Cyber Defense
+[[attributes#Cyber|Cyber]]
+
+**Cyber Defense** determines base defense against [[systems/cyber-warfare/index]]. Apply Cyber Defense as complication against virus attacks or cyberjacking. Unless overcome, the attack is repelled, *and* the target is immediately notified.
 ### Damage Threshold
-[[#Body]]
+[[attributes#Body|Body]]
 
 Damage Thresholds determine how easily are severely hurt in combat. There are a total of four different Damage Thresholds and they’re all based on [[#Body]] attribute. Use of Damage Thresholds is explained in [[damage-system-v4#Taking Damage|Taking Damage]] section of [[systems/combat/index|Combat System]].
 
 | Threshold / Body | D4  | D6  | D8  | D10 | D12 |
 | ---------------- | --- | --- | --- | --- | --- |
-| Harm             | 2   | 3   | 4   | 5   | 6   |
-| Trauma           | 4   | 6   | 8   | 10  | 12  |
-| Fatal            | 8   | 12  | 16  | 20  | 24  |
-| Overkill         | 16  | 24  | 32  | 40  | 48  |
-
-### Dual Wield DIF
-[[#Reflex]]
-
-When dual wielding, Reflex determines the severity of additional Penalty added to both attacks.
+| [[Harm]]             | 2   | 3   | 4   | 5   | 6   |
+| [[Trauma]]           | 4   | 6   | 8   | 10  | 12  |
+| [[Fatal]]            | 8   | 12  | 16  | 20  | 24  |
+| [[Overkill]]         | 16  | 24  | 32  | 40  | 48  |
 
 ### Evasion
-[[#Reflex]]
+[[attributes#Reflex|Reflex]]
 
 Unless a character is ambushed, they start each round of combat with some Evasion. Spending an action on Mobility, they can improve their Evasion even further.
 
-Whenever the character is attacked, their Evasion is reduced by 1, until it is zero. Evasion refreshes at the start of every round.
+Whenever the character is attacked, the attacker takes Complication equal to their target’s Evasion, causing them to *miss* the entire attack unless overcome.
+
+Evasion is reduced by 1 after every attack, until it is zero. Evasion refreshes at the start of every round.
 
 ### Initiative
-[[#Reflex]]
+[[attributes#Reflex|Reflex]]
 
 Use Initiative Score to determine who goes first *when it matters*.
 
 ### Max Bulk
-[[#Body]]
+[[attributes#Body|Body]]
 
 Determines how much equipment you can carry without taking Mobility penalties.
 
 ### Multitasking
-[[#Cyber]]
+[[attributes#Cyber|Cyber]]
 
-Determines how many simultaneous connections you can handle without distraction. This means direct or remote neural connections, such as remote operated drones. You can utilize even more connections, but will accumulate DIF 1 for each additional connection for any task.
+Determines how many simultaneous connections you can handle without distraction. This means direct or remote neural connections, such as remote operated drones. You can utilize even more connections, but will accumulate [[complication-fail|Fail 1 complication]] for each additional connection for any task.
+
+### Off-Hand Penalty
+[[attributes#Reflex|Reflex]]
+
+Off-Hand Penalty determines how well the character can utilize their off-hand. When using [[dual-weapons|Dual Weapons]], or off-hand, apply a [[skill-test-v4#Complications|Complication]] equal to level of penalty.
 
 ### Physical DC
 [[#Body]]
@@ -50,11 +56,11 @@ Determines how many simultaneous connections you can handle without distraction.
 Base unarmed damage and modifier added to melee weapon DC.
 
 ### Recoil Modifier
-[[#Body]]
+[[attributes#Body|Body]]
 
-Apply a modifier to weapon [[weapon_rules#Recoil|Recoil]].
+Apply a modifier to weapon [[weapon-stats-v4#Recoil|Recoil]].
 
 ### Soak
-[[#Body]]
+[[attributes#Body|Body]]
 
-Soak is a form of [[combat_revision_stepdice#Damage Mitigation|Damage Mitigation]] that reduces damage taken after applying armor.
+Soak is a form of [[damage-mitigation|Damage Mitigation]] that reduces damage taken after applying armor.

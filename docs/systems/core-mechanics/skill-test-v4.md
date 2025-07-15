@@ -98,7 +98,7 @@ Most other complications may be voluntary, in the sense that not overcoming them
 ### Effects
 Effects determine the outcome of your test. GM will tell you how many *Effect Points* you need for a particular effect. If you don't have enough, you don't succeed. GM may give the option to buy a lesser, weaker effect instead.
 
-Certain systems, such as [[systems/combat/index|Combat System]] or [[cyber-warfare|Cyber Warfare]] already provide a list of Effects you can take, but for any other situation, consult the GM. The Effect cost essentially defines how easy or hard it is to achieve such an Effect.
+Certain systems, such as [[systems/combat/index|Combat System]] or [[systems/cyber-warfare/index|Cyber Warfare]] already provide a list of Effects you can take, but for any other situation, consult the GM. The Effect cost essentially defines how easy or hard it is to achieve such an Effect.
 
 | Cost | Difficulty | 3D4 | 3D6 | 3D8 | 3D10 | 3D12 |
 | ---- | ---------- | --- | --- | --- | ---- | ---- |
@@ -162,3 +162,4 @@ Sometimes you have the option to spend a **Reroll** on a test vastly improving y
 
 !!! example
 	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a `Persuasion + Mind` test with `DIF 2`. Kris rolls 2D10+D8 → 6, 4, 3 generating only 2 successes, which is not enough to succeed. Facing a failure, He decides to spend a point of **Resolve** to reroll d10 and d8 (4 and 3) → 8, 1. That’s one double success, which results in total 3 successes. The reroll paid of and Kris succeeds.
+

@@ -2,4 +2,4 @@
 title: Dual Weapons
 version: 1
 ---
-Wielding and using two weapons simultaneously is a matter of [[#Splitting actions]] between each hand. If you have Reflex of D8 or lower, you get an additional -1D on the off-hand attack. With Reflex D10 or higher you are ambidextrous and do not suffer additional penalties.
+Wielding and using two weapons simultaneously allows you to make two attack tests, one with each weapon. You will however suffer a [[skill-test-v4#Complications|Complication]] with level equal to [[stats#Off-Hand Penalty|Off-Hand Penalty]]. Failure to *overcome* the complication results in a [[combat-fumble|Combat Fumble]].

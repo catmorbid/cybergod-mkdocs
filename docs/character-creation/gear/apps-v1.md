@@ -2,7 +2,7 @@
 title: Utility Apps
 version: 1
 ---
-In addition to [[cyber-warfare#Combat Hacks|Combat Hacks]], you can install various apps for different utility. The cybernetic brain, and many common communication devices or handheld computing devices already have applications for various mundane tasks, such as communications, 2D photography, audio and video recording and editing etc. But for any non-mundane task you can likely find and install an App. These do take an App Slot in your cybernetic Brain. You can also install them in any external devices.
+In addition to [[systems/cyber-warfare/index#Combat Hacks|Combat Hacks]], you can install various apps for different utility. The cybernetic brain, and many common communication devices or handheld computing devices already have applications for various mundane tasks, such as communications, 2D photography, audio and video recording and editing etc. But for any non-mundane task you can likely find and install an App. These do take an App Slot in your cybernetic Brain. You can also install them in any external devices.
 
 ### Aptitude Suite
 `Advanced`, `2 slots`,`Safety D6`

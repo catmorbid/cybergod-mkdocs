@@ -24,7 +24,7 @@ Systems
 
 - [[systems/core-mechanics/index|Core Mechanics]]
 - [[docs/systems/combat/index|Combat System]]
-- [[cyber-warfare|Cyber Warfare]]
+- [[systems/cyber-warfare/index|Cyber Warfare]]
 
 [[character-creation/index|Character Creation]]
 
