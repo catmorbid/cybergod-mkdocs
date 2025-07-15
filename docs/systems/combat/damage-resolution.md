@@ -7,7 +7,6 @@ subtitle: DC
 ## Damage Class
 **Damage Class** (DC) is a classification system for a weapon’s power, indicated by a numeric value. Typically Damage class can range between -3 and 20, but the **Damage Class Table** will list DC ratings up to 50, for reference.
 
-## Damage Class Table
 Subtract **Armor Class** (AC) from **Damage Class** (DC) to obtain **Damage**. *Damage* is either dice or a fixed value. You roll damage dice once per **Hit** obtained. DC of 7 or higher rolls always two dice, so both dice are rolled once per hit. DC of 0 or less on the other hand always inflicts fixed damage. For DC < 0 the damage is actually a fraction and you always round it down. But when taking multiple hits, sum the fractions to determine total damage dealt. This means that a large volume of low powered hits may still accumulate some damage.
 
 | Damage Class | Damage Roll | Attack Example                                   |
@@ -37,10 +36,10 @@ Subtract **Armor Class** (AC) from **Damage Class** (DC) to obtain **Damage**. *
 | 19           | 3D10+D8     | Small rocket launcher hit                        |
 | 20           | 4D10        | Heavy missile, artillery hit                     |
 | 25           | 5D10        | Plasma Artillery                                 |
-| 30           | 6D10        | Tactical Nuke                                    |
+| 30           | 6D10        | High-yield explosives                            |
 | 35           | 7D10        | Orbital Railgun Strike                           |
 | 40           | 8D10        | Orbital Plasma Barrage                           |
-| 50           | 5D20        | Large-yield Nuke                                 |
+| 50           | 5D20        | Tactical Nuke                                    |
 *\* Only applicable when large number of hits are inflicted. Round fractions down.*
 
 !!! Example
@@ -57,6 +56,4 @@ You can choose to resolve an attack using simplified damage rule:
 This rule can be used as an alternate when otherwise you’d have to roll damage for a large number of hits, usually simplifying high rate of fire attacks.
 
 **Example**
-> Cyber Joe is handling a large caliber vehicle-mounted minigun and scores 8 hits against a light vehicle. The weapon (after armor) has **Damage Class 7** inflicting 1D8+1D6 damage per hit. You can choose to resolve the damage in two ways
-> 1. **Manual roll:** Joe rolls total 16 dice: 8D8+8D6, takes a minute to sum up the dice for total of 67 damage.
-> 2. **Simplified damage:** $DC*Hits = 7*8 = 56$ damage.
+> Cyber Joe is handling a large caliber vehicle-mounted minigun and scores **8 hits** against a light vehicle, inflicting (after armor) **DC 7** or `1D8+1D6` damage per hit. GM calculates **Simplified damage:** $DC*Hits = 7*8 = 56$ damage.

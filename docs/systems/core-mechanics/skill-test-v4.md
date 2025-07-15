@@ -14,13 +14,13 @@ version: 4
 ## Syntax
 Skill Tests are the most common type of test you need to do. The syntax for a Skill in the rules is usually quite simple and will tell you what dice to roll and how difficult the test should be.
 
-> Test `Skill + Attribute (Cost)`
+> `Difficulty(Cost) Skill + Attribute`
 
-For example: *”Test `Analyze+Mind (2)` to find clues on the crime scene.”*
+For example: *”Test `Moderate(2) Investigation + Mind` to find clues on the crime scene.”*
 
 This test tells you the most important components you need for the test:
-- [[#Test Dice]]: Which dice should you roll
-- [[#Effects|Effect Cost]]: How many *Effect Points* you need to succeed, indicating how difficult a test is.
+- [[#Test Dice]]: Which dice should you roll (Investigation skill, linked with Analytical Aptitude, and Mind attribute)
+- [[#Effects|Effect Cost]]: How many *Effect Points* you need to succeed, indicating how difficult a test is. (2 effect points required to succeed).
 
 If Effect cost is missing, there is probably a list of possible effects to choose from.
  
@@ -81,14 +81,14 @@ If more than 3 modifier dice were to be applicable on a single test, you must ch
 
 
 !!! Example
-	Mick is trying to hack the security system of a Syndicate warehouse to grant the team entry through a secure door. The security system is on an isolated subnet accessible only through an arcane maintenance terminal, preventing remote connect. GM calls for a **Mind + Hacking** test and the GM announces the test has the following *Complications:* **Difficult 2** and **Alarm 1**, meaning Mick has to first assign 2 Effect Points to overcome the Difficulty, or the test fails, and finally there’s an alarm rigged to the system which will go off unless taken care of. Hacking falls under *Technical* aptitude and Mick spends 1 energy to gain D10 Utility Die from his *Hacking Suite* augment, making total dice pool `2D10+2D8`:
+	Mick is trying to hack the security system of a Syndicate warehouse to grant the team entry through a secure door. The security system is on an isolated subnet accessible only through an arcane maintenance terminal, preventing remote connect. GM calls for a **Moderate (2) Mind + Hacking** test with **Alarm 1** complication: Mick needs 2 Effect Points to succeed, but there’s an alarm rigged to the system which will go off unless taken care of and it costs 1 Effect Point to overcome. Hacking falls under *Adaptive* aptitude and Mick spends 1 energy to gain D10 Utility Die from his *Hacking Suite* augment, making total dice pool `2D10+2D8`:
 	
 	 - D10 (Mind)
-	 - D8 (Technical)
-	 - D8 (Hacking).
+	 - D8 (Adaptive)
+	 - D8 (Hacking)
 	 - D10 (Utility, hacking suite augment)
 	 
-	 Total Dice Pool is then 2D10 + 2D8. He rolls [4, 7, 4, 6] for total 4 successes, overcoming both the Difficult 2 and Alarm 1 complications with 1 Effect Point to spare, which he spends on **Stealth** effect, cleaning any traces he was ever there. Mick successfully hacks the arcane terminal, granting his team access and preventing any alarms from being triggered. 
+	 Total Dice Pool is then 2D10 + 2D8. He rolls [4, 7, 4, 6] for total 4 successes, overcoming the basic cost and Alarm 1 complication, with 1 EP remaining, which he spends on **Stealth** effect, cleaning any traces he was ever there. Mick successfully hacks the arcane terminal, granting his team access and preventing any alarms from being triggered. 
 
 ## Measuring Success
 Any **Effect Points (EP)** gained from dice are summed up together. You can then then spend **EP** to obtain **Effects**, but you may first wish to overcome any **Complications** linked to the task at hand.
@@ -107,6 +107,13 @@ Certain systems, such as [[systems/combat/index|Combat System]] or [[cyber-warfa
 | 3    | Hard       | 2%  | 13% | 40% | 64%  | 78%  |
 | 4    | Very Hard  | -   | -   | 14% | 36%  | 56%  |
 | 5    | Extreme    | -   | -   | 3%  | 14%  | 32%  |
+
+#### Multiple Effects
+As a rule of thumb, you can take multiple effects, as long as they affect different aspects of the outcome. Certain rule systems may defined stricter limits on effects, so you should follow those rules.
+
+!!! example
+	Mick is trying to construct a Smart Virus to infect the enemy network and monitor their communications. He wants a Virus that is good at avoiding detection and very effective at bypassing security systems, which should help in making an autonomous viral agent. GM allows this, since the effects clearly affect different aspects of the constructed Smart Virus.
+
 #### Stacking Effects
 Certain effects can stack, meaning you purchase multiple effects of same kind. GM decides if stacking is allowed or not. Stacked effects essentially provide a better result.
 
@@ -126,10 +133,15 @@ In addition to determining the cost of the desired Effect (which may be already 
 
 ### Complications
 
-- GM sets complications when they apply
+A complication is noted as `Complication X`, where X is the cost of complication e.g. *Fail 2*, indicating a *Fail* complication with cost of 2.
+
+- GM sets complications
 - Complication has a **cost** and **consequence**:
-	- *Cost* determines how many Effect Points are required
+	- *Cost* determines how many Effect Points are required to *overcome* the complication
 	- *Consequence* determines what happens when complication is *not* overcome
+- When overcome, nothing happens
+
+[[complication-fail]]
 
 ### Opposed Test
 Opposed Tests mean that two characters, e.g. PC and NPC both roll their dice competing against one another. They may test the same skill or different skills (opposing skills), depending on circumstance. Whoever rolls most successes wins, but their opponent’s successes are subtracted, acting much like *Difficult Complication*.

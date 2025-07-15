@@ -75,14 +75,14 @@ Available basic hits and their maximum stacks depends on the weapon’s [[weapon
 
 #### Aimed Hits
 
-Available with [[weapon_rules#Rate of Fire|ROF]] **Single** or **Semi**.
+Available with [[weapon-stats-v4#Rate of Fire|ROF]] **Single** or **Semi**.
 
 Inflict 1 hit carefully aimed at a specific hit location. Actual location varies according to context, but the cost depends on the effect associated with the location. GM can determine custom hit locations and effects as necessary. Any **Conditions** are inflicted only if target is **Harmed** or worse.
 
-| Effect       | Cost | Description                                                                                                                                    |
-| ------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Disarm Hit   | 3    | Disarm a target without inflicting any damage to them, unless you want to cause damage as well (you can).                                      |
-| Maim Hit     | 3    | A hit to an arm or another limb or support structure operating a weapon. Inflict Maimed condition.                                             |
-| Cripple Hit  | 3    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. Inflict Crippled condition.               |
-| Blinding Hit | 4    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. Inflict Blinded condition. |
-| Critical Hit | 4    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** after applying Soak.                                             |
+| Effect       | Cost | Description                                                                                                                                                                                  |
+| ------------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Disarm Hit   | 3    | Disarm a target without inflicting any damage to them, unless you want to cause damage as well (you can).                                                                                    |
+| Maim Hit     | 3    | A hit to an arm or another limb or support structure operating a weapon. If target is [[harm\|Harmed]] or worse, they take [[maimed]] condition.                                             |
+| Cripple Hit  | 3    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. If target is [[harm\|Harmed]] or worse, they take [[crippled]] condition.               |
+| Blinding Hit | 4    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. if target is [[harm\|Harmed]] or worse, they take [[blinded]] condition. |
+| Critical Hit | 4    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** after applying Soak.                                                                                           |

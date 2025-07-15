@@ -21,9 +21,12 @@ Once the test is resolved, the leader can then decide how to distribute the gain
 - **Flanking maneuver(2)**: One character flanks the enemy, bypassing their cover.
 
 ### Upkeep Phase
+At the start of each new round, go through the following checklist.
 
+- **Maintain augments:** Any persistent augments may need maintaining. 
 - Resolve any persistent conditions (e.g. bleeding or burning)
-- Remove 1 Shock from every combatant
+- Make a [[recovery-test|Recovery Test]] if needed
+- Make a [[death-test|Death Test]] if needed
 - Check if any Augments have effects that ended
 ### Action Phase
 
