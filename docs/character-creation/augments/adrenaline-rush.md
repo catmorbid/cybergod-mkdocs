@@ -6,16 +6,16 @@ tags:
   - Unsafe
   - Augment
 title: Adrenaline Rush
-version: 2
+version: 4
 ---
 Enter a state of constant adrenaline frenzy improving close quarters fighting ability and physical prowess.
 
 **System**
 - **Activate:** Spend 1 energy as an Instant Action
 - **Maintain:** Spend 1 energy each round to keep Adrenaline Rush effects active during combat. Otherwise the effects will end immediately.
-- **Adrenaline Test:** When called for, test `Toughness x Body` to fuel special adrenaline-based effects (detailed below). Spend Effect Points on available options based on augment Level.
+- **Adrenaline Test:** When called for, test `Toughness + Body` to fuel special adrenaline-based effects (detailed below). Spend Effect Points on available options based on augment Level.
 - **Conditional Unsafe:** At GM's discretion, prolonged use may trigger additional safety [[character-creation/persona/index#Safety Check|Safety Checks]].
-- **Adrenaline Crash:** When Adrenaline Rush ends, you suffer -1D to all physical actions until the end of the Scene. If you re-activate Adrenaline Rush when suffering from Adrenaline Crash, you can ignore this penalty, but the next Adrenaline Crash penalty is increased by additional -1D for each additional activation.
+- **Adrenaline Crash:** When Adrenaline Rush ends, you suffer [[complication-fail|Fail 1 complication]] to all physical actions until the end of the Scene. If you re-activate Adrenaline Rush when suffering from Adrenaline Crash, you can ignore this penalty, but the next Adrenaline Crash penalty is increased by additional [[complication-fail|Fail 1]] for each additional activation.
 -  **Synergy: Cortical Regulator:** Adrenaline Rush drives on high emotional rush and adrenaline, while Cortical Regulator derives its effectiveness from calm and emotional stunting. This does not however mean they are incompatible, but rather when combined, the augments make the character a cold-hearted emotionless killer fueled by muted, violent rage:
 	- **Combined Stress Buffer:** Stress mitigation is the highest of either + half (round up) of the other augment. I.e. 5 when both augments are level 3.
 	- **Extreme Crash:** You suffer both crash effects in full effect.
@@ -23,31 +23,31 @@ Enter a state of constant adrenaline frenzy improving close quarters fighting ab
 
 ### Level 1
 You flood your system with adrenaline, gaining a short burst of enhanced strength and aggression.
-- **Pain Tolerance:** Ignore -1D worth wound penalties.
-- **Stress Tolerance 1:** Reduce Stress taken by 1 point.
-- **Adrenal Strength:** Your [[stats#Physical DC|Physical Damage Class]] is +1 while in Adrenaline Rush and gain **D6 Augment Die** to Toughness or Mobility tests for exerting force.
-- **Heightened Aggression:** You are more prone to reckless behavior. If you engage Adrenaline Rush while attempting Stealth (even when camouflaged), you are automatically detected (partially when camouflaged). You have trouble with rational thinking and are unable to maintain composure and take -2D penalty when appropriate to social or mental tests.
+- **Pain Tolerance:** Ignore 1 level of [[damage-pain|Pain]]
+- **Stress Tolerance 1:** Reduce [[stress]] taken by 1 point.
+- **Adrenal Strength:** Your [[stats#Physical DC|Physical Damage Class]] is +2 while in Adrenaline Rush and gain **D6 Advantage** to Toughness or Mobility tests for exerting force.
+- **Heightened Aggression:** You are more prone to reckless behavior. If you engage Adrenaline Rush while attempting Stealth (even when camouflaged), you are automatically detected (partially when camouflaged). You have trouble with rational thinking and are unable to maintain composure and take a [[complication-fail|Fail 2]] penalty when appropriate to social or mental tests.
 
 ### Level 2
 Enhanced muscular response, faster reflexes and partial mental override. You can sustain higher performance longer and burn through moderate injuries without slowing down.
-- **Pain Ignorance:** Ignore -2D worth wound penalties.
-- **Stress Ignorance:** Reduce Stress taken by 2 points.
-- **Synergy: Regeneration:** *Second Wind* effect to remove negative conditions is 1 point cheaper and first *Revitalize* and *Minor Regeneration* effect each round is free.
+- **Pain Ignorance:** Ignore 2 levels of [[damage-pain|Pain]]
+- **Stress Ignorance:** Reduce [[stress]] taken by 2 points.
+- **Synergy – [[regeneration]]:** *Second Wind* effect to remove negative conditions is 1 point cheaper and first *Revitalize* and *Minor Regeneration* effect each round is free.
 - **Adrenal Overdrive:** When making `Fighting x Body/Reflex` or `Mobility x Body/Reflex` tests you gain one free re-roll per round on any single such test. Unspent re-rolls cannot be saved for later rounds and are simply wasted if not spent.
 - **Close Combat Effects**
-	- **Crippling Blow (3):** A single powerful Hit with +2 AP and +2 DC. Hit Limit reduced to 1 (you cannot take additional Hits).
+	- **Crippling Blow (3):** A single powerful Hit inflicting +4 DC. Hit Limit reduced to 1 (you cannot take additional Hits).
 
 ### Level 3
 The ultimate adrenaline surge. Lets you shrug off grievous wounds and move with blinding speed, unleashing devastating superhuman level attacks in close combat – at the risk of total bodily collapse.
 
-- **Unstoppable:** You ignore up to -3D wound penalties and can keep going even when Critically Wounded: Spend 1 Energy when receiving Critical Wounds to remain active and postpone Death Test for one round. Make Death Test immediately when Adrenaline Rush ends, if any Critical Wounds persist.
-- **Stress Immunity:** Reduce Stress taken by 3 points. Any Stress taken does not trigger Stress Checks. Make a Stress Check immediately after Adrenaline Rush ends.
+- **Unstoppable:** You ignore up to -3D wound penalties and can keep going even when taking [[fatal]] damage. Spend 1 Energy when receiving [[fatal]] damage to remain active and postpone Death Test for one round. Make Death Test immediately when Adrenaline Rush ends, if any [[fatal]] damage persists.
+- **Stress Immunity:** Reduce [[stress]] taken by 3 points. Any Stress taken does not trigger Stress Checks. Make a Stress Check immediately after Adrenaline Rush ends.
 - **Adrenal Surge:** Once per Scene. Make an **Adrenaline Test** as an Instant Action and spend Effect Points as follows:
 	- **Strength Surge (1-3):** Gain +1 DC per Effect Point on one close combat attack. Limit 3.
-	- **Speed Surge (1-3):** Gain 2 EP worth *Sprint* or *Evasion* effects from a [[mobility-evasion|Mobility Test]]. Limit 3.
+	- **Speed Surge (1-3):** Improve [[stats#Initiative|Initiative]] and [[stats#Evasion|Evasion]] by 1. Limit 3.
 	- **Vitality Surge (1-3):** Recover 2 Shock and remove a negative condition. Limit 3.
 	- **Rampage (4):** Make two close combat attacks with your next action without additional penalties. Limit 1.
-- **Major Crash:** When Adrenaline Rush ends you take a -2D penalties until the end of the Scene, and -1D penalty during *next Scene*. If you have any Critical Wounds, resolve Death Test first and then immediately collapse – whether you live or die. If you re-activate Adrenaline Rush before the crash effects have waned, the next Crash will add an additional -1D penalty.
+- **Major Crash:** When Adrenaline Rush ends you take a [[complication-fail|Fail 2]] complication on every action until the end of the Scene, and [[complication-fail|Fail 1]] during *next Scene*. If you have any [[fatal|Fatal damage]], resolve Death Test first and then immediately collapse – whether you live or die. If you re-activate Adrenaline Rush before the crash effects have waned, the complications are incerased by 1.
 
 ### Old Effects
 
