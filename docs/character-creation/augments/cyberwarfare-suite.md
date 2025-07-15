@@ -38,7 +38,7 @@ This effectively makes each hack a single use tool. Characters utilizing combat 
 | Operate               | Operate any vehicle, industrial equipment or the sort for a Short Duration.                                                                                                                                                                                                          |
 | Short Circuit         | Minor feeback loop, causing some discomfort. Target takes 1 [[harm]]                                                                                                                                                                                                                 |
 | Noise Feedback        | Override comms channels. Everyone in vicinity is [[dazed]] for Short duration and takes [[shock\|1 shock]]. You might think you want to spam this constantly, but enemies are more likely to simply mute their channels after the first go, so it’s unlikely to work more than once. |
-| Distract              | Create a simulated sensory experience that distracts the target cyborg. They take [[complication-fail\|Fail 1]] on alertness tests for short duration.                                                                                                                               |
+| Distract              | Create a simulated sensory experience that distracts the target cyborg. They take [[penalties\|Fail 1]] on alertness tests for short duration.                                                                                                                               |
 
 
 ### Level 2

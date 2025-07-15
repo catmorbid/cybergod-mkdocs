@@ -128,26 +128,9 @@ Some rules may modify the die size. This can be indicated e.g. by stating *Body 
 
 In addition to determining the cost of the desired Effect (which may be already determined if using an existing system), there’s two ways to set up the challenge for a test:
 
-- Assign Complications
-- Make an Opposed Test
-
-### Complications
-
-A complication is noted as `Complication X`, where X is the cost of complication e.g. *Fail 2*, indicating a *Fail* complication with cost of 2.
-
-- GM sets complications
-- Complication has a **cost** and **consequence**:
-	- *Cost* determines how many Effect Points are required to *overcome* the complication
-	- *Consequence* determines what happens when complication is *not* overcome
-- When overcome, nothing happens
-
-[[complication-fail]]
-
-### Opposed Test
-Opposed Tests mean that two characters, e.g. PC and NPC both roll their dice competing against one another. They may test the same skill or different skills (opposing skills), depending on circumstance. Whoever rolls most successes wins, but their opponent’s successes are subtracted, acting much like *Difficult Complication*.
-
-!!! Example
-	Kris is leading the team making entry into the Syndicate warehouse. The team is going for a stealth approach, following a plan Kris formulated earlier. GM allows a *Callback* and calls Kris to test `Stealth + Mind` – but this is an opposed test against the Syndicate warehouse security chief in charge of handling the security. Kris rolls `D10+2d8` → 8, 7, 5 → 4 successes. The Syndicate security chief rolls `4d8` → 7, 4, 5, 2 → 3 successes. Kris beats the opponent and the team enters the facility following Kris’ meticulously formulated infiltration plan. GM awards the team a D6 augment die to any future tests related to Kris’ plan.
+- Assign [[complications]]
+- Assign [[penalties|Penalties]]
+- Make an [[opposed-test|Opposed Test]]
 
 ### Stalemates
 If you overcome difficulty, but do not generate any Effect Points thereafter, or match your opponent’s successes, then the test is effectively a *stalemate*. You neither succeed, nor you lose. What happens next, is up to the GM to decide, but here are a few options:
@@ -155,11 +138,3 @@ If you overcome difficulty, but do not generate any Effect Points thereafter, or
 - Try again. Perhaps with some sort of penalty for stressing you out.
 - Settle on a status quo – maybe it’s time to compromise?
 - Sacrifice something – make a personal sacrifice in order to get ahead and win with just single Effect Point. E.g. an equipment can break or maybe you burn a bridge with a (former) ally to get what you want.
-
-## Rerolls
-
-Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each *Reroll* allows you to pick any number of rolled dice and roll them again. You must keep the new results, even if they’re worse. When rerolling a skill test, it makes most sense to only re-roll dice that did not generate any successes, otherwise you will risk those dice producing zero successes.
-
-!!! example
-	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a `Persuasion + Mind` test with `DIF 2`. Kris rolls 2D10+D8 → 6, 4, 3 generating only 2 successes, which is not enough to succeed. Facing a failure, He decides to spend a point of **Resolve** to reroll d10 and d8 (4 and 3) → 8, 1. That’s one double success, which results in total 3 successes. The reroll paid of and Kris succeeds.
-

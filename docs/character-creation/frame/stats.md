@@ -43,7 +43,7 @@ Determines how much equipment you can carry without taking Mobility penalties.
 ### Multitasking
 [[attributes#Cyber|Cyber]]
 
-Determines how many simultaneous connections you can handle without distraction. This means direct or remote neural connections, such as remote operated drones. You can utilize even more connections, but will accumulate [[complication-fail|Fail 1 complication]] for each additional connection for any task.
+Determines how many simultaneous connections you can handle without distraction. This means direct or remote neural connections, such as remote operated drones. You can utilize even more connections, but will accumulate [[penalties|Fail 1 complication]] for each additional connection for any task.
 
 ### Off-Hand Penalty
 [[attributes#Reflex|Reflex]]
