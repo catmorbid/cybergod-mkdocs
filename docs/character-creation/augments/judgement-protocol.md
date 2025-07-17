@@ -24,7 +24,7 @@ Access to restricted data, personnel compliance, and even civilian infrastructur
 **System**
 - **Activate:** Spend 1 Energy to Activate as Instant Action. You can choose one effect from any of the effects listed up to your Augment Level. You can activate multiple effects if required, but each activation costs more energy.
 - **Requires:** Faction: ARC. Warden frame or other ARC Frame at higher level.
-- **Conflict:** Cannot stack with control effects provided by [[psionics]], [[cyberjacking-suite]] or [[biomorph-invasion]] on the same target
+- **Conflict:** Cannot stack with control effects provided by [[systems/psionics/index]], [[cyberjacking-suite]] or [[biomorph-invasion]] on the same target
 - **Linked Ally:** Any ally, team mate or temporary battle buddy; you must be able to communicate properly through wireless comms, and they must give you access to their AR feed.
 
 ### Level 1

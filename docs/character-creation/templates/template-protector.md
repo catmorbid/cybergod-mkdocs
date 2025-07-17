@@ -12,7 +12,7 @@ version: 4
 **Role**: Psionic warfare, tactical defense, close combat
 
 **Augments:**
-- [[psionics|Psychokinetic Amplifier]]
+- [[systems/psionics/index|Psychokinetic Amplifier]]
 - [[nano-forge]]
 - [[adrenaline-rush]]
 - [[regeneration]]

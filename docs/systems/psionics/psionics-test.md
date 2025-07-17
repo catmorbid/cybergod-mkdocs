@@ -1,0 +1,8 @@
+### PSI Test
+Resolve like a Skill Test, but instead of normal **Dice Pool** roll a [[attributes#Mind|Mind]] die per current [[resolve]] — Psionics relies on willpower and robust mental talent and it is shown to be most potent in uncorrupted “clean” minds; that is to say, the augments’ strength relies on the *humanity* and *determination* of their wielder.
+
+Spend any gained Effect Points on available *Effects* according to *Augment Level*. Some high-level augments may have linked **Complications** that need to be overcome to not suffer the consequences.
+
+**Effect: Potency (1):** Repeatable. All Psionic Effects have a basic various properties, such as *Damage Class*, *Duration* or *Range*, which can be boosted by taking the Potency effect. Modifiable properties are noted with an arrow, e.g. “**DC 1** → **DC 2**” means one Potency effect can improve Damage Class of from DC 1 to DC 2, and likewise a chain of arrows means you can boost the potency of that property even further. If properties of combined Effects are in conflict, simply use the highest property on each. E.g. a **Moderate** radius effect and a **Short** radius effect results in combined **Moderate** radius effect. Each Potency Effect can only affect single property. You can take as many Potency effects as you need.
+
+**Multiple Effects:** You can combine any available Effects in a single PSI-Test, as long as you have enough Effect Points available, and the combination makes some sense (GM fiat). E.g. You can combine *Kinetic Force Impulse* with *Pyrokinesis* to create a powerful force impulse that lights things on fire; or *Scan* and *Illusion* to read someone’s mind while playing out an illusion – perhaps as a clever way to provoke a certain thought.

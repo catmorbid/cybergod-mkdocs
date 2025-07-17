@@ -4,8 +4,8 @@ version: 4
 ---
 
 As the character improves their **Faction Rank**, they will receive **Upgrades**, represented by increase in **Frame Level**. For each Frame Level after the first, the character receives the following benefits:
-- Choose 2 augments (new or existing) to improve by one level each.
-- Improve **1 Attribute** by one step; or improve **Energy Level** by one step.
+- Choose **2 augments** (new or existing) to improve by one level each.
+- Choose an **Attribute** or **Energy Level** to improve by one step, up to maximum Level 5 (D12).
 
 When adding new augments, you should pick from the [[character-creation/templates/index|Frame Template]]’s augment list. Exceptions are possible, but your GM may or may not allow them.
 ## Upgrade Path

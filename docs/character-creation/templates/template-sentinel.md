@@ -14,7 +14,7 @@ version: 4
 **Attribute Focus:** Mind, Reflex, Body, Cyber
 
 **Augments:**
-- [[psionics|PSI-Cognitive Modulator]]
+- [[systems/psionics/index|PSI-Cognitive Modulator]]
 - [[face]]
 - [[skill-suite]]
 - [[camouflage]]

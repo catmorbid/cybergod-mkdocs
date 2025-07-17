@@ -12,7 +12,7 @@ version: 4
 **Role**: Recon, Infiltration, Saboteur
 
 **Augments:**
-- [[psionics|ESP Modulator]]
+- [[systems/psionics/index|ESP Modulator]]
 - [[skill-suite]]
 - [[hacking-suite]]
 - [[nano-forge]]

@@ -1,0 +1,3 @@
+### Concentration
+**Concentration:** PSI-user can spend up to *three* Actions on Concentrating before making the **PSI-Test**, each action granting +1D bonus on the **PSI-Test.** Spending 2-3 actions on concentration means the actual **PSI-Test** is made on the following round. This bonus stacks with any bonuses to Mind tests and can exceed the normal +3D limit on Bonus Dice.
+	- **Interruptions:** If you take damage or are affected by any kind of mentally or physically disorienting effect, you need to make a **Moderate** `Toughness x Mind` Test to maintain concentration. If you fail, you lose all concentration gained so far.
