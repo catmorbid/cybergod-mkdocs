@@ -1,2 +1,2 @@
-### Public Information
+### Public Awareness
 In recent years there have been worrying number of *Psionic Incidents* caused by natural manifestation of psionics in ordinary human beings. These incidents vary in magnitude from minor incidents to major escalations. Section 12 is tasked with investigating these incidents and controlling the fallout caused. The public is aware psionics, and it is the talk of the day in many social and info broadcasts, but any knowledge about Section 12 has been kept strictly confidential. Nevertheless, people always have a way to find out the truth, and among the dozens of widely-spread conspiracy theories, a few are very close to the truth.

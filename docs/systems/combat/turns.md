@@ -23,8 +23,8 @@ Once the test is resolved, the leader can then decide how to distribute the gain
 ### Upkeep Phase
 At the start of each new round, go through the following checklist.
 
-- **Maintain augments:** Any persistent augments may need maintaining. 
-- Resolve any persistent conditions (e.g. bleeding or burning)
+- Any persistent augments may need to be [[augment-effect-maintain|maintained]]. 
+- Resolve any persistent [[conditions/index|Conditions]] (e.g. bleeding or burning)
 - Make a [[recovery-test|Recovery Test]] if needed
 - Make a [[death-test|Death Test]] if needed
 - Check if any Augments have effects that ended
