@@ -5,7 +5,7 @@ tags: []
 >“The PSI-Net is not a place, but a tapestry woven from every mind that has ever lived—pull one thread, and the entire weave trembles.”
 —Dr. Isobel Kagura, Project Mind’s Eye
 
-Unlock psionic abilities in the human brain. Psionic augments enable the user to sense [[psionics-resonance|Psionic Resonance]] in all all things – living or inanimate – to manipulate and control it. By harnessing Psionic Resonance, the user is capable of incredible feats of supernatural prowess. At the same time, they are dealing with experimental and theoretical technology that deals with strange, exotic force – and by doing so, each action comes with inherent risks.
+Psionic abilities can be unlocked in human beings with *exotic* nanotech [[character-creation/augments/index|augments]] that  enable the user to sense [[psionics-resonance|Psionic Resonance]] in all all things – living or inanimate – to manipulate and control it. By harnessing *Psionic Resonance*, the user is capable of incredible feats of supernatural prowess. At the same time, they are dealing with experimental and theoretical technology that deals with strange, exotic force – and by doing so, each action comes with inherent risks.
 
 Psionic [[character-creation/augments/index|Augments]] come in three different varieties, each focusing on specific type of *Psionic Resonance* manipulation.
 
@@ -15,11 +15,13 @@ Psionic [[character-creation/augments/index|Augments]] come in three different v
 
 Section 12 is the only proprietor of Psionic augments and while other applications may be possible to develop, they have focused on these three as the most beneficial for their operatives.
 
+[[psionics-public-info]]
+
 [[psionics-test]]
 
 [[psionics-concentration]]
 
-[[psionics-psi-integrity]]
+[[psionics-integrity]]
 
 [[psionics-echoes]]
 

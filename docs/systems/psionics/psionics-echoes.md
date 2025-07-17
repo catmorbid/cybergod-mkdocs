@@ -1,4 +1,9 @@
-## Psionic Echoes
+---
+title: Psionic Echoes
+tags:
+  - Psionics
+---
+
 
 Every time psionic resonance is manipulated, it creates an “echo” in the **PSI-Net**, an interconnected hyper-dimensional psionic network. Most of the time nothing special happens, but *sometimes* there is a response. The theory is that some kind of naturally PSI-sensitive beings exist that are capable of sensing these “echoes”, and the stronger the psionic effect, the more likely it is for such an “echo” to manifest. When called for, roll or consult the *Psionic Echoes Table*.
 
