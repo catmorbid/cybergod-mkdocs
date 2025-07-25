@@ -4,8 +4,15 @@ version: 1
 status: new
 subtitle: DC
 ---
+Resolve Damage by following the procedure laid out in these steps:
+
+1. Determine [[#Damage Class|Damage Class (DC)]] and apply [[damage-mitigation|Damage Mitigation]]
+2. Roll and sum Damage Dice from number of hits and final modified [[#Damage Class]]
+3. Compare total rolled Damage to [[stats#Damage Threshold|Damage Thresholds]] and mark the resulting [[systems/combat/damage/index|Damage Condition]]
+4. Note any additional [[systems/conditions/index|Conditions]]
+5. Accumulate [[damage-pain|Pain]]
 ## Damage Class
-**Damage Class** (DC) is a classification system for a weapon’s power, indicated by a numeric value. Typically Damage class can range between -3 and 20, but the **Damage Class Table** will list DC ratings up to 50, for reference.
+**Damage Class (DC)** is a classification system for a weapon’s power, indicated by a numeric value. Typically Damage class can range between -3 and 20, but the **Damage Class Table** will list DC ratings up to 50, for reference.
 
 Subtract **Armor Class** (AC) from **Damage Class** (DC) to obtain **Damage**. *Damage* is either dice or a fixed value. You roll damage dice once per **Hit** obtained. DC of 7 or higher rolls always two dice, so both dice are rolled once per hit. DC of 0 or less on the other hand always inflicts fixed damage. For DC < 0 the damage is actually a fraction and you always round it down. But when taking multiple hits, sum the fractions to determine total damage dealt. This means that a large volume of low powered hits may still accumulate some damage.
 

@@ -5,7 +5,7 @@ status: new
 ---
 # Taking Damage
 
-Compare total points of Damage inflicted to your [[stats#Damage Threshold|Damage Threshold]] to determine the degree of Harm inflicted. There are total of four different Thresholds derived from the [[attributes#Body|Body]] attribute.
+Compare total points of Damage inflicted to your [[stats#Damage Threshold|Damage Threshold]] to determine the severity of **Damage Condition** inflicted. There are total of four different Thresholds derived from the [[attributes#Body|Body]] attribute.
 
 Choose highest threshold that was met by the damage. If no threshold was met, you take a point of **Shock**.
 

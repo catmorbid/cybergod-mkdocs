@@ -5,13 +5,13 @@ version: 4
 
 Frame determines the character's **attributes**. Attributes are measured with a **Level** from 1 to 5 and each Level indicates a Die Size from D4 to D12. The average human has Level 1-3 in Attributes, but augmented frames may have rank 4 and 5, representing superhuman capability. If a frame is lacking any attribute, it cannot perform any related tasks.
 
-| Attribute Level | Grade             | Examples                                              |
-| --------------- | ----------------- | ----------------------------------------------------- |
-| D4              | Weak Human        | Elderly people, children                              |
-| **D6**          | **Average Human** | Average human                                         |
-| D8              | Peak Human        | Olympian Athlete, master thief, math genius           |
-| D10             | Superhuman        | Beyond human capabilities, but somewhat relatable     |
-| D12             | Post-Human        | Clearly beyond human capabilities, hard to comprehend |
+| Attribute | Die    | Grade             | Examples                                              |
+| --------- | ------ | ----------------- | ----------------------------------------------------- |
+| 1         | D4     | Weak Human        | Elderly people, children                              |
+| **2**     | **D6** | **Average Human** | **Statistically average human being**                 |
+| 3         | D8     | Peak Human        | Olympian Athlete, master thief, math genius           |
+| 4         | D10    | Superhuman        | Beyond human capabilities, but somewhat relatable     |
+| 5         | D12    | Post-Human        | Clearly beyond human capabilities, hard to comprehend |
 
 ### Body
 
@@ -41,15 +41,17 @@ Reflex affects [[stats#Evasion|Evasion]], [[stats#Initiative|Initiative]] and [[
 
 ### Mind
 
-Mind determines intellect, cunning, awareness and focus. Mind is utilized to resist mental damage and is often used in many skill tests, but does not have any passive effects.
+Mind determines intellect, cunning, awareness and focus. Mind is utilized to resist mental damage and is often used in many skill tests, but has fewer derived attributes.
 
-| Rating | Description |
-| ------ | ----------- |
-| D4     | Dull        |
-| D6     | Average     |
-| D8     | Smart       |
-| D10    | Genius      |
-| D12    | Visionary   |
+Mind affects [[stats#Pain Threshold|Pain Threshold]].
+
+| Rating | Description | Pain Threshold |
+| ------ | ----------- | -------------- |
+| D4     | Dull        | 1              |
+| D6     | Average     | 2              |
+| D8     | Focused     | 3              |
+| D10    | Mastermind  | 4              |
+| D12    | Visionary   | 5              |
 
 ### Cyber
 

@@ -4,7 +4,7 @@ version: 1
 ---
 There are two methods for mitigating damage: **Armor Class** and **Soak**:
 
-- **Armor Class** is determined by equipped armor and it directly reduces the **Damage Class** of an incoming attack.
+- **Armor Class** is determined by equipped armor and it directly reduces the **Damage Class** of an incoming attack. Armor Class is reduced by [[weapon-stats-v4#Penetration|Armor Penetration (AP)]].
 - **Soak** can be added by augments or high [[attributes#Body|Body]] attribute. It reduces the amount of damage taken by subtracting from the total damage rolled. If damage is affected by any multipliers, they are applied *after* subtracting *Soak*.
 
 !!! Example
