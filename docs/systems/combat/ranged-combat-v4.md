@@ -13,9 +13,9 @@ Test `Aim + Combat` plus Attribute depending on type of weapon
 - `Mind:` Single shot powerful rifles and support weapons like rocket launchers.
 - `Cyber:` Attacks utilizing augments, such as **Targeting System** or remote-operating neural-controlled attack drones
 
-Consider the following circumstancial [[penalties]]:
+Consider the following circumstantial [[penalties]]:
 
-- **Target Range:** Add **-1 penalty** for each step less or more than Optimal Range
+- **Target Range:** Add **-1 penalty** for each step less or more than [[weapon-stats-v4#Range|Optimal Range]].
 - **Target Velocity:** Apply **-1 penalty** or worse. Objects moving at high [[structure#Velocity|Velocity]] make for more difficult targets. Add the difference in attacker’s and target’s relative velocity, if they are moving faster. Cyborgs may have [[hermes-mobility-suite|augments]] that increase their *Velocity* scale.
 - **Target Evasion:** Apply target’s current [[stats#Evasion|Evasion]] as **penalty**. [[mobility-evasion|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit. Evasion may include *Mobility* or *Cover* based bonuses.
 - **Low visibility:** Apply **-1 to -3 penalty**. Darkness, fog, rain, clutter and generally anything that can obscure vision, makes it more difficult to spot the *correct* target or track them. Such hindrances can be ignored by suitable augments or gadgets.
@@ -57,6 +57,8 @@ In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add anothe
 	    
 	 **Final Result:** Joe inflicts **1 hit** (total **1d6 damage = 6**), causing a **Harm** and applying the **Crippled** condition (impaired mobility). The assassin collapses, unable to move quickly, but alive enough for interrogation...
 
+### Ranged Weapons in Close Combat
+If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]]
 
 ### Effects
 All attacks can score a **Single Hit** (1 stack), but the availability of other effects depend on [[weapon_rules#Rate of Fire|Rate Of Fire]].
@@ -67,8 +69,9 @@ Available basic hits and their maximum stacks depends on the weapon’s [[weapon
 | Effect       | Cost | Description                                                                                                                                                                                                      |
 | ------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Single Hit   | 2    | 1 Hit                                                                                                                                                                                                            |
-| Auto Hit     | 1    | 1 Hit                                                                                                                                                                                                            |
-| Rapid Hit    | 1    | 2 Hits                                                                                                                                                                                                           |
+| Double Hit   | 2    | 2 Hits at *Optimal Range*; 1 Hit at other ranges                                                                                                                                                                 |
+| Triple Hit   | 2    | 3 Hits at *Optimal Range*; 1 Hit at other ranges                                                                                                                                                                 |
+| Quad Hit     | 2    | 4 Hits at *Optimal Range*; 2 Hits at other ranges                                                                                                                                                                |
 | Extra Target | 1    | Add an extra target. You can distribute any Hits freely between targets.                                                                                                                                         |
 | Suppression  | 2    | Designate a [[threat-zone\|Threat Zone]] where everyone within is at risk of taking a Hit, if they take any other actions than stick to cover. If Suppression is stacked, the number of Hits taken is increased. |
 

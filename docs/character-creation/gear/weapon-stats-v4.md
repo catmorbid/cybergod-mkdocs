@@ -52,9 +52,9 @@ Armor Penetration `(AP)` is subtracted from **Armor Class** to a minimum of 0, b
 
 Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one range is noted.
 
-**Optimal Range** where weapon is best utilized. `DIF 1` for *each* range increment more or less than indicated range.
+**Optimal Range** is the [[structure#Distance|Distance]] where weapon is best utilized. Add [[penalties|-1 Penalty]] for *each* range increment more or less than indicated range.
 
-**Effective Range** is the maximum suggested range for the weapon. **Damage Class** is reduced by 1 for each range increment further than Effective Range.
+**Effective Range** is the maximum suggested [[structure#Distance|Distance]] the weapon should be used at. [[damage-resolution#Damage Class|Damage Class]] is reduced by 1 for each range increment further than Effective Range.
 
 ### Rate of Fire
 
@@ -62,16 +62,16 @@ Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one ra
 - Higher ROF can produce more Hits, by unlocking new **Effects**, or increasing maximum **Stack** for hit effects.
 - Higher ROF will consume more ammo, but will also add Weapon’s **CTRL** die without aim action.
 - Higher ROF will have higher **Recoil**.
+- Higher ROF will consume more [[stats#Evasion|Evasion]] (**-EVA**); evasion is applied normally, but is reduced by this amount after each attack, to a minimum of zero.
 
-| ROF         | Hit Effect (max)                                   | Hits | Miss         | Ammo | Utility Dice | RCL |
-| ----------- | -------------------------------------------------- | ---- | ------------ | ---- | ------------ | --- |
-| [S] Single  | Single Hit (1)<br>Aimed Hit (1)                    | 1    | -            | None | With **Aim** | -2  |
-| [E] Semi    | Single Hit (4)<br>Aimed Hit (2)<br>Suppression (1) | 1-4  | 1 Collateral | 1    | With **Aim** | -1  |
-| [B] Burst   | Double Hit (2)<br>Suppression(1)                   | 2-4  | 1 Collateral | 1    | **1 CTRL**   | +0  |
-| [A] Auto    | Double Hit (3)<br>Suppression (2)                  | 2-6  | 2 Collateral | 2    | **1 CTRL**   | +1  |
-| [R] Rapid   | Triple Hit (2)<br>Suppression (2)                  | 3-6  | 3 Collateral | 2    | **2 CTRL**   | +2  |
-| [M] Massive | Triple Hit (3)<br>Suppression (3)                  | 3-9  | 4 Collateral | 3    | **2 CTRL**   | +3  |
-| [X] Extreme | Triple Hit (4)<br>Suppression (4)                  | 3-12 | 5 Collateral | 3    | **3 CTRL**   | +4  |
+| ROF         | Hit (max stack)                                    | EVA Cost | Miss Effect  | Ammo | Utility Dice            | Recoil Mod. |
+| ----------- | -------------------------------------------------- | -------- | ------------ | ---- | ----------------------- | ----------- |
+| [S] Single  | Single Hit (1)<br>Aimed Hit (1)                    | 1        | -            | None | **CTRL** (with **Aim**) | +0          |
+| [E] Semi    | Single Hit (4)<br>Aimed Hit (2)<br>Suppression (1) | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**) | +0          |
+| [B] Burst   | Double Hit (2)<br>Suppression(1)                   | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**  | +1          |
+| [A] Auto    | Double Hit (3)<br>Suppression (2)                  | 2        | 2 Collateral | 2    | **CTRL** (Always)       | +2          |
+| [R] Rapid   | Triple Hit (3)<br>Suppression (3)                  | 3        | 3 Collateral | 3    | **2 CTRL** (Always)     | +3          |
+| [X] Extreme | Quad Hit (3)<br>Suppression (4)                    | 4        | 4 Collateral | 4    | **3 CTRL** (Always)     | +4          |
 
 A weapon can have one or more ROF modes listed, and you must choose which mode to use before engaging your target. Each ROF mode is abbreviated with a single letter, which can be joined to short *string* of text.
 
@@ -89,18 +89,20 @@ Chosen rate of Fire mode determines the following:
 
 #### Single
 - **Code:** `S`
-- **Effects:** Single Hit (1), Aimed Hit (1)
-- **Miss:** No effect
-- **Recoil:** -2
-- **Ammo Usage:** None
+- **Effects:** Single Hit (max 1), Aimed Hit (max 1)
+- **Evasion Cost:** 1
+- **Miss Effect:** No effect
+- **Recoil Modifier:** None
+- **Ammo Usage:** None, Unless weapon has [[#Limited Capacity]]
 
 Fire single shots. Hits are limited to one. Does not use any ammo, unless weapon has [[#Limited Capacity]]. If you take **Aim** action, you can add weapon **CTRL** dice as Utility Dice to the attack.
 
 #### Semi
 - **Code:** `E`
-- **Effects:** Single Hit (4), Aimed Hit (2), Suppression (1)
-- **Miss:** 1 Collateral Hit
-- **Recoil:** -1
+- **Effects:** Single Hit (max 4), Aimed Hit (max 2), Suppression (max 1)
+- **Evasion Cost:** 1
+- **Miss Effect:** 1 Collateral Hit
+- **Recoil Modifier:** None
 - **Ammo Usage:** 1
 
 Fire several consecutive shots, not quite as fast as full auto weapons, but fast enough to inflict several hits. You can even land a few more Aimed Hits, but not quite as many as when simply aiming for center of mass. If you take **Aim** action before attack, you add **CTRL** dice as Utility Dice.
@@ -109,45 +111,40 @@ Weapons with [[#Limited Capacity]] can be semi-automatic, but you need to choose
 
 #### Burst
 - **Code:** `B`
-- **Effects:** Double Hit (2), Suppression (1)
-- **Miss:** 1 Collateral Hit
-- **Recoil:** +0
+- **Effects:** Double Hit (max 2), Suppression (max 1)
+- **Evasion Cost:** 1
+- **Miss Effect:** 1 Collateral Hit
+- **Recoil Modifier:** +1
 - **Ammo Usage:** 1
 
-Fire a short automatic burst, improving chance of landing a hit, but usually wasting at least one shot. Apply **CTRL** as Utility Dice.
+Fire a short automatic burst, improving chance of landing a second hit, but usually wasting at least one shot. A Burst is not that much different than a single shot, but usually produced significantly bigger kick. If you take **Aim** action before attack, you add **CTRL** dice as Utility Dice.
 
 #### Auto
 - **Code:** `A`
-- **Effects:** Double Hit (3), Suppression (2)
-- **Miss:** 2 Collateral Hits
-- **Recoil:** +1
+- **Effects:** Double Hit (max 3), Suppression (max 2)
+- **Evasion Cost:** 2
+- **Miss Effect:** 2 Collateral Hits
+- **Recoil Modifier:** +2
 - **Ammo Usage:** 2
 
 Fire a long fully automatic burst. Very good at suppression and sustained fire. Consumes a lot of ammo, and misses most shots, but when properly utilized can be extremely effective. Apply **CTRL** as Utility Dice.
 
 #### Rapid
 - **Code:** `R`
-- **Effects:** Triple Hit (2), Suppression (2)
-- **Miss:** 3 Collateral Hits
-- **Recoil:** +2
-- **Ammo Usage:** 2
+- **Effects:** Triple Hit (max 3), Suppression (max 2)
+- **Evasion Cost:** 3
+- **Miss Effect:** 3 Collateral Hits
+- **Recoil Modifier:** +3
+- **Ammo Usage:** 3
 
 High rate of fire and high ammo consumption. Rapid fire weapons can be devastating due to sheer volume of shots fired, but they are harder to control. Apply **2 CTRL Dice** as Utility Dice.
-#### Massive
-- **Code:** `M`
-- **Effects:** Triple Hit (3), Suppression (3)
-- **Miss:** 4 Collateral Hits
-- **Recoil:** +3
-- **Ammo Usage:** 3
-
-Massive Rate of Fire rate of fire, usually attributed to multi-barrel weapon platforms or weapons with exceptional and inventive feed systems. Apply **3 CTRL Dice** as Utility Dice.
-
 #### Extreme
 - **Code:** `X`
-- **Effects:** Triple Hit (4), Suppression (4)
-- **Miss:** 5 Collateral Hits
-- **Recoil:** +4
-- **Ammo Usage:** 3
+- **Effects:** Quad Hit (max 3), Suppression (max 4)
+- **Evasion Cost:** 4
+- **Miss Effect:** 4 Collateral Hits
+- **Recoil Modifier:** +4
+- **Ammo Usage:** 4
 
 Highest practical rate of fire, usually found in heavy weapons bolted to a support platform with multiple rotary barrels and an electric feed mechanism. They fire at incredibly high rate of fire with extremely high ammo consumption and immense recoil. Apply **3 CTRL Dice** as Utility Dice.
 
@@ -169,7 +166,7 @@ If you fail to overcome Recoil, you are thrown out of balance and will *lose you
 | Recoil + 1 | Recoil + 0 | Recoil -1 | Recoil -2 | Recoil -3 |
 Recoil can be reduced by 1 point by having a portable support device for the weapon, such as a bipod. The support device typically adds **2 Bulk**. Properly mounted weapons always mitigate the recoil entirely.
 
-### Reloading
+### Reloads
 
 Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads are specific to weapons you carry, but you can abstract your personal reloads. When looting ammo from dead enemies, you might not find the correct ammo. Also when an ally is out of ammo, they need to have a matching weapon or your reloads won't be of use to them.
 
