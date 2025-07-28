@@ -29,9 +29,9 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 Reflex determines hand-eye coordination and reaction time. Reflex is used to react to sudden situations, evade attacks and make ranged attacks.
 
-Reflex affects [[stats#Evasion|Evasion]], [[stats#Initiative|Initiative]] and [[stats#Off-Hand Penalty|Off-Hand Penalty]].
+Reflex affects [[stats#Evasion|Evasion]], [[stats#Initiative|Initiative]] and [[stats#Off-Hand Penalty|Dual Wielding]] complication.
 
-| Rating | Description | Evasion | Initiative | Off-Hand Penalty            |
+| Rating | Description | Evasion | Initiative | Dual Wielding               |
 | ------ | ----------- | ------- | ---------- | --------------------------- |
 | D4     | Sluggish    | 0       | 4          | [[combat-fumble\|Fumble 4]] |
 | D6     | Average     | 0       | 6          | [[combat-fumble\|Fumble 3]] |

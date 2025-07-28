@@ -24,11 +24,14 @@ Damage Thresholds determine how easily are severely hurt in combat. There are a 
 ### Evasion
 [[attributes#Reflex|Reflex]]
 
-Unless a character is ambushed, they start each round of combat with some Evasion. Spending an action on [[mobility-evasion|Mobility]], they can improve their Evasion even further. Taking Cover adds a permanent Evasion that stays between rounds, unless destroyed.
+Unless a character is ambushed, they start each round of combat with some Evasion. Spending an action on [[mobility-evasion|Mobility]], they can improve their Evasion temporarily and [[cover-v4|Taking Cover]] adds a Evasion that stays between rounds, unless destroyed.
 
 Whenever the character is attacked, the attacker takes a [[penalties|Penalty]] equal to their target’s **Evasion**.
 
 Evasion is reduced by 1 after every attack, until it is zero. Evasion refreshes at the start of every round.
+
+!!! info "Tracking Evasion"
+	You can use markers or tokens to track Evasion. Use flipped or different colored tokens for Cover, this way *refreshing* Evasion is simple to resolve.
 
 ### Initiative
 [[attributes#Reflex|Reflex]]
@@ -45,10 +48,10 @@ Determines how much equipment you can carry without taking Mobility penalties.
 
 Determines how many simultaneous connections you can handle without distraction. This means direct or remote neural connections, such as remote operated drones. You can utilize even more connections, but will accumulate [[penalties|Fail 1 complication]] for each additional connection for any task.
 
-### Off-Hand Penalty
+### Dual Wielding
 [[attributes#Reflex|Reflex]]
 
-Off-Hand Penalty determines how well the character can utilize their off-hand. When using [[dual-weapons|Dual Weapons]], or off-hand, apply a [[skill-test-v4#Complications|Complication]] equal to level of penalty.
+**Duel Wielding** determines how well the character can utilize their off-hand. When using [[dual-weapons|Dual Weapons]], or off-hand, apply a [[skill-test-v4#Complications|Complication]] equal to level of penalty to all attacks.
 
 ### Pain Threshold
 [[attributes#Mind|Mind]]

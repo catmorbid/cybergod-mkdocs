@@ -17,9 +17,8 @@ Consider the following circumstancial [[penalties]]:
 
 - **Target Range:** Add **-1 penalty** for each step less or more than Optimal Range
 - **Target Velocity:** Apply **-1 penalty** or worse. Objects moving at high [[structure#Velocity|Velocity]] make for more difficult targets. Add the difference in attacker’s and target’s relative velocity, if they are moving faster. Cyborgs may have [[hermes-mobility-suite|augments]] that increase their *Velocity* scale.
-- **Target Evasion:** Apply target’s current [[stats#Evasion|Evasion]] as **penalty**. [[mobility-evasion|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit.
+- **Target Evasion:** Apply target’s current [[stats#Evasion|Evasion]] as **penalty**. [[mobility-evasion|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit. Evasion may include *Mobility* or *Cover* based bonuses.
 - **Low visibility:** Apply **-1 to -3 penalty**. Darkness, fog, rain, clutter and generally anything that can obscure vision, makes it more difficult to spot the *correct* target or track them. Such hindrances can be ignored by suitable augments or gadgets.
-- **Cover:** Cost **-1 to -5 penalty**. Target is protected by some kind of blocking cover. You need to time your attack to hit them or attempt to find a gap or a weak spot to bypass. Attacks that miss due to cover will hit the cover instead.
 
 In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add another complication to the test.
 
