@@ -8,26 +8,23 @@ version: 4
 status: deprecated
 ---
 
-You can spend an action to take cover. You must test `Tactics x Mind` against a difficulty depending on how hard it is to find cover.
+Cover Adds to your [[stats#Evasion|Evasion]] rating until cover is destroyed or you are flanked. If you have any Cover bonuses to Evasion, it is presumed that Cover is always destroyed first.
+
+You can spend an action to take cover, or cover may be awarded to you by GM or your squad leader’s tactical prowess. To utilize cover during combat you must test `Tactics x Mind` against a difficulty depending on how hard it is to find the kind of Cover you seek.
 
 
-| Difficulty        | Cover availability                                   | Example Location                                                                                                        |
-| ----------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| DIF 0 (Easy)      | Cover is readily available everywhere.               | Busy lounge with concrete pillars, large, hard furniture and plenty of various opportunities for taking cover or hiding |
-| DIF 1 (Moderate)  | Cover is available, but not always                   | A street that could have vehicles, building corners, but also lots of open space                                        |
-| DIF 2 (Hard)      | There is some cover, but reaching it requires effort | A large, open market square with limited number of objects usable for cover                                             |
-| DIF 3 (Very Hard) | Cover is scarce, and reaching any is unlikely        | Open terrain with a few rocks and some features that could provide minimal cover.                                       |
+| Effect Cost      | Cover availability                                   | Example Location                                                                                                        |
+| ---------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Easy (1 EP)      | Cover is readily available everywhere.               | Busy lounge with concrete pillars, large, hard furniture and plenty of various opportunities for **Heavy Cover**        |
+| Moderate (2 EP)  | Cover is available, but not always                   | A street that could have vehicles, building corners, but also lots of open space. **Light Cover** is readily available. |
+| Hard (3 EP)      | There is some cover, but reaching it requires effort | A large, open market square with limited number of objects usable for **Heavy Cover**                                   |
+| Very Hard (4 EP) | Cover is scarce, and reaching any is unlikely        | Open terrain with a few rocks and some features that could provide **Light Cover**.                                     |
 
 
-On success, spend **Effect Points** to determine the quality of cover. GM may present available cover as a list, using the Effect costs to determine costs for cover.
-- Cover awards **Cover Points**
-- *Cover Points* are *Complication* for attackers. If not overcome, the attack will hit Cover instead, but 1 Cover Point is lost.
-- Cover may be flanked by tactics and maneuvering, ignoring the Cover.
+On success, you gain **Light** or **Heavy** Cover – depending on circumstance. GM may allow spending extra **Effect Points** to gain a better cover, e.g. 2-3 EP. The exact amount is circumstantial and up to GM.
 
 
-| Cover Type    | Cover Points | Example                                                                                                                                                                                      |
-| ------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Minimal Cover | 1            | Flimsy, small plastic table that can be flipped over to provide minimal visual obstruction. It won’t stop any bullets, but maybe the attacker won’t hit you, if they can’t properly see you? |
-| Light Cover   | 2            | Low, somewhat durable cover. It won’t last long and won’t do miracles, but maybe it’ll save your hide.                                                                                       |
-| Medium Cover  | 3            | A fairly large cover to hide behind. Can stop a few shots or maybe cause some ricochet, but mainly it blocks vision.                                                                         |
-| Heavy Cover   | 4            | You can completely hide behind this cover and it can block damage decently.                                                                                                                  |
+| Cover Type  | Cover Points | Example                                                                                                                                                    |
+| ----------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Light Cover | 1            | Some cover that obscures visibility and maybe stops a few shots if you’re lucky. It won’t last long and won’t do miracles, but maybe it’ll save your hide. |
+| Heavy Cover | 2            | A fairly large cover to hide behind. Can stop a few shots or maybe cause some ricochet, but mainly it blocks vision.                                       |

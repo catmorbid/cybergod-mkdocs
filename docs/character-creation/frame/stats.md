@@ -24,9 +24,9 @@ Damage Thresholds determine how easily are severely hurt in combat. There are a 
 ### Evasion
 [[attributes#Reflex|Reflex]]
 
-Unless a character is ambushed, they start each round of combat with some Evasion. Spending an action on Mobility, they can improve their Evasion even further.
+Unless a character is ambushed, they start each round of combat with some Evasion. Spending an action on [[mobility-evasion|Mobility]], they can improve their Evasion even further. Taking Cover adds a permanent Evasion that stays between rounds, unless destroyed.
 
-Whenever the character is attacked, the attacker takes Complication equal to their target’s Evasion, causing them to *miss* the entire attack unless overcome.
+Whenever the character is attacked, the attacker takes a [[penalties|Penalty]] equal to their target’s **Evasion**.
 
 Evasion is reduced by 1 after every attack, until it is zero. Evasion refreshes at the start of every round.
 
