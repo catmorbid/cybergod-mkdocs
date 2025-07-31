@@ -1,12 +1,12 @@
 nav:
   - index.md
   - turns.md
-  - close-combat.md
-  - ranged-combat.md
+  - close-combat-v4.md
+  - ranged-combat-v4.md
   - dual-weapons.md
   - mobility-evasion.md
-  - cover-v3.md
-  - damage-system-v3.md
+  - cover-v4.md
+  - damage-system-v4.md
   - death-rebirth.md
   - stress.md
   - ...

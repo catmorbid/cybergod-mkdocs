@@ -87,6 +87,6 @@ Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you
 
 **Linked Skills:**
 
-- [[skills#Design]] – Invent, mod, or prototype anything from drones to weapons.
+- [[skills#Design]] – Invent, mod, or prototype anything from software and virtual realms to drones and weapons.
 - [[skills#Streetwise]] – Navigate underworld dynamics and social edge cases.
 - [[skills#Networking]] – Insert yourself into social hierarchies and seize the spotlight.

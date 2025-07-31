@@ -3,7 +3,7 @@ title: Pain Level
 version: 1
 ---
 
-Sum the total **Pain Level** added by [[conditions/index|Conditions]] and [[damage-system-v4|Damage]]. Apply a [[penalties|Penalty]] equal to **Pain Level** to any *Body*, *Reflex* or *Mind* tests (but not Cyber tests).
+Sum the total **Pain Level** added by [[conditions/index|Conditions]] and [[damage-conditions|Damage]]. Apply a [[penalties|Penalty]] equal to **Pain Level** to any *Body*, *Reflex* or *Mind* tests (but not Cyber tests).
 
 **Pain Mitigation** is reduced from current **Pain Level** before applying the penalty and the penalty can be entirely nullified.
 

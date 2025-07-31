@@ -32,7 +32,7 @@ Control `(CTRL)` determines how accurate and easy to handle the weapon is. **CTR
 - **Ranged Weapons:** the active [[#Rate of Fire]] determines if **CTRL** can be applied or not.
 - [[#Melee Weapons]]: always use **CTRL** die. 
 ### Damage Class
-Damage Class `(DC)` determines how effective the weapon is. Damage Class is an abstraction, and actual damage is rolled with dice, but before that you apply modifiers, such as **Armor Class** and **Penetration**. Read more about how to [[damage-resolution|handle damage]] in the [[systems/combat/index|Combat System.]]
+Damage Class `(DC)` determines how effective the weapon is. Damage Class is an abstraction, and actual damage is rolled with dice, but before that you apply modifiers, such as **Armor Class** and **Penetration**. Read more about how to [[damage/index|handle damage]] in the [[systems/combat/index|Combat System.]]
 
 ### Melee speed
 Melee speed depends the character’s **Body** relative to weapon **Size**. Stronger characters can attack faster. Speed determines how many Hit effects you can purchase when making melee attacks. The exception to this rule is **unarmed** attacks which is always limited to **4 hits** at DC equal to **Body Level**. If an object is too big and heavy, you cannot use it in combat at all.
@@ -54,7 +54,7 @@ Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one ra
 
 **Optimal Range** is the [[structure#Distance|Distance]] where weapon is best utilized. Add [[penalties|-1 Penalty]] for *each* range increment more or less than indicated range.
 
-**Effective Range** is the maximum suggested [[structure#Distance|Distance]] the weapon should be used at. [[damage-resolution#Damage Class|Damage Class]] is reduced by 1 for each range increment further than Effective Range.
+**Effective Range** is the maximum suggested [[structure#Distance|Distance]] the weapon should be used at. [[damage/damage-class|Damage Class]] is reduced by 1 for each range increment further than Effective Range.
 
 ### Rate of Fire
 

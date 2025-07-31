@@ -12,14 +12,14 @@ Stats are miscellaneous statistics, often derived from [[Attributes]].
 ### Damage Threshold
 [[attributes#Body|Body]]
 
-Damage Thresholds determine how easily are severely hurt in combat. There are a total of four different Damage Thresholds and they’re all based on [[#Body]] attribute. Use of Damage Thresholds is explained with more detail in [[damage-system-v4#Taking Damage|Taking Damage]] section of [[systems/combat/index|Combat System]].
+Damage Thresholds determine how easily are severely hurt in combat. There are a total of four different Damage Thresholds and they’re all based on [[#Body]] attribute. Use of Damage Thresholds is explained with more detail in [[damage-conditions#Taking Damage|Taking Damage]] section of [[systems/combat/index|Combat System]].
 
 | Threshold / Body | D4  | D6  | D8  | D10 | D12 |
 | ---------------- | --- | --- | --- | --- | --- |
-| [[Harm]]             | 2   | 3   | 4   | 5   | 6   |
-| [[Trauma]]           | 4   | 6   | 8   | 10  | 12  |
-| [[Fatal]]            | 8   | 12  | 16  | 20  | 24  |
-| [[Overkill]]         | 16  | 24  | 32  | 40  | 48  |
+| [[harm]]             | 2   | 3   | 4   | 5   | 6   |
+| [[trauma]]           | 4   | 6   | 8   | 10  | 12  |
+| [[fatal]]            | 8   | 12  | 16  | 20  | 24  |
+| [[overkill]]         | 16  | 24  | 32  | 40  | 48  |
 
 ### Evasion
 [[attributes#Reflex|Reflex]]

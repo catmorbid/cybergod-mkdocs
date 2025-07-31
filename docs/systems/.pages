@@ -1,4 +1,5 @@
 nav:
-  - core-mechanics.md
+  - core-mechanics
   - combat
-  - cyber-warfare.md
+  - cyber-warfare
+  - psionics
