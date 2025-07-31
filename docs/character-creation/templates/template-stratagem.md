@@ -13,7 +13,7 @@ version: 4
 
 **Augments:**
 - [[tac-com]]
-- [[interference]]
+- [[disruptor-suite]]
 - [[hacking-suite]]
 - [[chronoflux]]
 - [[avatar]]

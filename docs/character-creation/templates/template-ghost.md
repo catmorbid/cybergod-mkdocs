@@ -15,7 +15,7 @@ version: 4
 - [[camouflage]]
 - [[cyberjacking-suite|Cyberjacking Suite]]
 - [[hacking-suite]]
-- [[interference]]
+- [[disruptor-suite]]
 - [[sensor-augment]]
 - [[adrenaline-rush]]
 - [[immortal]]

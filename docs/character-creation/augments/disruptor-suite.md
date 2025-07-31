@@ -1,11 +1,11 @@
 ---
-title: Interference
+title: Disruptor Suite
 tags:
   - Cybertech
   - Augment
 version: 4
 ---
-An asymmetric warfare system that allows disruption of communications, electronics and augmentations. Designed for anti-cyborg warfare, Interference can be a powerful tool against powerful cyborgs.
+An asymmetric warfare system that allows disruption of communications, electronics and augmentations. Designed for anti-cyborg warfare, the **Disruptor Suite** can be a powerful tool that enhances tactics and weakens powerful augment-reliant cyborgs.
 
 | Level | Effect                                                                                                                                                                                |
 | :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

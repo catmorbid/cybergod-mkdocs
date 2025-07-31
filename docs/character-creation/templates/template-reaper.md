@@ -15,7 +15,7 @@ version: 4
 - [[pinpoint]]
 - [[camouflage]]
 - [[sensor-augment]]
-- [[interference]]
+- [[disruptor-suite]]
 - [[hermes-mobility-suite]]
 - [[hacking-suite]]
 - [[targeting-system]]

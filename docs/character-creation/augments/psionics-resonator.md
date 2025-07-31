@@ -81,9 +81,3 @@ These complications are applied whenever a user activates a Level 3 Active Effec
 
 - **Severe Disruption (2):** Spend 3 points of PSI Integrity
 - **Severe Mental Strain (2):** Take 3 points of Stress.
-## Psychokinetic Amplifier
-
-
-## ESP Modulator
-
-
