@@ -11,6 +11,11 @@ tags:
 ---
 **PSI-Cognitive Resonator** is [[psionics/index|Psionics]] augment that gives the user the ability to sense, manipulate and control [[psionics-resonance|Cognitive Psionic Resonance]] produced by thoughts of living beings. They can sense the *consciousness*, allowing them to can read minds, produce illusions, force suggestions and even control minds. The augment is limited to [[section-12|Section 12]] operators with **Nanotech** frame technology.
 
+### System
+
+- Make a [[psionics-test|Psionics test]] to activate
+- Spend [[skill-test-v4#Effects|Effect Points]] on any listed Effects
+
 !!! info "Potency"
 	Potency (→) shows incremental scaling: each → represents an additional step of effect magnitude or targets. See [[psionics-potency]] for full details."
 
@@ -66,7 +71,7 @@ These complications are applied whenever a user activates a Level 2 Active Effec
 ### Level 3
 Dominate Minds and create increase the magnitude of any effects to majestic proportions. 
 
-- **Resolute Overdrive:** You can spend additional Energy to re-roll a **PSI Test** once per energy spent. You can **Burn** energy to ignore any one complication.
+- **Resolute Overdrive:** You can spend additional Energy to re-roll a [[psionics-test|PSI Test]] once per energy spent. You can **Burn** energy to ignore any one complication.
 - **Massive Decay:** When using any *Magnitude* effects resulting in large mass of affected people, any complications with related Safety Checks automatically result in a point of Corruption.
 
 **Effects**
