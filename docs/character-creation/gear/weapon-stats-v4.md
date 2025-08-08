@@ -58,35 +58,14 @@ Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one ra
 
 ### Rate of Fire
 
-*Rate of Fire* (ROF) determines how rapidly you can fire a weapon, described on a verbal scale. 
-- Higher ROF can produce more Hits, by unlocking new **Effects**, or increasing maximum **Stack** for hit effects.
-- Higher ROF will consume more ammo, but will also add Weapon’s **CTRL** die without aim action.
-- Higher ROF will have higher **Recoil**.
-- Higher ROF will consume more [[stats#Evasion|Evasion]] (**-EVA**); evasion is applied normally, but is reduced by this amount after each attack, to a minimum of zero.
 
-| ROF         | Hit (max stack)                                    | EVA Cost | Miss Effect  | Ammo | Utility Dice            | Recoil Mod. |
-| ----------- | -------------------------------------------------- | -------- | ------------ | ---- | ----------------------- | ----------- |
-| [S] Single  | Single Hit (1)<br>Aimed Hit (1)                    | 1        | -            | None | **CTRL** (with **Aim**) | +0          |
-| [E] Semi    | Single Hit (4)<br>Aimed Hit (2)<br>Suppression (1) | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**) | +0          |
-| [B] Burst   | Double Hit (2)<br>Suppression(1)                   | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**  | +1          |
-| [A] Auto    | Double Hit (3)<br>Suppression (2)                  | 2        | 2 Collateral | 2    | **CTRL** (Always)       | +2          |
-| [R] Rapid   | Triple Hit (3)<br>Suppression (3)                  | 3        | 3 Collateral | 3    | **2 CTRL** (Always)     | +3          |
-| [X] Extreme | Quad Hit (3)<br>Suppression (4)                    | 4        | 4 Collateral | 4    | **3 CTRL** (Always)     | +4          |
+
+See [[ranged-combat-v4|Ranged Combat]] for details how this works.
 
 A weapon can have one or more ROF modes listed, and you must choose which mode to use before engaging your target. Each ROF mode is abbreviated with a single letter, which can be joined to short *string* of text.
 
 !!! example
 	*July* has a small concealable highly customized Gauss pistol as a sidearm. The ROF for the weapon is SEA, meaning it can be fired in Single, Semi or Auto.
-
-Chosen rate of Fire mode determines the following:
-
-- **Hit Effect (max):** Available Hit Effects and their max stack.
-- **Hits:** Max number of total hits.
-- **Miss:** What happens if you fail the attack, missing the target completely, unable to produce any hits? Automatic weapons result in collateral hits.
-- **Ammo Usage:** How much ammo is spent on an attack, regardless of how well you did.
-- **Utility Dice:** Determines if any utility dice are added to attack test dice pool.
-- **Recoil:** A modifier to weapon’s base Recoil
-
 #### Single
 - **Code:** `S`
 - **Effects:** Single Hit (max 1), Aimed Hit (max 1)

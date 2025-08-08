@@ -58,7 +58,24 @@ In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add anothe
 	 **Final Result:** Joe inflicts **1 hit** (total **1d6 damage = 6**), causing a **Harm** and applying the **Crippled** condition (impaired mobility). The assassin collapses, unable to move quickly, but alive enough for interrogation...
 
 ### Ranged Weapons in Close Combat
-If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]]
+If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]], resolve the attack as [[close-combat-v4|Close Combat]] action instead. Target can fight back and you do not get the weapon’s CTRL die applied. If you fight better than opponent, you can score either close combat or ranged combat hits, but ranged combat Hits cost additional 1 EP.
+
+### Rate of Fire
+
+*Rate of Fire* (ROF) determines how rapidly you can fire a weapon, described on a verbal scale. 
+- Higher ROF can produce more Hits, by unlocking new **Effects**, or increasing maximum **Stack** for hit effects.
+- Higher ROF will consume more ammo, but will also add allow using weapon’s **CTRL** die as *Utility Die* without an **Aim** action.
+- Higher ROF will have a modifier to **Recoil**.
+- Higher ROF will consume more [[stats#Evasion|Evasion]] (**EVA Cost**); evasion is applied normally, but is reduced by this amount after each attack, to a minimum of zero.
+
+| ROF         | Hit (max stack)                                    | EVA Cost | Miss Effect  | Ammo | Utility Dice            | Recoil Mod. |
+| ----------- | -------------------------------------------------- | -------- | ------------ | ---- | ----------------------- | ----------- |
+| [S] Single  | Single Hit (1)<br>Aimed Hit (1)                    | 1        | -            | None | **CTRL** (with **Aim**) | +0          |
+| [E] Semi    | Single Hit (4)<br>Aimed Hit (2)<br>Suppression (1) | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**) | +0          |
+| [B] Burst   | Double Hit (2)<br>Suppression(1)                   | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**  | +1          |
+| [A] Auto    | Double Hit (3)<br>Suppression (2)                  | 2        | 2 Collateral | 2    | **CTRL** (Always)       | +2          |
+| [R] Rapid   | Triple Hit (3)<br>Suppression (3)                  | 3        | 3 Collateral | 3    | **2 CTRL** (Always)     | +3          |
+| [X] Extreme | Quad Hit (3)<br>Suppression (4)                    | 4        | 4 Collateral | 4    | **3 CTRL** (Always)     | +4          |
 
 ### Effects
 All attacks can score a **Single Hit** (1 stack), but the availability of other effects depend on [[weapon_rules#Rate of Fire|Rate Of Fire]].
