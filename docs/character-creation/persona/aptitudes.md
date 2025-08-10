@@ -1,9 +1,9 @@
 ---
 title: Aptitudes
-version: 2
+version: 4
 ---
 
-Aptitudes represent innate personality traits, instincts, or psychological frameworks. They define how a character approaches problems, interacts with others, and learns skills. Each Aptitude links to three skills, but applies to many broader situations in play.
+Aptitudes represent innate personality traits, instincts, or psychological frameworks. They define how a character approaches problems, interacts with others, and learns skills. Each Aptitude links to three skills, but applies to many broader situations in play. When making [[skill-test|Skill Tests]] you typically combine Aptitude and linked Skill with suitable Attribute, but players and GM are free to mix and match if another combination than the linked skill suits better.
 
 When building a character, Aptitudes begin at **D6 (average)**, with options to raise one or more based on your concept.
 
@@ -25,64 +25,68 @@ In character creation, follow these steps:
 Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]], increasing Aptitudes up to D12. Aptitudes change slowly, so 
 
 !!! example "Kitah"
-	Joe is deciding Aptitudes for Kitah. He chooses “Survival” as talented and “Combat” as inept. Kitah is not a fighter, but a survivor who uses their wits and cunning to avoid problems. If they get into a fight, something has gone terribly wrong. Kitah’s Aptitudes are thus: Combat D4, Education D6, Physical D6, Social D6, Survival D8, Technical D6. Kitah is a professional, and has 3 Engrams and thus 3 Aptitude points. Joe assigns them to Physical, Survival and Technical. Kitah’s final Aptitudes are: Combat D4, Education D6, Physical D8, Social D6, Survival D10, Technical D8.
+	Joe is deciding Aptitudes for Kitah. He chooses “Adaptive” as talented and “Dominant” as inept. Kitah is not a fighter, but a survivor who uses their wits and cunning to avoid problems. If they get into a fight, something has gone terribly wrong. Kitah’s Aptitudes are thus: **Dominant D4, Analytical D6, Adaptive D8, Empathic D6, Resilient D6, Creative D6.**	Kitah is a professional, and has 3 Engrams and thus 3 Aptitude points. Joe assigns them to *Adaptive*, *Resilient* and *Creative*. Kitah’s final Aptitudes are: **Dominant D4, Analytical D6, Adaptive D10, Empathic D6, Resilient D8, Creative D8.**
 
-## Aptitudes
-### Combat
 
-Combat is you aptitude for violence and tactical thinking and also measures your general experience in combat.
+### Dominant
 
-Combat Skills:
+> _You lead from the front. Assertive, commanding, and direct, you thrive in situations where confidence or pressure gets results._
 
-- [[skills#Fighting]]
-- [[skills#Aim]]
-- [[skills#Tactics]]
+**Linked Skills:**
 
-### Education
+- [[skills#Fighting]] – Overwhelm the enemy with aggression and control.    
+- [[skills#Mobility]] – Close distance fast, break formations, chase or escape.
+- [[skills#Manipulation]] – Apply coercion, threats, or pressure to influence.
 
-Education in Commonwealth is free and offered to anyone. Education measures your general level of Education and academic knowledge and mindset. The skills listed under Education merely scratch the surface, and they are the ones considered "useful" in the context of this game, but you are free to invent an obscure academic specialization.
 
-Education Skills:
+### Analytical
 
-- [[skills#Investigation]]
-- [[skills#Med Tech]]
-- [[skills#Psychology]]
+> _You approach problems like a puzzle to be solved. Calculating, precise, and observant, you excel when logic leads._
 
-### Physical
+**Linked Skills:**
 
-Aptitude for physical activity and the need for speed, an adrenaline rush.
+- [[skills#Investigation]] – Dissect clues, cross-reference facts, reveal patterns.
+- [[skills#Tactics]] – Predict enemy behavior, optimize group positioning.
+- [[skills#Troubleshooting]] – Diagnose complex systems under pressure.
 
-Physical Skills:
 
-- [[skills#Toughness]]
-- [[skills#Mobility]]
-- [[skills#Piloting]]
-### Social
+### Adaptive
 
-Understanding of the complex psychosocial relationship that is social interaction. How to connect and utilize that connection to your benefit.
+> _You improvise, pivot, and survive by your wits. Fast-thinking and perceptive, you act on instinct before others react._
 
-Social Skills:
+**Linked Skills:**
 
-- [[skills#Manipulation]]
-- [[skills#Networking]]
-- [[skills#Persuasion]]
+- [[skills#Alertness]] – Read the room, scan the field, spot danger early.    
+- [[skills#Hacking]] – Slip past barriers and exploit digital weaknesses.
+- [[skills#Stealth]] – Blend in, move unseen, or vanish when it matters.
 
-### Survival
 
-Survival is your aptitude for functioning outside the confines of Commonwealth, knowing the inner workings of the criminal underground. It takes a certain degree of paranoia and creativity to survive.
+### Empathic
 
-Survival Skills:
+> _You understand people. Whether through kindness, manipulation, or care, you know what makes others tick._
 
-- [[skills#Alertness]]
-- [[skills#Stealth]]
-- [[skills#Streetwise]]
+**Linked Skills:**
 
-### Technical
+- [[skills#Persuasion]] – Motivate, negotiate, or defuse a tense moment.
+- [[skills#Med Tech]] – Treat injuries, stabilize trauma, recognize suffering.
+- [[skills#Psychology]] – Read motives, assess sanity, or unravel mental barriers.
 
-Technical Aptitude defines your understanding of software and hardware and how they create the everyday technology all around you. Majority of the hardware used in modern technology is so complicated and intricate that they can only be manufactured and maintained by specialized assembly systems. The human part of the technology lies in understanding the core principles of the hardware and the software that manages it. You design and the machines create.
+### Resilient
 
-Technical Skills:
+> _You keep going. Tough, unyielding, and grounded — you outlast fear, pain, and pressure._
 
-- [[skills#Design]]
-- [[skills#Hacking]]
-- [[skills#Troubleshooting]]
+**Linked Skills:**
+
+- [[skills#Aim]] – Steady hands and breath, strike true under pressure.
+- [[skills#Toughness]] – Resist damage, endure punishment, keep standing.
+- [[skills#Pilot]] – Adapt to vehicles, rigs, or unconventional travel modes.
+
+### Creative
+
+> _You build, bend, and invent. Inspired and resourceful, you thrive in the unexpected._
+
+**Linked Skills:**
+
+- [[skills#Design]] – Invent, mod, or prototype anything from software and virtual realms to drones and weapons.
+- [[skills#Streetwise]] – Navigate underworld dynamics and social edge cases.
+- [[skills#Networking]] – Insert yourself into social hierarchies and seize the spotlight.

@@ -32,7 +32,7 @@ Each **Skill** is tied to a default **Aptitude**, and it can be paired with any 
 ## Skills
 ### Aim
 
-**Aptitude:** [[aptitudes-v2#Resilient]]
+**Aptitude:** [[aptitudes#Resilient]]
 
 **Description:**  
 Proficiency with ranged weaponry. **Aim** covers the precision and know-how to accurately fire guns, throw projectiles, and operate ranged systems. Whether lining up a sniper shot or tossing a grenade, **Aim** represents the character’s ability to put rounds on target.
@@ -46,7 +46,7 @@ Proficiency with ranged weaponry. **Aim** covers the precision and know-how to a
 
 ### Alertness
 
-**Aptitude:** [[aptitudes-v2#Adaptive]]
+**Aptitude:** [[aptitudes#Adaptive]]
 
 **Description:**  
 Attentiveness to surroundings, noticing subtle changes or threats, and maintaining vigilance. **Alertness** governs passive perception and quick observation of the environment, making it crucial for spotting ambushes and hidden clues.
@@ -60,7 +60,7 @@ Attentiveness to surroundings, noticing subtle changes or threats, and maintaini
 
 ### Design
 
-**Aptitude:**  [[aptitudes-v2#Creative]]
+**Aptitude:**  [[aptitudes#Creative]]
 
 **Description:**  
 Engineering new solutions, from software to hardware. **Design** emphasizes the creative and technical know-how behind building or modifying technology—be it crafting gadgets, programming AIs, or designing virtual environments.
@@ -74,7 +74,7 @@ Engineering new solutions, from software to hardware. **Design** emphasizes the 
 
 ### Fighting
 
-**Aptitude:**  [[aptitudes-v2#Dominant]]
+**Aptitude:**  [[aptitudes#Dominant]]
 
 **Description:**  
 Expertise in hand-to-hand and close-quarters combat. **Fighting** covers grappling, striking, martial arts, and any melee techniques used to subdue or overpower foes.
@@ -88,7 +88,7 @@ Expertise in hand-to-hand and close-quarters combat. **Fighting** covers grappli
 
 ### Hacking
 
-**Aptitude:**  [[aptitudes-v2#Adaptive]]
+**Aptitude:**  [[aptitudes#Adaptive]]
 
 **Description:**  
 Exploiting weaknesses in systems to bypass security, infiltrate networks, or seize control. **Hacking** is about finding shortcuts and vulnerabilities—expect messy solutions that might not last long under scrutiny.
@@ -102,7 +102,7 @@ Exploiting weaknesses in systems to bypass security, infiltrate networks, or sei
 
 ### Investigation
 
-**Aptitude:**  [[aptitudes-v2#Analytical]]
+**Aptitude:**  [[aptitudes#Analytical]]
 
 **Description:**  
 Systematic analysis of clues, data, and leads. **Investigation** goes beyond quick observation and involves piecing evidence together, studying crime scenes, and drawing conclusions from details.
@@ -116,7 +116,7 @@ Systematic analysis of clues, data, and leads. **Investigation** goes beyond qui
 
 ### Manipulation
 
-**Aptitude:**  [[aptitudes-v2#Dominant]]
+**Aptitude:**  [[aptitudes#Dominant]]
 
 **Description:**  
 Deception and coercion through lies, false promises, or twisted words. **Manipulation** is the art of _tricking_ someone into a desired belief or action, often without them realizing they’ve been swayed.
@@ -130,7 +130,7 @@ Deception and coercion through lies, false promises, or twisted words. **Manipul
 
 ### Med Tech
 
-**Aptitude:**  [[aptitudes-v2#Empathic]]
+**Aptitude:**  [[aptitudes#Empathic]]
 
 **Description:**  
 Knowledge of healing, surgery, and medical technology (including cybernetics). **Med Tech** is critical for patching up injuries, performing enhancements, and understanding the human (or augmented) body.
@@ -144,7 +144,7 @@ Knowledge of healing, surgery, and medical technology (including cybernetics). *
 
 ### Mobility
 
-**Aptitude:**  [[aptitudes-v2#Dominant]]
+**Aptitude:**  [[aptitudes#Dominant]]
 
 **Description:**  
 Athleticism, acrobatics, and the ability to move smoothly through various terrains. **Mobility** represents running, jumping, tumbling, and even operating _humanoid-style_ robots via neural connection.
@@ -158,7 +158,7 @@ Athleticism, acrobatics, and the ability to move smoothly through various terrai
 
 ### Networking
 
-**Aptitude:**  [[aptitudes-v2#Creative]]
+**Aptitude:**  [[aptitudes#Creative]]
 
 **Description:**  
 Building and leveraging social connections to gather information or call in favors. **Networking** is about _who_ you know and how effectively you can use those relationships.
@@ -172,7 +172,7 @@ Building and leveraging social connections to gather information or call in favo
 
 ### Persuasion
 
-**Aptitude:**  [[aptitudes-v2#Empathic]]
+**Aptitude:**  [[aptitudes#Empathic]]
 
 **Description:**  
 Swaying others through reason, charm, and negotiation. **Persuasion** covers honest or at least _transparent_ methods of convincing someone to cooperate, buy in, or see your point of view.
@@ -186,7 +186,7 @@ Swaying others through reason, charm, and negotiation. **Persuasion** covers hon
 
 ### Piloting
 
-**Aptitude:**  [[aptitudes-v2#Resilient]]
+**Aptitude:**  [[aptitudes#Resilient]]
 
 **Description:**  
 Operating vehicles, mechs, drones, or other machinery that requires manual or semi-manual control. **Piloting** is the skill for driving/flying/steering any sort of non-humanoid vehicle.
@@ -200,7 +200,7 @@ Operating vehicles, mechs, drones, or other machinery that requires manual or se
 
 ### Psychology
 
-**Aptitude:**  [[aptitudes-v2#Empathic]]
+**Aptitude:**  [[aptitudes#Empathic]]
 
 **Description:**  
 Knowledge of mental health, human psyche, and therapeutic techniques. **Psychology** can be used to treat mental traumas, counsel others, or analyze a target’s mental state.
@@ -214,7 +214,7 @@ Knowledge of mental health, human psyche, and therapeutic techniques. **Psycholo
 
 ### Stealth
 
-**Aptitude:**  [[aptitudes-v2#Adaptive]]
+**Aptitude:**  [[aptitudes#Adaptive]]
 
 **Description:**  
 Remaining undetected and moving silently. **Stealth** includes hiding, sneaking, and all manner of covert movement or infiltration.
@@ -228,7 +228,7 @@ Remaining undetected and moving silently. **Stealth** includes hiding, sneaking,
 
 ### Streetwise
 
-**Aptitude:**  [[aptitudes-v2#Creative]]
+**Aptitude:**  [[aptitudes#Creative]]
 
 **Description:**  
 Knowledge of urban underworld, criminal culture, and street-level survival. **Streetwise** means you understand black markets, local gangs, and how to handle shady situations without getting burned.
@@ -242,7 +242,7 @@ Knowledge of urban underworld, criminal culture, and street-level survival. **St
 
 ### Tactics
 
-**Aptitude:**  [[aptitudes-v2#Analytical]]
+**Aptitude:**  [[aptitudes#Analytical]]
 
 **Description:**  
 Battlefield awareness, strategic thinking, and leadership in combat scenarios. **Tactics** helps coordinate allies, find advantageous positions, and respond to threats decisively.
@@ -256,7 +256,7 @@ Battlefield awareness, strategic thinking, and leadership in combat scenarios. *
 
 ### Troubleshooting
 
-**Aptitude:**  [[aptitudes-v2#Analytical]]
+**Aptitude:**  [[aptitudes#Analytical]]
 
 **Description:**  
 Diagnosis and repair of hardware and software issues. **Troubleshooting** is about _fixing what’s broken_, whether it’s a faulty engine or corrupted operating system.
@@ -270,7 +270,7 @@ Diagnosis and repair of hardware and software issues. **Troubleshooting** is abo
 
 ### Toughness
 
-**Aptitude:**  [[aptitudes-v2#Resilient]]
+**Aptitude:**  [[aptitudes#Resilient]]
 
 **Description:**  
 Resilience against pain, extreme conditions, and fatigue. **Toughness** represents the ability to keep going despite harm or stress and is crucial for survival in harsh or violent settings.

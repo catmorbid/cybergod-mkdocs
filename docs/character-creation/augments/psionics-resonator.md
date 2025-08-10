@@ -32,7 +32,7 @@ If the target resists, they will become *alerted* of something strange happening
 Basic Telepathy. You can read surface thoughts and project mental images and simple illusions, and form tight psionic communications network with allies. All effects come with the same set of complications to overcome.
 
 - **[[augment-effect-passive|Passive Effects]]:** None
-- **[[augment-effect-advantage|Advantage Effect]] (1 Energy):** D6 Advantage to any [[aptitudes-v2#Empathic|Empathic]] tests.
+- **[[augment-effect-advantage|Advantage Effect]] (1 Energy):** D6 Advantage to any [[aptitudes#Empathic|Empathic]] tests.
 
 **[[augment-effect-active|Active Effects]]**
 
