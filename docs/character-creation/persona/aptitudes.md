@@ -7,12 +7,12 @@ Aptitudes represent innate personality traits, instincts, or psychological frame
 
 When building a character, Aptitudes begin at **D6 (average)**, with options to raise one or more based on your concept.
 
-| Aptitude Rating | Talent   | Degree of talent                                                                     |
-| --------------- | -------- | ------------------------------------------------------------------------------------ |
-| None            | Inept    | You lack any aptitude or talent in the field.                                        |
-| 1               | Modest   | You have average talent for the field.                                               |
-| 2               | Talented | You stand out from your peers in area, showing some promise                          |
-| 3               | Genius   | You can match or exceed most professionals in the field without any training at all. |
+| Aptitude Level | Talent   | Degree of talent                                                                     |
+| -------------- | -------- | ------------------------------------------------------------------------------------ |
+| None           | Inept    | You lack any aptitude or talent in the field.                                        |
+| 1              | Modest   | You have average talent for the field.                                               |
+| 2              | Talented | You stand out from your peers in area, showing some promise                          |
+| 3              | Genius   | You can match or exceed most professionals in the field without any training at all. |
 ## Character Creation
 
 In character creation, follow these steps:
@@ -61,7 +61,7 @@ Aptitudes are very slow to change and they affect a wide number of skills, so ch
 
 ### Empathic
 
-> _You understand people. Whether through kindness, manipulation, or care, you know what makes others tick._
+> _You understand people and naturally care for them – like it or not. You know what makes others tick._
 
 **Linked Skills:**
 

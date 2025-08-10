@@ -6,13 +6,13 @@ version: 2
 
 You can choose how experienced your character is when starting the game. More experienced characters have seen a lot and can be mental train wrecks, but they have more **Upgrade Points** to give them and edge and tend to have higher, but more focused **Skills**, while younger characters have more **Engrams**, **Resolve** and better **Aptitudes**, but will not excel at any one thing.
 
-| Experience   | Engrams | Mental State | Resolve | Aptitudes | Skills | Rank |
-| ------------ | ------- | ------------ | ------- | --------- | ------ | ---- |
-| Relic        | 1       | +5           | 1       | +1        | +12    | 5    |
-| Veteran      | 2       | +4           | 2       | +2        | +9     | 4    |
-| Professional | 3       | +3           | 3       | +3        | +6     | 3    |
-| Experienced  | 4       | +2           | 4       | +4        | +3     | 2    |
-| Recruit      | 5       | +1           | 5       | +5        | +0     | 1    |
+| Experience   | Engrams | Mental State | Resolve | Aptitudes | Skill Points | Rank |
+| ------------ | ------- | ------------ | ------- | --------- | ------------ | ---- |
+| Relic        | 1       | +5           | 1       | +1        | 20           | 5    |
+| Veteran      | 2       | +4           | 2       | +2        | 16           | 4    |
+| Professional | 3       | +3           | 3       | +3        | 12           | 3    |
+| Experienced  | 4       | +2           | 4       | +4        | 8            | 2    |
+| Recruit      | 5       | +1           | 5       | +5        | 4            | 1    |
 
 Note down the benefits from your chosen experience level, then proceed with choosing your Faction. You can come back and change this later, but the choice will affect many aspects of your character’s Persona profile.
 
@@ -56,6 +56,7 @@ When given permission to spend Experience points, you have the following options
 | Improvement                                               | Experience Cost          | Requirements                 |
 | --------------------------------------------------------- | ------------------------ | ---------------------------- |
 | Improve [[skills\|Skills]]                                | Next Skill Level x 3     | Downtime                     |
+| Take a Skill Specialization                               | 5                        | Downtime                     |
 | Improve [[aptitudes\|Aptitude]]                           | Next Aptitude Level x 10 | Downtime, training           |
 | Heal [[engrams#Corruption\|Corruption]]                   | 10                       | Downtime, Intense VR therapy |
 | Heal [[stress#Mental Condition\|Mental Condition]]        | 5                        | Downtime, Therapy            |
