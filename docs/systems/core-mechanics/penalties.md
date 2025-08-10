@@ -3,7 +3,7 @@ title: Penalties
 version: 1
 ---
 
-**Penalties** represent negative conditions that make tasks harder. They reduce the **Effect Points** you roll before you can spend them on any beneficial outcomes.
+**Penalties** represent negative conditions that make tasks harder. They reduce the **Effect Points** you roll before you can spend them on any Effects.
 
 When you make a test at a Penalty:
 
@@ -15,5 +15,5 @@ When you make a test at a Penalty:
 
 **Example:**
 
-> _You make a Moderate (2) Stealth + Reflex test with a Penalty (–1). You roll and get 3 Effect Points. First, subtract the 1 Penalty, leaving you with 2 Effect Points to spend—just enough to succeed at the test._
+> Jinx makes a Moderate (2) `[Stealth]d[Reflex]` test with a -1 Penalty. They get 3 Effect Points. After subtracting 1 penalty, 2 Effect Points remain—just enough to succeed at the test.
 

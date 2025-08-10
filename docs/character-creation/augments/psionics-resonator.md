@@ -14,7 +14,7 @@ tags:
 ### System
 
 - Make a [[psionics-test|Psionics test]] to activate
-- Spend [[skill-test-v4#Effects|Effect Points]] on any listed Effects
+- Spend [[skill-test#Effects|Effect Points]] on any listed Effects
 
 !!! info "Potency"
 	Potency (→) shows incremental scaling: each → represents an additional step of effect magnitude or targets. See [[psionics-potency]] for full details."

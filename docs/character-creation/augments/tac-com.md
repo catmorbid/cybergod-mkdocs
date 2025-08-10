@@ -41,6 +41,6 @@ TAC-COM supercharges tactical teams, enabling them to alter the flow of combat, 
 
 - **Superior Tactical Advantage:** You gain **D10 Advantage** on `Tactics` tests.    
 - **Strategic Dominance**: Activate once per scene, lasts for 2 rounds:
-    - All **Linked Allies** gain a free [[skill-test-v4#Rerolls|Reroll]] each round
+    - All **Linked Allies** gain a free [[skill-test#Rerolls|Reroll]] each round
     - You may **force one enemy** per round to automatically lose **Initiative**, when relevant.
 - **Zero-Time Maneuver:** Declare a synchronized action (e.g. triple shot, breach-clear-suppress, timed retreat) with up to 4 Linked Allies. All act simultaneously. Treat results as if they happened at once; all actions are resolved before any enemies can react and any damage dealt to shared targets are accumulated before checking their [[stats#Damage Threshold|Damage Threshold]].

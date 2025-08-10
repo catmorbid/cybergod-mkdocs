@@ -51,7 +51,7 @@ Determines how many simultaneous connections you can handle without distraction.
 ### Dual Wielding
 [[attributes#Reflex|Reflex]]
 
-**Duel Wielding** determines how well the character can utilize their off-hand. When using [[dual-weapons|Dual Weapons]], or off-hand, apply a [[skill-test-v4#Complications|Complication]] equal to level of penalty to all attacks.
+**Duel Wielding** determines how well the character can utilize their off-hand. When using [[dual-weapons|Dual Weapons]], or off-hand, apply a [[skill-test#Complications|Complication]] equal to level of penalty to all attacks.
 
 ### Pain Threshold
 [[attributes#Mind|Mind]]

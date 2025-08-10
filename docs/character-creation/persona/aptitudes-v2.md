@@ -3,7 +3,7 @@ title: Aptitudes
 version: 4
 ---
 
-Aptitudes represent innate personality traits, instincts, or psychological frameworks. They define how a character approaches problems, interacts with others, and learns skills. Each Aptitude links to three skills, but applies to many broader situations in play. When making [[skill-test-v4|Skill Tests]] you typically combine Aptitude and linked Skill with suitable Attribute, but players and GM are free to mix and match if another combination than the linked skill suits better.
+Aptitudes represent innate personality traits, instincts, or psychological frameworks. They define how a character approaches problems, interacts with others, and learns skills. Each Aptitude links to three skills, but applies to many broader situations in play. When making [[skill-test|Skill Tests]] you typically combine Aptitude and linked Skill with suitable Attribute, but players and GM are free to mix and match if another combination than the linked skill suits better.
 
 When building a character, Aptitudes begin at **D6 (average)**, with options to raise one or more based on your concept.
 

@@ -5,4 +5,4 @@ tags:
   - Damage
   - Condition
 ---
-You are slightly disoriented and take [[skill-test-v4#Complication Fail|Fail 1 Complication]] on every *Body, Reflex or Mind* test.
+You are slightly disoriented and take [[skill-test#Complication Fail|Fail 1 Complication]] on every *Body, Reflex or Mind* test.

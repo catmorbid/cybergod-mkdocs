@@ -1,82 +1,180 @@
 ---
 title: Skill Tests
-status: deprecated
-version: 1
+status: new
+version: 4
 ---
+!!! info "Skill Test Summary"
+	To resolve skill tests:
+	
+	1. Build Dice Pool (Human Dice + Modifiers)
+	2. Roll your dice pool
+	3. Count Effect Points based on dice faces
+	4. Overcome Complications
+	5. Spend Effect Points on Effects to achieve desired outcome
+## Syntax
+Skill Tests are the most common type of test you need to do. The syntax for a Skill in the rules is usually quite simple and will tell you what dice to roll and how difficult the test should be.
 
-A Skill Test is called when you need to figure out whether a character can do something that is not within basic functions of a human (or a cybernetic) being.
+> `Difficulty(Cost) [Skill]d[Attribute]`
 
-Skill Tests are noted as `Skill x Attribute`:
-- **Skill** is the sum of the *skill level* and its linked *Aptitude level*. Optionally, GM may allow using another *Aptitude* than the one linked to the Skill.
-- **Attribute** determines the size of the die to roll ranging from D6 to D12.
+For example: *”Test `Moderate(2) [Investigation]d[Mind]` to find clues on the crime scene.”*
 
-This generally results in a Dice Pool of 1 to 7 dice.
+This test tells you the most important components you need for the test:
+- [[#Test Dice]]: The number of dice is equal to Skill + linked Aptitude. The size of die is equal to the Attribute.
+- [[#Effects|Effect Cost]]: How many *Effect Points* you need to succeed, indicating how difficult a test is. (2 effect points required to succeed).
 
-## Successes and Effects
+If Effect cost is missing, there is probably a list of possible effects to choose from.
+ 
+## Test Dice
 
-Once you have figured out the Dice Pool to roll with, roll the dice and count **successes**:
+Dice used in tests have different number of faces. You will need 4-sided, 6-sided, 8-sided, 10-sided and 12-sided dice; or D4, D6, D8, D10 and D12.
 
-- Count 1 *Success* for a roll of 5 or higher, or
-- Count 2 *Successes* for a roll of 10 or higher
+Different statistics are measured with die size, with bigger dice always being better.
 
-You need to beat the **Difficulty** of the test to actually succeed. If you succeed, you gain **One (1) Effect Point (EP)** plus another for each additional success rolled.
+Simply roll all dice that are relevant for a skill test, and then count **Effect Points** based on each die face.
 
-Spend **Effect Points** to determine the actual outcome. Most Tests have a so called *Basic* effect which simply allows you to do what you set out to do in the first place for just 1 Effect Point, but GM may present additional Effects, or simply decide what happens based on how many EP you gained.
+| Die Face  | Effect Points | Tips                                                                                                                     |
+| --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 3 or less | 0             | Check these first and put them aside before tallying rest of successes. If you have any re-rolls, start from these dice. |
+| 4+        | 1             | Each die can produce 1 EP.                                                                                               |
+| 8+        | 2             | D8, D10 and D12 can produce 2 EP. Check for these after d12.                                                             |
+| 12+       | 3             | Only d12 can produce 3 EP. Check for these first!                                                                        |
 
-## Difficulty
+### Dice Face Probability
 
-| Difficulty | Success Threshold | % 3D6 | %3D8 | %3D10 | %3D12 |
-| ---------- | ----------------- | ----- | ---- | ----- | ----- |
-| Easy       | 1                 | 70%   | 88%  | 95%   | 98%   |
-| Moderate   | 2                 | 26%   | 50%  | 73%   | 88%   |
-| Hard       | 3                 | 4%    | 13%  | 34%   | 59%   |
-| Very  Hard | 4                 | -     | -    | 11%   | 24%   |
+On the following table you’ll find probabilities for rolling a result exactly, as well as the expected Effect Points (mean value) generated per die. Dice Pool probabilities may be difficult to calculate, but this small table may be very helpful with this.
 
-**Difficulty** determines the **Success Threshold** for a test, which is the number of success required to actually succeed. When making Opposed tests, where there is an opponent who tests their own skills, Difficulty indicates the margin by which you need to succeed, in order to actually succeed.
+| Die | 0 EP  | 1 EP | 2 EP  | 3 EP | Mean EP |
+| --- | ----- | ---- | ----- | ---- | ------- |
+| D4  | 75%   | 25%  | -     | -    | 0.25    |
+| D6  | 50%   | 50%  | -     | -    | 0.50    |
+| D8  | 37,5% | 50%  | 12,5% | -    | 0.75    |
+| D10 | 30%   | 40%  | 30%   | -    | 1       |
+| D12 | 25%   | 33%  | 33%   | 8,3% | 1.25    |
+
+!!! tip "Estimating Chances of Success"
+	If want to estimate your chances for success, it’s easiest to use the *Mean EP* column on the probability distribution table above. Simply add together the Means from each die type on your dice pool. You should expect to get this amount of successes with good odds. If the result is way less than what you need, then your chances are bad, and if it’s way more than what you need, then your chances are very good.
+	E.g. You have a dice pool of `2d8+2d6`. Mean EP for your pool is then $2*0.75+2*0.5=2.5$. So if you need 2 EP, then your chances should be pretty good, but for 3 EP there’s some risk involved.
+
+## Dice pool
+
+Every test uses two kinds of dice: **Human Dice**, based on your character’s stats, and **Modifier Dice**, from tools, advantages, or assisting allies.
+
+### Human Dice
+Number of dice equals to **Aptitude + Skill**. Die Size is always equal to **Attribute**. Attribute enhances the outcome, cyborgs greatly exceed human capabilities.
+
+E.g. `[Fighting] d [Body]` when character has: Dominant 1, Fighting 2, Body d8 → character rolls 3d8.
+
+#### Aptitude
+- Ranked 0-3 where 1 represents least aptitude and 3 greatest aptitude.
+- Average Aptitude is 1. Characters may voluntarily choose **Ineptitudes**, reducing Aptitude rating to 0, making them very weak.
+- **Chargen**:
+	- Each aptitude defaults to rating 1 (Average)
+	- (Optional) Pick up to 2 **Inept** aptitudes reducing their rating to 0, but gain an extra Aptitude Point per Inept aptitude. You cannot increase Inept aptitudes during character creation.
+	- Aptitude Points = +1 per Inept aptitude, +1 per Engram. Distribute freely. Max Aptitude = 3.
+		- Max 7 Aptitudes Points (5 engrams, 2 Inept aptitudes)
+
+#### Skill
+- Ranked 0-3 where 0 represents no training and 3 is for experts.
+- You need rank 1 to be able to make a skill test.
+
+| Rating | Aptitude | Skill     |
+| ------ | -------- | --------- |
+| 0      | Inept    | Untrained |
+| 1      | Modest   | Trained   |
+| 2      | Talented | Skilled   |
+| 3      | Genius   | Expert    |
+A fourth die may be granted if character has a **Specialization**. You can get a specialization if you are **Skilled** or **Expert** but need to buy one with experience. Specialization only applies to a narrow segment of the skill.
+
+#### Human Dice Benchmarks
+
+| Dice | Combinations                                                                    | Mean EP |
+| ---- | ------------------------------------------------------------------------------- | ------- |
+| 3D6  | Average Human: Inept/Expert, Modest/Skilled, Talented/Trained, Genius/Untrained | 1.5     |
+| 4D8  | Peak Human: Modest/Expert, Talented/Skilled, Genius/Trained                     | 3       |
+| 5D10 | Superhuman Expert: Talented/Expert, Genius/Skilled                              | 5       |
+| 6D12 | Post-Human Specialist: Talented/Expert Specialist, Genius/Expert                | 7.5     |
+
+### Modifier Dice
+Modifier Dice are small bonuses represented by dice. There are three types of modifier dice:
+- **Utility**
+- **Advantage**
+- **Teamwork**
+
+Modifier dice are separate from Human dice, and they are not affected by Attribute die, instead they are completely independent.
+
+You should not have more than 3 modifier dice applied to any test at any time, although each type of modifier die can add more than one die. If multiple sources would add same type of modifier, you must only pick one of the modifiers.
+
+With 3 modifier dice, the total maximum dice pool is 10, if a character has specialization as well.
+
+| Modifier Grade | Modifier Die |
+| -------------- | ------------ |
+| Trivial        | D4           |
+| Minor          | D6           |
+| Moderate       | D8           |
+| Major          | D10          |
+| Superior       | D12          |
+
+
+- **Utility Dice** can be awarded by using tools, equipment, augments, instructions and walk-throughs.
+- **Advantage Dice** can be gained through use of Augments or suitable circumstantial advantages.
+- **Teamwork Dice** can be gained by receiving assistance from other characters. You can benefit from up to 3 assistants, any more would just make things more complicated, and they will then “lend” one of their human dice, as appropriate to situation – usually Attribute or Skill Die. A preceding test may be required to coordinate teamwork efforts in order to allow benefiting from the teamwork dice.
+
+
+!!! Example
+	Mick is trying to hack the security system of a Syndicate warehouse to grant the team entry through a secure door. The security system is on an isolated subnet accessible only through an arcane maintenance terminal, preventing remote connect. GM calls for a **Moderate (2) Mind + Hacking** test with **Alarm 1** complication: Mick needs 2 Effect Points to succeed, but there’s an alarm rigged to the system which will go off unless taken care of and it costs 1 Effect Point to overcome. Hacking falls under *Adaptive* aptitude and Mick spends 1 energy to gain D10 Utility Die from his *Hacking Suite* augment, making total dice pool `2D10+2D8`:
+	
+	 - D10 (Mind)
+	 - D8 (Adaptive)
+	 - D8 (Hacking)
+	 - D10 (Utility, hacking suite augment)
+	 
+	 Total Dice Pool is then 2D10 + 2D8. He rolls [4, 7, 4, 6] for total 4 successes, overcoming the basic cost and Alarm 1 complication, with 1 EP remaining, which he spends on **Stealth** effect, cleaning any traces he was ever there. Mick successfully hacks the arcane terminal, granting his team access and preventing any alarms from being triggered. 
+
+## Measuring Success
+Any **Effect Points (EP)** gained from dice are summed up together. You can then then spend **EP** to obtain **Effects**, but you may first wish to overcome any **Complications** linked to the task at hand.
+
+Most other complications may be voluntary, in the sense that not overcoming them does not result in complete failure, but rather some consequence that may present immediate or future troubles. Nevertheless, it's always a good idea to try and overcome all complications.
+
+### Effects
+Effects determine the outcome of your test. GM will tell you how many *Effect Points* you need for a particular effect. If you don't have enough, you don't succeed. GM may give the option to buy a lesser, weaker effect instead.
+
+Certain systems, such as [[systems/combat/index|Combat System]] or [[systems/cyber-warfare/index|Cyber Warfare]] already provide a list of Effects you can take, but for any other situation, consult the GM. The Effect cost essentially defines how easy or hard it is to achieve such an Effect.
+
+| Cost | Difficulty | 3D4 | 3D6 | 3D8 | 3D10 | 3D12 |
+| ---- | ---------- | --- | --- | --- | ---- | ---- |
+| 1    | Easy       | 58% | 88% | 95% | 97%  | 98%  |
+| 2    | Moderate   | 16% | 50% | 74% | 87%  | 92%  |
+| 3    | Hard       | 2%  | 13% | 40% | 64%  | 78%  |
+| 4    | Very Hard  | -   | -   | 14% | 36%  | 56%  |
+| 5    | Extreme    | -   | -   | 3%  | 14%  | 32%  |
+
+#### Multiple Effects
+As a rule of thumb, you can take multiple effects, as long as they affect different aspects of the outcome. Certain rule systems may defined stricter limits on effects, so you should follow those rules.
 
 !!! example
-	Janey must beat a Hard test of `Investigation x Mind`. She rolls 3D12 gaining 10, 6 and 9. That's total 4 successes, which earns her 2 Effect Points.
+	Mick is trying to construct a Smart Virus to infect the enemy network and monitor their communications. He wants a Virus that is good at avoiding detection and very effective at bypassing security systems, which should help in making an autonomous viral agent. GM allows this, since the effects clearly affect different aspects of the constructed Smart Virus.
 
-## Opposed Test
-
-When two characters roll dice against each other, they are making an Opposed Test. The outcome of one test will be highly dependent on the outcome of the other test. Whoever has more successes is the victor, with a margin equal to the difference between the results. So if you beat your opponent by one success, you succeed with a one success.
-
+#### Stacking Effects
+Certain effects can stack, meaning you purchase multiple effects of same kind. GM decides if stacking is allowed or not. Stacked effects essentially provide a better result.
 
 !!! example
-	a Moderately difficult test means that on an opposed test you need 2 successes more than your opponent to actually succeed.
+	When using the  [[systems/combat/index|Combat System]] an attack may stack **Hit** effects, resulting in multiple shots or strikes landing on target, improving overall damage.
 
-## Complications
 
-Complications are optional challenges that may be present when attempting a Test. GM can introduce complications on any tests, presenting them as a potential harm that can happen unless dealt with. Players are free to choose whether they want to deal with the complication, or face the consequences.
+## Dice modification
+Some rules may modify the die size. This can be indicated e.g. by stating *Body +1*, meaning that your Body die in this circumstance is one step higher. If the die is always the highest (i.e. D12), then you cannot modify it any further. Dice modification *is not* the common way to modify aspects of challenge in a test, but refer to specific circumstance.
 
-Each complication comes with a rating of 1-5 depicting how difficult the complication is to overcome. In practice this means that to overcome the complication, you need to spend that many additional successes, which can't then be used to beat the difficulty, and won't count for *Effect Points*. But as long as you overcome the complication, then it won’t come into play.
+## Challenge
 
-It is also possible that multiple complications apply to a single test, but having more than three complications makes tracking them really difficulty, so having more than three complications on a single test is not recommended.
+In addition to determining the cost of the the player’s desired Effect, there are three ways to set up the challenge for a test:
 
-!!! Example Complications example
-	Marko is trying to hack into a Syndicate server to obtain some cargo manifest data he needs for a client. He's testing `Hacking x Cyber` and can roll 4D10. But GM tells him that the while the server itself only has Moderate security, there is a local Sys Op monitoring the situation, which presents a 1-point complication. If Marko fails to overcome the complication, the Sys Op will detect him and will begin countermeasures and a trace, which might eventually see Marko's location compromised...
+- Assign [[complications|Complications]] – optional narrative consequences to *overcome*.
+- Assign [[penalties|Penalties]] – difficulty modifiers due to various [[systems/conditions/index|Conditions]] or circumstances.
+- Make an [[opposed-test|Opposed Test]] – test a character’s skills against another character, such as an NPC.
 
-## Effects
+## Handling Failure
+A test can fail in many ways: Not scoring enough Effect Points or choosing to overcome complications, but failing the test; or ending up in a stalemate in an [[opposed-test|Opposed Test]]. GM can present players various options, depending on circumstance. Sometimes it’s good to just accept the failure and think of something else.
 
-You gain a number of **Effect Points (EP)** upon beating the difficulty of a test equal to 1 + any successes in excess of the *Success Threshold* determined by difficulty. EP can be spent on various *Effects* to determine the outcome of the test. Each Test will have some sort of **Basic Effect**, that will always cost just 1 EP, allowing the character to simply do what they set out to do. Additional Effects allow the character to somehow improve the outcome, and could be as as simple as *doing it faster*, or *doing it with style*.
-
-Any Effect Points that are not spent immediately, are lost. You can suggest your own effects, which can cost any number of Effect Points, and GM may present options as well. Many actions listed in the rulebook have some kind of list of Effects that can be used without further debate, but players and GM should feel free to improvise and discuss.
-
-## Modifiers
-
-Different modifiers may apply to a test, either granting or removing dice. Generally the total number of modifiers should not exceed +/- 3 Dice. Regardless, maximum number of dice to roll is 10, and minimum is zero. If you don't have dice, you fail automatically.
-
-A positive modifier may be referred to as **Advantage** or **Bonus**, while a negative modifier may be called **Disadvantage** or **Penalty**.
-
-## Rerolls
-
-Sometimes you have the option to spend a **Reroll** on a test vastly improving your chances of success or improving the outcome. Each Reroll allows you to pick any number of rolled dice and roll them again. You must keep the new results. When rerolling a skill test, it makes most sense to only re-roll dice that did not generate any successes, otherwise you will risk those dice producing zero successes.
-
-!!! example
-	Kris is facing a high-risk negotiation and needs to convince an enemy mercenary to stand down before the situation escalates. GM states it's a Hard `Persuasion x Mind` test, so Kris rolls 6D10 and gains 3, 4, 6, 2, 1, 1, generating only 1 success out of the 3 required. Facing a failure, He decides to spend a point of Resolve to reroll the five failed dice, rolling 7,10,5,2,1 adding 4 successes for a total of 5 successes. That's more than enough to succeed with flying colors.
-
-## Assistance
-
-Another character may provide assistance in a test. The assistant does not roll any dice on their own, but rather awards half (round down) of their **Dice Pool** to the acting character performing the test. The minimum Dice Pool is then 2 for assistant to be of any use to the acting character.
-
-The assistant may also utilize a different skill than the acting character, if it fits the situation. You can suggest GM how your character would be able to assist another character, suggesting a skill to use, but the GM has the final call if such assistance works in the situation at hand.
+- **Try again:** Perhaps with some sort of [[penalties|Penalty]] for stressing you out.
+- **Fail Forward:** Failure opens another route – perhaps not the optimal route, but a route forward regardless.
+- **Sacrifice something:** make a personal sacrifice in order to get ahead and win with just single Effect Point. E.g. an equipment can break or maybe you burn a bridge with a (former) ally to get what you want.
