@@ -5,7 +5,7 @@ version: 4
 
 Aptitudes represent innate personality traits, instincts, or psychological frameworks. They define how a character approaches problems, interacts with others, and learns skills. Each Aptitude links to three skills, but applies to many broader situations in play. When making [[skill-test|Skill Tests]] you typically combine Aptitude and linked Skill with suitable Attribute, but players and GM are free to mix and match if another combination than the linked skill suits better.
 
-When building a character, Aptitudes begin at **D6 (average)**, with options to raise one or more based on your concept.
+An average human has Level 1 Aptitude at everything, although people rare are a statistical average.
 
 | Aptitude Level | Talent   | Degree of talent                                                                     |
 | -------------- | -------- | ------------------------------------------------------------------------------------ |
@@ -77,7 +77,7 @@ Aptitudes are very slow to change and they affect a wide number of skills, so ch
 
 - [[skills#Aim]] – Steady hands and breath, strike true under pressure.
 - [[skills#Toughness]] – Resist damage, endure punishment, keep standing.
-- [[skills#Pilot]] – Adapt to vehicles, rigs, or unconventional travel modes.
+- [[skills#Piloting]] – Adapt to vehicles, rigs, or unconventional travel modes.
 
 ### Creative
 

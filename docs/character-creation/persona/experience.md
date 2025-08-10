@@ -17,7 +17,7 @@ You can choose how experienced your character is when starting the game. More ex
 Note down the benefits from your chosen experience level, then proceed with choosing your Faction. You can come back and change this later, but the choice will affect many aspects of your character’s Persona profile.
 
 !!! example "Kitah"
-	Joe is creating a new character “Kitah”. He imagines Kitah to be a seasoned hardcore professional who is very competent in their line of work. Kitah’s experience level is “Professional”. This gives Kitah 3 Engrams, +4 mental state, 3 Resolve, 3 extra Aptitude Points, 6 extra skill points and faction Rank 2.
+	Joe is creating a new character “Kitah”. He imagines Kitah to be a seasoned hardcore professional who is very competent in their line of work. Kitah’s experience level is “Professional”. This gives Kitah 3 Engrams, +4 mental state, 3 Resolve, 3 extra Aptitude Points, 12 extra skill points and faction Rank 2.
 
 ### Experience Levels
 Experience Level indicates your starting rank in your chosen Faction. It’s also much more: It correlates to how much action you have seen, how long you’ve been in the game, and directly reflects how traumatized and broken you are mentally.

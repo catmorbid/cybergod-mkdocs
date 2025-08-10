@@ -8,7 +8,7 @@ version: 1
 Resolve can be used in the following ways to improve the outcome of tests, checks or other dice rolls.
 
 - **Reroll**: Spend 1 point of Resolve to gain a [[systems/core-mechanics/index#Rerolls|Reroll]] *after* rolling the dice on *any* dice rolls – unless explicitly stated otherwise. You can spend as many Resolve as you like on re-rolls.
-- **Focus**: Spend 1 point of Resolve *before* a Skill Test to gain 2D advantage on the test. You can only choose this spend once.
+- **Focus**: Spend 1 point of Resolve *before* a Skill Test to gain **2D8 advantage** on the test. You can only choose this option *once per test*, and it counts towards normal [[skill-test#Modifier Dice|Modifier Dice]] limits. If you already have 2 modifier dice, you can opt to take just **1D12 advantage** instead, to use the existing modifiers as well.
 
 If the listed usage is not enough, Game Masters are encouraged to invent additional uses for Resolve and players can always *suggest* spending or burning resolve to survive a tricky situation.
 

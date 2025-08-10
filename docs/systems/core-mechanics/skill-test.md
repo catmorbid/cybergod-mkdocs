@@ -99,14 +99,14 @@ With 3 modifier dice, the total maximum dice pool is 10, if a character has spec
 
 
 !!! Example
-	Mick is trying to hack the security system of a Syndicate warehouse to grant the team entry through a secure door. The security system is on an isolated subnet accessible only through an arcane maintenance terminal, preventing remote connect. GM calls for a **Moderate (2) Mind + Hacking** test with **Alarm 1** complication: Mick needs 2 Effect Points to succeed, but there’s an alarm rigged to the system which will go off unless taken care of and it costs 1 Effect Point to overcome. Hacking falls under *Adaptive* aptitude and Mick spends 1 energy to gain D10 Utility Die from his *Hacking Suite* augment, making total dice pool `2D10+2D8`:
+	Mick is trying to hack the security system of a Syndicate warehouse to grant the team entry through a secure door. The security system is on an isolated subnet accessible only through an arcane maintenance terminal, preventing remote connect. GM calls for a `Moderate (2) [Hacking]d[Mind]` test with **Alarm 1** complication: Mick needs 2 Effect Points to succeed, but there’s an alarm rigged to the system which will go off unless taken care of and it costs 1 Effect Point to overcome. Hacking falls under *Adaptive* aptitude and Mick spends 1 energy to gain D10 Utility Die from his *Hacking Suite* augment, making total dice pool `2D10+2D8`:
 	
 	 - D10 (Mind)
-	 - D8 (Adaptive)
-	 - D8 (Hacking)
-	 - D10 (Utility, hacking suite augment)
+	 - 2 dice (Adaptive)
+	 - 1 die (Hacking)
+	 - 1D10 modifiers (Utility, hacking suite augment)
 	 
-	 Total Dice Pool is then 2D10 + 2D8. He rolls [4, 7, 4, 6] for total 4 successes, overcoming the basic cost and Alarm 1 complication, with 1 EP remaining, which he spends on **Stealth** effect, cleaning any traces he was ever there. Mick successfully hacks the arcane terminal, granting his team access and preventing any alarms from being triggered. 
+	 Total Dice Pool is then 4D10. He rolls [4, 7, 4, 6] for total 4 successes, overcoming the basic cost and Alarm 1 complication, with 1 EP remaining, which he spends on **Stealth** effect, cleaning any traces he was ever there. Mick successfully hacks the arcane terminal, granting his team access and preventing any alarms from being triggered. 
 
 ## Measuring Success
 Any **Effect Points (EP)** gained from dice are summed up together. You can then then spend **EP** to obtain **Effects**, but you may first wish to overcome any **Complications** linked to the task at hand.

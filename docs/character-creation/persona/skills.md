@@ -11,7 +11,7 @@ A character’s skills are determined by their past life experiences, training p
 | 2           | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation. |
 | 3           | Expert       | You are a seasoned expert on your field. One of the best.                                                                  |
 
-A fourth die may be granted if character has a **Specialization**. You can get a specialization if you are **Professional** or **Expert** but need to spend [[experience#Experience Points|Experience Points]] after character creation. Specialization only applies to a narrow segment of the skill.
+A fourth die may be granted if character has a **Specialization**. You can get a specialization if you are **Professional** or **Expert** but specialization only applies to a narrow segment of the skill. You can get one specialization at character creation and more after by spending [[experience#Experience Points|Experience Points]] between stories.
 
 ## Character Creation
 Choose **background skills**. Each step choose a different skill. All selected *Background skills start at level 1*, and you can improve them later.

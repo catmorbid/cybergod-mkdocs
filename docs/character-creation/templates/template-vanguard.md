@@ -1,5 +1,5 @@
 ---
-title: Bulwark
+title: Vanguard
 tags:
   - Faction-ARC
   - Frame

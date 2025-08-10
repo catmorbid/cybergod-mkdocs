@@ -42,8 +42,8 @@ Corruption can be gained in a few ways, for example:
 Whenever you take a point of **Corruption**, mark it down and keep playing. Once game session ends, you must now proceed to make a **Corruption Check**: Roll 1D10 for each point of Corruption you have, and if any die rolls 1-2, you fail. On failure resolve the following steps:
 
 - One of your [[#Engrams]] is permanently corrupted and removed.
-- Permanently lose 1 point of [[#Resolve]]
-- Permanently lose 1 level in an [[#Aptitudes|Aptitude]] – pick one that fits the corrupted Engram, but any Aptitude will do, as long as it is D6 or greater.
+- Lose 1 point of *current* [[#Resolve]] (max resolve is already affected by losing the engram)
+- Permanently lose 1 level in an [[#Aptitudes|Aptitude]] – pick one that fits the corrupted Engram, but any Aptitude will do, as long as it is Level 1 or greater.
 - Increase [[#Mental State]] by 1.
 - Erase all accumulated [[#Corruption]].
 - If you lose your last [[engrams|Engram]], you must **Retire** the character.
