@@ -63,28 +63,6 @@ Every test uses two kinds of dice: **Human Dice**, based on your character’s s
 Number of dice equals to **Aptitude + Skill**. Die Size is always equal to **Attribute**. Attribute enhances the outcome, cyborgs greatly exceed human capabilities.
 
 E.g. `[Fighting] d [Body]` when character has: Dominant 1, Fighting 2, Body d8 → character rolls 3d8.
-
-#### Aptitude
-- Ranked 0-3 where 1 represents least aptitude and 3 greatest aptitude.
-- Average Aptitude is 1. Characters may voluntarily choose **Ineptitudes**, reducing Aptitude rating to 0, making them very weak.
-- **Chargen**:
-	- Each aptitude defaults to rating 1 (Average)
-	- (Optional) Pick up to 2 **Inept** aptitudes reducing their rating to 0, but gain an extra Aptitude Point per Inept aptitude. You cannot increase Inept aptitudes during character creation.
-	- Aptitude Points = +1 per Inept aptitude, +1 per Engram. Distribute freely. Max Aptitude = 3.
-		- Max 7 Aptitudes Points (5 engrams, 2 Inept aptitudes)
-
-#### Skill
-- Ranked 0-3 where 0 represents no training and 3 is for experts.
-- You need rank 1 to be able to make a skill test.
-
-| Rating | Aptitude | Skill     |
-| ------ | -------- | --------- |
-| 0      | Inept    | Untrained |
-| 1      | Modest   | Trained   |
-| 2      | Talented | Skilled   |
-| 3      | Genius   | Expert    |
-A fourth die may be granted if character has a **Specialization**. You can get a specialization if you are **Skilled** or **Expert** but need to buy one with experience. Specialization only applies to a narrow segment of the skill.
-
 #### Human Dice Benchmarks
 
 | Dice | Combinations                                                                    | Mean EP |

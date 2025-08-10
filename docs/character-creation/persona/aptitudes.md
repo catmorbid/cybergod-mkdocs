@@ -7,25 +7,23 @@ Aptitudes represent innate personality traits, instincts, or psychological frame
 
 When building a character, Aptitudes begin at **D6 (average)**, with options to raise one or more based on your concept.
 
-| Aptitude Rating | Talent      | Degree of talent                                                                     |
-| --------------- | ----------- | ------------------------------------------------------------------------------------ |
-| D4 (1)          | Inept       | You lack any aptitude or talent in the field.                                        |
-| D6 (2)          | Average     | You have average talent for the field.                                               |
-| D8 (3)          | Talented    | You stand out from your peers in area, showing some promise                          |
-| D10 (4)         | Exceptional | You have exceptional talent in the field                                             |
-| D12 (5)         | Genius      | You can match or exceed most professionals in the field without any training at all. |
+| Aptitude Rating | Talent   | Degree of talent                                                                     |
+| --------------- | -------- | ------------------------------------------------------------------------------------ |
+| None            | Inept    | You lack any aptitude or talent in the field.                                        |
+| 1               | Modest   | You have average talent for the field.                                               |
+| 2               | Talented | You stand out from your peers in area, showing some promise                          |
+| 3               | Genius   | You can match or exceed most professionals in the field without any training at all. |
 ## Character Creation
 
 In character creation, follow these steps:
-- Choose one Aptitude at D8 (talented)
-- Choose one Aptitude at D4 (Inept)
-- (Optional) pick another D8 and likewise another D4 aptitude.
-- Assign D6 to remaining Aptitudes
+- (Optional) pick 0-2 Aptitudes as **Talented (2)** and equal amount as **Inept (0)**.
+- All remaining Apitudes start at **Modest (1)**.
+- Freely distribute 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]].
 
-Finally, you can freely assign 1 Aptitude Point for each [[#Engrams|Engram]] you have, determined by you [[#Experience]], increasing Aptitudes up to D12. Aptitudes change slowly, so 
+Aptitudes are very slow to change and they affect a wide number of skills, so choose them carefully.
 
 !!! example "Kitah"
-	Joe is deciding Aptitudes for Kitah. He chooses “Adaptive” as talented and “Dominant” as inept. Kitah is not a fighter, but a survivor who uses their wits and cunning to avoid problems. If they get into a fight, something has gone terribly wrong. Kitah’s Aptitudes are thus: **Dominant D4, Analytical D6, Adaptive D8, Empathic D6, Resilient D6, Creative D6.**	Kitah is a professional, and has 3 Engrams and thus 3 Aptitude points. Joe assigns them to *Adaptive*, *Resilient* and *Creative*. Kitah’s final Aptitudes are: **Dominant D4, Analytical D6, Adaptive D10, Empathic D6, Resilient D8, Creative D8.**
+	Joe is deciding Aptitudes for Kitah. He can choose up to 2 talented aptitudes, but must then pick the same amount of Inept aptitudes. Joe picks **Adaptive** as talented and **Dominant** as inept, but decides to stick with that. Kitah is not a fighter, but a survivor who uses their wits and cunning to avoid problems. If they get into a straight brawl, something has gone terribly wrong. Kitah’s Aptitudes are thus: **Dominant 0, Analytical 1, Adaptive 2, Empathic 1, Resilient 1, Creative 1.**	Kitah is a professional, and has 3 Engrams and thus 3 Aptitude points. Joe assigns them to *Adaptive*, *Resilient* and *Creative*. Kitah’s final Aptitudes are: **Dominant 0, Analytical 1, Adaptive 3, Empathic 1, Resilient 2, Creative 2.**
 
 
 ### Dominant

@@ -53,10 +53,10 @@ You cannot spend your experience points immediately; instead you must wait until
 When given permission to spend Experience points, you have the following options:
 
 
-| Improvement                                               | Experience Cost         | Requirements                 |
-| --------------------------------------------------------- | ----------------------- | ---------------------------- |
-| Improve [[skills\|Skills]]                                | Next Skill Level        | Downtime                     |
-| Improve [[aptitudes\|Aptitude]]                           | Next Aptitude Level x 5 | Downtime, training           |
-| Heal [[engrams#Corruption\|Corruption]]                   | 10                      | Downtime, Intense VR therapy |
-| Heal [[stress#Mental Condition\|Mental Condition]]        | 5                       | Downtime, Therapy            |
-| Improve [[character-creation/resources/index\|Resources]] | Next Resource Level x2  | Downtime, GM Permission      |
+| Improvement                                               | Experience Cost          | Requirements                 |
+| --------------------------------------------------------- | ------------------------ | ---------------------------- |
+| Improve [[skills\|Skills]]                                | Next Skill Level x 3     | Downtime                     |
+| Improve [[aptitudes\|Aptitude]]                           | Next Aptitude Level x 10 | Downtime, training           |
+| Heal [[engrams#Corruption\|Corruption]]                   | 10                       | Downtime, Intense VR therapy |
+| Heal [[stress#Mental Condition\|Mental Condition]]        | 5                        | Downtime, Therapy            |
+| Improve [[character-creation/resources/index\|Resources]] | Next Resource Level x2   | Downtime, GM Permission      |

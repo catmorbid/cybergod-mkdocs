@@ -2,28 +2,28 @@
 title: Skills
 version: 4
 ---
-A character’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction.
+A character’s skills are determined by their past life experiences, training provided by a faction, personal interests and *experience*. In *Character Creation* you choose skills that relate to your background story and role within your faction. Skill is linked to an **Aptitude**, and together they determine how many dice you roll in a Skill Test.
 
-| Skill Rating | Expertise    | Description                                                                                                                                         |
-| ------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| N/A (0)      | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                                              |
-| D4 (1)       | Student      | You have basic skill, but you are still learning.                                                                                                   |
-| D6 (2)       | Amateur      | You have some practical experience, but lack deeper understanding on the subject.                                                                   |
-| D8 (3)       | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation.                          |
-| D10 (4)      | Expert       | You are a seasoned expert on your field. One of the best.                                                                                           |
-| D12 (5)      | Master       | You have years of experience and in-depth and thorough understanding over your field. The only thing that makes a difference is raw natural talent. |
+| Skill Rating | Expertise    | Description                                                                                                                |
+| ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| None         | Untrained    | You have no training or practice in the skill. Your know-how is solely based on your natural aptitude.                     |
+| 1            | Trained      | You have basic skill, but you are still learning.                                                                          |
+| 2            | Professional | You are a certified professional and while not the most experienced, you can easily pull your weight in a tough situation. |
+| 3            | Expert       | You are a seasoned expert on your field. One of the best.                                                                  |
+
+A fourth die may be granted if character has a **Specialization**. You can get a specialization if you are **Professional** or **Expert** but need to spend [[experience#Experience Points|Experience Points]] after character creation. Specialization only applies to a narrow segment of the skill.
 
 ## Character Creation
-Assign 1 skill level to any skills chosen at each step. You can choose a skill chosen in previous step as long as it makes sense:
+Any skill chosen is increased in by one.
 
 - Choose 3 skills related to your *Origin*
-- Choose 3 skills related to your *profession*, or *role* within your *Faction*. Check your faction description for suggestions.
+- Choose 3 skills *Faction skills*, related to to your *profession* or *role* within the faction. Check your faction description for suggestions.
 - Choose 2 skills as your *personal interests*
 
-Finally, spend additional skill points based on [[experience]] and distribute them as you see fit. You should not have more than one skill at Master (D12) level.
+Finally, spend additional skill points based on [[experience]] and distribute them as you see fit. You can spend 1 Skill Point to buy a specialization at this point. The skill you pick the specialization for must be at Professional (2) or Expert (3) Level.
 
 !!! example Kitah
-	Joe is choosing skills for “Kitah” his new character. Kitah’s Origin is Slum Kid so Joe accepts the suggested skills of *Alertness*, *Stealth* and *Streetwise*. Kitah’s faction is ARC and Joe imagines their role to be a scout or a recon and chooses *Alertness*, *Stealth* and *Fighting*. As personal interests, Joe chooses *Hacking* and *MedTech*. Skills are now: *Fighting D4*, *Alertness D6*, *Stealth D6*, *Streetwise D4*, *Hacking D4*, *MedTech D4*. Since Kitah’s experience level is Professional, Joe can assign 6 skill points to any skills and decides on: *Aim*, *Fighting*, *Mobility*, *Hacking*, *Troubleshooting* and *Investigation*. Kitah’s final Aptitudes and Skills are now: **Dominance D4** – *Fighting D6*, *Mobility D4*; **Analytical D6** – *Investigation D4*, *Troubleshooting D4*; **Adaptive D10** – *Alertness D6*, *Stealth D6*, *Hacking D6*; **Empathic D6** – *Medtech D4*; **Resilient D8** – *Aim D4*; **Creative D8** – *Streetwise D4*.
+	Joe is choosing skills for “Kitah” his new character. Kitah’s Origin is Slum Kid so Joe accepts the suggested skills of *Alertness*, *Stealth* and *Streetwise*. Kitah’s faction is ARC and Joe imagines their role to be a scout or a recon and chooses *Alertness*, *Stealth* and *Fighting*. As personal interests, Joe chooses *Hacking* and *MedTech*. Skills are now: *Fighting 1*, *Alertness 2*, *Stealth 2*, *Streetwise 1*, *Hacking 1*, *MedTech 1*. Since Kitah’s experience level is Professional, Joe can assign 6 skill points to any skills and decides on: *Aim*, *Fighting*, *Mobility*, *Hacking*, *Troubleshooting* and *Investigation*. Kitah’s final Aptitudes and Skills are now: **Dominance 0** – *Fighting 2*, *Mobility 1*; **Analytical 1** – *Investigation 1*, *Troubleshooting 1*; **Adaptive 3** – *Alertness 2*, *Stealth 2*, *Hacking 2*; **Empathic 1** – *Medtech 1*; **Resilient 2** – *Aim 1*; **Creative 2** – *Streetwise 1*.
 
 Each **Skill** is tied to a default **Aptitude**, and it can be paired with any of the four **Attributes**—**Body**, **Reflex**, **Mind**, and **Cyber**—to perform actions. Choose the combination that makes the most sense for the situation. The short tables below illustrate possible use-case examples for each Skill + Attribute combination.
 
