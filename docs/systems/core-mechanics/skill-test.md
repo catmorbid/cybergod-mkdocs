@@ -14,9 +14,9 @@ version: 4
 ## Syntax
 Skill Tests are the most common type of test you need to do. The syntax for a Skill in the rules is usually quite simple and will tell you what dice to roll and how difficult the test should be.
 
-> `Difficulty(Cost) [Skill]d[Attribute]`
+> `Difficulty(Cost) Skill(Attribute)`
 
-For example: *”Test `Moderate(2) [Investigation]d[Mind]` to find clues on the crime scene.”*
+For example: *”Test `Moderate(2) Investigation(Mind)` to find clues on the crime scene.”*
 
 This test tells you the most important components you need for the test:
 - [[#Test Dice]]: The number of dice is equal to Skill + linked Aptitude. The size of die is equal to the Attribute.

@@ -20,8 +20,9 @@ In their self-righteous dogma, the *blessings* are merely a sign of faith and ar
 
 ### Technology
 
-- `Uncommon` weapons and armor
-- `Biotech` Augments
+- #Uncommon weapons and armor
+- #Biotech Augments
+	- #Exotic augments: [[biomorph-armor]], [[biomorph-weapons]], [[biomorph-healing]], [[biomorph-invasion]]
 
 ### Frames
 

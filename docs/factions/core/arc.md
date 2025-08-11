@@ -13,9 +13,12 @@ When ordinary Regulators of the *Core Regulator Authority* find themselves in a 
 ### Technology
 
 - Customizable CHAOS Mk. 2 Assault Sidearm
-- `Advanced` weapons and armor
+- #Advanced weapons and armor
 - #Cybertech augments
+	- #Exotic augment: [[judgement-protocol|Judgement Protocol]]
 - ARC does not recommend #Unsafe augments.
+
+
 
 ### Frames
 
