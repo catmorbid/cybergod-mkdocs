@@ -14,7 +14,7 @@ version: 4
 **Augments:**
 - [[avatar]]
 - [[immortal]]
-- [[hacking-suite]]
+- [[system-breach-suite]]
 - [[cyberjacking-suite]]
 - [[coil-interface]]
 - [[sensor-augment]]

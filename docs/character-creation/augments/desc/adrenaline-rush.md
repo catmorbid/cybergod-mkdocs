@@ -1,0 +1,1 @@
+Enter a state of constant adrenaline frenzy improving close quarters fighting ability and physical prowess.

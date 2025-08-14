@@ -2,7 +2,7 @@
 title: Upgrade Points
 version: 1
 ---
-**Upgrade Points** can be spent to improve your Frame by improving [[character-creation/frame/index#Attributes|Attributes]] and [[character-creation/augments/index|Augments]]. You can also choose to buy new Augments. [[arc|ARC]] also allows spending Upgrade Points to improve your personal CHAOS Mk.2. sidearm.
+**Upgrade Points** can be spent to improve your Frame by improving [[character-creation/frame/index#Attributes|Attributes]] and [[character-creation/augments/_old/index|Augments]]. You can also choose to buy new Augments. [[arc|ARC]] also allows spending Upgrade Points to improve your personal CHAOS Mk.2. sidearm.
 
 
 | Improvement      | Cost             | Description                                                                                                       |

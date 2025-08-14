@@ -14,7 +14,7 @@ version: 4
 **Augments:**
 - [[systems/psionics/index|ESP Modulator]]
 - [[skill-suite]]
-- [[hacking-suite]]
+- [[system-breach-suite]]
 - [[nano-forge]]
 - [[camouflage]]
 - [[swarm]]

@@ -30,7 +30,7 @@ Systems
 
 - [[character-creation/persona/index|Persona]]
 - [[character-creation/frame/index|Frame]]
-- [[character-creation/augments/index|Augments]]
+- [[character-creation/augments/_old/index|Augments]]
 - [[character-creation/gear/index|Gear]]
 
 [[factions/index|Factions]]
