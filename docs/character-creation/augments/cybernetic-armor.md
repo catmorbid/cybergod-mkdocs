@@ -10,7 +10,7 @@ Integrated exoskeletal armor that cannot be removed without heavy tools. Cannot 
 
 **System**
 	- **Passive effects**: Cybernetic Armor is entirely passive, you don’t need energy to activate or use it
-	- **Repairing Armor**: Armor must be repaired between combat. A set of tools and a test of `Moderate Troubleshooting x Mind or Cyber` will work, repairing one point of Durability Lost, plus another for every 2 Effect Points. This will take a Moderate amount of time. If you attempt self-repairs you must take +1 increase in difficulty.
+	- **Repairing Armor**: Any Shred Armor must be repaired between combat. A set of tools and a test of `Moderate Troubleshooting x Mind or Cyber` will work, repairing one point of Durability Lost, plus another for every 2 Effect Points. This will take a Moderate amount of time. If you attempt self-repairs you must take +1 increase in difficulty.
 		- **Armor Repair Patch**: You can use an advanced Armor Repair Patch (single-use item) to repair 1 DR worth armor damage in a bit shorter time, if you have access to those.
 	- **Cyber Integration:** Cybernetic Armor is designed to integrate perfectly with any other augments, including **Camouflage** or **Weapon Systems**.
 ### Level 1
