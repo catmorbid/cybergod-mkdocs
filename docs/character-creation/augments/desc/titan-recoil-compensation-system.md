@@ -1,0 +1,4 @@
+> *”Our boys and girls need bigger guns – and by that I mean massive guns that can blow a hole in a fucking planet, can you make this happen?”*
+> —ARC High-Commander Markus T. Nieminen, official DEI Cybertech division research request
+
+Favored by heavy weapons specialists, the *TITAN Recoil Compensation System* is a formidable augment built for a singular purpose: to wield massive super-heavy weapons intended for combat vehicles by a lone cyborg operator. The TITAN also helps greatly managing recoil with any weapons, reducing the need to rely on advanced error-prone targeting systems, and it can be utilized with physically weaker Frames as well to better manager recoil from automatic weapons.

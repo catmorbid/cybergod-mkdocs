@@ -1,20 +1,7 @@
----
-title: Cyberjacking Suite
-version: 1
-tags:
-  - Cybertech
-  - Nanotech
-  - Augment
-  - Unsafe
----
 
 *Cyberjacking Suite* is a dedicated cyber warfare system designed for invading an entity’s **Cybernetic Brain**. This essentially allows the attacker to take over the physical functions of the subject, upload devastating neural viruses and inflict all kinds of harm. *Cyberjacking* is serious breach of a person’s privacy and as such a severely punishable offense. *Cybernetic Brain* was designed with advanced security measures, so hacking it without dedicated tool set would be impossible.
 
-## Augment
-
-Follow the [[#Cyberjacking Procedure]]. Augment provides bonuses are benefits
-
-## Cyberjacking Procedure
+## Cyberjacking
 To engage in cyberjacking, you must first reach the target at close range, then use their neural ports to plug-in to their brain and commence the attack.
 
 Anyone with a cybernetic brain has a neural port and is susceptible to attack. The port may be protected by armor, so you might have to make sure they've taken enough damage to make the port accessible.
@@ -27,6 +14,7 @@ Anyone with a cybernetic brain has a neural port and is susceptible to attack. T
 - If *attacker* wins, they may also attack one of the target's **Cores**, inflicting *1 Core Damage* per Effect
 
 When cyberjacking both attacker and defender are unable to move. The attacker has the upper hand and only if they choose to disengage, the connection can be severed.
+
 ### Core Damage
 
 Core Damage is added to each Core after the attacker succeeds in a Cyberjacking test. Based on how much damage has been inflicted, you have some options.

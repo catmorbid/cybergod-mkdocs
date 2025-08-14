@@ -1,7 +1,1 @@
-
-You can use Biomorphs from close proximity to another target, or heal yourself to by spending an Action. Total **Healing Power** is `2x Energy Spent`, but each level requires a minimum energy to be spent to activate. You can spend additional energy to improve the effect, but the maximum wound level is limited by the ability.
-
-Healing Power is a pool of points you can use to heal wounds. A wound requires Healing Power equal to their Damage Class equivalence.
-
-!!! example
-	a Major Wound occurs at Damage Class 3, so you need 3 Healing Power to heal a Major Wound.
+You can use biomorphs to repair damaged tissue and even regenerate destroyed organs. Biomorphs essentially mimic the DNA and then rapidly replicate. Biomorphs can invade other beings, so you can use them to heal other as well as yourself. Biomorphs typically produce local anesthetics to numb the pain from regeneration, but you can choose to disable this feature at will, for whatever purpose needed. When disabled, the pain is extreme.
