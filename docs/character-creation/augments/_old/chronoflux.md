@@ -13,6 +13,8 @@ tags:
 
 An **Unsafe** and outright **Dangerous** modification to the frame’s Energy Core that manipulates local spacetime around the user. While it can grant **hyper-accelerated actions** or **temporal stunts**, each use risks severe harm—physical **temporal backlash**, meltdown checks, or permanent timeline scars. At higher levels, you can produce near “time-stop” effects, but you teeter on the brink of catastrophic paradox.
 
+
+
 **System**
 - **Activate**: Spend 1 Energy as an Instant Action
 - **Maintain:** Chronoflux must be re-activated each round to avoid **Chrono Crash**

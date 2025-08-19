@@ -3,7 +3,7 @@ title: Judgement Protocol
 version: 4.1
 tags:
   - Cybertech
-  - "Faction-ARC"
+  - Faction-ARC
 ---
 
 > _“You are no longer a person. You are a node of the Law.”_

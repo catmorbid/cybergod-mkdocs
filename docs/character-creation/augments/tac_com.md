@@ -1,5 +1,5 @@
 ---
-title: "TAC-COM"
+title: TAC-COM
 version: 4.1
 tags:
   - Cybertech
