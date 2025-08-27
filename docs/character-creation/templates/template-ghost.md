@@ -14,7 +14,7 @@ version: 4
 **Augments:**
 - [[camouflage]]
 - [[cyberjacking-suite|Cyberjacking Suite]]
-- [[hacking-suite]]
+- [[system-breach-suite]]
 - [[disruptor-suite]]
 - [[sensor-augment]]
 - [[adrenaline-rush]]

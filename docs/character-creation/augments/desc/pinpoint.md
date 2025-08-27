@@ -1,0 +1,1 @@
+Specialized Tactical Marksmanship enhancement is an ideal augment for fire-team leaders and sniper spotters. **Pinpoint** automatically tracks marked targets and provides a real-time feed to allies on the targets and their positions. The system can also identify vulnerabilities, improving attack effectiveness against the targets.

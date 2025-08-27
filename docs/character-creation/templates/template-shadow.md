@@ -16,7 +16,7 @@ version: 4
 - [[camouflage]]
 - [[sensor-augment]]
 - [[pinpoint]]
-- [[hacking-suite]]
+- [[system-breach-suite]]
 - [[skill-suite]]
 - [[immortal]]
 

@@ -28,7 +28,7 @@ Follow these steps to create a character. You can read the details on the approp
 		- Choose 2 skills as personal interests
 		- Spend bonus skill points awarded by *experience*
 5. Choose a [[character-creation/frame/index#Frame Template|Frame Template]] from your Faction
-	- Mark down [[character-creation/frame/index#Attributes|Attributes]] and [[character-creation/augments/index|Augments]]. Augments start at Level 1.
+	- Mark down [[character-creation/frame/index#Attributes|Attributes]] and [[character-creation/augments/_old/index|Augments]]. Augments start at Level 1.
 6. Spend **Upgrade Points** to improve Attributes or Augments, or take new Augments.
 7. Write down [[character-creation/frame/index|Frame Stats]]
 8. Choose Gear

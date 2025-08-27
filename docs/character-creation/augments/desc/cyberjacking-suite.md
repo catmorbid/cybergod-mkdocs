@@ -1,0 +1,2 @@
+
+*Cyberjacking Suite* is a dedicated cyber warfare system designed for invading an entity’s [[cybernetic-brain|Cybernetic Brain]]. This essentially allows the attacker to take over the physical functions of the subject, upload devastating neural viruses and inflict all kinds of harm. [[cyberjacking|Cyberjacking]] is serious breach of a person’s privacy and as such a severely punishable offense. [[cybernetic-brain|Cybernetic Brain]] was designed with advanced security measures, so hacking it without dedicated toolset would be nearly impossible.

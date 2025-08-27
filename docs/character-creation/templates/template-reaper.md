@@ -17,7 +17,7 @@ version: 4
 - [[sensor-augment]]
 - [[disruptor-suite]]
 - [[hermes-mobility-suite]]
-- [[hacking-suite]]
+- [[system-breach-suite]]
 - [[targeting-system]]
 
 

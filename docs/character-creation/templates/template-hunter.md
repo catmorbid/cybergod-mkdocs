@@ -17,7 +17,7 @@ version: 4
 - [[sensor-augment]]
 - [[targeting-system]]
 - [[camouflage]]
-- [[hacking-suite]]
+- [[system-breach-suite]]
 - [[immortal]]
 
 ### Upgrade Path

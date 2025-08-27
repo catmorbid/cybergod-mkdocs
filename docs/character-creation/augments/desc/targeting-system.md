@@ -1,0 +1,1 @@
+Enables extremely high damage and precision in combat by extreme calculation power, which is displayed as slowed down time and trajectory tracking. Effective in both close combat and ranged combat.

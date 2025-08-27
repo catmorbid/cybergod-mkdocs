@@ -1,0 +1,1 @@
+A collection of software and hardware to enable system breach via direct neural connection, integrated directly to your frame. You can replicate effects of System Breach Suite easily with external equipment, but having the tools integrated to your frame is more practical.

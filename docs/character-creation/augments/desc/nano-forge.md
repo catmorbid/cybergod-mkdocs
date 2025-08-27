@@ -1,0 +1,1 @@
+Adjustable Nanite-based combat suite that can be used to graft armor and weaponry to the nanotech frame. Ultra tier Nano Forge can even craft complex machinery.

@@ -8,7 +8,7 @@ Stats are miscellaneous statistics, often derived from [[Attributes]].
 ### Cyber Defense
 [[attributes#Cyber|Cyber]]
 
-**Cyber Defense** determines base defense against [[systems/cyber-warfare/index]]. Apply Cyber Defense as complication against virus attacks or cyberjacking. Unless overcome, the attack is repelled, *and* the target is immediately notified.
+**Cyber Defense** determines base defense against [[systems/cyber-warfare/index]]. Apply Cyber Defense as complication against virus attacks or cyberjacking. Unless overcome, the attack is repelled, *and* the attacker is immediately detected.
 ### Damage Threshold
 [[attributes#Body|Body]]
 

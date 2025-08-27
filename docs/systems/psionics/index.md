@@ -5,9 +5,9 @@ tags: []
 >“The PSI-Net is not a place, but a tapestry woven from every mind that has ever lived—pull one thread, and the entire weave trembles.”
 —Dr. Isobel Kagura, Project Mind’s Eye
 
-Psionic abilities can be unlocked in human beings with *exotic* nanotech [[character-creation/augments/index|augments]] that  enable the user to sense [[psionics-resonance|Psionic Resonance]] in all all things – living or inanimate – to manipulate and control it. By harnessing *Psionic Resonance*, the user is capable of incredible feats of supernatural prowess. At the same time, they are dealing with experimental and theoretical technology that deals with strange, exotic force – and by doing so, each action comes with inherent risks.
+Psionic abilities can be unlocked in human beings with *exotic* nanotech [[character-creation/augments/_old/index|augments]] that  enable the user to sense [[psionics-resonance|Psionic Resonance]] in all all things – living or inanimate – to manipulate and control it. By harnessing *Psionic Resonance*, the user is capable of incredible feats of supernatural prowess. At the same time, they are dealing with experimental and theoretical technology that deals with strange, exotic force – and by doing so, each action comes with inherent risks.
 
-Psionic [[character-creation/augments/index|Augments]] come in three different varieties, each focusing on specific type of *Psionic Resonance* manipulation.
+Psionic [[character-creation/augments/_old/index|Augments]] come in three different varieties, each focusing on specific type of *Psionic Resonance* manipulation.
 
 - [[psionics-resonator|PSI-Cognitive Resonator]] enables focus on sensing, manipulating and controlling psionic resonance produced by thoughts of living beings. They can sense the *consciousness*, allowing them to can read minds, produce illusions, force suggestions and even control minds.
 - [[psionics-amplifier|Psychokinetic Amplifier]] allows the user to detect and sense ambient resonance in physical world and by manipulating it they can exert force on the physical realm.

@@ -1,0 +1,3 @@
+
+Integrated exoskeletal armor that cannot be removed without heavy tools. Cannot equip additional armor. Cybernetic Armor must be repaired once broken down. Parts of the armor, such as face and skull protection can be opened and closed at will for improved comfort, and may have artificial skin with touch sensitivity, but some parts are permanently bolted on to your frame and may never be removed. The visual details of each armor is up to the character, and can vary from rough industrial designs to sleek, black spec-ops nightmare. Higher levels of the augment also include additional servo-motors that assist in the increased weight of the armor
+

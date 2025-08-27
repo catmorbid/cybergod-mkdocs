@@ -1,49 +1,37 @@
 ---
 title: Camouflage
+version: 4.1
 tags:
-  - Biotech
   - Cybertech
   - Nanotech
-  - Augment
-version: 2
+  - Biotech
 ---
+
 A stealth augment that can blend the character with their surroundings. Advanced tiers also help mitigate noise from movement and provide additional masking options. Camouflage augments [[stealth-combat|Stealth Combat]], so please be sure to revise the relevant rules.
 
-**System**
-+ **Activate:** Spend 1 Energy as an Instant Action
-+ **Maintain:** Spend 1 Energy per round when active in combat. No energy is spent if you do not take any physical actions; or 1 energy per Skill Test during non-combat scenes.
-+ **Stealth Tests:** Resolve Stealth tests with `Stealth x Cyber` to adapt to surroundings, or possibly `Streetwise x Cyber` to cover long distances in an urban environment. See each augment Level for details how the augment affects you.
-+ **Full Detection:** Observers can only fully detect you if they have access to technology that makes it possible. If they have access, the stealth test is resolved as contested stealth test as usual (with any circumstantial modifiers applied). If they cannot detect you, they cannot make the test at all, unless you cause some reason.
-+ **Partial Detection**: Doing something alarming right in front of observers, such as assassinating their ally means the observers will automatically partially detect your presence. Otherwise any hint of your presence, E.g. footsteps, loud noises or being covered in a bag of flour – even with the lacking technology – may result in Partial Detection. This might require an `Alertness x Mind` test from the observers (**Moderate** or harder). If partially detected, the enemy can attack you with the relevant penalties.
+## Overview
+- **Domain:** Stealth
+- **Tech Profile:** Cybertech, Biotech, Nanotech
+- **Activation:** Spend 1 Energy and test `Stealth (Cyber)` to activate in an Instant once per Turn.
 
-**General Limitations**
-+ **EMP vulnerability**: EMP or massive electric surges immediately disable the Camouflage augment.
-+ **Armor Compatibility:** Camouflage does not work with most external suits of armor. Compatible with *Cybernetic Armor*, *Nano Weave* and *Reflex Suit*
-+ **Weapon Compatibility:** Only **Small** melee Weapons and sidearms retain camouflage, but any *Weapon Systems* are naturally compatible with Camouflage.
+## Flaws
+- **EMP Vulnerability**: EMP inflicts triple damage after armor
+- **Incompatible Equipment**: Equipment limitations apply. See augment description for details.
 
-### Level 1
-- **Basic Cloak:** The Cyborg can become invisible to naked eye and any optical recording devices, such as standard cameras.
-	- **Invisibility:** Effect Point Cost of **Undetected** effect is reduced to zero. It is easier for you to hide and execute other maneuvers. You can freely engage in combat while cloaked, but if you take any hits, the Cloak will be disrupted for a brief moment, giving aware observers clear line of sight.
-	- **Cloaked Assassin:** The Effect Point cost of **Assassinate** effect is halved (min. 1). You can easily carve your way through weak opponents.
-	- **Hard Target**: You can be attacked while **Partially Detected**, but the attacks are made at **Moderate** difficulty.
-- **Drawbacks:** Does not hide sounds, so nearby observers may still hear footsteps and fast movement will definitely be heard and Infra-Red, Radar or X-Ray scanning can easily detect you.
+## Level 1
+- **Advantage:** D6 to Stealth
+#### Active Effects
+- **Optical Cloak** • **EP:** 2 • **Stack:** 1<br>Become invisible in visible light for **Moderate** duration.
+- **Thermal Cloak** • **EP:** 2 • **Stack:** 1<br>Mask from thermal sensors or detection systems for **Moderate** duration.
 
-### Level 2
-- **Multi-Spectrum Cloak:** Hides the cyborg’s thermal signature making them invisible in the infrared spectrum and dampens any sounds produced in immediate vicinity, such as movement.
-	- **Stealth Sprint:** You can move at full speed while cloaked without any penalties to Stealth.
-	- **Vanish:** You can activate Camouflage to disappear even after being detected or when surprised or mid-combat. Use a **Reaction** and test `Stealth x Cyber`.
-	- **Ghost:** You can be attacked while **Partially Detected**, but the attacks are made at **Hard** difficulty.
-- **Drawbacks:** Radar or advanced EM sensors can detect you.
+## Level 2
+- **Advantage:** D8 to Stealth
+#### Active Effects
+- **Sonic Cloak** • **EP:** 2 • **Stack:** 1<br>Muffle all sounds in **Short** radius for **Moderate** duration.
+- **X-Ray Cloak** • **EP:** 2 • **Stack:** 1<br>Camouflage from x-ray detectors **Moderate** duration.
 
-### Level 3
-- **Full Spectrum Cloak:** The Cyborg is invisible on the EM spectrum, hiding their presence against radar, X-Rays and other advanced sensor sweeps.
-	- **Reflex Vanish:** You can activate Camouflage instinctively without taking an action or making a skill test, to simply disappear before anyone has the chance to detect you. You automatically become **Undetected**, but cannot gain any other effects. Energy usage is still applied for activating the augment.
-- **Drawbacks:** Full-Spectrum Cloak consumes 2 energy to activate and maintain. You need to decide if you are using Full-Spectrum Cloak or not.
-
-### Old Effects
-
-| Level | Effect                                                                                                                   |
-| :---- | :----------------------------------------------------------------------------------------------------------------------- |
-| 1     | Optical Camouflage. **Short**→**Moderate** Duration when moving. **Moderate** Duration when stationary or moving slowly. |
-| 2     | Thermoptic camouflage. Hide sounds of movement.                                                                          |
-| 3     | Electromagnetic Camouflage. Does not cost any energy when staying still.                                                 |
+## Level 3
+- **Advantage:** D10 to Stealth
+#### Active Effects
+- **EM Cloak** • **EP:** 2 • **Stack:** 1<br>Hide from EM radiation detection for **Moderate** duration.
+- **Combat Cloak** • **EP:** 2 • **Stack:** 1<br>Engage Camouflage in combat for **Short** duration. Receive **D12** on close combat attacks unless target has means to detect you.

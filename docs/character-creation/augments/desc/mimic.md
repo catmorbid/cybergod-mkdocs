@@ -1,0 +1,1 @@
+You can reconstruct your facial features and mimic voice and behavioral patterns of a person, or create entirely new personalities and faces by combining known patterns and features. Depending on the used technology, the implementation of the augment is somewhat different, but the principle remains the same.

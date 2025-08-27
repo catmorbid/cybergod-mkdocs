@@ -14,7 +14,7 @@ version: 4
 **Augments:**
 - [[tac-com]]
 - [[disruptor-suite]]
-- [[hacking-suite]]
+- [[system-breach-suite]]
 - [[chronoflux]]
 - [[avatar]]
 - [[cortical-regulator]]

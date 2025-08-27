@@ -1,0 +1,1 @@
+An asymmetric warfare system that allows disruption of communications, electronics and augmentations. Designed for anti-cyborg warfare, the **Disruptor Suite** can be a powerful tool that enhances tactics and weakens powerful augment-reliant cyborgs.
