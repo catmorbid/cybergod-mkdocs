@@ -17,45 +17,45 @@ System Breach is often a simple test of `Hacking x Cyber` for as long as the tar
 
 **Difficulty**: More secure systems have higher difficulty and objective may affect this as well. You can roll or pick from the following table, or make your own.
 
-|    1d10    |    System Security                |    Breach Difficulty    |    Complications Roll         |    Data Node Roll    |
-|:-----------|:----------------------------------|:------------------------|:------------------------------|:---------------------|
-|       1    |    Outdated, vulnerable           |                    1    |    1D6                        | D6                   |
-|        2   |    Low, out-of-date               |                    1    |                         2D6   |   D6                 |
-|        3   |    Standard, up-to-date           |                    2    |         3D6                   |    D8                |
-|       4    |    High-security, top-grade       |                    3    |                         3D8   |    D8                |
-|       5    |    Military-grade                 |                    4    |                        3d10   |    D10               |
-|       6    |    Top Secret                     |                    5    |     4d10                      |    D10               |  
+| 1d10 | System Security          | Breach Difficulty | Complications/ Roll | Data Node Roll |
+| :--- | :----------------------- | :---------------- | :------------------ | :------------- |
+| 1    | Outdated, vulnerable     | 1                 | 1/D6                | D6             |
+| 2    | Low, out-of-date         | 2                 | 2/D6                | D6             |
+| 3    | Standard, up-to-date     | 3                 | 3/D6                | D8             |
+| 4    | High-security, top-grade | 4                 | 3/D8                | D8             |
+| 5    | Military-grade           | 5                 | 3/d10               | D10            |
+| 6    | Top Secret               | 6                 | 4/d10               | D10            |
 
 #### Complications
 
-Complications may include **IC**, hostile defensive software that attack any invaders, or a Sys Op or Overseer program may be active and can start a trace at your position, unless you're fast enough.
+Complications may include **IC**, hostile defensive software that attack any invaders, or a Sys Op or Overseer program or security AI may be active and can start a trace at your position, unless you're fast enough.
 
 You can roll on the table below for random complication. Use D6 or D8 for milder effects. By default each complication is worth 1 point, but if you roll any twice or more, you can increase the cost of the complication.
 
 | 1D10 | Breach Complication | Effect          |
-|:---- |:------------------- |:--------------- |
-| 1    | IC Class 1          | Minor Wound     |
+| :--- | :------------------ | :-------------- |
+| 1    | IC Class 1          | 1d6 Shock       |
 | 2    | Junior Sys Op       | 2d8 Trace test  |
-| 3    | IC Class 2          | 2 Minor Wounds  |
+| 3    | IC Class 2          | 2d6 Shock       |
 | 4    | Midior Sys Op       | 4d8 Trace test  |
-| 5    | IC Class 3          | 3 Minor Wounds  |
-| 6    | Senior Sys Op       | 4d10 Trace test |
-| 7    | Black IC Class 1    | Major Wound     |
-| 8    | IC Class 4          | 4 Minor Wounds  |
+| 5    | Black IC Class 1    | 1d6 Harm        |
+| 6    | IC Class 3          | 3d6 Shock       |
+| 7    | Senior Sys Op       | 4d10 Trace test |
+| 8    | IC Class 4          | 4d6 Shock       |
 | 9    | Elite Sys Op        | 5d12 Trace      |
-| 10   | Black IC Class 2    | 2 Major Wounds  | 
+| 10   | Black IC Class 2    | 2d6 Harm        |
 
 #### Trace Test
 
-**Trace** test is System Overseer's `Investigation x Cyber` test vs. the hacker's `Stealth x Cyber`. If the Sys Op wins, they have just pinpointed the hacker's physical location and may proceed to send some security forces to deal with them.
+	**Trace** test is System Overseer's `Investigation x Cyber` test vs. the hacker's `Stealth x Cyber`. If the Sys Op wins, they have just pinpointed the hacker's physical location and may proceed to send some security forces to deal with them.
 
 #### Bonus Effects
 
 If you succeed well enough, you could aim for one or more bonus objectives. They vary but may include e.g. valuable data or any other suitable benefits. GM will tell you what is available. Sometimes there's nothing extra to gain, while at other times there's plenty.
 
-**Bonus Data:** You can roll valuable data on the following table, *if available*. Use D6, D8 or D10 for a milder potential value.
+**Bonus Paydata:** You can roll valuable data on the following table, *if available*. Use D6, D8 or D10 for a milder potential value.
 
-| 1D12 | Data                   | Effect           |
+| 1D12 | Paydata                | Effect           |
 |:---- |:---------------------- |:---------------- |
 | 1    | Useless employee logs  | None             |
 | 2    | Useless executive logs | None             |
@@ -66,6 +66,6 @@ If you succeed well enough, you could aim for one or more bonus objectives. They
 | 7    | Conspiracy Evidence    | 1d12 Merits      |
 | 8    | Convicting Evidence    | 10 Merits        |
 | 9    | Stolen Crypto Art      | 2d10 Merits      |
-| 10   | Military Research      | 1 Upgrade Point  |
-| 11   | Cybernetics Research   | 2 Upgrade Points |
+| 10   | Controversial Research | 1 Upgrade Point  |
+| 11   | Classified Research    | 2 Upgrade Points |
 | 12   | Faction Secrets        | Unknown          |
