@@ -42,7 +42,7 @@ Distance is a measurement of distance between targets. Can be used in combat to 
 - **Short** distance can be traversed easily in one round. Optimal range for typical sidearms. *A room’s length*.
 - **Moderate** distance requires some effort to traverse, but the target is clearly visible. Optimal range for many assault weapons. *End of the hallway; across the street*
 - **Long** distance means the target is quite a bit of distance away, but within line of sight. Optimal range for Precision weapons. *End of the street; a few buildings away*
-- **Extreme** distance is very far away and needs more than one action to catch up to. Extreme Distance can be further divided several brackets if needed, e.g. Extreme-1, Extreme-2, Extreme-3 etc. as required Extreme Distance is the typical range for Precision Weapons. *In the horizon*
+- **Extreme** distance is very far away and needs more than one action to catch up to. Extreme Distance can be further divided several brackets if needed, e.g. Extreme-1, Extreme-2, Extreme-3 etc. *In the horizon*
 
 #### Velocity
 
