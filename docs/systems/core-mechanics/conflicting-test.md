@@ -2,7 +2,7 @@
 title: Conflicting Test
 tags: core-mechanic
 ---
-Whenever the actions with matching activation *duration* of two characters are somehow *conflicting*, you can resolve their tests simultaneously to determine who goes first.
+Whenever the actions with matching activation *duration* of two characters are somehow *conflicting*, you can resolve their tests simultaneously to determine who goes first. Conflicting tests are commonly used in [[combat/index|Combat]] but they may be present outside of physical conflicts as well.
 
 Duration is determined by the generic [[structure#Time|Time]] measurements: **Instant**, **Action**, **Short**, **Moderate**, **Long**. Any action with faster activation duration will automatically win, only those with matching duration can conflict.
 
