@@ -28,7 +28,8 @@ All measurements are treated as abstractions.
 
 Time is measured in abstract intervals, very often to measure the *duration* of something, e.g. how long does an ability take effect.
 
-- **Instant** is a fraction of a second, or at most a second. Enough to affect a single Action during a *round*.
+- **Instant** is a fraction of a second, a blink of an eye, a passing thought.
+- **Action** is a about a second or two in real time. Enough to cover a single Action during a *round*.
 - **Short** interval is equivalent to one round of action or combat, equivalent to a few seconds.
 - **Moderate** interval lasts an entire *scene*.
 - **Long** interval lasts until you play some *downtime*, usually several scenes or an entire game session.
