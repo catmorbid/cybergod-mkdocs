@@ -4,7 +4,7 @@ version: 1
 ---
 Stealth approach in combat requires careful planning, but it can be extremely effective when properly applied.
 
-To take a Stealth Action in combat, make the appropriate Stealth Test against a static difficulty or as a Contested Action against the observer’s `Alertness x Mind`. Once detected, any attempts to hide again from observers will be substantially more difficult (subject to GM call).
+To take a Stealth Action in combat, make the appropriate Stealth Test against a static difficulty or as a Contested Action against the observer’s `Alertness (Mind)`. Once detected, any attempts to hide again from observers will be substantially more difficult (subject to GM call).
 
 **Effects**
 - **Undetected (1)**: Remain undetected. Prerequisite for any follow-up effects.

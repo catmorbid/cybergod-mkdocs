@@ -2,10 +2,16 @@
 title: Damage Mitigation
 version: 1
 ---
-There are two methods for mitigating damage: **Armor Class** and **Soak**:
+When taking damage, make a [[damage-soak|Soak Test]] to see how much damage you can mitigate or ignore. In addition, armor provides mitigation points, which directly reduce damage, in addition to any Soak test effects gained.
 
-- **Armor Class** is determined by equipped armor and it directly reduces the **Damage Class** of an incoming attack. Armor Class is reduced by [[weapon-stats-v4#Penetration|Armor Penetration (AP)]].
-- **Soak** can be added by augments or high [[attributes#Body|Body]] attribute. It reduces the amount of damage taken by subtracting from the total damage rolled. If damage is affected by any multipliers, they are applied *after* subtracting *Soak*.
+Mitigation can be divided to two types of mitigation:
+- **Soft** Mitigation will reduce 1 point of damage, but add 1 point of Shock instead. You avoid death, but risk being impaired in other ways.
+- **Hard** Mitigation will ignore 1 point of damage entirely.
 
-!!! Example
-	 Marcus fires his heavy sniper rifle, inflicting DC 12, AP 4 Aimed Critical Hit at a guard in medium armor (AC 8) 800 meters away. Applying AC (modified by AP) the hit is left with DC 8 and Marcus rolls 2d8 for 10 damage. The target has 2 points of soak, so this reduces damage further to 8, but since Marcus landed a n Aimed Critical Hit, final damage is tripled, for total 24 damage. The Guard has Body D8, so this is enough to bypass Fatal threshold of 16, and the guard drops dead instantly.
+Any means of protection can provide either, type of mitigation, or a combination of both.
+
+**Mitigation Process**
+- Determine total damage
+- Apply Hard Mitigation
+- Make a Soak Test if damage remains.
+- Apply Soft Mitigation.

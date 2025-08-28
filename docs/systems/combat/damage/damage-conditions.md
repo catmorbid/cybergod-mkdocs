@@ -11,7 +11,7 @@ Choose highest threshold that was met by the damage. If no threshold was met, yo
 **Damage Conditions** determine the severity of structural damage, wounds or injuries inflicted. When [[damage-conditions|Taking Damage]], you check mark the highest damage condition resulting from the rolled damage, compared to your [[stats#Damage Threshold|Damage Threshold]].
 
 There are 5 possible damage conditions, from least to most harmful:
-- [[shock]]
+- [[damage-shock]]
 - [[harm]]
 - [[trauma]]
 - [[fatal]]
