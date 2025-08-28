@@ -7,7 +7,7 @@ tags:
   - Offense
 version: 4
 ---
-Test `Aim + Combat` plus Attribute depending on type of weapon
+Test `Aim` plus **Attribute** depending on type of weapon
 - `Body:` Automatic weapons with high recoil and rate of fire
 - `Reflex:` Sidearms, SMG’s, shotguns and assault rifles
 - `Mind:` Single shot powerful rifles and support weapons like rocket launchers.

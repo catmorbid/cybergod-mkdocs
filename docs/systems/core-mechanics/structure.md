@@ -38,7 +38,7 @@ Time is measured in abstract intervals, very often to measure the *duration* of 
 
 Distance is a measurement of distance between targets. Can be used in combat to determine how easy or hard it is to hit a target, or to measure distance during a chase.
 
-- **Close** distance means you can almost touch the object or entity referenced to, by taking just a few steps. *an arm’s length*’
+- **Close** distance means you can almost touch the object or entity referenced to, by taking just a few steps. *an arm’s length*
 - **Short** distance can be traversed easily in one round. Optimal range for typical sidearms. *A room’s length*.
 - **Moderate** distance requires some effort to traverse, but the target is clearly visible. Optimal range for many assault weapons. *End of the hallway; across the street*
 - **Long** distance means the target is quite a bit of distance away, but within line of sight. Optimal range for Precision weapons. *End of the street; a few buildings away*
