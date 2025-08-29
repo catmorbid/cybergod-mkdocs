@@ -56,7 +56,7 @@ Determines how many simultaneous connections you can handle without distraction.
 ### Pain Threshold
 [[attributes#Mind|Mind]]
 
-Pain Threshold determines a character’s natural ability to resist [[damage-pain|Pain]]. Apply Pain Threshold as natural pain mitigation before applying pain-related penalties.
+*Pain Threshold* determines a character’s natural ability to resist [[damage-pain|Pain]]. You can ignore effects of Pain if it is equal or lower than *Pain Threshold*.
 
 ### Physical DC
 [[#Body]]
@@ -68,7 +68,7 @@ Base unarmed damage and modifier added to melee weapon DC.
 
 Apply a modifier to weapon [[weapon-stats-v4#Recoil|Recoil]].
 
-### Soak
-[[attributes#Body|Body]]
+### Stress Threshold
+[[attributes#Mind|Mind]]
 
-Soak is a form of [[damage-mitigation|Damage Mitigation]] that reduces damage taken after applying armor.
+*Stress Threshold* determines a character’s natural ability to resist [[stress]]. Any Stress at or less than *Stress Threshold* does not impose a stress check.

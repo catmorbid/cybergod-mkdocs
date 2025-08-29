@@ -40,7 +40,7 @@ Stress is generally measured on a scale of 1 to 5, but it does not have an upper
 
 ### Stress Check
 
-Whenever you take Stress, mark it down on the stress tracker and make a [[resource-check|Resource Check]] with [[mental-state#Dissociation|Dissociation]], rolling dice equal to current stress. If you fail, you suffer from [[#Mental Breakdown]].
+Whenever you take Stress, mark it down on the stress tracker. If your total stress is *greater* than the character’s [[stats|Stress Threshold]], proceed to make a [[resource-check|Resource Check]] with [[mental-state#Dissociation|Dissociation]], rolling dice equal to current stress *minus* stress threshold. If you fail, you suffer from [[#Mental Breakdown]].
 
 !!! info Tracking Stress
 	Only major characters and player characters should roll stress dice and track stress. Minor characters should simply roll on the mental breakdown table if they take any points of stress, or GM should decide the outcome.

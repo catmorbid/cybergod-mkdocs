@@ -2,7 +2,7 @@
 title: Soak Test
 ---
 
-Test `[Toughness]d[Body]`, and apply any Effect Points as **Soft Mitigation**.
+Test `Toughness (Body)`, and apply any Effect Points as **Soft Mitigation**.
 
 **Intrinsic Armor** can be provide by certain augments, and it can add **Modifier Dice** to Soak test. Intrinsic armor cannot be be **Shred**.
 

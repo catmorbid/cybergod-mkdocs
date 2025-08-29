@@ -17,13 +17,13 @@ Frame determines the character's **attributes**. Attributes are measured with a 
 
 Body represents constitution, strength, fitness and athletic ability. Use Body to fight in close combat and perform tasks that require endurance, strength or athletic ability. Body affects many aspects of the character passively, although it might not be used in tests that much.
 
-| Rating | Description | Physical DC | Recoil | Harm Thr. | Trauma Thr. | Soak | Max Bulk |
-| ------ | ----------- | ----------- | ------ | --------- | ----------- | ---- | -------- |
-| D4     | Weak        | -1          | +1     | 2         | 4           | —    | 4        |
-| D6     | Average     | 0           | +0     | 3         | 6           | —    | 6        |
-| D8     | Strong      | 1           | -1     | 4         | 8           | —    | 8        |
-| D10    | Powerful    | 2           | -2     | 5         | 10          | +1   | 10       |
-| D12    | Behemoth    | 3           | -3     | 6         | 12          | +2   | 12       |
+| Rating | Description | Physical DC | Recoil | Max Bulk |
+| ------ | ----------- | ----------- | ------ | -------- |
+| D4     | Weak        | -1          | +1     | 4        |
+| D6     | Average     | 0           | +0     | 6        |
+| D8     | Strong      | 1           | -1     | 8        |
+| D10    | Powerful    | 2           | -2     | 10       |
+| D12    | Behemoth    | 3           | -3     | 12       |
 
 ### Reflex
 
@@ -45,13 +45,13 @@ Mind determines intellect, cunning, awareness and focus. Mind is utilized to res
 
 Mind affects [[stats#Pain Threshold|Pain Threshold]].
 
-| Rating | Description | Pain Threshold |
-| ------ | ----------- | -------------- |
-| D4     | Dull        | 1              |
-| D6     | Average     | 2              |
-| D8     | Focused     | 3              |
-| D10    | Mastermind  | 4              |
-| D12    | Visionary   | 5              |
+| Rating | Description | Pain Threshold | Stress Threshold |
+| ------ | ----------- | -------------- | ---------------- |
+| D4     | Dull        | 1              | 0                |
+| D6     | Average     | 2              | 0                |
+| D8     | Focused     | 3              | 1                |
+| D10    | Mastermind  | 4              | 2                |
+| D12    | Visionary   | 5              | 3                |
 
 ### Cyber
 
