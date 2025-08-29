@@ -12,9 +12,9 @@ You can find a variety of pre-made NPC's with stat blocks and other information 
 ### NPC Tier
 
 NPC’s can be represented by a four-tier classification system:
-- **Incidental** — No meaning to overall narrative or story. Characters in the world, minor enemies or bystanders. *Incidental* characters are removed from play when receiving any [[damage-conditions#Harm|Harm]].
-- **Regular** — Characters that stand out among the crowd. Maybe they’re tough soldiers to consider or experienced Regulators in charge of a group of rookies. *Regular* NPC’s go down when receiving a [[damage-conditions#Trauma|Trauma]].
-- **Elite** — Truly exceptional characters, comparable to player characters in many ways. Such enemies are powerful and won’t go down without a beating. *Elite* NPC’s need a [[damage-conditions#Fatal|Fatal]] condition before they’re truly down.
+- **Incidental** — No meaning to overall narrative or story. Characters in the world, minor enemies or bystanders. *Incidental* characters are removed from play when receiving any [[damage-#Harm|Harm]].
+- **Regular** — Characters that stand out among the crowd. Maybe they’re tough soldiers to consider or experienced Regulators in charge of a group of rookies. *Regular* NPC’s go down when receiving a [[damage-#Trauma|Trauma]].
+- **Elite** — Truly exceptional characters, comparable to player characters in many ways. Such enemies are powerful and won’t go down without a beating. *Elite* NPC’s need a [[damage-#Fatal|Fatal]] condition before they’re truly down.
 - **Nemesis** — Nemesis class characters are central to the plot; they are extremely powerful, and *cannot be killed* without a major fight. Nemesis class characters are more powerful than players. They break the rules and present as formidable opponents if it comes to that. *Nemesis* NPC’s cannot die from *Fatal* or *Overkill* conditions, instead they must be brought down by sufficient amount of *Harm*.
 
 ### NPC stats
