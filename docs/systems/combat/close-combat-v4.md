@@ -51,4 +51,4 @@ When [[pinned]], you can either submit your defeat or attempt a *Forced Escape*,
 
 - *Both* participants must make an **Opposed Test**: `Hard(3) Toughness + Body`
 - You take 1 level of [[harm]]
-- You take **Forced Trauma 3** complication; upon failing to overcome the complication, you will take [[trauma]].
+- You take **Forced Trauma 3** complication; upon failing to overcome the complication, you will take [[harm|3 harm]].

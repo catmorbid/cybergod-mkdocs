@@ -5,10 +5,10 @@ tags:
   - Combat
   - Defense
 version: 4
-status: deprecated
+status:
 ---
 
-Cover Adds to your [[stats#Evasion|Evasion]] rating until cover is destroyed or you are flanked. If you have any Cover bonuses to Evasion, it is presumed that Cover is always destroyed first.
+Taking Cover gives the character **Cover Points**, which add to their [[stats#Evasion|Evasion]] rating until cover is *destroyed* or they are *flanked*. *Cover Points* are always consumed first when using cover.
 
 You can spend an action to take cover, or cover may be awarded to you by GM or your squad leader’s tactical prowess. To utilize cover during combat you must test `Tactics x Mind` against a difficulty depending on how hard it is to find the kind of Cover you seek.
 
@@ -21,10 +21,10 @@ You can spend an action to take cover, or cover may be awarded to you by GM or y
 | Very Hard (4 EP) | Cover is scarce, and reaching any is unlikely        | Open terrain with a few rocks and some features that could provide **Light Cover**.                                     |
 
 
-On success, you gain **Light** or **Heavy** Cover – depending on circumstance. GM may allow spending extra **Effect Points** to gain a better cover, e.g. 2-3 EP. The exact amount is circumstantial and up to GM.
+On success, you gain **Light** or **Heavy** Cover – depending on circumstance. GM may allow spending extra **Effect Points** to gain even better cover, increasing the amount of **Cover Points** provided. Once all of the Cover Points are consumed, the Cover is then **destroyed**.
 
 
 | Cover Type  | Cover Points | Example                                                                                                                                                    |
 | ----------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Light Cover | 1            | Some cover that obscures visibility and maybe stops a few shots if you’re lucky. It won’t last long and won’t do miracles, but maybe it’ll save your hide. |
-| Heavy Cover | 2            | A fairly large cover to hide behind. Can stop a few shots or maybe cause some ricochet, but mainly it blocks vision.                                       |
+| Light Cover | 2            | Some cover that obscures visibility and maybe stops a few shots if you’re lucky. It won’t last long and won’t do miracles, but maybe it’ll save your hide. |
+| Heavy Cover | 5            | A fairly large cover to hide behind. Can stop a few shots or maybe cause some ricochet, but mainly it blocks vision.                                       |

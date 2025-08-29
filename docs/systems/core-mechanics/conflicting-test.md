@@ -11,12 +11,11 @@ Duration is determined by the generic [[structure#Time|Time]] measurements: **In
 - Lookup base [[stats#Initiative|Initiative]] to determine the baseline
 - Apply modifier from [[#Action Type]]
 - Apply modifier from [[#Initiative Effects]]
-- Whoever has higher **Initiative** total wins the conflict and goes first. If possible, the loser can resolve their action first.
+- Whoever has higher **Initiative** total wins the conflict and goes first. If possible, the loser can resolve their action after, but if they are e.g. *incapacitated* as consequences of the first action, they can no longer resolve their action.
+- If initiative is **matched**, then both actions are resolved *simultaneously* taking full effect.
 
 ## Action Type
-
-The type of action taken determines its relative speed and relative initiative. Thoughts are faster to process than muscle memory.
-
+The type of action taken determines its relative speed and relative initiative. Thoughts are faster to process than muscle memory and bullets reach the target faster than they can run at you. Since characters is superhuman augmented cyborgs, it is possible to perform miraculous feats, 
 
 | Action Type | Example                               | Initiative |
 | ----------- | ------------------------------------- | ---------- |
@@ -24,3 +23,5 @@ The type of action taken determines its relative speed and relative initiative. 
 | Ranged      | Fire a weapon, throw something        | +2         |
 | Physical    | Move or make a close combat attack    | +0         |
 
+## Initiative Effects
+When making Conflicting Tests, you can spend 1 EP to increase your Initiative by 1. Initiative effect can stack indefinitely.

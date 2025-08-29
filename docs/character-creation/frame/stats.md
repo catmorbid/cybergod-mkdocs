@@ -24,11 +24,11 @@ Damage Thresholds determine how easily are severely hurt in combat. There are a 
 ### Evasion
 [[attributes#Reflex|Reflex]]
 
-Unless a character is ambushed, they start each round of combat with some Evasion. Spending an action on [[mobility-evasion|Mobility]], they can improve their Evasion temporarily and [[cover-v4|Taking Cover]] adds a Evasion that stays between rounds, unless destroyed.
+Unless a character is ambushed, they start each round of combat with some Evasion. Spending an action on [[action-move-evade|Mobility]], they can improve their Evasion temporarily and [[cover-v4|Taking Cover]] adds a Evasion that stays between rounds, unless destroyed.
 
 Whenever the character is attacked, the attacker takes a [[penalties|Penalty]] equal to their target’s **Evasion**.
 
-Evasion is reduced by 1 after every attack, until it is zero. Evasion refreshes at the start of every round.
+Evasion is reduced by 1 after every attack, until it is zero. Evasion refreshes at the start of every round. Certain attacks may consume more than 1 point of Evasion, e.g. when met with a hail of bullets. See [[ranged-combat-v4#Rate of Fire|Rate of Fire]].
 
 !!! info "Tracking Evasion"
 	You can use markers or tokens to track Evasion. Use flipped or different colored tokens for Cover, this way *refreshing* Evasion is simple to resolve.

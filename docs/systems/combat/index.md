@@ -13,17 +13,17 @@ Regardless of which faction you vouch for, there are times when diplomacy fails 
 
 [[turns]]
 
-[[close-combat]]
+[[close-combat-v4]]
 
-[[ranged-combat]]
+[[ranged-combat-v4]]
 
 [[dual-weapons]]
 
-[[mobility-evasion]]
+[[action-move-evade]]
 
-[[cover]]
+[[cover-v4]]
 
-[[damage-system]]
+[[damage/index|Damage System]]
 
 [[death-rebirth]]
 

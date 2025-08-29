@@ -20,19 +20,12 @@ Once the test is resolved, the leader can then decide how to distribute the gain
 - **Herd them(2)**: Enemies start out in a relatively tight group making them prime targets for suppression and area effect weapons.
 - **Flanking maneuver(2)**: One character flanks the enemy, bypassing their cover.
 
-### Upkeep Phase
-At the start of each new round, go through the following checklist.
-
-- Any persistent augments may need to be [[augment-effect-maintain|maintained]]. 
-- Resolve any persistent [[conditions/index|Conditions]] (e.g. bleeding or burning)
-- Make a [[recovery-test|Recovery Test]] if needed
-- Make a [[death-test|Death Test]] if needed
-- Check if any Augments have effects that ended
 ### Action Phase
 
 Once tactics phase is resolved, you start the combat. The first turn can be influenced by the Tactics phase, so make it count.
 
-Each character gets to take one **Action** and one **Reaction**. Action is declared at the start of the round, but Reaction can be decided when the time is right.
+#### Actions
+Each character gets to take one [[actions|Action]] and one [[actions|Reaction]]. Action is declared at the start of the round, but Reaction can be decided when the time is right.
 
 Activating Augments is an **Instant Action**, unless otherwise stated, and can be repeated for as often as required, unless the augment is already activated.
 
@@ -43,14 +36,25 @@ Each character should describe their actions vaguely. For example:
 - *"I want to use combat hacks on their heavy gunner"*
 - *"I'll fix the generator while you guys keep them off my back"*
 - *"I'll wait to see what happens, but ready to shoot if anyone approaches"*
+- *”I want to activate my Roller Blades augment and chase after the escaping enemy*
 
-After the actions are declared, you can start by resolving them one at a time. Enemies may want to intercept, so those actions are **Conflicting** and are then resolved simultaneously, and whoever has better Initiative gets to resolve their action first. If initiative is matched, then actions are resolved at the same time. It is possible for both participant to be wounded or even killed if initiative is matched.
+#### Resolution
+After the actions are declared, you can start by resolving them one at a time. Enemies may want to intercept, so those actions are resolved as [[conflicting-test|Conflicting Tests]]. If there isn’t a conflict, you can simply proceed with a normal [[skill-test|Skill Test]] – if a test is required at all.
 
 **Reaction** can be chosen at any time before or after resolving your Action, and usually in reaction to another character's action, enemy or friendly. Reactions are often defensive, but there isn't really any limit.
 
+### Upkeep Phase
+After everyone has acted, before starting a new round, go through the following checklist.
+
+- Any persistent augments may need to be [[augment-effect-maintain|maintained]]. 
+- Resolve any persistent [[conditions/index|Conditions]] (e.g. bleeding or burning)
+- Make a [[recovery-test|Recovery Test]] if needed
+- Make a [[death-test|Death Test]] if needed
+- Check if any Augments have effects that ended
+
 #### Initiative
 
-Initiative is only considered for Conflicting actions to decide who acts faster. Default initiative is based on [[character-creation/frame/index#Reflex|Reflex]]. In addition you can always take Initiative as Effect when resolving your action to act faster than the opposition.
+Initiative is only considered for [[conflicting-test|Conflicting actions]] to decide who acts faster. Default initiative is based on [[character-creation/frame/index#Reflex|Reflex]]. In addition you can always take Initiative as Effect when resolving your action to act faster than the opposition.
 
 #### Splitting actions
 Actions can be split between different simultaneous actions. For example, you can move and shoot or move and dive for cover, or shoot with a weapon in your both hands. You can't split between multiple same actions.

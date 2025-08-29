@@ -17,7 +17,7 @@ Consider the following circumstantial [[penalties]]:
 
 - **Target Range:** Add **-1 penalty** for each step less or more than [[weapon-stats-v4#Range|Optimal Range]].
 - **Target Velocity:** Apply **-1 penalty** or worse. Objects moving at high [[structure#Velocity|Velocity]] make for more difficult targets. Add the difference in attacker’s and target’s relative velocity, if they are moving faster. Cyborgs may have [[hermes-mobility-suite|augments]] that increase their *Velocity* scale.
-- **Target Evasion:** Apply target’s current [[stats#Evasion|Evasion]] as **penalty**. [[mobility-evasion|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit. Evasion may include *Mobility* or *Cover* based bonuses.
+- **Target Evasion:** Apply target’s current [[stats#Evasion|Evasion]] as **penalty**. [[action-move-evade|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit. Evasion may include *Mobility* or *Cover* based bonuses.
 - **Low visibility:** Apply **-1 to -3 penalty**. Darkness, fog, rain, clutter and generally anything that can obscure vision, makes it more difficult to spot the *correct* target or track them. Such hindrances can be ignored by suitable augments or gadgets.
 
 In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add another complication to the test.
@@ -78,19 +78,18 @@ If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]]
 | [X] Extreme | Quad Hit (3)<br>Suppression (4)                    | 4        | 4 Collateral | 4    | **3 CTRL** (Always)     | +4          |
 
 ### Effects
-All attacks can score a **Single Hit** (1 stack), but the availability of other effects depend on [[weapon_rules#Rate of Fire|Rate Of Fire]].
+You can choose from available Hit Effects determined by the weapon’s [[#Rate of Fire|Rate Of Fire]].
 
 #### Basic Hits
-Available basic hits and their maximum stacks depends on the weapon’s [[weapon_rules#Rate of Fire|ROF]]. Default attacks apply all hits against a Single target, but you can spend EP to purchase additional targets.
+Available basic hits and their maximum stacks depends on the weapon’s [[#Rate of Fire|ROF]]. *You assign any Hits freely between any eligible targets.*
 
-| Effect       | Cost | Description                                                                                                                                                                                                      |
-| ------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Single Hit   | 2    | 1 Hit                                                                                                                                                                                                            |
-| Double Hit   | 2    | 2 Hits at *Optimal Range* or closer; 1 Hit when further away.                                                                                                                                                    |
-| Triple Hit   | 2    | 3 Hits at *Optimal Range* or closer; 1 Hit when further away.                                                                                                                                                    |
-| Quad Hit     | 2    | 4 Hits at *Optimal Range* or closer; 2 Hits when further away.                                                                                                                                                   |
-| Extra Target | 1    | Add an extra target. You can distribute any Hits freely between targets.                                                                                                                                         |
-| Suppression  | 2    | Designate a [[threat-zone\|Threat Zone]] where everyone within is at risk of taking a Hit, if they take any other actions than stick to cover. If Suppression is stacked, the number of Hits taken is increased. |
+| Effect      | Cost | Description                                                                                                                                                                                                      |
+| ----------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Single Hit  | 2    | 1 Hit                                                                                                                                                                                                            |
+| Double Hit  | 2    | 2 Hits at *Optimal Range* or closer; 1 Hit when further away.                                                                                                                                                    |
+| Triple Hit  | 2    | 3 Hits at *Optimal Range* or closer; 1 Hit when further away.                                                                                                                                                    |
+| Quad Hit    | 2    | 4 Hits at *Optimal Range* or closer; 2 Hits when further away.                                                                                                                                                   |
+| Suppression | 2    | Designate a [[threat-zone\|Threat Zone]] where everyone within is at risk of taking a Hit, if they take any other actions than stick to cover. If Suppression is stacked, the number of Hits taken is increased. |
 
 #### Aimed Hits
 
