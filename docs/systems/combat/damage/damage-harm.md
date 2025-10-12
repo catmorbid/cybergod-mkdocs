@@ -1,7 +1,7 @@
 ---
 title: Harm
 ---
-Damage that penetrates armor is marked as **Harm**. Characters have 15 **Harm Slots**. Mark 1 slot of harm per point of damage taken after applying [[damage-mitigation|Mitigation]]. Each point of harm by default inflicts [[damage-pain|1 pain]]. 
+Damage that penetrates armor is marked as **Harm**. Characters have 15 **Harm Slots**. Mark 1 slot of harm per point of damage taken after applying [[damage-soak|Soak]]. Each point of harm by default inflicts [[damage-pain|1 pain]]. 
 
 At **10 harm**, the characters is [[dying]] and is effectively [[incapacitated]] unless resuscitated somehow. Pain Level stops accumulating after 10 harm.
 
