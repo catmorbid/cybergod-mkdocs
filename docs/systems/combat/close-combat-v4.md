@@ -28,17 +28,17 @@ Maximum hits is limited by [[weapon_rules#Melee speed|Melee Speed]], but there i
 | Strike Power | 1    | *Requires* `Tag: Physical`. Improve DC of all Hits by +1. Max Stack 5.        |
 
 #### Aimed Strikes
+Make a carefully aimed strike at a specific location. GM may introduce alternate locations and alternate effects if needed. If the attack inflicts [[damage-harm|Serious Harm]] or worse, the attack also inflicts the indicated [[systems/conditions/index|Condition]].
 
-| Effect       | Cost | Description                                                                                                                                                                                  |
-| ------------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Disarm Hit   | 2    | Disarm a target without inflicting any damage to them, unless you want to cause damage as well (you can).                                                                                    |
-| Maim Hit     | 2    | A hit to an arm or another limb or support structure operating a weapon. If target is [[harm\|Harmed]] or worse, they take [[maimed]] condition.                                             |
-| Cripple Hit  | 2    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. If target is [[harm\|Harmed]] or worse, they take [[crippled]] condition.               |
-| Blinding Hit | 3    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. if target is [[harm\|Harmed]] or worse, they take [[blinded]] condition. |
-| Critical Hit | 3    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** after applying Soak.                                                                                           |
+| Effect       | Cost | Description                                                                                                                                         |
+| ------------ | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Disarm Hit   | 2    | Disarm a target without inflicting any damage to them, unless you want to cause damage as well (you can).                                           |
+| Maim Hit     | 2    | A hit to an arm or another limb or support structure operating a weapon. Inflicts [[maimed]] condition.                                             |
+| Cripple Hit  | 2    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. Inflicts [[crippled]] condition.               |
+| Blinding Hit | 3    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. Inflicts [[blinded]] condition. |
+| Critical Hit | 3    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** after applying Soak.                                                  |
 
 #### Grappling
-#Grappling 
 
 | Effect     | Cost | Description                                                                                                      |
 | ---------- | ---- | ---------------------------------------------------------------------------------------------------------------- |

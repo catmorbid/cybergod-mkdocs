@@ -7,10 +7,10 @@ At **10 harm**, the characters is [[dying]] and is effectively [[incapacitated]]
 
 At **15 harm**, the character is dead and cannot be resuscitated. At this point they can be [[death-rebirth|Reborn]].
 
-| Harm Slots | Level of Harm | Effect             |
-| ---------- | ------------- | ------------------ |
-| 1-2        | Minor         | Pain 1-2           |
-| 3-5        | Serious       | Pain 3-5           |
-| 6-9        | Devastating   | Pain 6-9           |
-| 10-14      | Fatal         | Pain 10, [[dying]] |
-| 15         | Overkill      | Instant Death      |
+| Harm Slots | Level of Harm | Effect                            |
+| ---------- | ------------- | --------------------------------- |
+| 1-2        | Minor         | Pain 1-2, no aimed effets         |
+| 3-5        | Serious       | Pain 3-5, aimed effects           |
+| 6-9        | Devastating   | Pain 6-9, aimed effects           |
+| 10-14      | Fatal         | Pain 10, [[dying]], aimed effects |
+| 15         | Overkill      | Instant Death                     |

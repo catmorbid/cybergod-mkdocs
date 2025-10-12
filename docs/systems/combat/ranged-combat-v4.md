@@ -62,20 +62,14 @@ If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]]
 
 ### Rate of Fire
 
-*Rate of Fire* (ROF) determines how rapidly you can fire a weapon, described on a verbal scale. 
-- Higher ROF can produce more Hits, by unlocking new **Effects**, or increasing maximum **Stack** for hit effects.
-- Higher ROF will consume more ammo, but will also add allow using weapon’s **CTRL** die as *Utility Die* without an **Aim** action.
-- Higher ROF will have a modifier to **Recoil**.
-- Higher ROF will consume more [[stats#Evasion|Evasion]] (**EVA Cost**); evasion is applied normally, but is reduced by this amount after each attack, to a minimum of zero.
+*Rate of Fire* (ROF) determines how rapidly you can fire a weapon, described on a scale of 1-6. You can choose your **Effective ROF**, between 1 and weapon ROF rating.
 
-| ROF         | Hit (max stack)                                    | EVA Cost | Miss Effect  | Ammo | Utility Dice            | Recoil Mod. |
-| ----------- | -------------------------------------------------- | -------- | ------------ | ---- | ----------------------- | ----------- |
-| [S] Single  | Single Hit (1)<br>Aimed Hit (1)                    | 1        | -            | None | **CTRL** (with **Aim**) | +0          |
-| [E] Semi    | Single Hit (4)<br>Aimed Hit (2)<br>Suppression (1) | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**) | +0          |
-| [B] Burst   | Double Hit (2)<br>Suppression(1)                   | 1        | 1 Collateral | 1    | **CTRL** (with **Aim**  | +1          |
-| [A] Auto    | Double Hit (3)<br>Suppression (2)                  | 2        | 2 Collateral | 2    | **CTRL** (Always)       | +2          |
-| [R] Rapid   | Triple Hit (3)<br>Suppression (3)                  | 3        | 3 Collateral | 3    | **2 CTRL** (Always)     | +3          |
-| [X] Extreme | Quad Hit (3)<br>Suppression (4)                    | 4        | 4 Collateral | 4    | **3 CTRL** (Always)     | +4          |
+Each point of *Effective ROF* has following effects:
+- Gain 1 CTRL Die as utility modifier
+- Increase Recoil by 1
+- Roll one die for ammo check
+- Maximum number of **Hits** is equal to **ROF**.
+
 
 ### Effects
 You can choose from available Hit Effects determined by the weapon’s [[#Rate of Fire|Rate Of Fire]].
@@ -83,24 +77,21 @@ You can choose from available Hit Effects determined by the weapon’s [[#Rate o
 #### Basic Hits
 Available basic hits and their maximum stacks depends on the weapon’s [[#Rate of Fire|ROF]]. *You assign any Hits freely between any eligible targets.*
 
-| Effect      | Cost | Description                                                                                                                                                                                                      |
-| ----------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Single Hit  | 2    | 1 Hit                                                                                                                                                                                                            |
-| Double Hit  | 2    | 2 Hits at *Optimal Range* or closer; 1 Hit when further away.                                                                                                                                                    |
-| Triple Hit  | 2    | 3 Hits at *Optimal Range* or closer; 1 Hit when further away.                                                                                                                                                    |
-| Quad Hit    | 2    | 4 Hits at *Optimal Range* or closer; 2 Hits when further away.                                                                                                                                                   |
-| Suppression | 2    | Designate a [[threat-zone\|Threat Zone]] where everyone within is at risk of taking a Hit, if they take any other actions than stick to cover. If Suppression is stacked, the number of Hits taken is increased. |
+| Effect      | Cost | Description                                                                                          |
+| ----------- | ---- | ---------------------------------------------------------------------------------------------------- |
+| Ranged Hit  | 2    | 1 Hit at any eligible targets. Stacks up *Effective ROF*.                                            |
+| Suppression | 1    | One target is [[suppressed]] for 1 round. Suppression requires ROF 2 or greater, can stack up to ROF |
 
 #### Aimed Hits
 
-Available with [[weapon-stats-v4#Rate of Fire|ROF]] **Single** or **Semi**.
+When Effective [[#Rate of Fire]] is 2 or less, you can take *Aimed Hits*.
 
-Inflict 1 hit carefully aimed at a specific hit location. Actual location varies according to context, but the cost depends on the effect associated with the location. GM can determine custom hit locations and effects as necessary. Any **Conditions** are inflicted only if target is **Harmed** or worse.
+Inflict 1 hit carefully aimed at a specific hit location. Actual location varies according to context, but the cost depends on the effect associated with the location. GM can determine custom hit locations and effects as necessary. Any **Conditions** are inflicted only if target takes [[damage-harm|Serious Harm]] or worse.
 
-| Effect       | Cost | Description                                                                                                                                                                                  |
-| ------------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Disarm Hit   | 3    | Disarm a target without inflicting any damage to them, unless you want to cause damage as well (you can).                                                                                    |
-| Maim Hit     | 3    | A hit to an arm or another limb or support structure operating a weapon. If target is [[harm\|Harmed]] or worse, they take [[maimed]] condition.                                             |
-| Cripple Hit  | 3    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. If target is [[harm\|Harmed]] or worse, they take [[crippled]] condition.               |
-| Blinding Hit | 4    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. if target is [[harm\|Harmed]] or worse, they take [[blinded]] condition. |
-| Critical Hit | 4    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** after applying Soak.                                                                                           |
+| Effect       | Cost | Description                                                                                                                                        |
+| ------------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Disarm Hit   | 3    | Disarm a target without inflicting any damage to them, unless you want to cause damage as well (you can).                                          |
+| Maim Hit     | 3    | A hit to an arm or another limb or support structure operating a weapon. Inflict [[maimed]] condition.                                             |
+| Cripple Hit  | 3    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. Inflict [[crippled]] condition.               |
+| Blinding Hit | 4    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. Inflict [[blinded]] condition. |
+| Critical Hit | 4    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** after applying Soak.                                                 |
