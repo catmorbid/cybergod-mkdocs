@@ -6,6 +6,7 @@ tags:
   - Faction-Syndicate
   - Cybertech
 title: Shosuro Ronin
+category: Faction
 ---
 Close range combatant. Can Dual wield an SMG and a Katana for both ranged and melee combat. 
 

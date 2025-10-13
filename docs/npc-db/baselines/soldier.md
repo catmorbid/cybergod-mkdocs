@@ -2,6 +2,7 @@
 tags:
   - NPC
 title: Soldier
+category: Baseline
 ---
 A small team of 4-8 skilled combat veterans with some basic augments, but no active augments. They’re equipped with a standard Security Armor.
 

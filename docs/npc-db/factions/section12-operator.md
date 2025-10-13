@@ -7,6 +7,7 @@ tags:
   - Cybertech
   - Nanotech
 title: Operator
+category: Faction
 ---
 Operators are stealthy assassins with some Cyber Weapon capabilities that can infiltrate high security locations and escape without anyone noticing a thing.
 

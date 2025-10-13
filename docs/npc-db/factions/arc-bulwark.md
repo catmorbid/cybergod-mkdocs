@@ -6,6 +6,7 @@ tags:
   - Faction-ARC
   - Cybertech
 title: Bulwark
+category: Faction
 ---
 Bulwarks are ARC mobile heavy weapons platforms built to withstand immense amount of damage and carrying the heaviest weapons to the field.
 

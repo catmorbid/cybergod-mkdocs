@@ -6,6 +6,7 @@ tags:
   - Faction-AGD
   - Cybertech
 title: Soldat
+category: Faction
 ---
 Soldat's are well-rounded assault frames for seasoned military experts specializing in rapid tactical assault. They wear full Combat Armour and typically use a shotgun, SMG or other close quarters weapons.
 

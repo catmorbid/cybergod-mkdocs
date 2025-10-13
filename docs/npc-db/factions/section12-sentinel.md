@@ -7,6 +7,7 @@ tags:
   - Cybertech
   - Nanotech
 title: Sentinel
+category: Faction
 ---
 Sentinels are clandestine operators specializing in Psionic Warfare and infiltration. Unlike player characters, NPC Sentinels do not roll Psionics test, instead they succeed at static result, described in the Augment effects.
 

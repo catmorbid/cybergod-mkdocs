@@ -6,6 +6,7 @@ tags:
   - Faction-Cyberweaver
   - Cybertech
 title: Adept
+category: Faction
 ---
 Adepts are dangerous foes that specialize in anti-cyborg warfare. They are armed with integrated hidden weapon systems and can utilize combat hacks and their proprietary Coil Interface.
 

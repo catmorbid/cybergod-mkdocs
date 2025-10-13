@@ -6,6 +6,7 @@ tags:
   - Faction-ARC
   - Cybertech
 title: Hunter
+category: Faction
 ---
 Hunters are recon specialists that excel at finding their enemies and then taking them out at long range.
 

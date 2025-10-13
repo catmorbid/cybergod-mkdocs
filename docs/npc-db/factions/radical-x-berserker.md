@@ -6,6 +6,7 @@ tags:
   - Faction-RadicalX
   - Cybertech
 title: Berserker
+category: Faction
 ---
 Berserkers are aggressive close combat fighters augmented to inflict maximum damage in close quarters. Their regeneration augment makes them difficult to deal with and once up-close they strike hard and fast. Many Berserkers opt for integrated weapon systems.
 

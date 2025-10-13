@@ -3,6 +3,7 @@ tags:
   - NPC
   - Drone
 title: Scout Drone
+category: Drone
 ---
 Weak flying drones armed with recoilless laser weapons. 
 

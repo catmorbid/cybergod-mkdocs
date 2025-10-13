@@ -6,6 +6,7 @@ tags:
   - Faction-Cyberweaver
   - Cybertech
 title: Shadow
+category: Faction
 ---
 Shadow is a covert operative specializing in infiltration and espionage. They are not fighters and will attempt to talk their way out of problems, or avoid them all together.
 

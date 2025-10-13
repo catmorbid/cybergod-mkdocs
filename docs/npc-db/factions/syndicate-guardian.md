@@ -6,6 +6,7 @@ tags:
   - Faction-Syndicate
   - Cybertech
 title: Puccini Guardian
+category: Faction
 ---
 Defensive combatant who prioritizes protecting VIP's and team members. 
 

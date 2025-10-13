@@ -6,6 +6,7 @@ tags:
   - Faction-Syndicate
   - Cybertech
 title: Radinovich Tzar
+category: Faction
 ---
 Tzars are forceful leaders that also specialize in close combat for when the negotiations fail.
 

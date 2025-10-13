@@ -1,0 +1,23 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("npc-db")
+    order:
+      - file.name
+      - file.folder
+      - title
+      - tags
+      - category
+    sort:
+      - property: title
+        direction: ASC
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.folder: 178
+      note.title: 200
+      note.tags: 620

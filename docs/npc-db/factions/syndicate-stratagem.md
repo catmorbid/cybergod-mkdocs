@@ -6,6 +6,7 @@ tags:
   - Faction-Syndicate
   - Cybertech
 title: Wu-Tai Stratagem
+category: Faction
 ---
 Leader of the unit. Stays in the back, protected by their Guardian, causing interference on enemy squad. Will try to organize an ambush.
 

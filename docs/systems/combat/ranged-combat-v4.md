@@ -20,7 +20,7 @@ Consider the following circumstantial [[penalties]]:
 - **Target Evasion:** Apply target’s current [[stats#Evasion|Evasion]] as **penalty**. [[action-move-evade|Evasive maneuvers]] or naturally high [[attributes#Reflex|Reflex attribute]] may make the target hard to hit. Evasion may include *Mobility* or *Cover* based bonuses.
 - **Low visibility:** Apply **-1 to -3 penalty**. Darkness, fog, rain, clutter and generally anything that can obscure vision, makes it more difficult to spot the *correct* target or track them. Such hindrances can be ignored by suitable augments or gadgets.
 
-In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add another complication to the test.
+In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add a complication to the test.
 
 !!! example "Ranged Combat Example"
 	 Cyber Joe is tracking a slippery Syndicate assassin on the maze-like streets of ground-level slums. He catches the criminal below an overpass, just as they’re about the disappear into the side alleys of a busy market street. Joe has a brief opportunity and attempts to take a shot.
@@ -65,12 +65,23 @@ If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]]
 *Rate of Fire* (ROF) determines how rapidly you can fire a weapon, described on a scale of 1-6. You can choose your **Effective ROF**, between 1 and weapon ROF rating.
 
 Each point of *Effective ROF* has following effects:
-- Gain 1 CTRL Die as utility modifier
-- Increase Recoil by 1
-- Roll one die for ammo check
+- Gain 1 CTRL Die per 2 ROF as utility modifier.
+- Increase Recoil by 1 per ROF
+- Roll one die per ROF for ammo [[resource-check|Resource Check]].
 - Maximum number of **Hits** is equal to **ROF**.
 
+### Recoil
 
+Effective Recoil is equal to [[weapon-stats-v4#Recoil|Weapon Recoil]] + [[#Rate of Fire|Effective Rate of Fire]]. It is applied as a [[skill-test#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]].
+
+> E.g. Assault Rifle has ROF 3 and RCL +0. Firing the weapon with effective ROF 2 has Recoil of 2.
+
+If you fail to overcome Recoil, you are thrown out of balance and will *lose your next Action or Reaction*, when trying to recover your balance.
+
+*Recoil* is modified by [[attributes#Body|Body attribute]], and other modifications (such as those from [[recoil-compensator|Augments]]). If Recoil is dropped to zero or less, you can make the attack test without the added complication.
+
+
+Recoil can be reduced by 1 point by having a portable support device for the weapon, such as a bipod. The support device typically adds **2 Bulk**. Properly mounted weapons always mitigate the recoil entirely.
 ### Effects
 You can choose from available Hit Effects determined by the weapon’s [[#Rate of Fire|Rate Of Fire]].
 
@@ -80,11 +91,11 @@ Available basic hits and their maximum stacks depends on the weapon’s [[#Rate 
 | Effect      | Cost | Description                                                                                          |
 | ----------- | ---- | ---------------------------------------------------------------------------------------------------- |
 | Ranged Hit  | 2    | 1 Hit at any eligible targets. Stacks up *Effective ROF*.                                            |
-| Suppression | 1    | One target is [[suppressed]] for 1 round. Suppression requires ROF 2 or greater, can stack up to ROF |
+| Suppression | 1    | *Requires ROF 2 or greater.* One target is [[suppressed]] for 1 round. Suppression. Stack up to ROF. |
 
 #### Aimed Hits
 
-When Effective [[#Rate of Fire]] is 2 or less, you can take *Aimed Hits*.
+Aimed Hits *Require [[#Rate of Fire|Effective Rate of Fire]] of 2 or less*.
 
 Inflict 1 hit carefully aimed at a specific hit location. Actual location varies according to context, but the cost depends on the effect associated with the location. GM can determine custom hit locations and effects as necessary. Any **Conditions** are inflicted only if target takes [[damage-harm|Serious Harm]] or worse.
 

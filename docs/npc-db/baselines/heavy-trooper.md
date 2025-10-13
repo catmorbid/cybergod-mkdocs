@@ -3,6 +3,7 @@ tags:
   - NPC
   - Tough
 title: Heavy Trooper
+category: Baseline
 ---
 Formidable elite soldiers wearing combat exoskeletons and high-grade weaponry. They’re the best humanity’s got without full augmentation.
 

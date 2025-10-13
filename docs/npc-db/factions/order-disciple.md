@@ -6,6 +6,7 @@ tags:
   - Faction-Order
   - Biotech
 title: Blessed Disciple
+category: Faction
 ---
 Disciples are offensive combatants that often blend into crowds wearing plainclothes or light armor and like to surprise their opponents with a sudden close range attack.
 

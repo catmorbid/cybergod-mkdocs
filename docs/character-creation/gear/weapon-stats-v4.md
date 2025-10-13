@@ -131,19 +131,10 @@ Highest practical rate of fire, usually found in heavy weapons bolted to a suppo
 
 Recoil is measured with a number, generally between 0 and 5. Recoil describes how much a weapon kicks when fired. High recoil can throw the character out of balance and makes controlling the weapon more difficult, which is especially important with automatic weapons.
 
-**System**
-*Recoil* is applied as a [[skill-test#Complications|Complication]] to the [[ranged-combat-v4|Attack Test]]. Cost is modified by active [[#Rate of Fire]].
-
-> E.g. Assault Rifle has ROF `SEA` and RCL 2. Firing on semi-auto mode is RCL 1 while Full auto is RCL 3
-
-If you fail to overcome Recoil, you are thrown out of balance and will *lose your next Action or Reaction*, when trying to recover your balance.
-
-*Recoil* is modified by [[attributes#Body|Body attribute]], and other modifications (such as those from [[recoil-compensator|Augments]]). If Recoil is dropped to zero or less, you can make the attack test without the added complication.
-
 | Body D4    | Body D6    | Body D8   | Body D10  | Body D12  |
 | ---------- | ---------- | --------- | --------- | --------- |
 | Recoil + 1 | Recoil + 0 | Recoil -1 | Recoil -2 | Recoil -3 |
-Recoil can be reduced by 1 point by having a portable support device for the weapon, such as a bipod. The support device typically adds **2 Bulk**. Properly mounted weapons always mitigate the recoil entirely.
+
 
 ### Reloads
 

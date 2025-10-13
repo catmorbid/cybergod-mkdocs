@@ -6,6 +6,7 @@ tags:
   - Faction-AGD
   - Cybertech
 title: Colossus
+category: Faction
 ---
 The Colossus is a massive and heavily armored frame to provide fire support from fortified positions.
 

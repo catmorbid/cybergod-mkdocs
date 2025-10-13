@@ -6,6 +6,7 @@ tags:
   - Faction-RadicalX
   - Cybertech
 title: Avenger
+category: Faction
 ---
 Avengers are flying terrors that can be major nuisance in the battlefield, employing assault weapons and cyber weapons while attacking from elevated position. Avengers often carry explosives to drop above unsuspecting foes.
 

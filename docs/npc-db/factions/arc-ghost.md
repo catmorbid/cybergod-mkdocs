@@ -6,6 +6,7 @@ tags:
   - Faction-ARC
   - Cybertech
 title: Ghost
+category: Faction
 ---
 Cyber weapons support and anti-cyborg combat
 

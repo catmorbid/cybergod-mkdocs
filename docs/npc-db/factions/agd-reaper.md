@@ -6,6 +6,7 @@ tags:
   - Faction-AGD
   - Cybertech
 title: Reaper
+category: Faction
 ---
 Reaper is a stealthy sniper, using Camouflage and Pinpoint augmentations to execute extremely accurate attacks from long distance. They can also utilize some Cyber Weapons to cause confusion and help them escape assailants. 
 

@@ -6,6 +6,7 @@ tags:
   - Faction-Order
   - Biotech
 title: Blessed Paladin
+category: Faction
 ---
 Paladins are bodyguards who can turn from civilian to a huge hulking monster in an instant. Their primary role is to protect VIP's and they can also employ their Biomorphs for healing damage. They tend to carry concealable weapons, but in a pinch they can utilize precision weapons or heavy weapons. Higher tier Paladins also employ Biomorph weapons.
 
