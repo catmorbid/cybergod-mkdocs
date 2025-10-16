@@ -19,11 +19,11 @@ Body represents constitution, strength, fitness and athletic ability. Use Body t
 
 | Rating | Description | Physical DC | Recoil | Max Bulk |
 | ------ | ----------- | ----------- | ------ | -------- |
-| D4     | Weak        | -1          | +1     | 4        |
-| D6     | Average     | 0           | +0     | 6        |
-| D8     | Strong      | 1           | -1     | 8        |
-| D10    | Powerful    | 2           | -2     | 10       |
-| D12    | Behemoth    | 3           | -3     | 12       |
+| D4     | Weak        | 1           | +1     | 4        |
+| D6     | Average     | 2           | +0     | 6        |
+| D8     | Strong      | 3           | -1     | 8        |
+| D10    | Powerful    | 4           | -2     | 10       |
+| D12    | Behemoth    | 5           | -3     | 12       |
 
 ### Reflex
 
@@ -43,15 +43,15 @@ Reflex affects [[stats#Evasion|Evasion]], [[stats#Initiative|Initiative]] and [[
 
 Mind determines intellect, cunning, awareness and focus. Mind is utilized to resist mental damage and is often used in many skill tests, but has fewer derived attributes.
 
-Mind affects [[stats#Pain Threshold|Pain Threshold]].
+Mind affects [[stats#Pain Threshold|Pain Threshold]], [[stats#Stress Threshold|Stress Threshold]] and the ability to engage in [[multitasking]].
 
-| Rating | Description | Pain Threshold | Stress Threshold |
-| ------ | ----------- | -------------- | ---------------- |
-| D4     | Dull        | 1              | 0                |
-| D6     | Average     | 2              | 0                |
-| D8     | Focused     | 3              | 1                |
-| D10    | Mastermind  | 4              | 2                |
-| D12    | Visionary   | 5              | 3                |
+| Rating | Description | Pain Threshold | Stress Threshold | Multitasking Modifier |
+| ------ | ----------- | -------------- | ---------------- | --------------------- |
+| D4     | Dull        | 1              | 0                | -1D                   |
+| D6     | Average     | 2              | 0                | none                  |
+| D8     | Focused     | 3              | 1                | +1D                   |
+| D10    | Mastermind  | 4              | 2                | +2D                   |
+| D12    | Visionary   | 5              | 3                | +3D                   |
 
 ### Cyber
 

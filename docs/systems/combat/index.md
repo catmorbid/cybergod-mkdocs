@@ -13,7 +13,7 @@ Regardless of which faction you vouch for, there are times when diplomacy fails 
 
 [[turns]]
 
-[[close-combat-v4]]
+[[close-combat]]
 
 [[ranged-combat-v4]]
 

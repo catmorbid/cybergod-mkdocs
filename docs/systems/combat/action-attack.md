@@ -12,4 +12,4 @@ Count **Effect Points** produced by dice and handle **Complications**, if any.
 
 Spend Remaining **Effect Points** to buy **Hit Effects**. You can usually stack Effects to obtain multiple hits, but limits may apply depending on weapon and attack type.
 
-Attack Action can either be a [[close-combat-v4|Close Combat]] attack or [[ranged-combat-v4|Ranged Combat]].
+Attack Action can either be a [[close-combat|Close Combat]] attack or [[ranged-combat-v4|Ranged Combat]].

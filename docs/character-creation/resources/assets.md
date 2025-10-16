@@ -9,7 +9,7 @@ Characters gain *Assets* as they achieve a higher [[chargen-faction#Rank|Rank]] 
 
 You can spend Assets Points to obtain **Personal Assets** such as custom weaponry and specialized tools. [[arc|ARC]] can also spend Assets to upgrade their personal **CHAOS Mk. 2 sidearm**.
 
-Spending any Assets for personal equipment will permanently reduce your Asset points, contributing less to Team Assets. You are free to change your loadout between missions, picking from the standard equipment lists.
+Spending any Assets for personal equipment will permanently reduce your Asset points, contributing less to Team Assets. You are free to change your *loadout* between missions, picking from the standard equipment lists.
 
 #### Personal Assets
 A Personal Asset is a specific piece of equipment, item or contact that can be utilized during play. Personal Assets are measured with a Die rating from D4 to D12. All Personal Assets start out at D4, but each additional Asset Point spent increases its rating up to D12.

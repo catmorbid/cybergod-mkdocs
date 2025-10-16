@@ -30,26 +30,26 @@ Armor tags describe additional rules and effects that come to play with certain 
 
 ### Personal Armor
 
-| Armor                   | DR | Mitigation | Bulk | Grade    | Tags                                    |
-|-------------------------|----|------------|------|----------|-----------------------------------------|
-| Ballistic Weave         | 0  | 4          | 0    | Common   | Concealable                             |
-| Ballistic Plates        | 1  | 2          | 1    | Common   | Concealable                             |
-| Nano Weave              | 0  | 12         | 0    | Advanced | Concealable, Self-repair                |
-| Security Armor          | 1  | 4          | 1    | Uncommon |                                         |
-| Combat Armor            | 1  | 10         | 2    | Advanced |                                         |
-| Hard Shell              | 2  | 12         | 4    | Advanced | Sealed                                  |
-| Industrial Exosuit      | 1  | 3          | 2    | Advanced | Body D12, Reflex D6                     |
-| Combat Exosuit          | 2  | 8          | 1    | Rare     | Body D10, Reflex D8                     |
-| Reflex Armor            | 2  | 4          | 0    | Rare     | Sealed, Body D8, Reflex D10             |
-| Ghost Armor             | 1  | 6          | 0    | Rare     | Sealed, Camouflage, Body D8, Reflex D10 |
-| Power Suit              | 3  | 20         | 2    | Exotic   | Sealed, Body D12, Reflex D8             |
-| Cybernetic armor 1      | 1  | 5          | 0    | -        | Concealable                             |
-| Cybernetic armor 2      | 2  | 10         | 1    | -        |                                         |
-| Cybernetic armor 3      | 3  | 15         | 3    | -        |                                         |
-| Vehicle Plating, Light  | 0  | 2          | 1    | Common   |                                         |
-| Vehicle Plating, Medium | 1  | 4          | 2    | Uncommon |                                         |
-| Vehicle Plating, Heavy  | 2  | 6          | 4    | Advanced |                                         |
-| Vehicle Plating, Ultra  | 3  | 8          | 8    | Rare     |
+| Armor                   | DR  | Mitigation | Bulk | Grade    | Tags                                    |
+| ----------------------- | --- | ---------- | ---- | -------- | --------------------------------------- |
+| Ballistic Weave         | 0   | 4          | 0    | Common   | Concealable                             |
+| Ballistic Plates        | 1   | 2          | 1    | Common   | Concealable                             |
+| Nano Weave              | 0   | 12         | 0    | Advanced | Concealable, Self-repair                |
+| Security Armor          | 1   | 4          | 1    | Uncommon |                                         |
+| Combat Armor            | 1   | 10         | 2    | Advanced |                                         |
+| Hard Shell              | 2   | 12         | 4    | Advanced | Sealed                                  |
+| Industrial Exosuit      | 1   | 3          | 2    | Advanced | Body D12, Reflex D6                     |
+| Combat Exosuit          | 2   | 8          | 1    | Rare     | Body D10, Reflex D8                     |
+| Reflex Armor            | 2   | 4          | 0    | Rare     | Sealed, Body D8, Reflex D10             |
+| Ghost Armor             | 1   | 6          | 0    | Rare     | Sealed, Camouflage, Body D8, Reflex D10 |
+| Power Suit              | 3   | 20         | 2    | Exotic   | Sealed, Body D12, Reflex D8             |
+| Cybernetic armor 1      | 1   | 5          | 0    | -        | Concealable                             |
+| Cybernetic armor 2      | 2   | 10         | 1    | -        |                                         |
+| Cybernetic armor 3      | 3   | 15         | 3    | -        |                                         |
+| Vehicle Plating, Light  | 0   | 2          | 1    | Common   |                                         |
+| Vehicle Plating, Medium | 1   | 4          | 2    | Uncommon |                                         |
+| Vehicle Plating, Heavy  | 2   | 6          | 4    | Advanced |                                         |
+| Vehicle Plating, Ultra  | 3   | 8          | 8    | Rare     |                                         |
 
 
 #### Ballistic Weave

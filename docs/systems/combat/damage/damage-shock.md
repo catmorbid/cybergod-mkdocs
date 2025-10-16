@@ -8,4 +8,6 @@ tags:
 
 $$ShockSlots=BodyLevel+MindLevel+10$$
 
-When track is at 10+, character takes the [[stunned]] condition, and when track is depleted, become [[incapacitated]].
+When shock track is full, the character suffers from **Full Shock** and becomes [[incapacitated]].
+
+Shock can be *recovered* during [[turns#Upkeep Phase|Upkeep]] phase of combat, or by administering medical aid or taking drugs.

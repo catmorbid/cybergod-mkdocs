@@ -9,8 +9,8 @@ Factions are listed on [[factions/index|Factions section]] of the core book. Rea
 Rank measures your position in the faction’s hierarchy. Higher rank offers better benefits and greater degree of pull in your faction. Upon increasing your Rank, you gain the following benefits:
 
 - [[upgrades|Frame Level Upgrade]]
-- 2 Asset Points
-- Choice of any Resource +1
+- 2 [[assets|Asset Points]]
+- 1 [[resources/index|Resource increase]]
 
 You can consult the following table to quickly find out merit points for each rank, and the benefits awarded. When *creating a new Character* you gain all benefits from your faction Rank.
 

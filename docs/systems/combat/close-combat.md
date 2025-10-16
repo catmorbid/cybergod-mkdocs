@@ -5,24 +5,68 @@ tags:
   - Combat
   - Offense
   - Defense
-version: 3
+version: 4
+status: new
 ---
-## Close Combat
+## Close Combat Actions
+When engaging in close combat your options are few: The aggressor will **Fight** their opponent, but the defender may choose to **Fight Back** or attempt **Evading** the attack. If they do not *fight back*, their current [[stats#Evasion|Evasion]], if any is applied to the attack, but Evasion is ignored when taking the *Fight Back* action.
 
-Make an [[systems/core-mechanics/index#Opposed Test|Opposed Test]] of `Fighting x Body or Reflex` for both *attack* and *defense*. If the target is not defending themselves (they do not take an action to fight back), the test is resolved as a normal **Easy** test.
+| Close Combat Action | Test                                     |
+| ------------------- | ---------------------------------------- |
+| Fight               | Fighting(Body \| Reflex)                 |
+| Fight Back          | Fighting(Body \| Reflex)                 |
+| Evade               | Use Evasion Pool; test Mobility (Reflex) |
 
-**Unarmed Combat:** When fighting unarmed **Damage Class** is 1, otherwise you use the DC from melee weapon.
+### Fight
+Test `Fighting (Body | Reflex)`. You can use either Body or Reflex, and the difference is in narrative style of fighting. Body-based close combat tends to be more reliant on brute force, while Reflex-based close combat can be described as more acrobatic and agile.
 
-**Effects**
+### Fight Back
+The target may choose to **Fight Back** but they must spend an **Action/Reaction** to do so.
 
-- **Hits:** You can stack several Hits to one target or distribute Hits between multiple targets. **Default Hit Limit is 2**, accounting for total number of Hit effects you can distribute between targets. Each type of Hit has separate EP cost.
-	- **Normal Hit(1)**: Target takes damage at DC 1 or weapon DC. You can assign hits to different targets or accumulate them to one target.
-	- **Weak Spot Hit(2)**: Hit target at a weak spot, bypassing armor. Inflict damage like a regular hit, but increase AP by 1.
-	- **Critical Hit(4)**: Hit target at a critical location. Inflict damage at  **Weapon DC+4**.
-- **Initiative(1)**: Be faster than the other guy. If you have more initiative, your action is resolved first.
-- **Attack Power (1)**: Damage Class +1 for all hits. **Effect Limit** depends on Body: D6=1, D8=2, D10=3, D12=4
-- **Disarm (2)**: Disarms the target. You can grab their weapon or toss it away.
-- **Immobilize (2):** Prevents the target from moving, e.g. by engaging a grapple hold. The target is not permanently held however and they may attempt to fight back by spending further actions.
-- **Pin (4):** Pin the target in place without chance for escape. The attacker cannot take any Physical actions while maintaining a Pin hold, but they do not need to make further tests either.
-	- **Forced Escape:** Target may take an action and attempt a **Very Hard** `Mobility x Body` test to escape from a Pin hold, taking 2 wounds through armor even when successful.
-		- **Complication: Severe Damage (2):** Deal additional 4 wounds through armor unless bought off.
+If a target *fights back*, then the test is resolved as an **Opposed Test**, and both attacker and defender test their close combat skills. Whoever wins the test, may spend their remaining **Effect Points**. The opposition may well strike back and defeat the attacker.
+
+### Evade
+[[stats#Evasion|Evasion]] is the base defense against close combat attacks, unless the defender is *fighting back*. If you do not have enough Evasion, you can also take a *Reaction* to perform the [[action-move-evade|Move and Evade]] action, but unlike *Fight Back* action, this will not allow you to deal damage to your opponent, but can be useful to avoid the attack and escape.
+
+## Melee Damage
+If a melee weapon has `Tag: physical` you may add **Physical DC** from [[attributes#Body|Body]] attribute to Weapon DC. Unarmed attacks default to **Physical DC** 
+
+## Effects
+Maximum hits is limited by [[weapon-stats-v4#Melee speed|Melee Speed]], but there is otherwise no limitation on combining effects.
+
+#### Basic Strikes
+
+| Effect       | Cost | Description                                                                                  |
+| ------------ | ---- | -------------------------------------------------------------------------------------------- |
+| Strike Hit   | 1    | Inflict 1 Hit at an eligible Target. Max Limit [[weapon-stats-v4#Melee speed\|Melee Speed]]. |
+| Strike Power | 1    | *Requires* `Tag: Physical`. Improve DC of all Hits by +1. Max Stack 5.                       |
+
+#### Aimed Strikes
+Make a carefully aimed strike at a specific location. GM may introduce alternate locations and alternate effects if needed. If the attack inflicts [[damage-harm|Serious Harm]] or worse, the attack also inflicts the indicated [[conditions/index|Condition]].
+
+| Effect       | Cost | Description                                                                                                                                         |
+| ------------ | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Disarm Hit   | 2    | Disarm a target without inflicting any damage to them, unless you want to cause damage as well (you can).                                           |
+| Maim Hit     | 2    | A hit to an arm or another limb or support structure operating a weapon. Inflicts [[maimed]] condition.                                             |
+| Cripple Hit  | 2    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. Inflicts [[crippled]] condition.               |
+| Blinding Hit | 3    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. Inflicts [[blinded]] condition. |
+| Critical Hit | 3    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** *after* armor DR, but *before* Soak roll.k.                           |
+
+#### Grappling
+Unarmed or grappling weapons enable taking grappling effects.
+
+| Effect     | Cost | Description                                                                                                      |
+| ---------- | ---- | ---------------------------------------------------------------------------------------------------------------- |
+| Immobilize | 2    | Target is [[immobilized]] and held, until their next action.                                                     |
+| Pin        | 4    | Target must be [[immobilized]]. Target is [[pinned]] until you free them or they succeed in a [[#Forced Escape]] |
+
+### Forced Escape
+
+When [[pinned]], you can either submit your defeat or attempt a *Forced Escape*, risking damage to your *frame*. Each attempt takes a full round from both participants.
+
+- *Both* participants must make an **Opposed Test**: `Hard(3) Toughness + Body`
+- You take [[damage-class|1 Damage]] ignoring [[damage-armor|Armor]] when attempting the test, regardless of outcome.
+- You take **Forced Trauma 3** complication; upon failing to overcome the complication, you will take additional [[damage-class|3 Damage]] ignoring [[damage-armor|Armor]].
+- If you win, you escape, if they win you remain pinned.
+	- Opponent can inflict additional [[damage-class|1 Damage]] for effect they have remaining.
+- Total the Harm taken and then roll [[damage-soak|Soak]].

@@ -1,6 +1,8 @@
 ---
 title: Damage Class
 version: 4
+tags:
+  - Damage
 ---
 
 **Damage Class (DC)** is a classification system for a weapon’s power, indicated by a numeric value.

@@ -12,10 +12,10 @@ Each game session should end with a short retrospective on how the session went.
 - **Intrigue**: Participating in high stakes intrigue is worth 1 XP
 - **Humanity**: Character expressed their human side, taking into account their Engrams. Worth at least 1 XP.
 - **Creativity:** Thinking outside the box, keeping everyone entertained. Worth 1 XP.
-- **Mission:** Taking actions to proceed with shared objectives earns 1 XP. Mission Objectives mainly affect how many [[gm-merits|Merits]] are earned, but a little bit of XP should be awarded as well.
+- **Mission:** Mission Objectives mainly affect how many [[gm-merits|Merits]] are earned, but 1 XP should be awarded for completed objectives.
 
 Some things that should not be awarded:
 
-- Random Violence
-- Deliberately hindering or complicating team efforts, unless there is a solid cause.
-- Taking all the spotlight. Everyone should have a turn to play.
+- **Random Violence**: Your mission took you to interrogate the bartender, but you started a fight that wrecked the whole bar and beat down all patrons, and failed the objective.
+- **Deliberate complications**: You deliberately annoy an important NPC by stealing their valued possessions and getting caught. Later you succeed at sweet talking that NPC’s close friend who helps maintain the status quo. You did not achieve anything, and only managed to fix a problem you made up in the first place.
+- **Taking all the spotlight**: Everyone should have a turn to play.

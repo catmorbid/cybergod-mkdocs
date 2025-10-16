@@ -19,7 +19,3 @@ General Resources are various commodities you can spend to obtain other commodit
 **Influence** is a measure of social wealth, respect and renown. It can be used to call in favors and influence outcomes of certain situations.
 
 Other resources may exist, and they can be equally measured with dice from D6 to D12. Write them down as required. Not all games utilize additional resources. When you spend resources you roll their usage dice, including existing tracked usage.
-### Ammo
-
-When you use a weapon in combat, you need to track its ammo usage. Each weapon has its own Ammo Tracker on the Frame Sheet. Mark down how much ammo you used and make a [[systems/core-mechanics/index#Resource Check|Resource Check]] after the attack using the weapon’s [[character-creation/gear/index#Capacity|Capacity]] as the Resource Die. On failure, you are out of ammo and must spend an action and a use up a [[character-creation/gear/index#Reloads|Reload]].
-

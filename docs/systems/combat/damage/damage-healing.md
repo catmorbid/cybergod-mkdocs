@@ -1,6 +1,8 @@
 ---
 title: Healing Damage
-version: 1
+version: 4
+tags:
+  - Damage
 ---
 Lasting damage and injuries can be healed *naturally* with enough time, but recovery time can be significantly improved by applying *Medical care* or *Repairs*. Certain [[character-creation/augments/_old/index|Augments]] may help [[regenerating|regenerate]] damage and advanced medical consumables can help as well.
 

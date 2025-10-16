@@ -4,9 +4,20 @@ version: 4
 tags:
 ---
 This section explains various **Stats** and **Rules** used with weapons.
+
+### Ammo and Reloads
+
+When you use a weapon in combat, you need to track its ammo usage. Each weapon has its own Ammo Tracker on the Frame Sheet. Mark down how much ammo you used and make a [[resource-check|Resource Check]] after the attack using the weapon’s [[#Capacity]] as the **Resource Die**. On failure, you are out of ammo and must spend an action and a use up a [[character-creation/gear/index#Reloads|Reload]].
+
+Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads are specific to weapons you carry, but you can abstract your personal reloads. When looting ammo from dead enemies, you might not find the correct ammo. Also when an ally is out of ammo, they need to have a matching weapon or your reloads won't be of use to them.
+
+**Reload cost**
+- Reloading a Sidearm or an Assault weapon weapon consumes 1 action.
+- Heavy weapons and Precision weapons require 2 actions.
+
 ### Area
 
-Area is used for explosives and such to determine how large area is affected when the weapon is used. Area of effect weapons can catch multiple enemies under the weapon's effect. Every target near the primary target will take damage, but they can spend a **Reaction** to attempt a `Mobility or Tactics + Reflex` test to quickly hit the dirt or take cover, negating 1 Hit per effect gained. The test is always **Difficult**, but the cost of the Complication depends on the area of effect.
+**Area stat** is used for explosives and such to determine how large area is affected when the weapon is used. Area of effect weapons can catch multiple enemies under the weapon's effect. Every target near the primary target will take damage, but they can spend a **Reaction** to attempt a `Mobility or Tactics + Reflex` test to quickly hit the dirt or take cover, negating 1 Hit per effect gained. The test is always **Difficult**, but the cost of the Complication depends on the area of effect.
 
 
 | Area     | Description                                                                                                               | Difficulty |
@@ -57,93 +68,10 @@ Noted as `Optimal Range - Effective Range`. Or just Optimal Range if only one ra
 **Effective Range** is the maximum suggested [[structure#Distance|Distance]] the weapon should be used at. [[damage/damage-class|Damage Class]] is reduced by 1 for each range increment further than Effective Range.
 
 ### Rate of Fire
+Rate of Fire (ROF) determines how rapidly a weapon can fire.See [[ranged-combat-v4#Rate of Fire|Ranged Combat]] for details how ROF is applied in combat.
 
-
-
-See [[ranged-combat-v4|Ranged Combat]] for details how this works.
-
-A weapon can have one or more ROF modes listed, and you must choose which mode to use before engaging your target. Each ROF mode is abbreviated with a single letter, which can be joined to short *string* of text.
-
-!!! example
-	*July* has a small concealable highly customized Gauss pistol as a sidearm. The ROF for the weapon is SEA, meaning it can be fired in Single, Semi or Auto.
-#### Single
-- **Code:** `S`
-- **Effects:** Single Hit (max 1), Aimed Hit (max 1)
-- **Evasion Cost:** 1
-- **Miss Effect:** No effect
-- **Recoil Modifier:** None
-- **Ammo Usage:** None, Unless weapon has [[#Limited Capacity]]
-
-Fire single shots. Hits are limited to one. Does not use any ammo, unless weapon has [[#Limited Capacity]]. If you take **Aim** action, you can add weapon **CTRL** dice as Utility Dice to the attack.
-
-#### Semi
-- **Code:** `E`
-- **Effects:** Single Hit (max 4), Aimed Hit (max 2), Suppression (max 1)
-- **Evasion Cost:** 1
-- **Miss Effect:** 1 Collateral Hit
-- **Recoil Modifier:** None
-- **Ammo Usage:** 1
-
-Fire several consecutive shots, not quite as fast as full auto weapons, but fast enough to inflict several hits. You can even land a few more Aimed Hits, but not quite as many as when simply aiming for center of mass. If you take **Aim** action before attack, you add **CTRL** dice as Utility Dice.
-
-Weapons with [[#Limited Capacity]] can be semi-automatic, but you need to choose *before attacking* how many shots to spend, between 1 and 4, limiting the max number of Hits you can obtain.
-
-#### Burst
-- **Code:** `B`
-- **Effects:** Double Hit (max 2), Suppression (max 1)
-- **Evasion Cost:** 1
-- **Miss Effect:** 1 Collateral Hit
-- **Recoil Modifier:** +1
-- **Ammo Usage:** 1
-
-Fire a short automatic burst, improving chance of landing a second hit, but usually wasting at least one shot. A Burst is not that much different than a single shot, but usually produced significantly bigger kick. If you take **Aim** action before attack, you add **CTRL** dice as Utility Dice.
-
-#### Auto
-- **Code:** `A`
-- **Effects:** Double Hit (max 3), Suppression (max 2)
-- **Evasion Cost:** 2
-- **Miss Effect:** 2 Collateral Hits
-- **Recoil Modifier:** +2
-- **Ammo Usage:** 2
-
-Fire a long fully automatic burst. Very good at suppression and sustained fire. Consumes a lot of ammo, and misses most shots, but when properly utilized can be extremely effective. Apply **CTRL** as Utility Dice.
-
-#### Rapid
-- **Code:** `R`
-- **Effects:** Triple Hit (max 3), Suppression (max 2)
-- **Evasion Cost:** 3
-- **Miss Effect:** 3 Collateral Hits
-- **Recoil Modifier:** +3
-- **Ammo Usage:** 3
-
-High rate of fire and high ammo consumption. Rapid fire weapons can be devastating due to sheer volume of shots fired, but they are harder to control. Apply **2 CTRL Dice** as Utility Dice.
-#### Extreme
-- **Code:** `X`
-- **Effects:** Quad Hit (max 3), Suppression (max 4)
-- **Evasion Cost:** 4
-- **Miss Effect:** 4 Collateral Hits
-- **Recoil Modifier:** +4
-- **Ammo Usage:** 4
-
-Highest practical rate of fire, usually found in heavy weapons bolted to a support platform with multiple rotary barrels and an electric feed mechanism. They fire at incredibly high rate of fire with extremely high ammo consumption and immense recoil. Apply **3 CTRL Dice** as Utility Dice.
-
-### Recoil
-
-Recoil is measured with a number, generally between 0 and 5. Recoil describes how much a weapon kicks when fired. High recoil can throw the character out of balance and makes controlling the weapon more difficult, which is especially important with automatic weapons.
-
-| Body D4    | Body D6    | Body D8   | Body D10  | Body D12  |
-| ---------- | ---------- | --------- | --------- | --------- |
-| Recoil + 1 | Recoil + 0 | Recoil -1 | Recoil -2 | Recoil -3 |
-
-
-### Reloads
-
-Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads are specific to weapons you carry, but you can abstract your personal reloads. When looting ammo from dead enemies, you might not find the correct ammo. Also when an ally is out of ammo, they need to have a matching weapon or your reloads won't be of use to them.
-
-**Reload cost**
-- Reloading a Sidearm or an Assault weapon weapon consumes 1 action.
-- Heavy weapons and Precision weapons require 2 actions.
-
+### Recoil Modifier
+Recoil Modifier (RCL) determines how much the weapon contributes to the [[ranged-combat-v4#Recoil|Recoil]] of an attack.
 ### Size
 **Size** `(SIZ)` determines a weapon’s overall mass and length. Ranged Weapons do not list separate Size stat, instead the size of the weapon mostly depends on the weapon’s type. But for Melee weapons, size is used to determined [[#Melee speed]] and [[bulk-v1|Bulk]]. Large weapons also require a certain level of **Body** to be utilized at all, otherwise the weapon is simply too heavy and cumbersome to use. Size and Body together determined [[#Melee speed]] – or many hits you can land in per attack.
 
@@ -158,4 +86,6 @@ Each Reload has a Bulk of 0.25, so you can carry 4 Reloads for 1 Bulk. Reloads a
 ### Weapon Tags
 
 Tags are used for additional rules regarding weapons.
+
+[todo list tags]
 

@@ -58,7 +58,7 @@ In addition, a weapon with high [[weapon-stats-v4#Recoil|Recoil]] may add a comp
 	 **Final Result:** Joe inflicts **1 hit** (total **1d6 damage = 6**), causing a **Harm** and applying the **Crippled** condition (impaired mobility). The assassin collapses, unable to move quickly, but alive enough for interrogation...
 
 ### Ranged Weapons in Close Combat
-If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]], resolve the attack as [[close-combat-v4|Close Combat]] action instead. Target can fight back and you do not get the weapon’s CTRL die applied. If you fight better than opponent, you can score either close combat or ranged combat hits, but ranged combat Hits cost additional 1 EP.
+If end up having to use a ranged weapon in [[weapon-stats-v4#Range|Close Range]], resolve the attack as [[close-combat|Close Combat]] action instead. Target can fight back and you do not get the weapon’s CTRL die applied. If you fight better than opponent, you can score either close combat or ranged combat hits, but ranged combat Hits cost additional 1 EP.
 
 ### Rate of Fire
 
@@ -105,4 +105,4 @@ Inflict 1 hit carefully aimed at a specific hit location. Actual location varies
 | Maim Hit     | 3    | A hit to an arm or another limb or support structure operating a weapon. Inflict [[maimed]] condition.                                             |
 | Cripple Hit  | 3    | A hit to a leg, or another limb or structural component used for mobility, such as wheels or tracks. Inflict [[crippled]] condition.               |
 | Blinding Hit | 4    | A hit to or near eyes/ears or a sensor component affecting detection capabilities and ranged combat, to name a few. Inflict [[blinded]] condition. |
-| Critical Hit | 4    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** after applying Soak.                                                 |
+| Critical Hit | 4    | A hit to the skull, or another vulnerable location. Inflict **Triple Damage** *after* armor DR, but *before* Soak roll.                            |

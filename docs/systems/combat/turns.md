@@ -24,10 +24,10 @@ Once the test is resolved, the leader can then decide how to distribute the gain
 
 Once tactics phase is resolved, you start the combat. The first turn can be influenced by the Tactics phase, so make it count.
 
-#### Actions
-Each character gets to take one [[actions|Action]] and one [[actions|Reaction]]. Action is declared at the start of the round, but Reaction can be decided when the time is right.
+#### Declaring Actions
+Each character gets to take one [[actions|Action]] and one [[actions|Reaction]]. *Action* is declared at the start of the round, but a *Reaction* can be decided whenever the time is right.
 
-Activating Augments is an **Instant Action**, unless otherwise stated, and can be repeated for as often as required, unless the augment is already activated.
+Activating Augments is an [[actions-instant|Instant Action]], unless otherwise stated, and can be repeated for as often as required, unless the augment is already activated.
 
 Each character should describe their actions vaguely. For example:
 
@@ -37,12 +37,15 @@ Each character should describe their actions vaguely. For example:
 - *"I'll fix the generator while you guys keep them off my back"*
 - *"I'll wait to see what happens, but ready to shoot if anyone approaches"*
 - *”I want to activate my Roller Blades augment and chase after the escaping enemy*
-
 #### Resolution
 After the actions are declared, you can start by resolving them one at a time. Enemies may want to intercept, so those actions are resolved as [[conflicting-test|Conflicting Tests]]. If there isn’t a conflict, you can simply proceed with a normal [[skill-test|Skill Test]] – if a test is required at all.
 
 **Reaction** can be chosen at any time before or after resolving your Action, and usually in reaction to another character's action, enemy or friendly. Reactions are often defensive, but there isn't really any limit.
+#### Multitasking
+You can perform any combat actions as [[multitasking]] actions.
 
+#### Initiative
+Initiative is only considered for [[conflicting-test|Conflicting actions]] to decide who acts faster. Default initiative is based on [[character-creation/frame/index#Reflex|Reflex]]. In addition you can always take Initiative as Effect when resolving your action to act faster than the opposition.
 ### Upkeep Phase
 After everyone has acted, before starting a new round, go through the following checklist.
 
@@ -52,11 +55,3 @@ After everyone has acted, before starting a new round, go through the following 
 - Make a [[death-test|Death Test]] if needed
 - Check if any Augments have effects that ended
 
-#### Initiative
-
-Initiative is only considered for [[conflicting-test|Conflicting actions]] to decide who acts faster. Default initiative is based on [[character-creation/frame/index#Reflex|Reflex]]. In addition you can always take Initiative as Effect when resolving your action to act faster than the opposition.
-
-#### Splitting actions
-Actions can be split between different simultaneous actions. For example, you can move and shoot or move and dive for cover, or shoot with a weapon in your both hands. You can't split between multiple same actions.
-
-When you split an action, you take a **Disadvantage** equal to **total number of Actions** split between to each action. So two actions is -2D and three actions is -3D. It's recommended to not allow splitting between more than three actions. If you don't have enough dice, you can't do the split.
