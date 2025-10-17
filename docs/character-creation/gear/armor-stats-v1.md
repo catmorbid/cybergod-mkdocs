@@ -22,6 +22,7 @@ Armor tags describe additional rules and effects that come to play with certain 
 | Concealable | Concealable under regular clothing. Very Hard to spot.                                                              |
 | Durable     | Mitigation Points = 3x DR                                                                                           |
 | Fragile     | Mitigation Points = DR                                                                                              |
+| Hardpoint   | Has a hardpoint (md medium; lg large; hg; huge)                                                                     |
 | Self-Repair | Repairs 50% mitigation in Moderate Duration                                                                         |
 | Sealed      | Protects from environmental hazards. Comes with integrated respirators. Immune to gasses and other airborne agents. |
 | Body        | Power Armor: Body Attribute is replaced with the indicated rating.                                                  |

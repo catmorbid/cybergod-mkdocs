@@ -111,6 +111,6 @@ Super-Heavy weapons are too big for personal use and usually need to be fitted t
 It is possible to utilize Super-Heavy weapons as personal weapons, but it is highly impractical – at least without the correct [[recoil-compensator|Augment]] to mitigate this.
 
 + **Increased Bulk and Recoil:** Super-Heavy weapons are very heavy and have increased Recoil. The listed rating presumes the weapon is fitted on a suitable vehicle, drone or mech – not to be carried around by a humanoid sized creature.
-	+ **Large** weapons have Bulk 6 and while similar in size to typical Heavy Weapons they tend to be more cumbersome and pack a bit more punch, resulting in +1 Recoil.
-	- **Very Large** weapons have Bulk 8. Recoil +2.
-	- **Massive** weapons have Bulk 12. Recoil +4.
+	+ **[Lg] Large** weapons have Bulk 6 and while similar in size to typical Heavy Weapons they tend to be more cumbersome and pack a bit more punch, resulting in +1 Recoil.
+	- **[Hg] Huge** weapons have Bulk 8. Recoil +2.
+	- **[Md] Massive** weapons have Bulk 12. Recoil +4.
