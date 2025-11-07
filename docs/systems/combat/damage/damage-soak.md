@@ -3,7 +3,7 @@ title: Soak Test
 ---
 
 
-Test `Toughness (Body)`, and for any effects obtained, you can convert 1 damage from an attack’s total damage to [[damage-shock|1 Shock]]. This reduces the [[damage-harm|Harm]] taken, but will eventually impair the character.
+Test [[stats#Damage Threshold]], and for any effects obtained, you can convert 1 damage from an attack’s total damage to [[damage-shock|1 Shock]]. This reduces the [[damage-harm|Harm]] taken, but will eventually impair the character.
 
 Certain augments or equipment can provide bonuses to **Soak** rating. Soak Rating is unaffected by [[damage-shred|Shred]] effects.
 

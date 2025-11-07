@@ -9,18 +9,6 @@ Stats are miscellaneous statistics, often derived from [[Attributes]].
 [[attributes#Cyber|Cyber]]
 
 **Cyber Defense** determines base defense against [[systems/cyber-warfare/index]]. Apply Cyber Defense as complication against virus attacks or cyberjacking. Unless overcome, the attack is repelled, *and* the attacker is immediately detected.
-### Damage Threshold
-[[attributes#Body|Body]]
-
-Damage Thresholds determine how easily are severely hurt in combat. There are a total of four different Damage Thresholds and they’re all based on [[#Body]] attribute. Use of Damage Thresholds is explained with more detail in [[damage-#Taking Damage|Taking Damage]] section of [[systems/combat/index|Combat System]].
-
-| Threshold / Body | D4  | D6  | D8  | D10 | D12 |
-| ---------------- | --- | --- | --- | --- | --- |
-| [[harm]]             | 2   | 3   | 4   | 5   | 6   |
-| [[trauma]]           | 4   | 6   | 8   | 10  | 12  |
-| [[fatal]]            | 8   | 12  | 16  | 20  | 24  |
-| [[overkill]]         | 16  | 24  | 32  | 40  | 48  |
-
 ### Evasion
 [[attributes#Reflex|Reflex]]
 
@@ -68,6 +56,10 @@ Base unarmed damage and modifier added to melee weapon DC.
 
 Apply a modifier to weapon [[weapon-stats-v4#Recoil|Recoil]].
 
+### Soak
+Every frame has a natural Soak rating, to which they add any armor Soak dice. Make a [[damage-soak|Soak Test]] when taking damage to reduce incoming damage.
+
+Natural Soak is determined by [[frame-tech|Frame Technology]] used, indicating a number of dice. The size of the soak dice is equal to [[attributes#Body|Body]] attribute.
 ### Stress Threshold
 [[attributes#Mind|Mind]]
 

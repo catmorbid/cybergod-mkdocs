@@ -15,7 +15,7 @@ Frame determines the character's **attributes**. Attributes are measured with a 
 
 ### Body
 
-Body represents constitution, strength, fitness and athletic ability. Use Body to fight in close combat and perform tasks that require endurance, strength or athletic ability. Body affects many aspects of the character passively, although it might not be used in tests that much.
+Body represents constitution, strength, fitness and athletic ability. Use Body to fight in close combat and perform tasks that require endurance, strength or athletic ability. Body affects many aspects of the character passively, although it might not be used in tests that much. Body determines the character’s natural [[stats#Soak|Soak Die]].
 
 | Rating | Description | Physical DC | Recoil | Max Bulk |
 | ------ | ----------- | ----------- | ------ | -------- |
