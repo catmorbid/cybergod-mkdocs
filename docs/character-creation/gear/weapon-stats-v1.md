@@ -181,7 +181,7 @@ Explosive ordnance can be deployed as stand-alone explosive or launched using th
 
 URDO use sophisticated nanites to enable different warhead configurations and they are completely safe until you **format** them to utilize a specific configuration. Formatting takes a **Short** duration, but once formatted the device is more sensitive and could be triggered to explode externally. A formatted URDO is also susceptible to remote hacking (Very Hard), so consider carefully before carrying around formatted URDO.
 ### Warheads
-Warheads are used with various weapon delivery systems from missile launchers to grenades or improvised explosive devices.
+	Warheads are used with various weapon delivery systems from missile launchers to grenades or improvised explosive devices.
 
 | Name           | DC  | AP  | Grade    | Tags                       |
 | -------------- | --- | --- | -------- | -------------------------- |
