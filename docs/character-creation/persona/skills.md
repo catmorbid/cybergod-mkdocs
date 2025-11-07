@@ -129,7 +129,7 @@ Systematic analysis of clues, data, and leads. **Investigation** goes beyond qui
 **Aptitude:**  [[aptitudes#Dominant]]
 
 **Description:**  
-Deception and coercion through lies, false promises, or twisted words. **Manipulation** is the art of _tricking_ someone into a desired belief or action, often without them realizing they’ve been swayed.
+Deception and coercion through lies, false promises, or twisted words. **Manipulation** is the art of _tricking_ someone into a desired belief or action, often without them realizing they’ve been swayed. Failure or complications often results in burned relations.
 
 |**Attribute**|**Example Use Case**|
 |---|---|
@@ -185,7 +185,7 @@ Building and leveraging social connections to gather information or call in favo
 **Aptitude:**  [[aptitudes#Empathic]]
 
 **Description:**  
-Swaying others through reason, charm, and negotiation. **Persuasion** covers honest or at least _transparent_ methods of convincing someone to cooperate, buy in, or see your point of view.
+Swaying others through reason, charm, and negotiation. **Persuasion** covers honest or at least _transparent_ methods of convincing someone to cooperate, buy in, or see your point of view. Difficulty of persuasion attempts is highly dependent on how much the subject respects or likes you.
 
 |**Attribute**|**Example Use Case**|
 |---|---|
