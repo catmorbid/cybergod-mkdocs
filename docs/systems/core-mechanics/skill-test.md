@@ -8,7 +8,7 @@ version: 4
 	
 	1. Build Dice Pool (Human Dice + Modifiers)
 	2. Roll your dice pool
-	3. Count Effect Points based on dice faces
+	3. Count Effect Points based on dice faces (4/8/12)
 	4. Overcome Complications
 	5. Spend Effect Points on Effects to achieve desired outcome
 ## Syntax
@@ -24,13 +24,16 @@ This test tells you the most important components you need for the test:
 
 If Effect cost is missing, there is probably a list of possible effects to choose from.
  
-## Test Dice
+## Dice and Effect Points
 
 Dice used in tests have different number of faces. You will need 4-sided, 6-sided, 8-sided, 10-sided and 12-sided dice; or D4, D6, D8, D10 and D12.
 
 Different statistics are measured with die size, with bigger dice always being better.
 
-Simply roll all dice that are relevant for a skill test, and then count **Effect Points** based on each die face.
+Simply roll all dice that are relevant for a skill test, and then count **Effect Points** based on each die face:
+- **Gain 3 Effect Points** for any dice showing 12 or more
+- **Gain 2 Effect Points** for any dice showing 8 more more, but less than 12
+- **Gain 1 Effect Point** for any dice showing 4 or more, but less than 8.
 
 | Die Face  | Effect Points | Tips                                                                                                                     |
 | --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
